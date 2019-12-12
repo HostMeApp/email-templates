@@ -1,0 +1,1 @@
+{"Name":"RestaurantUserResetPasswordEmail","Language":"pl","Subject":"Twoje hasło w {{author}} zostało zmienione","EmailHeader":"<span>Twoje hasło w {{author}} zostało<br> zmienione</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}

@@ -1,0 +1,1 @@
+{"Name":"RestaurantUserResetPasswordEmail","Language":"pt-PT","Subject":"A sua palavra-passe do {{author}} foi reposta com sucesso","EmailHeader":"<span>A sua palavra-passe do {{author}} foi<br> reposta com sucesso</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

@@ -1,0 +1,1 @@
+{"Name":"NewUserWelcomeEmail","Language":"pl","Subject":"Masz zaproszenie do aplikacji {{author}}!","EmailHeader":"<span>Właśnie zaproszono Cię do<br>  aplikacji {{author}} jako <strong>{{Role}}!</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349275/mails/email/invited-1.jpg","SmsContent":null}

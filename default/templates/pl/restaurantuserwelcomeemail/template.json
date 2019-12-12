@@ -1,0 +1,1 @@
+{"Name":"RestaurantUserWelcomeEmail","Language":"pl","Subject":"Witamy w aplikacji {{author}}!","EmailHeader":"Witamy w aplikacji {{author}}!","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349334/mails/email/welcome-2.jpg","SmsContent":null}

@@ -1,0 +1,1 @@
+{"Name":"CustomerNewReservationNotification","Language":"ru","Subject":"Бронирование подтверждено!","EmailHeader":"<span>{{RestaurantName}}<br> Стол на {{PartySize}} человека, {{ReservationDateTime}}</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485344707/mails/email/thank-you.jpg","SmsContent":null}

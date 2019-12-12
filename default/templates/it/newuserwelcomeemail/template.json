@@ -1,0 +1,1 @@
+{"Name":"NewUserWelcomeEmail","Language":"it","Subject":"Sei stato invitato a far parte di {{author}}!","EmailHeader":"<span>Sei stato invitato a far parte dell'<br> app {{author}} come {{Role}}!</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349275/mails/email/invited-1.jpg","SmsContent":""}

@@ -1,0 +1,1 @@
+{"Name":"RestaurantUserResetPasswordEmail","Language":"fr","Subject":"Votre mot de passe {{author}} a bien été réinitialisé","EmailHeader":"<span>Votre mot de passe {{author}} a bien<br>été réinitialisé</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
