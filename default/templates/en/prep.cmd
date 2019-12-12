@@ -1,1 +1,0 @@
-forfiles /S /M *.json /C "cmd /c rename @file template.json"

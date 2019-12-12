@@ -1,0 +1,40 @@
+{
+  "branding": {
+    "Copirate": "© 2019 Hostme LLC. All Rights Reserved.",
+    "background": "#f8f8f8",
+    "textcolor": "#666666",
+    "linkcolor": "#e16640",
+    "logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png",
+  },
+  "polices": [
+    {
+      "Title": "Any questions?",
+      "Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+    } 
+  ],
+  "footer": {
+    "title": "Manage your reservations anytime and anywhere!",
+    "content": "With our apps, you can discover, reserve, and manage restaurant reservations — anytime, anywhere.",
+    "butttonText": "string",
+    "buttonUrl": "string",
+    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
+    "links": [
+      {
+        "image": "https://marketing-image-production.s3.amazonaws.com/uploads/98cb67188ce91ba9dc16f695f12706e31885b8f8410e39a1b6cbe547a8e4c96dd2a9720b5561d0ecc13fd05db8afc77553e15785b719ba417bd90c9b58b9c515.png",
+        "link": "#"
+      },
+      {
+        "image": "https://marketing-image-production.s3.amazonaws.com/uploads/b065cae9bd827a5d8b8a53b0889ef9326f504f9ce4ae62cb2de3fee212f69d8c2b928b709261699d143b1c3f0e8d9fd918e432f63ecbeea7ec6f17280809d03f.png",
+        "link": "#"
+      }
+    ]
+  },
+  "labels": {
+    "_party": "Party of",
+    "_for": "for",
+    "_table": "Table #",
+    "_allergies": "Allergies:",
+    "_deposit": "Deposit:",
+    "_reason": "Reason"
+  }
+}
