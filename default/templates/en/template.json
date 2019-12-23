@@ -35,6 +35,9 @@
     "_table": "Table #",
     "_allergies": "Allergies:",
     "_deposit": "Deposit:",
-    "_reason": "Reason"
+    "_reason": "Reason",
+    "_reviewreservation": "Review the reservation",
+    "_managereservation":"Manage your reservation",
+    "_viewreservation": "View Reservation"
   }
 }

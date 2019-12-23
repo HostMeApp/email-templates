@@ -16,6 +16,6 @@
     "buttonUrl": null
   },
   "booking":{
-    "butttonText": "Manage your reservation"
+    "butttonText": "{{labels._managereservation}}"
   }
 }

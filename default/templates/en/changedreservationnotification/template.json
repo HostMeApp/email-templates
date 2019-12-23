@@ -16,6 +16,6 @@
     "buttonUrl": null
   },
   "booking":{
-    "butttonText": "Review the reservation"
+    "butttonText": "{{labels._reviewreservation}}"
   }
 }
