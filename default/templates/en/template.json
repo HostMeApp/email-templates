@@ -1,4 +1,9 @@
 {
+  "ContentTemplate": {
+    "sms": null,
+    "email": "d-4084c15fe0f6467496712f5aac569673",
+    "push": null
+  },
   "branding": {
     "Copirate": "© 2019 Hostme LLC. All Rights Reserved.",
     "background": "#f8f8f8",
@@ -6,13 +11,19 @@
     "linkcolor": "#e16640",
     "logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png"
   },
-  "polices": [
+  "guestPolices": [
+    {
+      "Title": "Any questions?",
+      "Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{restaurant.email}}'>{{restaurant.email}}</a>."
+    }
+  ],
+  "restaurantPolices": [
     {
       "Title": "Any questions?",
       "Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
-    } 
+    }
   ],
-  "footer": {
+  "promo": {
     "title": "Manage your reservations anytime and anywhere!",
     "content": "With our apps, you can discover, reserve, and manage restaurant reservations — anytime, anywhere.",
     "butttonText": "string",
@@ -37,7 +48,7 @@
     "_deposit": "Deposit:",
     "_reason": "Reason",
     "_reviewreservation": "Review the reservation",
-    "_managereservation":"Manage your reservation",
+    "_managereservation": "Manage your reservation",
     "_viewreservation": "View Reservation"
   }
 }
