@@ -7,7 +7,12 @@
   "EmailHeader": "<span>The reservation has been changed</span>",
   "EmailFooter": "Want to change how you receive these emails?<br>You can <a href=\"{{PanelReservationSettingsUrl}}\">update your preferences</a>",
   "Image": "https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg",
-  "SmsContent": "",
+  "ContentTemplate": {
+    "sms": "",
+    "email": "",
+    "push": ""
+  },
+  "Recipients": [ "restaurant" ],
   "header": "Reservation changed",
   "mainMessage": {
     "title": null,
@@ -15,7 +20,7 @@
     "butttonText": null,
     "buttonUrl": null
   },
-  "booking":{
+  "booking": {
     "butttonText": "{{labels._reviewreservation}}"
   }
 }
