@@ -1,0 +1,21 @@
+{
+  "Name": "CustomerNewReservationNotification",
+  "DisplayName": "Reservation Confirmation",
+  "Description": "Email sent to customer to confirm new reservation",
+  "Subject": "{{CUSTOMERNEWRESERVATIONNOTIFICATION.SUBJECT}}",
+  "Preheader": "{{CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}",
+    "email": null,
+    "push": "{{CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": "From {{Restaurant.Name}}:",
+    "Content": "{{Restaurant.WelcomeMessage}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButttonText": "{{LABELS.MANAGERESERVATION}}"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "NewReservationNotification",
+  "DisplayName": "New Online Reservation Notification",
+  "Description": "Email sent to restaurant's team when new online reservation has been added",
+  "Subject": "{{NEWRESERVATIONNOTIFICATION.SUBJECT}}",
+  "Preheader": "{{NEWRESERVATIONNOTIFICATION.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{NEWRESERVATIONNOTIFICATION.TEXT}}",
+    "email": null,
+    "push": "{{NEWRESERVATIONNOTIFICATION.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{NEWRESERVATIONNOTIFICATION.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{LABELS.REVIEWRESERVATION}}"
+  }
+}
