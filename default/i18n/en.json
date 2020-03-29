@@ -1,45 +1,47 @@
 {
-  "GUESTPOLICES": {
-    "TITLE": "Any questions?",
-    "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
-  },
-  "RESTAURANTPOLICES": {
-    "TITLE": "Any questions?",
-    "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
-  },
-  "PROMO": {
-    "TITLE": "Manage your reservations anytime and anywhere!",
-    "CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations — anytime, anywhere."
-  },
-  "LABELS": {
-    "PARTY": "Party of",
-    "FOR": "for",
-    "TABLE": "Table #",
-    "ALLERGIES": "Allergies:",
-    "DEPOSIT": "Deposit:",
-    "REASON": "Reason",
-    "REVIEWRESERVATION": "Review the reservation",
-    "MANAGERESERVATION": "Manage your reservation",
-    "VIEWRESERVATION": "View Reservation"
-  },
-  "CHANGEDRESERVATIONNOTIFICATION": {
-    "SUBJECT": "The reservation has been changed",
-    "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
-    "MAINMESSAGE": "The following reservation has been changed:"
-  },
-  "CUSTOMERRESERVATIONCONFIRMED": {
-    "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-    "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
-    "MAINMESSAGE": "The following reservation has been confirmed:"
-  },
-  "CUSTOMERNEWRESERVATIONNOTIFICATION": {
-    "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-    "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
-    "MAINMESSAGE": "The following reservation has been confirmed:"
-  },
-  "NEWRESERVATIONNOTIFICATION": {
-    "SUBJECT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
-    "TEXT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
-    "MAINMESSAGE": "The following reservation has been confirmed:"
+  "i18n": {
+    "GUESTPOLICES": {
+      "TITLE": "Any questions?",
+      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
+    },
+    "RESTAURANTPOLICES": {
+      "TITLE": "Any questions?",
+      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+    },
+    "PROMO": {
+      "TITLE": "Manage your reservations anytime and anywhere!",
+      "CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations — anytime, anywhere."
+    },
+    "LABELS": {
+      "PARTY": "Party of",
+      "FOR": "for",
+      "TABLE": "Table #",
+      "ALLERGIES": "Allergies:",
+      "DEPOSIT": "Deposit:",
+      "REASON": "Reason",
+      "REVIEWRESERVATION": "Review the reservation",
+      "MANAGERESERVATION": "Manage your reservation",
+      "VIEWRESERVATION": "View Reservation"
+    },
+    "CHANGEDRESERVATIONNOTIFICATION": {
+      "SUBJECT": "The reservation has been changed",
+      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "MAINMESSAGE": "The following reservation has been changed:"
+    },
+    "CUSTOMERRESERVATIONCONFIRMED": {
+      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
+      "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
+      "MAINMESSAGE": "The following reservation has been confirmed:"
+    },
+    "CUSTOMERNEWRESERVATIONNOTIFICATION": {
+      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
+      "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
+      "MAINMESSAGE": "The following reservation has been confirmed:"
+    },
+    "NEWRESERVATIONNOTIFICATION": {
+      "SUBJECT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
+      "TEXT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
+      "MAINMESSAGE": "The following reservation has been confirmed:"
+    }
   }
 }

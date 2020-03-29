@@ -13,19 +13,19 @@
   },
   "GuestPolices": [
     {
-      "Title": "{{GUESTPOLICES.TITLE}}",
-      "Content": "{{GUESTPOLICES.CONTENT}}"
+      "Title": "{{i18n.GUESTPOLICES.TITLE}}",
+      "Content": "{{i18n.GUESTPOLICES.CONTENT}}"
     }
   ],
   "RestaurantPolices": [
     {
-      "Title": "{{RESTAURANTPOLICES.TITLE}}",
-      "Content": "{{RESTAURANTPOLICES.CONTENT}}"
+      "Title": "{{i18n.RESTAURANTPOLICES.TITLE}}",
+      "Content": "{{i18n.RESTAURANTPOLICES.CONTENT}}"
     }
   ],
   "Promo": {
-    "Title": "{{PROMO.TITLE}}",
-    "Content": "{{PROMO.CONTENT}}",
+    "Title": "{{i18n.PROMO.TITLE}}",
+    "Content": "{{i18n.PROMO.CONTENT}}",
     "ButttonText": "",
     "ButtonUrl": "",
     "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
