@@ -10,12 +10,12 @@
   "SmsContent": "",
   "header": "Reservation changed",
   "mainMessage": {
-    "title": "From {{restaurant.name}}:",
-    "content": "{{restaurant.welcomeMessage}}",
+    "title": "From {{Restaurant.Name}}:",
+    "content": "{{Restaurant.WelcomeMessage}}",
     "butttonText": null,
     "buttonUrl": null
   },
   "booking":{
-    "butttonText": "{{labels._managereservation}}"
+    "butttonText": "{{LABELS.MANAGERESERVATION}}"
   }
 }

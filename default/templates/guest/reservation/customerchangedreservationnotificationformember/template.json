@@ -9,13 +9,13 @@
   "Image": "https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg",
   "SmsContent": "",
   "header": "Reservation changed",
-  "mainMessage": {
-    "title": "From {{restaurant.name}}:",
-    "content": "{{restaurant.welcomeMessage}}",
-    "butttonText": null,
-    "buttonUrl": null
+  "MainMessage": {
+    "Title": "From {{Restaurant.Name}}:",
+    "Content": "{{Restaurant.WelcomeMessage}}",
+    "ButttonText": null,
+    "ButtonUrl": null
   },
-  "booking":{
-    "butttonText": "{{labels._viewreservation}}"
+  "Booking":{
+    "ButttonText": "{{LABELS.VIEWRESERVATION}}"
   }
 }
