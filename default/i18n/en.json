@@ -2,7 +2,7 @@
   "i18n": {
     "GUESTPOLICES": {
       "TITLE": "Any questions?",
-      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
+      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
     },
     "RESTAURANTPOLICES": {
       "TITLE": "Any questions?",
