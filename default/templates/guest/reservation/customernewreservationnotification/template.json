@@ -6,12 +6,11 @@
   "Preheader": "{{i18n.CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}",
   "ContentTemplate": {
     "sms": "{{i18n.CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}",
-    "email": null,
     "push": "{{i18n.CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}"
   },
   "MainMessage": {
     "Title": "From {{Restaurant.Name}}:",
-    "Content": "{{Restaurant.WelcomeMessage}}",
+    "Content": "{{i18n.CUSTOMERNEWRESERVATIONNOTIFICATION.TEXT}}",
     "ButttonText": null,
     "ButtonUrl": null
   },

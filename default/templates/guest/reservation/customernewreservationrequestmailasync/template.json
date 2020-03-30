@@ -1,1 +1,20 @@
-{"Name":"CustomerNewReservationRequestMailAsync","Language":"en","Subject":"Your reservation request at {{RestaurantName}} has been received.","EmailHeader":"<span>{{RestaurantName}}<br> Table for {{PartySize}}, {{ReservationDateTime}}</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485344707/mails/email/thank-you.jpg","SmsContent":""}
+{
+  "Name": "CustomerNewReservationRequestMailAsync",
+  "DisplayName": "Reservation Confirmation",
+  "Description": "Email sent to customer to confirm new reservation",
+  "Subject": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.SUBJECT}}",
+  "Preheader": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
+    "push": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+  }
+}

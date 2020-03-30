@@ -6,7 +6,6 @@
   "Preheader": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
   "ContentTemplate": {
     "sms": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
-    "email": null,
     "push": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}"
   },
   "MainMessage": {

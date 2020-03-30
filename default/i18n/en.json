@@ -34,18 +34,53 @@
     },
     "CUSTOMERRESERVATIONCONFIRMED": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "CUSTOMERNEWRESERVATIONNOTIFICATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "TEXT": "Your reservation on {{booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Booking.ReservationName}} has been confirmed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "NEWRESERVATIONNOTIFICATION": {
       "SUBJECT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
-      "TEXT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
+      "TEXT": "New reservation on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
       "MAINMESSAGE": "The following reservation has been confirmed:"
+    },
+    "CUSTOMERCHANGEDRESERVATIONNOTIFICATION": {
+      "SUBJECT": "Your reservation at {{Restaurant.Name}} has changed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has changed.",
+      "MAINMESSAGE": "The following reservation has changed:"
+    },
+    "CUSTOMERCANCELEDRESERVATION": {
+      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
+      "MAINMESSAGE": "The following reservation has been canceled:"
+    },
+    "CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
+      "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
+      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been received.",
+      "MAINMESSAGE": "The following reservation request has been received:"
+    },
+    "CUSTOMERRESERVATIONACCEPTED": {
+      "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
+      "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "MAINMESSAGE": "The following reservation invite has been accepted:"
+    },
+    "CUSTOMERRESERVATIONINVITATION": {
+      "SUBJECT": "Invitation from {{Booking.ReservationName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "TEXT": "{{Booking.ReservationName}} has invited you to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "MAINMESSAGE": "You have been invited by {{Booking.ReservationName}} to the following reservation:"
+    },
+    "CUSTOMERRESRVATIONREJECTED": {
+      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
+      "TEXT": "Your reservation at {{Restaurant.Name}} has been rejected - {{Booking.Reason}}",
+      "MAINMESSAGE": "The following reservation request has been rejected:"
+    },
+    "CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
+      "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "MAINMESSAGE": "You have accepted the following reservation invite:"
     }
   }
 }

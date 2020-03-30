@@ -1,1 +1,20 @@
-{"Name":"CustomerReservationAccepted","Language":"en","Subject":"{{GuestName}} has accepted your invitation to {{RestaurantName}} on {{ReservationDate}} at {{ReservationTime}}","EmailHeader":"<span>{{RestaurantName}}<br> Table for {{PartySize}}, {{ReservationDate}} {{ReservationTime}}</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485344787/mails/email/invited.jpg","SmsContent":""}
+{
+  "Name": "CustomerReservationAccepted",
+  "DisplayName": "Reservation Invite Accepted",
+  "Description": "Email sent to customer to confirm accepted invitation by guests",
+  "Subject": "{{i18n.CUSTOMERRESERVATIONACCEPTED.SUBJECT}}",
+  "Preheader": "{{i18n.CUSTOMERRESERVATIONACCEPTED.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.CUSTOMERRESERVATIONACCEPTED.TEXT}}",
+    "push": "{{i18n.CUSTOMERRESERVATIONACCEPTED.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.CUSTOMERRESERVATIONACCEPTED.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+  }
+}

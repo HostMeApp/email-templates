@@ -1,1 +1,20 @@
-{"Name":"CustomerResrvationRejected","Language":"en","Subject":"Your reservation at {{RestaurantName}} has been rejected","EmailHeader":"<span>Your reservation at {{RestaurantName}} has been rejected</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
+{
+  "Name": "CustomerResrvationRejected",
+  "DisplayName": "Reservation Rejected",
+  "Description": "Email sent to customer to reject reservation request",
+  "Subject": "{{i18n.CUSTOMERRESRVATIONREJECTED.SUBJECT}}",
+  "Preheader": "{{i18n.CUSTOMERRESRVATIONREJECTED.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.CUSTOMERRESRVATIONREJECTED.TEXT}}",
+    "push": "{{i18n.CUSTOMERRESRVATIONREJECTED.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.CUSTOMERRESRVATIONREJECTED.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+  }
+}
