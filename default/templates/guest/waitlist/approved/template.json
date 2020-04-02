@@ -1,0 +1,20 @@
+{
+  "Name": "CustomerWaitlistAdded",
+  "DisplayName": "Customer is on waitlist",
+  "Description": "Notification sent to the guest to inform that he is on a waitlist",
+  "Subject": "{{i18n.CUSTOMERWAITLISTADDED.SUBJECT}}",
+  "Preheader": "{{i18n.CUSTOMERWAITLISTADDED.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.CUSTOMERWAITLISTADDED.TEXT}}",
+    "push": "{{i18n.CUSTOMERWAITLISTADDED.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.CUSTOMERWAITLISTADDED.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGEWAITLIST}}"
+  }
+}

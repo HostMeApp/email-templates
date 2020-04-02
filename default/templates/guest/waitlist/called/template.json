@@ -1,0 +1,20 @@
+{
+  "Name": "CustomerWaitlistCalled",
+  "DisplayName": "Customer is Called",
+  "Description": "Notification sent to the guest to inform that table is ready",
+  "Subject": "{{i18n.CUSTOMERWAITLISTCALLED.SUBJECT}}",
+  "Preheader": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}",
+    "push": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.CUSTOMERWAITLISTCALLED.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGEWAITLIST}}"
+  }
+}

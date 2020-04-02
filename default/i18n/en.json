@@ -25,6 +25,7 @@
       "REASON": "Reason",
       "REVIEWRESERVATION": "Review the reservation",
       "MANAGERESERVATION": "Manage your reservation",
+      "MANAGEWAITLIST": "Manage your wait",
       "VIEWRESERVATION": "View Reservation"
     },
     "CHANGEDRESERVATIONNOTIFICATION": {
@@ -59,7 +60,7 @@
     },
     "CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
-      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been received.",
+      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "CUSTOMERRESERVATIONACCEPTED": {
@@ -74,13 +75,33 @@
     },
     "CUSTOMERRESRVATIONREJECTED": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
-      "TEXT": "Your reservation at {{Restaurant.Name}} has been rejected - {{Booking.Reason}}",
+      "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
       "MAINMESSAGE": "The following reservation request has been rejected:"
     },
     "CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
+    },
+    "CUSTOMERWAITLISTADDED": {
+      "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
+      "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
+      "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
+    },
+    "CUSTOMERWAITLISTCALLED": {
+      "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
+      "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
+      "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
+    },
+    "CUSTOMERWAITLISTCANCELEDBYCUSTOMER": {
+      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+      "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
+      "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
+    },
+    "CUSTOMERWAITLISTCANCELEDBYHOST": {
+      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
     }
   }
 }

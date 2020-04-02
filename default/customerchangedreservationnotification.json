@@ -1,24 +1,24 @@
 ﻿{
 	"Name": "CustomerChangedReservationNotification",
 	"EnvironmentPrefix": null,
-	"EmailHeader": "<span>The reservation has been changed</span>",
-	"Subject": "Your reservation at My  Restaurant with Events has changed!",
-	"Preheader": null,
+	"EmailHeader": null,
+	"Subject": "Your reservation at My  Restaurant with Events has changed.",
+	"Preheader": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
 	"Content": null,
-	"EmailFooter": "",
-	"Image": "https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg",
-	"Language": "en",
+	"EmailFooter": null,
+	"Image": null,
+	"Language": null,
 	"MasterTemplate": null,
 	"ApplicationId": null,
 	"Recipients": [ "evgeny.popov@gmail.com" ],
 	"ContentTemplate": {
-		"sms": null,
+		"sms": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
 		"email": "d-67955651fbb84215adc7679645a387eb",
-		"push": null
+		"push": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed."
 	},
 	"MainMessage": {
-		"Title": "From My  Restaurant with Events:",
-		"Content": "{{Restaurant.WelcomeMessage}}",
+		"Title": null,
+		"Content": "The following reservation has changed:",
 		"ButttonText": null,
 		"ButtonUrl": null,
 		"Links": null
@@ -80,13 +80,13 @@
 		"TableNumber": "",
 		"TableNotes": "",
 		"Note": null,
-		"JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"1b29b123771d4ccbb46eae30b4668a7a\",\"reservationStatus\":\"http://schema.org/Confirmed\",\"reservationFor\":{\"@context\":\"http://schema.org/\",\"@type\":\"FoodEstablishment\",\"name\":\"My  Restaurant with Events\",\"telephone\":\"+1 561-746-6720\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"London\",\"addressRegion\":\"England\",\"streetAddress\":\" \",\"addressCountry\":\"United Kingdom\"},\"acceptsReservations\":false,\"priceRange\":0},\"underName\":{\"@type\":\"Person\",\"name\":\"Evgeny\",\"email\":\"evgeny.popov@gmail.com\"},\"bookingTime\":\"2020-03-26T11:32:45.275014+00:00\",\"cancelReservationUrl\":\"http://localhost:5001/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.Ni4bzUi_TiIWRNo2y0rppUEmZDUNVzFs6tmChSQSwBw\",\"confirmReservationUrl\":\"http://localhost:5001/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.ApQnB8vzjhU_CBLBTm3Y26tNpW0JBOMW6Xf-6ZNwKew\",\"modifyReservationUrl\":\"http://localhost:5001/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.Ni4bzUi_TiIWRNo2y0rppUEmZDUNVzFs6tmChSQSwBw\",\"partySize\":3,\"priceCurrency\":\"usd\",\"programMembership\":{\"memberNumber\":\"19139\",\"program\":\"Hostme\"},\"startTime\":\"2020-03-27T15:30:00+00:00\",\"url\":\"http://localhost:5001/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.ApQnB8vzjhU_CBLBTm3Y26tNpW0JBOMW6Xf-6ZNwKew\"}</script>",
-		"ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+		"JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"1b29b123771d4ccbb46eae30b4668a7a\",\"reservationStatus\":\"http://schema.org/Confirmed\",\"reservationFor\":{\"@context\":\"http://schema.org/\",\"@type\":\"FoodEstablishment\",\"name\":\"My  Restaurant with Events\",\"telephone\":\"+1 561-746-6720\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"London\",\"addressRegion\":\"England\",\"streetAddress\":\" \",\"addressCountry\":\"United Kingdom\"},\"acceptsReservations\":false,\"priceRange\":0},\"underName\":{\"@type\":\"Person\",\"name\":\"Evgeny\",\"email\":\"evgeny.popov@gmail.com\"},\"bookingTime\":\"2020-03-26T11:32:45.275014+00:00\",\"cancelReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"confirmReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\",\"modifyReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"partySize\":3,\"priceCurrency\":\"usd\",\"programMembership\":{\"memberNumber\":\"19139\",\"program\":\"Hostme\"},\"startTime\":\"2020-03-27T15:30:00+00:00\",\"url\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\"}</script>",
+		"ButttonText": "Manage your reservation",
 		"ButtonUrl": null,
 		"Links": {
-			"GuestReservationEditUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.Ni4bzUi_TiIWRNo2y0rppUEmZDUNVzFs6tmChSQSwBw",
-			"GuestReservationPayUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?manageView=deposit&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.Ni4bzUi_TiIWRNo2y0rppUEmZDUNVzFs6tmChSQSwBw",
-			"GuestReservationViewUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NjI0MDQsImV4cCI6MTU4NTU2NjAwNCwiaWF0IjoxNTg1NTYyNDA0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJsb2NhbGhvc3Q6OTQwNyJ9.ApQnB8vzjhU_CBLBTm3Y26tNpW0JBOMW6Xf-6ZNwKew",
+			"GuestReservationEditUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
+			"GuestReservationPayUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?manageView=deposit&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
+			"GuestReservationViewUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw",
 			"RestaurantReservationViewUrl": "https://restaurant.hostmepartners-qa.com/panel/#/4559?deep_link=reservation&deep_id=1b29b123771d4ccbb46eae30b4668a7a"
 		}
 	},
@@ -99,8 +99,13 @@
 		"Links": null
 	},
 	"Employee": null,
-	"GuestPolices": [],
-	"RestaurantPolices": [],
+	"GuestPolices": [
+		{
+			"Title": "Any questions?",
+			"Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
+		}
+	],
+	"RestaurantPolices": null,
 	"Promo": {
 		"Title": "Manage your reservations anytime and anywhere!",
 		"Content": "With our apps, you can discover, reserve, and manage restaurant reservations � anytime, anywhere.",
@@ -163,18 +168,53 @@
 		},
 		"CUSTOMERRESERVATIONCONFIRMED": {
 			"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at Evgeny has been confirmed.",
+			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
 			"MAINMESSAGE": "The following reservation has been confirmed:"
 		},
 		"CUSTOMERNEWRESERVATIONNOTIFICATION": {
 			"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at Evgeny has been confirmed.",
+			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
 			"MAINMESSAGE": "The following reservation has been confirmed:"
 		},
 		"NEWRESERVATIONNOTIFICATION": {
 			"SUBJECT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
 			"TEXT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
 			"MAINMESSAGE": "The following reservation has been confirmed:"
+		},
+		"CUSTOMERCHANGEDRESERVATIONNOTIFICATION": {
+			"SUBJECT": "Your reservation at My  Restaurant with Events has changed.",
+			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
+			"MAINMESSAGE": "The following reservation has changed:"
+		},
+		"CUSTOMERCANCELEDRESERVATION": {
+			"SUBJECT": "Your reservation at My  Restaurant with Events has been canceled.",
+			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been canceled.",
+			"MAINMESSAGE": "The following reservation has been canceled:"
+		},
+		"CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
+			"SUBJECT": "Your reservation request at My  Restaurant with Events has been received.",
+			"TEXT": "Your reservation request on March 27 3:30 PM for 0 at My  Restaurant with Events has been received.",
+			"MAINMESSAGE": "The following reservation request has been received:"
+		},
+		"CUSTOMERRESERVATIONACCEPTED": {
+			"SUBJECT": "Your reservation invite at My  Restaurant with Events has been accepted by Evgeny.",
+			"TEXT": "Evgeny has accepted your invitation to My  Restaurant with Events on March 27 at {{ReservationTime}}",
+			"MAINMESSAGE": "The following reservation invite has been accepted:"
+		},
+		"CUSTOMERRESERVATIONINVITATION": {
+			"SUBJECT": "Invitation from Evgeny to My  Restaurant with Events on March 27 at 3:30 PM",
+			"TEXT": "Evgeny has invited you to My  Restaurant with Events on March 27 at {{ReservationTime}}",
+			"MAINMESSAGE": "You have been invited by Evgeny to the following reservation:"
+		},
+		"CUSTOMERRESRVATIONREJECTED": {
+			"SUBJECT": "Your reservation at My  Restaurant with Events has been rejected",
+			"TEXT": "Your reservation at My  Restaurant with Events has been rejected - {{Booking.Reason}}",
+			"MAINMESSAGE": "The following reservation request has been rejected:"
+		},
+		"CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
+			"SUBJECT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
+			"TEXT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
+			"MAINMESSAGE": "You have accepted the following reservation invite:"
 		}
 	}
 }
