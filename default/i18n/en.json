@@ -66,15 +66,15 @@
     "CUSTOMERCANCELEDRESERVATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
-      "TITLE": "",
-      "BUTTONTEXT": "",
+      "TITLE": "Reservation Canceled",
+      "BUTTONTEXT": "Manage The Reservation",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
     "CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
       "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
       "TITLE": "",
-      "BUTTONTEXT": "",
+      "BUTTONTEXT": "Manage The Reservation",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "CUSTOMERRESERVATIONACCEPTED": {
@@ -114,8 +114,8 @@
     "CustomerReservationFeedback": {
       "SUBJECT": "Leave your feedback for {{Restaurant.Name}}",
       "TEXT": "Leave your feedback for {{Restaurant.Name}}",
-      "TITLE": "",
-      "BUTTONTEXT": "",
+      "TITLE": "Thanks for the visit!",
+      "BUTTONTEXT": "Leave a Feedback",
       "MAINMESSAGE": ""
     },
     "CUSTOMERWAITLISTADDED": {
