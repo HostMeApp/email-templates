@@ -1,0 +1,17 @@
+{
+    "Name":"PaymentInfoEmail",
+    "DisplayName": "",
+    "Description": "",
+    "Subject": "{{i18n.PaymentInfoEmail.SUBJECT}}",
+    "Preheader": "{{i18n.PaymentInfoEmail.TEXT}}",
+    "ContentTemplate": {
+      "sms": "{{i18n.PaymentInfoEmail.TEXT}}",
+      "push": "{{i18n.PaymentInfoEmail.TEXT}}"
+    },
+    "MainMessage": {
+      "Title": "{{i18n.PaymentInfoEmail.TITLE}}",
+      "Content": "{{i18n.PaymentInfoEmail.MAINMESSAGE}}",
+      "ButttonText": "{{i18n.PaymentInfoEmail.BUTTONTEXT}}",
+      "ButtonUrl": null
+    },
+  }

@@ -1,1 +1,20 @@
-{"Name":"RestaurantCustomerCanceledReservation","Language":"en","Subject":"The reservation has been cancelled","EmailHeader":"<span>The reservation has been cancelled</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
+{
+    "Name":"RestaurantCustomerCanceledReservation",
+    "DisplayName": "",
+    "Description": "",
+    "Subject": "{{i18n.RestaurantCustomerCanceledReservation.SUBJECT}}",
+    "Preheader": "{{i18n.RestaurantCustomerCanceledReservation.TEXT}}",
+    "ContentTemplate": {
+      "sms": "{{i18n.RestaurantCustomerCanceledReservation.TEXT}}",
+      "push": "{{i18n.RestaurantCustomerCanceledReservation.TEXT}}"
+    },
+    "MainMessage": {
+      "Title": "{{i18n.RestaurantCustomerCanceledReservation.TITLE}}",
+      "Content": "{{i18n.RestaurantCustomerCanceledReservation.MAINMESSAGE}}",
+      "ButttonText": "{{i18n.RestaurantCustomerCanceledReservation.BUTTONTEXT}}",
+      "ButtonUrl": null
+    },
+    "Booking": {
+      "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+    }
+  }

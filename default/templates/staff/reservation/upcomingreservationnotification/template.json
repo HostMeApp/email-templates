@@ -1,1 +1,20 @@
-{"Name":"UpcomingReservationNotification","Language":"en","Subject":"Upcoming reservation reminder","EmailHeader":"<span>Upcoming reservation reminder:<br> {{ReservationDateTime}} / {{GuestName}}</span>","EmailFooter":"Want to change how you receive these emails?<br>You can <a href=\"{{PanelReservationSettingsUrl}}\">update your preferences</a>","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
+{
+    "Name":"UpcomingReservationNotification",
+    "DisplayName": "",
+    "Description": "",
+    "Subject": "{{i18n.UpcomingReservationNotification.SUBJECT}}",
+    "Preheader": "{{i18n.UpcomingReservationNotification.TEXT}}",
+    "ContentTemplate": {
+      "sms": "{{i18n.UpcomingReservationNotification.TEXT}}",
+      "push": "{{i18n.UpcomingReservationNotification.TEXT}}"
+    },
+    "MainMessage": {
+      "Title": "{{i18n.UpcomingReservationNotification.TITLE}}",
+      "Content": "{{i18n.UpcomingReservationNotification.MAINMESSAGE}}",
+      "ButttonText": "{{i18n.UpcomingReservationNotification.BUTTONTEXT}}",
+      "ButtonUrl": null
+    },
+    "Booking": {
+      "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+    }
+  }

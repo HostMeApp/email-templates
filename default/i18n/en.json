@@ -10,11 +10,11 @@
     },
     "PROMO": {
       "TITLE": "Manage your reservations anytime and anywhere!",
-      "CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations — anytime, anywhere."
+      "CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations ï¿½ anytime, anywhere."
     },
     "RESTPROMO": {
       "TITLE": "Manage your restaurant anytime and anywhere!",
-      "CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers — anytime, anywhere."
+      "CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers ï¿½ anytime, anywhere."
     },
     "LABELS": {
       "PARTY": "Party of",
@@ -31,59 +31,96 @@
     "CHANGEDRESERVATIONNOTIFICATION": {
       "SUBJECT": "The reservation has been changed",
       "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "TITLE": "Reservation Changed",
+      "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
     },
     "CUSTOMERRESERVATIONCONFIRMED": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TITLE": "Reservation Confirmed",
+      "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "CUSTOMERNEWRESERVATIONNOTIFICATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TITLE": "Reservation Confirmed",
+      "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "NEWRESERVATIONNOTIFICATION": {
       "SUBJECT": "New reservation on {{booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
       "TEXT": "New reservation on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}}, party of {{Booking.PartySize}}",
+      "TITLE": "Reservation Confirmed",
+      "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "CUSTOMERCHANGEDRESERVATIONNOTIFICATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has changed.",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has changed.",
+      "TITLE": "Reservation Changed",
+      "BUTTONTEXT": "Manage The Reservation",
       "MAINMESSAGE": "The following reservation has changed:"
     },
     "CUSTOMERCANCELEDRESERVATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
+      "TITLE": "",
+      "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
     "CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
       "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
+      "TITLE": "",
+      "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "CUSTOMERRESERVATIONACCEPTED": {
       "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
       "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "TITLE": "",
+      "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
     },
     "CUSTOMERRESERVATIONINVITATION": {
       "SUBJECT": "Invitation from {{Booking.ReservationName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "TEXT": "{{Booking.ReservationName}} has invited you to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "TITLE": "You have been invited",
+      "BUTTONTEXT": "Accept the Invitation",
       "MAINMESSAGE": "You have been invited by {{Booking.ReservationName}} to the following reservation:"
     },
-    "CUSTOMERRESRVATIONREJECTED": {
+    "CUSTOMERRESERVATIONREJECTED": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
       "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
+      "TITLE": "Reservation Rejected",
       "MAINMESSAGE": "The following reservation request has been rejected:"
     },
     "CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TITLE": "",
+      "BUTTONTEXT": "",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
     },
+    "CustomerReservationReminder": {
+      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "CustomerReservationFeedback": {
+      "SUBJECT": "Leave your feedback for {{Restaurant.Name}}",
+      "TEXT": "Leave your feedback for {{Restaurant.Name}}",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
     "CUSTOMERWAITLISTADDED": {
+      "TITLE": "",
+      "CONTENT":"",
       "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
       "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
       "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
@@ -102,6 +139,97 @@
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
       "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
-    }
+    },
+    "CHANGEDRESERVATIONNOTIFICATION": {
+      "SUBJECT": "The reservation has been changed",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "NEWRESERVATIONAPPROVALNOTIFICATION": {
+      "SUBJECT": "New online reservation request. Action required!",
+      "TEXT": "",
+      "TITLE": "<span>New reservation request:<br> {{ReservationDateTime}} / {{CustomerName}}</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "NEWRESERVATIONNOTIFICATION": {
+      "SUBJECT": "New Reservation!",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantCustomerCanceledReservation": {
+      "SUBJECT": "The reservation has been cancelled",
+      "TEXT": "",
+      "TITLE": "<span>The reservation has been cancelled</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "UpcomingReservationNotification": {
+      "SUBJECT": "Upcoming reservation reminder",
+      "TEXT": "",
+      "TITLE": "<span>Upcoming reservation reminder:<br> {{ReservationDateTime}} / {{GuestName}}</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "NewUserWelcomeEmail": {
+      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "TEXT": "",
+      "TITLE": "<span>You have been invited to join<br> the {{author}} app as {{Role}}!</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "PaymentInfoEmail": {
+      "SUBJECT": "Follow the payment link to complete {{author}} {{PlanName}} subscription purchase",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RemindOwnerDateExideedEmail": {
+      "SUBJECT": "Your staff reminds you to upgrade your {{author}} plan",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantIsBlockedEmail": {
+      "SUBJECT": "Restaurant is blocked",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantUserInvitationEmail": {
+      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "TEXT": "",
+      "TITLE": "<span>You have been invited to join<br> the {{author}} app as {{Role}}!</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantUserResetPasswordEmail": {
+      "SUBJECT": "Your {{author}} password was successfully reset",
+      "TEXT": "",
+      "TITLE": "<span>Your {{author}} password was<br> successfully reset</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantUsersExportToCsv": {
+      "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
+      "TEXT": "",
+      "TITLE": "<span>Your CSV export is ready</span>",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "RestaurantUserWelcomeEmail": {
+      "SUBJECT": "Welcome to the {{author}} app!",
+      "TEXT": "",
+      "TITLE": "",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
   }
 }
