@@ -1,16 +1,17 @@
 {
-  "Name": "CUSTOMERWAITLISTCANCELEDBYHOST",
+  "Name": "Canceledbyhost",
   "DisplayName": "Host Cancled Wait",
   "Description": "Notification sent to the guest to inform that his name from removed from list",
-  "Subject": "{{i18n.CUSTOMERWAITLISTCANCELEDBYHOST.SUBJECT}}",
-  "Preheader": "{{i18n.CUSTOMERWAITLISTCANCELEDBYHOST.TEXT}}",
+  "Subject": "{{i18n.Canceledbyhost.SUBJECT}}",
+  "Preheader": "{{i18n.Canceledbyhost.PREHEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.CUSTOMERWAITLISTCANCELEDBYHOST.TEXT}}",
-    "push": "{{i18n.CUSTOMERWAITLISTCANCELEDBYHOST.TEXT}}"
+    "sms": "{{i18n.Canceledbyhost.TEXT}}",
+    "push": "{{i18n.Canceledbyhost.TEXT}}"
   },
   "MainMessage": {
-    "Title": null,
-    "Content": "{{i18n.CUSTOMERWAITLISTCANCELEDBYHOST.MAINMESSAGE}}",
+    "Header":"{{i18n.Canceledbyhost.Header}}",
+  "Title": null,
+    "Content": "{{i18n.Canceledbyhost.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null
   },

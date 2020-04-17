@@ -1,0 +1,22 @@
+{
+  "Name": "InvitationAccepted",
+  "DisplayName": "Reservation Invite Accepted",
+  "Description": "Email sent to customer to confirm accepted invitation by guests",
+  "Subject": "{{i18n.InvitationAccepted.SUBJECT}}",
+  "Preheader": "{{i18n.InvitationAccepted.PREHEADER}}",
+  "Header": "{{i18n.InvitationAccepted.Header}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.InvitationAccepted.TEXT}}",
+    "push": "{{i18n.InvitationAccepted.TEXT}}"
+  },
+  "MainMessage": {
+    "Header":"{{i18n.InvitationAccepted.Header}}",
+  "Title": null,
+    "Content": "{{i18n.InvitationAccepted.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+  }
+}

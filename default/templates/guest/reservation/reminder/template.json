@@ -1,17 +1,18 @@
 {
-  "Name": "CustomerReservationReminder",
+  "Name": "Reminder",
   "DisplayName": "Upcoming Reservation",
   "Description": "Email sent to customer to remind about upcoming reservation request",
-  "Subject": "{{i18n.CustomerReservationReminder.SUBJECT}}",
-  "Preheader": "{{i18n.CustomerReservationReminder.TEXT}}",
+  "Subject": "{{i18n.Reminder.SUBJECT}}",
+  "Preheader": "{{i18n.Reminder.PREHEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.CustomerReservationReminder.TEXT}}",
-    "push": "{{i18n.CustomerReservationReminder.TEXT}}"
+    "sms": "{{i18n.Reminder.TEXT}}",
+    "push": "{{i18n.Reminder.TEXT}}"
   },
   "MainMessage": {
-    "Title": "{{i18n.CustomerReservationReminder.TITLE}}",
-    "Content": "{{i18n.CustomerReservationReminder.MAINMESSAGE}}",
-    "ButttonText": "{{i18n.CustomerReservationReminder.BUTTONTEXT}}",
+    "Header":"{{i18n.Reminder.Header}}",
+  "Title": "{{i18n.Reminder.TITLE}}",
+    "Content": "{{i18n.Reminder.MAINMESSAGE}}",
+    "ButttonText": "{{i18n.Reminder.BUTTONTEXT}}",
     "ButtonUrl": null
   },
   "Booking": {

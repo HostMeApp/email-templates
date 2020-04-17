@@ -1,16 +1,17 @@
 {
-  "Name": "CustomerReservationRejected",
+  "Name": "Rejected",
   "DisplayName": "Reservation Rejected",
   "Description": "Email sent to customer to reject reservation request",
-  "Subject": "{{i18n.CustomerReservationRejected.SUBJECT}}",
-  "Preheader": "{{i18n.CustomerReservationRejected.TEXT}}",
+  "Subject": "{{i18n.Rejected.SUBJECT}}",
+  "Preheader": "{{i18n.Rejected.PREHEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.CustomerReservationRejected.TEXT}}",
-    "push": "{{i18n.CustomerReservationRejected.TEXT}}"
+    "sms": "{{i18n.Rejected.TEXT}}",
+    "push": "{{i18n.Rejected.TEXT}}"
   },
   "MainMessage": {
-    "Title": null,
-    "Content": "{{i18n.CustomerReservationRejected.MAINMESSAGE}}",
+    "Header":"{{i18n.Rejected.Header}}",
+  "Title": null,
+    "Content": "{{i18n.Rejected.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null
   },

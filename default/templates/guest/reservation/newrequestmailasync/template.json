@@ -1,16 +1,17 @@
 {
-  "Name": "CustomerNewReservationRequestMailAsync",
+  "Name": "NewReservationRequestMailAsync",
   "DisplayName": "Reservation Confirmation",
   "Description": "Email sent to customer to confirm new reservation",
-  "Subject": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.SUBJECT}}",
-  "Preheader": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
+  "Subject": "{{i18n.NewReservationRequestMailAsync.SUBJECT}}",
+  "Preheader": "{{i18n.NewReservationRequestMailAsync.PREHEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}",
-    "push": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.TEXT}}"
+    "sms": "{{i18n.NewReservationRequestMailAsync.TEXT}}",
+    "push": "{{i18n.NewReservationRequestMailAsync.TEXT}}"
   },
   "MainMessage": {
-    "Title": null,
-    "Content": "{{i18n.CUSTOMERRESERVATIONCONFIRMED.MAINMESSAGE}}",
+    "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
+  "Title": null,
+    "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null
   },

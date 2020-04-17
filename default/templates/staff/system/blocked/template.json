@@ -1,0 +1,18 @@
+{
+    "Name":"Blocked",
+    "DisplayName": "Restaurant is Blocked",
+    "Description": "Restaurant is blocked due to payment issues",
+    "Subject": "{{i18n.Blocked.SUBJECT}}",
+    "Preheader": "{{i18n.Blocked.PREHEADER}}",
+    "ContentTemplate": {
+      "sms": "{{i18n.Blocked.TEXT}}",
+      "push": "{{i18n.Blocked.TEXT}}"
+    },
+    "MainMessage": {
+      "Header":"{{i18n.Blocked.Header}}",
+  "Title": "{{i18n.Blocked.TITLE}}",
+      "Content": "{{i18n.Blocked.MAINMESSAGE}}",
+      "ButttonText": "{{i18n.Blocked.BUTTONTEXT}}",
+      "ButtonUrl": null
+    },
+  }

@@ -1,16 +1,17 @@
 {
-  "Name": "CustomerWaitlistCalled",
+  "Name": "Called",
   "DisplayName": "Customer is Called",
   "Description": "Notification sent to the guest to inform that table is ready",
-  "Subject": "{{i18n.CUSTOMERWAITLISTCALLED.SUBJECT}}",
-  "Preheader": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}",
+  "Subject": "{{i18n.Called.SUBJECT}}",
+  "Preheader": "{{i18n.Called.PREHEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}",
-    "push": "{{i18n.CUSTOMERWAITLISTCALLED.TEXT}}"
+    "sms": "{{i18n.Called.TEXT}}",
+    "push": "{{i18n.Called.TEXT}}"
   },
   "MainMessage": {
-    "Title": null,
-    "Content": "{{i18n.CUSTOMERWAITLISTCALLED.MAINMESSAGE}}",
+    "Header":"{{i18n.Called.Header}}",
+  "Title": null,
+    "Content": "{{i18n.Called.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null
   },
