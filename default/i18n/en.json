@@ -25,7 +25,6 @@
       "REASON": "Reason",
       "REVIEWRESERVATION": "Review the reservation",
       "MANAGERESERVATION": "Manage your reservation",
-      "MANAGERESERVATION": "Manage your reservation",
       "MANAGEWAITLIST": "Manage your wait",
       "VIEWRESERVATION": "View Reservation"
     },
@@ -33,7 +32,7 @@
     "Changed": {
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "",
-"TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
@@ -41,8 +40,7 @@
     "Confirmed": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "",
-"PREHEADER": "",
-"TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been confirmed:"
@@ -50,7 +48,9 @@
     "Newreservation": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "",
-"TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TITLE": "Reservation Confirmed",
+      "CONTENT": "Your reservation",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been confirmed:"
@@ -74,7 +74,7 @@
     "InvitationAccepted": {
       "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
       "PREHEADER": "",
-"TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
       "HEADER": "",
       "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
@@ -123,26 +123,26 @@
       "CONTENT": "",
       "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Check your status",
-"TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
+      "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
       "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
     },
     "Called": {
-"HEADER": "Table is ready",
+      "HEADER": "Table is ready",
       "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
       "PREHEADER": "",
-"TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
+      "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
       "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
     },
-    "CUSTOMERWAITLISTCANCELEDBYCUSTOMER": {
+    "Canceledbyguest": {
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "",
-"TEXT": "You have been removed from the waitlist. We hope to see you next time!",
+      "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
       "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
     },
-    "CUSTOMERWAITLISTCANCELEDBYHOST": {
+    "Canceledforhost": {
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "",
-"TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
       "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
     },
     "Changedforhost": {
@@ -155,7 +155,7 @@
     },
     "Approvalforhost": {
       "SUBJECT": "New online reservation request. Action required!",
-      "PREHEADER": "",
+      "PREHEADER": "Review Reservation",
       "TEXT": "",
       "HEADER": "",
       "HEADER": "New reservation request: {{ReservationDateTime}} / {{CustomerName}}",
@@ -165,18 +165,18 @@
     "Newreservationforhost": {
       "SUBJECT": "New Reservation!",
       "PREHEADER": "",
-"TEXT": "",
+      "TEXT": "",
       "HEADER": "",
-"HEADER": "",
+      "HEADER": "",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
     "Canceledforhost": {
       "SUBJECT": "The reservation has been cancelled",
       "PREHEADER": "",
-"TEXT": "",
+      "TEXT": "",
       "HEADER": "",
-"HEADER": "The reservation has been cancelled",
+      "HEADER": "The reservation has been cancelled",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
@@ -191,7 +191,7 @@
     "Invitationforhost": {
       "SUBJECT": "You have been invited to join the {{author}} app!",
       "PREHEADER": "",
-"TEXT": "",
+      "TEXT": "",
       "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
@@ -199,7 +199,7 @@
     "Paymentlink": {
       "SUBJECT": "Follow the payment link to complete {{author}} {{PlanName}} subscription purchase",
       "PREHEADER": "",
-"TEXT": "",
+      "TEXT": "",
       "HEADER": "",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
