@@ -31,7 +31,7 @@
 
     "Changed": {
       "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "",
+      "PREHEADER": "Review the changes",
       "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
@@ -39,7 +39,7 @@
     },
     "Confirmed": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "",
+      "PREHEADER": "Review the reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "BUTTONTEXT": "Manage your Reservation",
@@ -47,8 +47,8 @@
     },
     "Newreservation": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "",
-      "TITLE": "Reservation Confirmed",
+      "PREHEADER": "Review the reservation",
+      "TITLE": "Reservation Confirmed Title",
       "CONTENT": "Your reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
@@ -58,7 +58,7 @@
     "Canceled": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
       "PREHEADER": "",
-"TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
+      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
       "HEADER": "Reservation Canceled",
       "BUTTONTEXT": "Manage The Reservation",
       "MAINMESSAGE": "The following reservation has been canceled:"
@@ -66,23 +66,23 @@
     "Newreservationmailasync": {
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
       "PREHEADER": "",
-"TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
+      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
       "HEADER": "",
       "BUTTONTEXT": "Manage The Reservation",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "InvitationAccepted": {
       "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
-      "PREHEADER": "",
+      "PREHEADER": "{{Guest.CustomerName}} has accepted your invitation",
       "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
-      "HEADER": "",
+      "HEADER": "Invitation Accepted",
       "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
     },
     "CUSTOMERRESERVATIONINVITATION": {
       "SUBJECT": "Invitation from {{Booking.ReservationName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "",
-"TEXT": "{{Booking.ReservationName}} has invited you to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "TEXT": "{{Booking.ReservationName}} has invited you to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
       "HEADER": "You have been invited",
       "BUTTONTEXT": "Accept the Invitation",
       "MAINMESSAGE": "You have been invited by {{Booking.ReservationName}} to the following reservation:"
@@ -90,14 +90,14 @@
     "Rejected": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
       "PREHEADER": "",
-"TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
+      "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
       "HEADER": "Reservation Rejected",
       "MAINMESSAGE": "The following reservation request has been rejected:"
     },
     "ACCEPTANCECONFIRMATION": {
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "PREHEADER": "",
-"TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "HEADER": "",
       "BUTTONTEXT": "",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
