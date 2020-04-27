@@ -10,7 +10,7 @@
   },
   "MainMessage": {
     "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
-  "Title": null,
+    "Title": "{{i18n.NewReservationRequestMailAsync.TITLE}}",
     "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null

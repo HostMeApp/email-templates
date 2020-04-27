@@ -35,7 +35,7 @@
     "ReservationDate": "March 27",
     "ReservationTime": "4:00 PM",
     "ReservationDateTime": "March 27 4:00 PM",
-    "PartySize": 0,
+    "PartySize": null,
     "Status": "Confirmed",
     "Reason": null,
     "Areas": "",

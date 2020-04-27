@@ -10,7 +10,7 @@
   },
   "MainMessage": {
     "Header":"{{i18n.NewReservation.Header}}",
-  "Title": "{{i18n.NewReservation.TITLE}}",
+    "Title": "{{i18n.NewReservation.TITLE}}",
     "Content": "{{i18n.NewReservation.CONTENT}}",
     "ButttonText": null,
     "ButtonUrl": null

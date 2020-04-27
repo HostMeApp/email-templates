@@ -47,7 +47,7 @@
     "Newreservation": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Review the reservation",
-      "TITLE": "Reservation Confirmed Title",
+      "TITLE": "Reservation Confirmed",
       "CONTENT": "Your reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
@@ -169,7 +169,7 @@
     "Newreservationforhost": {
       "SUBJECT": "New Reservation!",
       "PREHEADER": "{{ReservationDateTime}} / {{GuestName}}",
-      "TEXT": "New reservation: {{ReservationDateTime}} / {{GuestName}}"",
+      "TEXT": "New reservation: {{ReservationDateTime}} / {{GuestName}}",
       "HEADER": "New Reservation",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""

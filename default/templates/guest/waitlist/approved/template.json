@@ -10,7 +10,7 @@
   },
   "MainMessage": {
     "Header":"{{i18n.Approved.Header}}",
-  "Title": null,
+    "Title": null,
     "Content": "{{i18n.Approved.MAINMESSAGE}}",
     "ButttonText": null,
     "ButtonUrl": null
