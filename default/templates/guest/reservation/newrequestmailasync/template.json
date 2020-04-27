@@ -8,8 +8,10 @@
     "sms": "{{i18n.NewReservationRequestMailAsync.TEXT}}",
     "push": "{{i18n.NewReservationRequestMailAsync.TEXT}}"
   },
+  {
+      "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
+  },
   "MainMessage": {
-    "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
     "Title": "{{i18n.NewReservationRequestMailAsync.TITLE}}",
     "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}",
     "ButttonText": null,
