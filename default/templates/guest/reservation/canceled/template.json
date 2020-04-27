@@ -9,7 +9,7 @@
     "push": "{{i18n.Canceled.TEXT}}"
   },
   "MainMessage": {
-    "Header":"{{i18n.Canceled.Header}}",
+
     "Title": null,
     "Content": "{{i18n.Canceled.MAINMESSAGE}}",
     "ButttonText": null,

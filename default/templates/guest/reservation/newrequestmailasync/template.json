@@ -4,13 +4,11 @@
   "Description": "Email sent to customer to confirm new reservation",
   "Subject": "{{i18n.NewReservationRequestMailAsync.SUBJECT}}",
   "Preheader": "{{i18n.NewReservationRequestMailAsync.PREHEADER}}",
+  "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.NewReservationRequestMailAsync.TEXT}}",
     "push": "{{i18n.NewReservationRequestMailAsync.TEXT}}"
-  },
-  {
-      "Header":"{{i18n.NewReservationRequestMailAsync.Header}}",
-  },
+  },    
   "MainMessage": {
     "Title": "{{i18n.NewReservationRequestMailAsync.TITLE}}",
     "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}",

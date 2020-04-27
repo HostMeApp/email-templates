@@ -50,7 +50,7 @@
       "TITLE": "Reservation Confirmed",
       "CONTENT": "Your reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed",
+      "HEADER": "Reservation Confirmed22",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "Canceled": {
