@@ -4,12 +4,12 @@
   "Description": "Email sent to customer to confirm new reservation",
   "Subject": "{{i18n.NewReservation.SUBJECT}}",
   "Preheader": "{{i18n.NewReservation.PREHEADER}}",
+  "Header":"{{i18n.NewReservation.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.NewReservation.TEXT}}",
     "push": "{{i18n.NewReservation.TEXT}}"
   },
   "MainMessage": {
-    "Header":"{{i18n.NewReservation.Header}}",
     "Title": "{{i18n.NewReservation.TITLE}}",
     "Content": "{{i18n.NewReservation.CONTENT}}",
     "ButttonText": null,
