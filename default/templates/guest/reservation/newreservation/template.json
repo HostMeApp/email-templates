@@ -12,11 +12,9 @@
   "MainMessage": {
     "Title": "{{i18n.NewReservation.TITLE}}",
     "Content": "{{i18n.NewReservation.CONTENT}}",
-    "ButttonText": "Hello World",
-    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   },
   "Booking": {
-    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
 }

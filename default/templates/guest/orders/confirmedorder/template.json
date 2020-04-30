@@ -1,0 +1,21 @@
+{
+  "Name": "ConfirmedOrder",
+  "DisplayName": "Order Confirmed",
+  "Description": "Notification sent to the guest to inform that he is on a waitlist",
+  "Subject": "{{i18n.ConfirmedOrder.SUBJECT}}",
+  "Preheader": "{{i18n.ConfirmedOrder.PREHEADER}}",
+      "Header":"{{i18n.ConfirmedOrder.Header}}",
+  "ContentTemplate": {
+    "sms": "{{i18n.ConfirmedOrder.TEXT}}",
+    "push": "{{i18n.ConfirmedOrder.TEXT}}"
+  },
+  "MainMessage": {
+    "Title": null,
+    "Content": "{{i18n.ConfirmedOrder.MAINMESSAGE}}",
+    "ButttonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "butttonText": "{{i18n.LABELS.MANAGEWAITLIST}}"
+  }
+}

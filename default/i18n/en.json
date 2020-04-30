@@ -22,10 +22,10 @@
       "TABLE": "Table #",
       "ALLERGIES": "Allergies:",
       "DEPOSIT": "Deposit:",
-      "REASON": "Reason",
-      "REVIEWRESERVATION": "Review the reservation",
-      "MANAGERESERVATION": "Manage your reservation",
-      "MANAGEWAITLIST": "Manage your wait",
+      "REASON": "Reason:",
+      "REVIEWRESERVATION": "View or Modify",
+      "MANAGERESERVATION": "View or Modify",
+      "MANAGEWAITLIST": "Manage Your Wait",
       "VIEWRESERVATION": "View Reservation"
     },
 
@@ -50,22 +50,21 @@
       "TITLE": "Reservation Confirmed",
       "CONTENT": "Your reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed22",
+      "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "Canceled": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
-      "PREHEADER": "",
+      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
       "HEADER": "Reservation Canceled",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
     "Newreservationmailasync": {
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
-      "PREHEADER": "",
+      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
       "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
-      "HEADER": "",
-      "BUTTONTEXT": "Manage The Reservation",
+      "HEADER": "Request Received",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "InvitationAccepted": {
@@ -96,7 +95,6 @@
       "PREHEADER": "Check your reservation details.",
       "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "HEADER": "Reservation Accepted",
-      "BUTTONTEXT": "",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
     },
     "Reminder": {
@@ -104,7 +102,6 @@
       "PREHEADER": "Please, cancel if you're not able to come.",
       "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "HEADER": "Upcoming Reservation",
-      "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
     "Feedback": {
@@ -145,7 +142,7 @@
     "Changedforhost": {
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "",
+      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been canceled",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
@@ -153,7 +150,7 @@
     "Canceledforhost": {
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} has been changed {{ReservationDateTime}}",
+      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been changed",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""

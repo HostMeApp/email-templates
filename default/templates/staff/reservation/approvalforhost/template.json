@@ -4,12 +4,12 @@
     "Description": "This email sent to a restaurant to review the reservation and approve.",
     "Subject": "{{i18n.Approvalforhost.SUBJECT}}",
     "Preheader": "{{i18n.Approvalforhost.PREHEADER}}",
+    "Header":"{{i18n.Approvalforhost.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.Approvalforhost.TEXT}}",
       "push": "{{i18n.Approvalforhost.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.Approvalforhost.Header}}",
   "Title": "{{i18n.Approvalforhost.TITLE}}",
       "Content": "{{i18n.Approvalforhost.MAINMESSAGE}}",
       "ButttonText": "{{i18n.Approvalforhost.BUTTONTEXT}}",

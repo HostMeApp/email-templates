@@ -4,6 +4,7 @@
   "Description": "Email sent to customer to remind about upcoming reservation request",
   "Subject": "{{i18n.Reminder.SUBJECT}}",
   "Preheader": "{{i18n.Reminder.PREHEADER}}",
+  "Header":"{{i18n.Reminder.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.Reminder.TEXT}}",
     "push": "{{i18n.Reminder.TEXT}}"
@@ -11,11 +12,10 @@
   "MainMessage": {
     "Header":"{{i18n.Reminder.Header}}",
   "Title": "{{i18n.Reminder.TITLE}}",
-    "Content": "{{i18n.Reminder.MAINMESSAGE}}",
-    "ButttonText": "{{i18n.Reminder.BUTTONTEXT}}",
-    "ButtonUrl": null
+    "Content": "{{i18n.Reminder.MAINMESSAGE}}"
   },
   "Booking": {
-    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
+    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
 }

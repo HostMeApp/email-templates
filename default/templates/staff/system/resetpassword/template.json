@@ -4,12 +4,12 @@
     "Description": "Reset Password for restaurant user account",
     "Subject": "{{i18n.ResetPassword.SUBJECT}}",
     "Preheader": "{{i18n.ResetPassword.PREHEADER}}",
+    "Header":"{{i18n.ResetPassword.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.ResetPassword.TEXT}}",
       "push": "{{i18n.ResetPassword.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.ResetPassword.Header}}",
   "Title": "{{i18n.ResetPassword.TITLE}}",
       "Content": "{{i18n.ResetPassword.MAINMESSAGE}}",
       "ButttonText": "{{i18n.ResetPassword.BUTTONTEXT}}",

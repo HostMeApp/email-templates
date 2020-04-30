@@ -4,18 +4,18 @@
   "Description": "Email sent to customer when reservation has been confirmed",
   "Subject": "{{i18n.Confirmed.SUBJECT}}",
   "Preheader": "{{i18n.Confirmed.PREHEADER}}",
+      "Header":"{{i18n.Confirmed.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.Confirmed.TEXT}}",
     "push": "{{i18n.Confirmed.TEXT}}"
   },
   "MainMessage": {
-    "Header":"{{i18n.Confirmed.Header}}",
-  "Title": null,
-    "Content": "{{i18n.Confirmed.MAINMESSAGE}}",
-    "ButttonText": null,
-    "ButtonUrl": null
+
+    "Title": "{{i18n.Confirmed.Title}}",
+    "Content": "{{i18n.Confirmed.MAINMESSAGE}}"
   },
   "Booking": {
-    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
-  }
+    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    }
 }

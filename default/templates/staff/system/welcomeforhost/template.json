@@ -4,12 +4,12 @@
     "Description": "Email sent to all new accounts in a restaurant both owners and others.",
     "Subject": "{{i18n.Welcomeforhost.SUBJECT}}",
     "Preheader": "{{i18n.Welcomeforhost.PREHEADER}}",
+    "Header":"{{i18n.Welcomeforhost.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.Welcomeforhost.TEXT}}",
       "push": "{{i18n.Welcomeforhost.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.Welcomeforhost.Header}}",
   "Title": "{{i18n.Welcomeforhost.TITLE}}",
       "Content": "{{i18n.Welcomeforhost.MAINMESSAGE}}",
       "ButttonText": "{{i18n.Welcomeforhost.BUTTONTEXT}}",

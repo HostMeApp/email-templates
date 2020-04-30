@@ -4,12 +4,12 @@
     "Description": "Email to remind restaurant about a reservation based on a rule",
     "Subject": "{{i18n.Reminderforhost.SUBJECT}}",
     "Preheader": "{{i18n.Reminderforhost.PREHEADER}}",
+    "Header":"{{i18n.Reminderforhost.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.Reminderforhost.TEXT}}",
       "push": "{{i18n.Reminderforhost.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.Reminderforhost.Header}}",
   "Title": "{{i18n.Reminderforhost.TITLE}}",
       "Content": "{{i18n.Reminderforhost.MAINMESSAGE}}",
     },

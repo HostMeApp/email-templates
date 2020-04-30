@@ -4,6 +4,7 @@
   "Description": "Email sent to customer to request a feedback after visit.",
   "Subject": "{{i18n.Feedback.SUBJECT}}",
   "Preheader": "{{i18n.Feedback.PREHEADER}}",
+      "Header":"{{i18n.Feedback.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.Feedback.TEXT}}",
     "push": "{{i18n.Feedback.TEXT}}"
@@ -14,5 +15,5 @@
     "Content": "{{i18n.Feedback.MAINMESSAGE}}",
     "ButttonText": "{{i18n.Feedback.BUTTONTEXT}}",
     "ButtonUrl": null
-  },
+  }
 }

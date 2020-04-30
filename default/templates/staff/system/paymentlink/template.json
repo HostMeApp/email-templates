@@ -4,12 +4,12 @@
     "Description": "The email sent initiated from the admin panel.",
     "Subject": "{{i18n.Paymentlink.SUBJECT}}",
     "Preheader": "{{i18n.Paymentlink.PREHEADER}}",
+    "Header":"{{i18n.Paymentlink.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.Paymentlink.TEXT}}",
       "push": "{{i18n.Paymentlink.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.Paymentlink.Header}}",
   "Title": "{{i18n.Paymentlink.TITLE}}",
       "Content": "{{i18n.Paymentlink.MAINMESSAGE}}",
       "ButttonText": "{{i18n.Paymentlink.BUTTONTEXT}}",

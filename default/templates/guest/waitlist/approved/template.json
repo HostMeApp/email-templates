@@ -4,12 +4,12 @@
   "Description": "Notification sent to the guest to inform that he is on a waitlist",
   "Subject": "{{i18n.Approved.SUBJECT}}",
   "Preheader": "{{i18n.Approved.PREHEADER}}",
+      "Header":"{{i18n.Approved.Header}}",
   "ContentTemplate": {
     "sms": "{{i18n.Approved.TEXT}}",
     "push": "{{i18n.Approved.TEXT}}"
   },
   "MainMessage": {
-    "Header":"{{i18n.Approved.Header}}",
     "Title": null,
     "Content": "{{i18n.Approved.MAINMESSAGE}}",
     "ButttonText": null,

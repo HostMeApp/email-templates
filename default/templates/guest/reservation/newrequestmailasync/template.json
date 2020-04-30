@@ -8,14 +8,13 @@
   "ContentTemplate": {
     "sms": "{{i18n.NewReservationRequestMailAsync.TEXT}}",
     "push": "{{i18n.NewReservationRequestMailAsync.TEXT}}"
-  },    
+  },
   "MainMessage": {
     "Title": "{{i18n.NewReservationRequestMailAsync.TITLE}}",
-    "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}",
-    "ButttonText": null,
-    "ButtonUrl": null
+    "Content": "{{i18n.NewReservationRequestMailAsync.MAINMESSAGE}}"
   },
   "Booking": {
-    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}"
-  }
+    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    }
 }

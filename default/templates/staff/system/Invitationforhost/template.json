@@ -4,12 +4,12 @@
     "Description": "The email to accept Invitationforhost and join a restaurant as a user",
     "Subject": "{{i18n.Invitationforhost.SUBJECT}}",
     "Preheader": "{{i18n.Invitationforhost.PREHEADER}}",
+    "Header":"{{i18n.Invitationforhost.Header}}",
     "ContentTemplate": {
       "sms": "{{i18n.Invitationforhost.TEXT}}",
       "push": "{{i18n.Invitationforhost.TEXT}}"
     },
     "MainMessage": {
-      "Header":"{{i18n.Invitationforhost.Header}}",
   "Title": "{{i18n.Invitationforhost.TITLE}}",
       "Content": "{{i18n.Invitationforhost.MAINMESSAGE}}",
       "ButttonText": "{{i18n.Invitationforhost.BUTTONTEXT}}",
