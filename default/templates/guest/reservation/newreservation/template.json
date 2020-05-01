@@ -11,7 +11,7 @@
   },
   "MainMessage": {
     "Title": "{{i18n.NewReservation.TITLE}}",
-    "Content": "{{i18n.NewReservation.CONTENT}}",
+    "Content": "{{i18n.NewReservation.CONTENT}}"
   },
   "Booking": {
     "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
