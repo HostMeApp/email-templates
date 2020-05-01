@@ -15,14 +15,14 @@
     "Content": "{{i18n.PROMO.CONTENT}}",
     "ButttonText": "",
     "ButtonUrl": "",
-    "Image": "/../../IMG/footer-image@2x.png",
+    "Image": "../IMG/footer-image@2x.png",
     "Links": [
       {
-        "Image": "/../../IMG/app-store@2x.png",
+        "Image": "../IMG/app-store@2x.png",
         "Link": "https://apps.apple.com/app/hostme/id1290719016"
       },
       {
-        "Image": "/../../IMG/google-play@2x.png",
+        "Image": "../IMG/google-play@2x.png",
         "Link": "https://play.google.com/store/apps/details?id=com.hostmeapp.guest"
       }
     ]
