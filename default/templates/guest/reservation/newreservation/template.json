@@ -15,6 +15,6 @@
   },
   "Booking": {
     "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
-    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    "ButtonUrl": "{{{Booking.Links.GuestReservationViewUrl}}}"
   }
 }
