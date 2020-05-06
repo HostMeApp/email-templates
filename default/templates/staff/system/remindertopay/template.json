@@ -1,18 +1,18 @@
 {
-    "Name":"Remindertopay",
-    "DisplayName": "Reminder for owner to pay or upgrade",
+    "Name":"REMINDERTOPAY",
+    "DisplayName": "REMINDER for owner to pay or upgrade",
     "Description": "An email sent to owner when staff reminds to solve billing issues.",
-    "Subject": "{{i18n.Remindertopay.SUBJECT}}",
-    "Preheader": "{{i18n.Remindertopay.PREHEADER}}",
-    "Header":"{{i18n.Remindertopay.Header}}",
+    "SUBJECT": "{{I18N.REMINDERTOPAY.SUBJECT}}",
+    "PREHEADER": "{{I18N.REMINDERTOPAY.PREHEADER}}",
+    "HEADER":"{{I18N.REMINDERTOPAY}}",
     "ContentTemplate": {
-      "sms": "{{i18n.Remindertopay.TEXT}}",
-      "push": "{{i18n.Remindertopay.TEXT}}"
+      "sms": "{{I18N.REMINDERTOPAY.TEXT}}",
+      "push": "{{I18N.REMINDERTOPAY.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.Remindertopay.TITLE}}",
-      "Content": "{{i18n.Remindertopay.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.Remindertopay.BUTTONTEXT}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.REMINDERTOPAY.TITLE}}",
+      "Content": "{{I18N.REMINDERTOPAY.MAINMESSAGE}}",
+      "ButtonText": "{{I18N.REMINDERTOPAY.BUTTONTEXT}}",
       "ButtonUrl": null
     },
   }

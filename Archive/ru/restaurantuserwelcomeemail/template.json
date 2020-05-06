@@ -1,1 +1,1 @@
-{"Name":"RestaurantUserWelcomeEmail","Language":"ru","Subject":"Добро пожаловать в {{author}}!","EmailHeader":"Добро пожаловать в {{author}}!","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349334/mails/email/welcome-2.jpg","SmsContent":null}
+{"Name":"RestaurantUserWelcomeEmail","Language":"ru","SUBJECT":"Добро пожаловать в {{author}}!","EmailHeader":"Добро пожаловать в {{author}}!","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349334/mails/email/welcome-2.jpg","SmsContent":null}

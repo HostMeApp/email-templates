@@ -1,21 +1,21 @@
 {
-    "Name":"Approvalforhost",
-    "DisplayName": "Request for approval for restaurant.",
-    "Description": "This email sent to a restaurant to review the reservation and approve.",
-    "Subject": "{{i18n.Approvalforhost.SUBJECT}}",
-    "Preheader": "{{i18n.Approvalforhost.PREHEADER}}",
-    "Header":"{{i18n.Approvalforhost.Header}}",
-    "ContentTemplate": {
-      "sms": "{{i18n.Approvalforhost.TEXT}}",
-      "push": "{{i18n.Approvalforhost.TEXT}}"
-    },
-    "MainMessage": {
-  "Title": "{{i18n.Approvalforhost.TITLE}}",
-      "Content": "{{i18n.Approvalforhost.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.Approvalforhost.BUTTONTEXT}}",
-      "ButtonUrl": null
-    },
-    "Booking": {
-      "butttonText": "{{i18n.LABELS.REVIEWRESERVATION}}"
-    }
+  "Name": "APPROVALFORHOST",
+  "DisplayName": "Request for approval for restaurant.",
+  "Description": "This email sent to a restaurant to review the reservation and approve.",
+  "SUBJECT": "{{I18N.APPROVALFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.APPROVALFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.APPROVALFORHOST}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.APPROVALFORHOST.TEXT}}",
+    "push": "{{I18N.APPROVALFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.APPROVALFORHOST.TITLE}}",
+    "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.APPROVALFORHOST.BUTTONTEXT}}",
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
   }
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "ORDERFEEDBACK",
+  "DisplayName": "Order Feedback request",
+  "Description": "Email sent to a customer after completed order to request private feedback.",
+  "SUBJECT": "{{I18N.ORDERFEEDBACK.SUBJECT}}",
+  "PREHEADER": "{{I18N.ORDERFEEDBACK.PREHEADER}}",
+  "HEADER": "{{I18N.ORDERFEEDBACK}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.ORDERFEEDBACK.TEXT}}",
+    "push": "{{I18N.ORDERFEEDBACK.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.ORDERFEEDBACK.TITLE}}",
+    "Content": "{{I18N.ORDERFEEDBACK.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.ORDERFEEDBACK.BUTTONTEXT}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

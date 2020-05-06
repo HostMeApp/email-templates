@@ -1,19 +1,18 @@
 {
-  "Name": "Feedback",
+  "Name": "FEEDBACK",
   "DisplayName": "Feedback request",
   "Description": "Email sent to customer to request a feedback after visit.",
-  "Subject": "{{i18n.Feedback.SUBJECT}}",
-  "Preheader": "{{i18n.Feedback.PREHEADER}}",
-      "Header":"{{i18n.Feedback.Header}}",
+  "SUBJECT": "{{I18N.FEEDBACK.SUBJECT}}",
+  "PREHEADER": "{{I18N.FEEDBACK.PREHEADER}}",
+  "HEADER": "{{I18N.FEEDBACK.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{i18n.Feedback.TEXT}}",
-    "push": "{{i18n.Feedback.TEXT}}"
+    "sms": "{{I18N.FEEDBACK.TEXT}}",
+    "push": "{{I18N.FEEDBACK.TEXT}}"
   },
-  "MainMessage": {
-    "Header":"{{i18n.Feedback.Header}}",
-  "Title": "{{i18n.Feedback.TITLE}}",
-    "Content": "{{i18n.Feedback.MAINMESSAGE}}",
-    "ButttonText": "{{i18n.Feedback.BUTTONTEXT}}",
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.FEEDBACK.TITLE}}",
+    "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.FEEDBACK.BUTTONTEXT}}",
     "ButtonUrl": null
   }
 }

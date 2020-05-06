@@ -1,18 +1,18 @@
 {
-    "Name":"ResetPassword",
+    "Name":"RESETPASSWORD",
     "DisplayName": "Reset Password",
     "Description": "Reset Password for restaurant user account",
-    "Subject": "{{i18n.ResetPassword.SUBJECT}}",
-    "Preheader": "{{i18n.ResetPassword.PREHEADER}}",
-    "Header":"{{i18n.ResetPassword.Header}}",
+    "SUBJECT": "{{I18N.RESETPASSWORD.SUBJECT}}",
+    "PREHEADER": "{{I18N.RESETPASSWORD.PREHEADER}}",
+    "HEADER":"{{I18N.RESETPASSWORD}}",
     "ContentTemplate": {
-      "sms": "{{i18n.ResetPassword.TEXT}}",
-      "push": "{{i18n.ResetPassword.TEXT}}"
+      "sms": "{{I18N.RESETPASSWORD.TEXT}}",
+      "push": "{{I18N.RESETPASSWORD.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.ResetPassword.TITLE}}",
-      "Content": "{{i18n.ResetPassword.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.ResetPassword.BUTTONTEXT}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.RESETPASSWORD.TITLE}}",
+      "Content": "{{I18N.RESETPASSWORD.MAINMESSAGE}}",
+      "ButtonText": "{{I18N.RESETPASSWORD.BUTTONTEXT}}",
       "ButtonUrl": null
     },
   }

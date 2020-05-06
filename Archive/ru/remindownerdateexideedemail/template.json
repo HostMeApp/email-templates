@@ -1,1 +1,1 @@
-{"Name":"RemindOwnerDateExideedEmail","Language":"ru","Subject":"Ваши сотрудники напоминают вам обновить подписку в {{author}}","EmailHeader":"","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}
+{"Name":"RemindOwnerDateExideedEmail","Language":"ru","SUBJECT":"Ваши сотрудники напоминают вам обновить подписку в {{author}}","EmailHeader":"","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}

@@ -1,16 +1,16 @@
 {
-  "Name": "InvitationAccepted",
+  "Name": "INVITATIONACCEPTED",
   "DisplayName": "Reservation Invite Accepted",
   "Description": "Email sent to customer to confirm accepted invitation by guests",
-  "Subject": "{{i18n.InvitationAccepted.SUBJECT}}",
-  "Preheader": "{{i18n.InvitationAccepted.PREHEADER}}",
-  "Header": "{{i18n.InvitationAccepted.Header}}",
+  "SUBJECT": "{{I18N.INVITATIONACCEPTED.SUBJECT}}",
+  "PREHEADER": "{{I18N.INVITATIONACCEPTED.PREHEADER}}",
+  "HEADER": "{{I18N.INVITATIONACCEPTED}}",
   "ContentTemplate": {
-    "sms": "{{i18n.InvitationAccepted.TEXT}}",
-    "push": "{{i18n.InvitationAccepted.TEXT}}"
+    "sms": "{{I18N.INVITATIONACCEPTED.TEXT}}",
+    "push": "{{I18N.INVITATIONACCEPTED.TEXT}}"
   },
-  "MainMessage": {
-    "Title":"{{i18n.InvitationAccepted.Title}}",
-    "Content": "{{i18n.InvitationAccepted.MAINMESSAGE}}"
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.INVITATIONACCEPTED.TITLE}}",
+    "Content": "{{I18N.INVITATIONACCEPTED.MAINMESSAGE}}"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "Name": "ChangedForInvitedGuest",
+  "Name": "CHANGEDFORINVITEDGUEST",
   "DisplayName": "Reservation Changed Confirmation",
   "Description": "Email sent to customer's friends to confirm the change",
-  "Subject": "{{i18n.ChangedForInvitedGuest.SUBJECT}}",
-  "Preheader": "{{i18n.ChangedForInvitedGuest.PREHEADER}}",
-      "Header":"{{i18n.ChangedForInvitedGuest.Header}}",
+  "SUBJECT": "{{I18N.CHANGEDFORINVITEDGUEST.SUBJECT}}",
+  "PREHEADER": "{{I18N.CHANGEDFORINVITEDGUEST.PREHEADER}}",
+  "HEADER": "{{I18N.CHANGEDFORINVITEDGUEST}}",
   "ContentTemplate": {
-    "sms": "{{i18n.ChangedForInvitedGuest.TEXT}}",
-    "push": "{{i18n.ChangedForInvitedGuest.TEXT}}"
+    "sms": "{{I18N.CHANGEDFORINVITEDGUEST.TEXT}}",
+    "push": "{{I18N.CHANGEDFORINVITEDGUEST.TEXT}}"
   },
-  "MainMessage": {
-    "Title": "{{i18n.ChangedForInvitedGuest.Title}}",
-    "Content": "{{i18n.ChangedForInvitedGuest.MAINMESSAGE}}",
-    "ButttonText": null,
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.CHANGEDFORINVITEDGUEST.TITLE}}",
+    "Content": "{{I18N.CHANGEDFORINVITEDGUEST.MAINMESSAGE}}",
+    "ButtonText": null,
     "ButtonUrl": null
   }
 }

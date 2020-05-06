@@ -1,1 +1,1 @@
-{"Name":"RestaurantIsBlockedEmail","Language":"en","Subject":"Restaurant is blocked","EmailHeader":"","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
+{"Name":"RestaurantIsBlockedEmail","Language":"en","SUBJECT":"Restaurant is blocked","EmailHeader":"","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

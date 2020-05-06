@@ -6,14 +6,14 @@
   },
   "RestaurantPolices": [
     {
-      "Title": "{{i18n.RESTAURANTPOLICES.TITLE}}",
-      "Content": "{{i18n.RESTAURANTPOLICES.CONTENT}}"
+      "TITLE": "{{I18N.RESTAURANTPOLICES.TITLE}}",
+      "Content": "{{I18N.RESTAURANTPOLICES.CONTENT}}"
     }
   ],
   "Promo": {
-    "Title": "{{i18n.RESTPROMO.TITLE}}",
-    "Content": "{{i18n.RESTPROMO.CONTENT}}",
-    "ButttonText": "",
+    "TITLE": "{{I18N.RESTPROMO.TITLE}}",
+    "Content": "{{I18N.RESTPROMO.CONTENT}}",
+    "ButtonText": "",
     "ButtonUrl": "",
     "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
     "Links": [

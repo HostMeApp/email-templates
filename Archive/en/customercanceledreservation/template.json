@@ -3,19 +3,19 @@
   "DisplayName": "Reservation Canceled Notification",
   "Description": "Email sent to restaurant's team when reservation has been canceled",
   "Language": "en",
-  "Subject": "The reservation has been cancelled",
+  "SUBJECT": "The reservation has been cancelled",
   "EmailHeader": "<span>The reservation has been cancelled</span>",
   "EmailFooter": "",
   "Image": "https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg",
   "SmsContent": "",
-  "header": "Reservation canceled",
-  "mainMessage": {
-    "title": null,
+  "HEADER": "Reservation canceled",
+  "MAINMESSAGE": {
+    "TITLE": null,
     "content": null,
-    "butttonText": null,
+    "ButtonText": null,
     "buttonUrl": null
   },
   "booking":{
-    "butttonText": null
+    "ButtonText": null
   }
 }

@@ -1,21 +1,20 @@
 {
-  "Name": "Confirmed",
+  "Name": "CONFIRMED",
   "DisplayName": "Reservation Confirmation Notification",
   "Description": "Email sent to customer when reservation has been confirmed",
-  "Subject": "{{i18n.Confirmed.SUBJECT}}",
-  "Preheader": "{{i18n.Confirmed.PREHEADER}}",
-      "Header":"{{i18n.Confirmed.Header}}",
+  "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
+  "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
+  "HEADER": "{{I18N.CONFIRMED}}",
   "ContentTemplate": {
-    "sms": "{{i18n.Confirmed.TEXT}}",
-    "push": "{{i18n.Confirmed.TEXT}}"
+    "sms": "{{I18N.CONFIRMED.TEXT}}",
+    "push": "{{I18N.CONFIRMED.TEXT}}"
   },
-  "MainMessage": {
-
-    "Title": "{{i18n.Confirmed.Title}}",
-    "Content": "{{i18n.Confirmed.MAINMESSAGE}}"
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.CONFIRMED.TITLE}}",
+    "Content": "{{I18N.CONFIRMED.MAINMESSAGE}}"
   },
   "Booking": {
-    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
-    }
+  }
 }

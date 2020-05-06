@@ -1,18 +1,18 @@
 {
-    "Name":"Invitationforhostforhost",
-    "DisplayName": "Restaurant user Invitationforhost email",
-    "Description": "The email to accept Invitationforhost and join a restaurant as a user",
-    "Subject": "{{i18n.Invitationforhost.SUBJECT}}",
-    "Preheader": "{{i18n.Invitationforhost.PREHEADER}}",
-    "Header":"{{i18n.Invitationforhost.Header}}",
+    "Name":"INVITATIONFORHOST",
+    "DisplayName": "Restaurant user INVITATIONFORHOST email",
+    "Description": "The email to accept INVITATIONFORHOST and join a restaurant as a user",
+    "SUBJECT": "{{I18N.INVITATIONFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.INVITATIONFORHOST.PREHEADER}}",
+    "HEADER":"{{I18N.INVITATIONFORHOST}}",
     "ContentTemplate": {
-      "sms": "{{i18n.Invitationforhost.TEXT}}",
-      "push": "{{i18n.Invitationforhost.TEXT}}"
+      "sms": "{{I18N.INVITATIONFORHOST.TEXT}}",
+      "push": "{{I18N.INVITATIONFORHOST.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.Invitationforhost.TITLE}}",
-      "Content": "{{i18n.Invitationforhost.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.Invitationforhost.BUTTONTEXT}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.INVITATIONFORHOST.TITLE}}",
+      "Content": "{{I18N.INVITATIONFORHOST.MAINMESSAGE}}",
+      "ButtonText": "{{I18N.INVITATIONFORHOST.BUTTONTEXT}}",
       "ButtonUrl": null
     },
   }

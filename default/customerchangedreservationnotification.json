@@ -1,220 +1,220 @@
-﻿{
-	"Name": "CustomerChangedReservationNotification",
-	"EnvironmentPrefix": null,
-	"EmailHeader": null,
-	"Subject": "Your reservation at My  Restaurant with Events has changed.",
-	"Preheader": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
-	"Content": null,
-	"EmailFooter": null,
-	"Image": null,
-	"Language": null,
-	"MasterTemplate": null,
-	"ApplicationId": null,
-	"Recipients": [ "evgeny.popov@gmail.com" ],
-	"ContentTemplate": {
-		"sms": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
-		"email": "d-67955651fbb84215adc7679645a387eb",
-		"push": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed."
-	},
-	"MainMessage": {
-		"Title": null,
-		"Content": "The following reservation has changed:",
-		"ButttonText": null,
-		"ButtonUrl": null,
-		"Links": null
-	},
-	"Restaurant": {
-		"Id": 4559,
-		"HostmeGlobalId": "millers-ale-house---jupiter-jupiter-003",
-		"Name": "My  Restaurant with Events",
-		"Description": "My  events",
-		"WelcomeMessage": null,
-		"Address": "Fontanka River, St Petersburg, Russia",
-		"Phone": "+1 561-746-6720",
-		"BookingEmail": "evgeny.popov@gmail.com",
-		"CommunicationPhone": null,
-		"DefaultLanguage": "en",
-		"Social": {
-			"Facebook": {
-				"Image": null,
-				"Link": "https://www.facebook.com/thipkhaodc"
-			},
-			"GooglePlus": null,
-			"Instagram": {
-				"Image": null,
-				"Link": "https://www.instagram.com/thipkhaodc/"
-			},
-			"Pinterest": null,
-			"Twitter": {
-				"Image": null,
-				"Link": "https://twitter.com/thipkhaoDC"
-			},
-			"Youtube": null
-		},
-		"Logo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-af606f9836e84fd9ba2e8f9d56a149c3",
-		"Promo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-9fd9091bfc32100a2b9c2850cb7ea66d",
-		"ApplicationId": "restaurant.hostmepartners-qa.com",
-		"Website": "https://demo.hostmeapp.com",
-		"Map": null,
-		"Links": {
-			"PanelUrl": "https://restaurant.hostmepartners-qa.com/panel/#/4559",
-			"GuestAppUrl": "https://guest.hostmepartners-qa.com/restaurants/4559",
-			"AdminUrl": "https://restaurant.hostmepartners-qa.com/admin/#/restaurant/4559"
-		}
-	},
-	"Subscription": null,
-	"Booking": {
-		"ConfirmationNumber": "1b29b123771d4ccbb46eae30b4668a7a",
-		"ReservationName": "Evgeny",
-		"ReservationDate": "March 27",
-		"ReservationTime": "3:30 PM",
-		"ReservationDateTime": "March 27 3:30 PM",
-		"PartySize": 0,
-		"Status": "Confirmed",
-		"Reason": null,
-		"Areas": "",
-		"Duration": "2 h 0 m",
-		"TimeToLeave": "5:30 PM",
-		"Deposit": null,
-		"Allergies": null,
-		"TableNumber": "",
-		"TableNotes": "",
-		"Note": null,
-		"JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"1b29b123771d4ccbb46eae30b4668a7a\",\"reservationStatus\":\"http://schema.org/Confirmed\",\"reservationFor\":{\"@context\":\"http://schema.org/\",\"@type\":\"FoodEstablishment\",\"name\":\"My  Restaurant with Events\",\"telephone\":\"+1 561-746-6720\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"London\",\"addressRegion\":\"England\",\"streetAddress\":\" \",\"addressCountry\":\"United Kingdom\"},\"acceptsReservations\":false,\"priceRange\":0},\"underName\":{\"@type\":\"Person\",\"name\":\"Evgeny\",\"email\":\"evgeny.popov@gmail.com\"},\"bookingTime\":\"2020-03-26T11:32:45.275014+00:00\",\"cancelReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"confirmReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\",\"modifyReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"partySize\":3,\"priceCurrency\":\"usd\",\"programMembership\":{\"memberNumber\":\"19139\",\"program\":\"Hostme\"},\"startTime\":\"2020-03-27T15:30:00+00:00\",\"url\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\"}</script>",
-		"ButttonText": "Manage your reservation",
-		"ButtonUrl": null,
-		"Links": {
-			"GuestReservationEditUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
-			"GuestReservationPayUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?manageView=deposit&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
-			"GuestReservationViewUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw",
-			"RestaurantReservationViewUrl": "https://restaurant.hostmepartners-qa.com/panel/#/4559?deep_link=reservation&deep_id=1b29b123771d4ccbb46eae30b4668a7a"
-		}
-	},
-	"Guest": {
-		"CustomerName": "Evgeny",
-		"Phone": "+7 983 137-58-77",
-		"Email": "evgeny.popov@gmail.com",
+	﻿{
+		"Name": "CustomerChangedReservationNotification",
+		"EnvironmentPrefix": null,
+		"EmailHeader": null,
+		"SUBJECT": "Your reservation at My  Restaurant with Events has changed.",
+		"PREHEADER": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
+		"Content": null,
+		"EmailFooter": null,
+		"Image": null,
 		"Language": null,
+		"MasterTemplate": null,
 		"ApplicationId": null,
-		"Links": null
-	},
-	"Employee": null,
-	"GuestPolices": [
-		{
-			"Title": "Any questions?",
-			"Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
-		}
-	],
-	"RestaurantPolices": null,
-	"Promo": {
-		"Title": "Manage your reservations anytime and anywhere!",
-		"Content": "With our apps, you can discover, reserve, and manage restaurant reservations � anytime, anywhere.",
-		"ButttonText": "",
-		"ButtonUrl": "",
-		"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
-		"Links": [
-			{
-				"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/98cb67188ce91ba9dc16f695f12706e31885b8f8410e39a1b6cbe547a8e4c96dd2a9720b5561d0ecc13fd05db8afc77553e15785b719ba417bd90c9b58b9c515.png",
-				"Link": "#"
+		"Recipients": [ "evgeny.popov@gmail.com" ],
+		"ContentTemplate": {
+			"sms": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
+			"email": "d-67955651fbb84215adc7679645a387eb",
+			"push": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed."
+		},
+		"MAINMESSAGE": {
+			"TITLE": null,
+			"Content": "The following reservation has changed:",
+			"ButtonText": null,
+			"ButtonUrl": null,
+			"Links": null
+		},
+		"Restaurant": {
+			"Id": 4559,
+			"HostmeGlobalId": "millers-ale-house---jupiter-jupiter-003",
+			"Name": "My  Restaurant with Events",
+			"Description": "My  events",
+			"WelcomeMessage": null,
+			"Address": "Fontanka River, St Petersburg, Russia",
+			"Phone": "+1 561-746-6720",
+			"BookingEmail": "evgeny.popov@gmail.com",
+			"CommunicationPhone": null,
+			"DefaultLanguage": "en",
+			"Social": {
+				"Facebook": {
+					"Image": null,
+					"Link": "https://www.facebook.com/thipkhaodc"
+				},
+				"GooglePlus": null,
+				"Instagram": {
+					"Image": null,
+					"Link": "https://www.instagram.com/thipkhaodc/"
+				},
+				"Pinterest": null,
+				"Twitter": {
+					"Image": null,
+					"Link": "https://twitter.com/thipkhaoDC"
+				},
+				"Youtube": null
 			},
-			{
-				"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/b065cae9bd827a5d8b8a53b0889ef9326f504f9ce4ae62cb2de3fee212f69d8c2b928b709261699d143b1c3f0e8d9fd918e432f63ecbeea7ec6f17280809d03f.png",
-				"Link": "#"
+			"Logo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-af606f9836e84fd9ba2e8f9d56a149c3",
+			"Promo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-9fd9091bfc32100a2b9c2850cb7ea66d",
+			"ApplicationId": "restaurant.hostmepartners-qa.com",
+			"Website": "https://demo.hostmeapp.com",
+			"Map": null,
+			"Links": {
+				"PanelUrl": "https://restaurant.hostmepartners-qa.com/panel/#/4559",
+				"GuestAppUrl": "https://guest.hostmepartners-qa.com/restaurants/4559",
+				"AdminUrl": "https://restaurant.hostmepartners-qa.com/admin/#/restaurant/4559"
 			}
-		]
-	},
-	"Branding": {
-		"Copirate": "� 2019 Hostme LLC. All Rights Reserved.",
-		"Background": "#f8f8f8",
-		"TextColor": "#666666",
-		"LinkColor": "#e16640",
-		"Logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png",
-		"Social": null
-	},
-	"Links": null,
-	"Attachments": [],
-	"i18n": {
-		"GUESTPOLICES": {
-			"TITLE": "Any questions?",
-			"CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
 		},
-		"RESTAURANTPOLICES": {
-			"TITLE": "Any questions?",
-			"CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+		"Subscription": null,
+		"Booking": {
+			"ConfirmationNumber": "1b29b123771d4ccbb46eae30b4668a7a",
+			"ReservationName": "Evgeny",
+			"ReservationDate": "March 27",
+			"ReservationTime": "3:30 PM",
+			"ReservationDateTime": "March 27 3:30 PM",
+			"PartySize": 0,
+			"Status": "Confirmed",
+			"Reason": null,
+			"Areas": "",
+			"Duration": "2 h 0 m",
+			"TimeToLeave": "5:30 PM",
+			"Deposit": null,
+			"Allergies": null,
+			"TableNumber": "",
+			"TableNotes": "",
+			"Note": null,
+			"JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"1b29b123771d4ccbb46eae30b4668a7a\",\"reservationStatus\":\"http://schema.org/Confirmed\",\"reservationFor\":{\"@context\":\"http://schema.org/\",\"@type\":\"FoodEstablishment\",\"name\":\"My  Restaurant with Events\",\"telephone\":\"+1 561-746-6720\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"London\",\"addressRegion\":\"England\",\"streetAddress\":\" \",\"addressCountry\":\"United Kingdom\"},\"acceptsReservations\":false,\"priceRange\":0},\"underName\":{\"@type\":\"Person\",\"name\":\"Evgeny\",\"email\":\"evgeny.popov@gmail.com\"},\"bookingTime\":\"2020-03-26T11:32:45.275014+00:00\",\"cancelReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"confirmReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\",\"modifyReservationUrl\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak\",\"partySize\":3,\"priceCurrency\":\"usd\",\"programMembership\":{\"memberNumber\":\"19139\",\"program\":\"Hostme\"},\"startTime\":\"2020-03-27T15:30:00+00:00\",\"url\":\"https://hostme-webguest-qa.azurewebsites.net/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw\"}</script>",
+			"ButtonText": "Manage your reservation",
+			"ButtonUrl": null,
+			"Links": {
+				"GuestReservationEditUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
+				"GuestReservationPayUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?manageView=deposit&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.GCijm9q60SjVcy925uHK9BiT36Pph6_VNltZ5GI8xak",
+				"GuestReservationViewUrl": "https://guest.hostmepartners-qa.com/restaurants/4559/reservations/1b29b123771d4ccbb46eae30b4668a7a?a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6IjFiMjliMTIzNzcxZDRjY2JiNDZlYWUzMGI0NjY4YTdhIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1ODU1NzQ0OTMsImV4cCI6MTU4NTU3ODA5MywiaWF0IjoxNTg1NTc0NDkzLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.vzeVBABd3eJ-YUmdDNL1iFRGU8-SKOhlwNJti1jlZaw",
+				"RestaurantReservationViewUrl": "https://restaurant.hostmepartners-qa.com/panel/#/4559?deep_link=reservation&deep_id=1b29b123771d4ccbb46eae30b4668a7a"
+			}
 		},
-		"PROMO": {
+		"Guest": {
+			"CustomerName": "Evgeny",
+			"Phone": "+7 983 137-58-77",
+			"Email": "evgeny.popov@gmail.com",
+			"Language": null,
+			"ApplicationId": null,
+			"Links": null
+		},
+		"Employee": null,
+		"GuestPolices": [
+			{
+				"TITLE": "Any questions?",
+				"Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
+			}
+		],
+		"RestaurantPolices": null,
+		"Promo": {
 			"TITLE": "Manage your reservations anytime and anywhere!",
-			"CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations � anytime, anywhere."
+			"Content": "With our apps, you can discover, reserve, and manage restaurant reservations � anytime, anywhere.",
+			"ButtonText": "",
+			"ButtonUrl": "",
+			"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
+			"Links": [
+				{
+					"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/98cb67188ce91ba9dc16f695f12706e31885b8f8410e39a1b6cbe547a8e4c96dd2a9720b5561d0ecc13fd05db8afc77553e15785b719ba417bd90c9b58b9c515.png",
+					"Link": "#"
+				},
+				{
+					"Image": "https://marketing-image-production.s3.amazonaws.com/uploads/b065cae9bd827a5d8b8a53b0889ef9326f504f9ce4ae62cb2de3fee212f69d8c2b928b709261699d143b1c3f0e8d9fd918e432f63ecbeea7ec6f17280809d03f.png",
+					"Link": "#"
+				}
+			]
 		},
-		"RESTPROMO": {
-			"TITLE": "Manage your restaurant anytime and anywhere!",
-			"CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers � anytime, anywhere."
+		"Branding": {
+			"Copirate": "� 2020 Hostme LLC. All Rights Reserved.",
+			"Background": "#f8f8f8",
+			"TextColor": "#666666",
+			"LinkColor": "#e16640",
+			"Logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png",
+			"Social": null
 		},
-		"LABELS": {
-			"PARTY": "Party of",
-			"FOR": "for",
-			"TABLE": "Table #",
-			"ALLERGIES": "Allergies:",
-			"DEPOSIT": "Deposit:",
-			"REASON": "Reason",
-			"REVIEWRESERVATION": "Review the reservation",
-			"MANAGERESERVATION": "Manage your reservation",
-			"VIEWRESERVATION": "View Reservation"
-		},
-		"CHANGEDRESERVATIONNOTIFICATION": {
-			"SUBJECT": "The reservation has been changed",
-			"TEXT": "Reservation on March 27 3:30 PM for 0 Evgeny has been changed.",
-			"MAINMESSAGE": "The following reservation has been changed:"
-		},
-		"CUSTOMERRESERVATIONCONFIRMED": {
-			"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
-			"MAINMESSAGE": "The following reservation has been confirmed:"
-		},
-		"CUSTOMERNEWRESERVATIONNOTIFICATION": {
-			"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
-			"MAINMESSAGE": "The following reservation has been confirmed:"
-		},
-		"NEWRESERVATIONNOTIFICATION": {
-			"SUBJECT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
-			"TEXT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
-			"MAINMESSAGE": "The following reservation has been confirmed:"
-		},
-		"CUSTOMERCHANGEDRESERVATIONNOTIFICATION": {
-			"SUBJECT": "Your reservation at My  Restaurant with Events has changed.",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
-			"MAINMESSAGE": "The following reservation has changed:"
-		},
-		"CUSTOMERCANCELEDRESERVATION": {
-			"SUBJECT": "Your reservation at My  Restaurant with Events has been canceled.",
-			"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been canceled.",
-			"MAINMESSAGE": "The following reservation has been canceled:"
-		},
-		"CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
-			"SUBJECT": "Your reservation request at My  Restaurant with Events has been received.",
-			"TEXT": "Your reservation request on March 27 3:30 PM for 0 at My  Restaurant with Events has been received.",
-			"MAINMESSAGE": "The following reservation request has been received:"
-		},
-		"CUSTOMERRESERVATIONACCEPTED": {
-			"SUBJECT": "Your reservation invite at My  Restaurant with Events has been accepted by Evgeny.",
-			"TEXT": "Evgeny has accepted your invitation to My  Restaurant with Events on March 27 at {{ReservationTime}}",
-			"MAINMESSAGE": "The following reservation invite has been accepted:"
-		},
-		"CUSTOMERRESERVATIONINVITATION": {
-			"SUBJECT": "Invitation from Evgeny to My  Restaurant with Events on March 27 at 3:30 PM",
-			"TEXT": "Evgeny has invited you to My  Restaurant with Events on March 27 at {{ReservationTime}}",
-			"MAINMESSAGE": "You have been invited by Evgeny to the following reservation:"
-		},
-		"CUSTOMERRESRVATIONREJECTED": {
-			"SUBJECT": "Your reservation at My  Restaurant with Events has been rejected",
-			"TEXT": "Your reservation at My  Restaurant with Events has been rejected - {{Booking.Reason}}",
-			"MAINMESSAGE": "The following reservation request has been rejected:"
-		},
-		"CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
-			"SUBJECT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
-			"TEXT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
-			"MAINMESSAGE": "You have accepted the following reservation invite:"
+		"Links": null,
+		"Attachments": [],
+		"I18N": {
+			"GUESTPOLICES": {
+				"TITLE": "Any questions?",
+				"CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.Email}}'>{{Restaurant.Email}}</a>."
+			},
+			"RESTAURANTPOLICES": {
+				"TITLE": "Any questions?",
+				"CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+			},
+			"PROMO": {
+				"TITLE": "Manage your reservations anytime and anywhere!",
+				"CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations � anytime, anywhere."
+			},
+			"RESTPROMO": {
+				"TITLE": "Manage your restaurant anytime and anywhere!",
+				"CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers � anytime, anywhere."
+			},
+			"LABELS": {
+				"PARTY": "Party of",
+				"FOR": "for",
+				"TABLE": "Table #",
+				"ALLERGIES": "Allergies:",
+				"DEPOSIT": "Deposit:",
+				"REASON": "Reason",
+				"REVIEWRESERVATION": "Review the reservation",
+				"MANAGERESERVATION": "Manage your reservation",
+				"VIEWRESERVATION": "View Reservation"
+			},
+			"CHANGEDRESERVATIONNOTIFICATION": {
+				"SUBJECT": "The reservation has been changed",
+				"TEXT": "Reservation on March 27 3:30 PM for 0 Evgeny has been changed.",
+				"MAINMESSAGE": "The following reservation has been changed:"
+			},
+			"CUSTOMERRESERVATIONCONFIRMED": {
+				"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
+				"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
+				"MAINMESSAGE": "The following reservation has been confirmed:"
+			},
+			"CUSTOMERNEWRESERVATIONNOTIFICATION": {
+				"SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
+				"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been confirmed.",
+				"MAINMESSAGE": "The following reservation has been confirmed:"
+			},
+			"NEWRESERVATIONNOTIFICATION": {
+				"SUBJECT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
+				"TEXT": "New reservation on March 27 3:30 PM for Evgeny, party of 0",
+				"MAINMESSAGE": "The following reservation has been confirmed:"
+			},
+			"CUSTOMERCHANGEDRESERVATIONNOTIFICATION": {
+				"SUBJECT": "Your reservation at My  Restaurant with Events has changed.",
+				"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed.",
+				"MAINMESSAGE": "The following reservation has changed:"
+			},
+			"CUSTOMERCANCELEDRESERVATION": {
+				"SUBJECT": "Your reservation at My  Restaurant with Events has been canceled.",
+				"TEXT": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has been canceled.",
+				"MAINMESSAGE": "The following reservation has been canceled:"
+			},
+			"CUSTOMERNEWRESERVATIONREQUESTMAILASYNC": {
+				"SUBJECT": "Your reservation request at My  Restaurant with Events has been received.",
+				"TEXT": "Your reservation request on March 27 3:30 PM for 0 at My  Restaurant with Events has been received.",
+				"MAINMESSAGE": "The following reservation request has been received:"
+			},
+			"CUSTOMERRESERVATIONACCEPTED": {
+				"SUBJECT": "Your reservation invite at My  Restaurant with Events has been accepted by Evgeny.",
+				"TEXT": "Evgeny has accepted your invitation to My  Restaurant with Events on March 27 at {{ReservationTime}}",
+				"MAINMESSAGE": "The following reservation invite has been accepted:"
+			},
+			"CUSTOMERRESERVATIONINVITATION": {
+				"SUBJECT": "Invitation from Evgeny to My  Restaurant with Events on March 27 at 3:30 PM",
+				"TEXT": "Evgeny has invited you to My  Restaurant with Events on March 27 at {{ReservationTime}}",
+				"MAINMESSAGE": "You have been invited by Evgeny to the following reservation:"
+			},
+			"CUSTOMERRESRVATIONREJECTED": {
+				"SUBJECT": "Your reservation at My  Restaurant with Events has been rejected",
+				"TEXT": "Your reservation at My  Restaurant with Events has been rejected - {{Booking.Reason}}",
+				"MAINMESSAGE": "The following reservation request has been rejected:"
+			},
+			"CUSTOMERRESERVATIONACCEPTANCECONFIRMATION": {
+				"SUBJECT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
+				"TEXT": "You have accepted reservation in My  Restaurant with Events on March 27 at March 27 3:30 PM",
+				"MAINMESSAGE": "You have accepted the following reservation invite:"
+			}
 		}
 	}
-}

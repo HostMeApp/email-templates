@@ -1,18 +1,18 @@
 {
-    "Name":"Paymentlink",
+    "Name":"PAYMENTLINK",
     "DisplayName": "Payment link Email",
     "Description": "The email sent initiated from the admin panel.",
-    "Subject": "{{i18n.Paymentlink.SUBJECT}}",
-    "Preheader": "{{i18n.Paymentlink.PREHEADER}}",
-    "Header":"{{i18n.Paymentlink.Header}}",
+    "SUBJECT": "{{I18N.PAYMENTLINK.SUBJECT}}",
+    "PREHEADER": "{{I18N.PAYMENTLINK.PREHEADER}}",
+    "HEADER":"{{I18N.PAYMENTLINK}}",
     "ContentTemplate": {
-      "sms": "{{i18n.Paymentlink.TEXT}}",
-      "push": "{{i18n.Paymentlink.TEXT}}"
+      "sms": "{{I18N.PAYMENTLINK.TEXT}}",
+      "push": "{{I18N.PAYMENTLINK.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.Paymentlink.TITLE}}",
-      "Content": "{{i18n.Paymentlink.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.Paymentlink.BUTTONTEXT}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.PAYMENTLINK.TITLE}}",
+      "Content": "{{I18N.PAYMENTLINK.MAINMESSAGE}}",
+      "ButtonText": "{{I18N.PAYMENTLINK.BUTTONTEXT}}",
       "ButtonUrl": null
     },
   }

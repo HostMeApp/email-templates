@@ -1,18 +1,18 @@
 {
-    "Name":"ExportToCSV",
+    "Name":"EXPORTTOCSV",
     "DisplayName": "Email with the CSV file",
     "Description": "Exported reservations or guestbook",
-    "Subject": "{{i18n.ExportToCSV.SUBJECT}}",
-    "Preheader": "{{i18n.ExportToCSV.PREHEADER}}",
-    "Header":"{{i18n.ExportToCSV.Header}}",
+    "SUBJECT": "{{I18N.EXPORTTOCSV.SUBJECT}}",
+    "PREHEADER": "{{I18N.EXPORTTOCSV.PREHEADER}}",
+    "HEADER":"{{I18N.EXPORTTOCSV}}",
     "ContentTemplate": {
-      "sms": "{{i18n.ExportToCSV.TEXT}}",
-      "push": "{{i18n.ExportToCSV.TEXT}}"
+      "sms": "{{I18N.EXPORTTOCSV.TEXT}}",
+      "push": "{{I18N.EXPORTTOCSV.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.ExportToCSV.TITLE}}",
-      "Content": "{{i18n.ExportToCSV.MAINMESSAGE}}",
-      "ButttonText": "{{i18n.ExportToCSV.BUTTONTEXT}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.EXPORTTOCSV.TITLE}}",
+      "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
+      "ButtonText": "{{I18N.EXPORTTOCSV.BUTTONTEXT}}",
       "ButtonUrl": null
     },
   }

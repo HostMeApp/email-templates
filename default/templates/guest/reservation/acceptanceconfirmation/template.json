@@ -1,20 +1,20 @@
 {
-  "Name": "AcceptanceConfirmation",
+  "Name": "ACCEPTANCECONFIRMATION",
   "DisplayName": "Reservation Invite Accepted",
   "Description": "Email sent to guests to confirm they accepted the reservation invite",
-  "Subject": "{{i18n.AcceptanceConfirmation.SUBJECT}}",
-  "Preheader": "{{i18n.AcceptanceConfirmation.PREHEADER}}",
-  "Header":"{{i18n.AcceptanceConfirmation.Header}}",
+  "SUBJECT": "{{I18N.ACCEPTANCECONFIRMATION.SUBJECT}}",
+  "PREHEADER": "{{I18N.ACCEPTANCECONFIRMATION.PREHEADER}}",
+  "HEADER": "{{I18N.ACCEPTANCECONFIRMATION}}",
   "ContentTemplate": {
-    "sms": "{{i18n.AcceptanceConfirmation.TEXT}}",
-    "push": "{{i18n.AcceptanceConfirmation.TEXT}}"
+    "sms": "{{I18N.ACCEPTANCECONFIRMATION.TEXT}}",
+    "push": "{{I18N.ACCEPTANCECONFIRMATION.TEXT}}"
   },
-  "MainMessage": {
-    "Title": "{{i18n.AcceptanceConfirmation.Title}}",
-    "Content": "{{i18n.AcceptanceConfirmation.CONTENT}}"
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.ACCEPTANCECONFIRMATION.TITLE}}",
+    "Content": "{{I18N.ACCEPTANCECONFIRMATION.CONTENT}}"
   },
   "Booking": {
-    "butttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
 }

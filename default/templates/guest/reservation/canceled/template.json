@@ -1,20 +1,20 @@
 {
-  "Name": "Canceled",
+  "Name": "CANCELED",
   "DisplayName": "Reservation Canceled Notification",
   "Description": "Email sent to restaurant's team when reservation has been canceled",
-  "Subject": "{{i18n.Canceled.SUBJECT}}",
-  "Preheader": "{{i18n.Canceled.PREHEADER}}",
-      "Header":"{{i18n.Canceled.Header}}",
+  "SUBJECT": "{{I18N.CANCELED.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELED.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELED}}",
   "ContentTemplate": {
-    "sms": "{{i18n.Canceled.TEXT}}",
-    "push": "{{i18n.Canceled.TEXT}}"
+    "sms": "{{I18N.CANCELED.TEXT}}",
+    "push": "{{I18N.CANCELED.TEXT}}"
   },
-  "MainMessage": {
-    "Title":"{{i18n.Canceled.Title}}",
-    "Content": "{{i18n.Canceled.MAINMESSAGE}}"
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.CANCELED.TITLE}}",
+    "Content": "{{I18N.CANCELED.MAINMESSAGE}}"
   },
   "Booking": {
-    "ButttonText": "{{i18n.LABELS.MANAGERESERVATION}}",
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
 }

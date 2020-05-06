@@ -1,16 +1,16 @@
 {
-  "Name": "Invitation",
+  "Name": "INVITATION",
   "DisplayName": "Reservation Invitation",
   "Description": "Email sent to guests to invite them to the reservation",
-  "Subject": "{{i18n.Invitation.SUBJECT}}",
-  "Preheader": "{{i18n.Invitation.PREHEADER}}",
-      "Header":"{{i18n.Invitation.Header}}",
+  "SUBJECT": "{{I18N.INVITATION.SUBJECT}}",
+  "PREHEADER": "{{I18N.INVITATION.PREHEADER}}",
+  "HEADER": "{{I18N.INVITATION}}",
   "ContentTemplate": {
-    "sms": "{{i18n.Invitation.TEXT}}",
-    "push": "{{i18n.Invitation.TEXT}}"
+    "sms": "{{I18N.INVITATION.TEXT}}",
+    "push": "{{I18N.INVITATION.TEXT}}"
   },
-  "MainMessage": {
-    "Title":"{{i18n.Invitation.Title}}",
-    "Content": "{{i18n.Invitation.MAINMESSAGE}}"
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.INVITATION.TITLE}}",
+    "Content": "{{I18N.INVITATION.MAINMESSAGE}}"
   }
 }

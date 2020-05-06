@@ -1,21 +1,21 @@
 {
-  "Name": "Approved",
+  "Name": "APPROVED",
   "DisplayName": "Customer is on waitlist",
   "Description": "Notification sent to the guest to inform that he is on a waitlist",
-  "Subject": "{{i18n.Approved.SUBJECT}}",
-  "Preheader": "{{i18n.Approved.PREHEADER}}",
-      "Header":"{{i18n.Approved.Header}}",
+  "SUBJECT": "{{I18N.APPROVED.SUBJECT}}",
+  "PREHEADER": "{{I18N.APPROVED.PREHEADER}}",
+  "HEADER": "{{I18N.APPROVED}}",
   "ContentTemplate": {
-    "sms": "{{i18n.Approved.TEXT}}",
-    "push": "{{i18n.Approved.TEXT}}"
+    "sms": "{{I18N.APPROVED.TEXT}}",
+    "push": "{{I18N.APPROVED.TEXT}}"
   },
-  "MainMessage": {
-    "Title": null,
-    "Content": "{{i18n.Approved.MAINMESSAGE}}",
-    "ButttonText": null,
+  "MAINMESSAGE": {
+    "TITLE": null,
+    "Content": "{{I18N.APPROVED.MAINMESSAGE}}",
+    "ButtonText": null,
     "ButtonUrl": null
   },
   "Booking": {
-    "butttonText": "{{i18n.LABELS.MANAGEWAITLIST}}"
+    "ButtonText": "{{I18N.LABELS.MANAGEWAITLIST}}"
   }
 }

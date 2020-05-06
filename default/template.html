@@ -69,20 +69,20 @@
         }
 
         @media screen and (max-width:480px) {
-            .preheader .rightColumnContent,
+            .PREHEADER .rightColumnContent,
             .footer .rightColumnContent {
                 text-align: left !important;
             }
 
-                .preheader .rightColumnContent div,
-                .preheader .rightColumnContent span,
+                .PREHEADER .rightColumnContent div,
+                .PREHEADER .rightColumnContent span,
                 .footer .rightColumnContent div,
                 .footer .rightColumnContent span {
                     text-align: left !important;
                 }
 
-            .preheader .rightColumnContent,
-            .preheader .leftColumnContent {
+            .PREHEADER .rightColumnContent,
+            .PREHEADER .leftColumnContent {
                 font-size: 80% !important;
                 padding: 5px 0;
             }
@@ -171,20 +171,20 @@
         }
 
         @media screen and (max-width:480px) {
-            .header .img-wrap {
+             .img-wrap {
                 text-align: center !important;
                 min-width: 242px
             }
 
-                .header .img-wrap td {
+                 .img-wrap td {
                     text-align: center !important
                 }
 
-            .header {
+             {
                 padding-left: 40px !important
             }
 
-                .header a, .header img {
+                 a,  img {
                     display: inline-block
                 }
 
@@ -192,19 +192,19 @@
                 max-width: 90% !important
             }
 
-            .header-2 {
+            -2 {
                 text-align: center !important
             }
 
-                .header-2 * {
+                -2 * {
                     padding: 0 !important
                 }
 
-            .preheader + table * {
+            .PREHEADER + table * {
                 text-align: center !important;
             }
 
-            .preheader + table a {
+            .PREHEADER + table a {
                 display: inline-block;
             }
 
@@ -234,7 +234,7 @@
                                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:600px;" align="center">
                                                     <tr>
                                                         <td role="modules-container" style="padding:0px 0px 0px 0px; color:#666666; text-align:left;" bgcolor="#ffffff" width="100%" align="left">
-                                                            <table class="module preheader preheader-hide" role="module" data-type="preheader" border="0" cellpadding="0" cellspacing="0" width="100%" style="display: none !important; mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;">
+                                                            <table class="module preheader preheader-hide" role="module" data-type="PREHEADER" border="0" cellpadding="0" cellspacing="0" width="100%" style="display: none !important; mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;">
                                                                 <tr>
                                                                     <td role="module-content">
                                                                         <p>{{{Preheader}}}</p>
@@ -394,9 +394,9 @@
                                                                                                     <tr>
                                                                                                         <td style="padding:0px 0px 0px 0px; line-height:30px; text-align:inherit; background-color:#fff;" height="100%" valign="top" bgcolor="#fff">
                                                                                                             <div>
-                                                                                                                <div style="font-family: inherit; text-align: inherit">{{#if MainMessage.Title}} {{/if}} {{#if Booking.Reason}} {{/if}}</div>
-                                                                                                                <h2 style="text-align: start"><span style="color: #44413e; font-size: 16px">{{{MainMessage.Title}}}</span></h2>
-                                                                                                                <div style="font-family: inherit; text-align: inherit">{{#if MainMessage.content}}{{{MainMessage.Content}}}{{/if}}</div>
+                                                                                                                <div style="font-family: inherit; text-align: inherit">{{#if MAINMESSAGE.TITLE}} {{/if}} {{#if Booking.Reason}} {{/if}}</div>
+                                                                                                                <h2 style="text-align: start"><span style="color: #44413e; font-size: 16px">{{{MAINMESSAGE.TITLE}}}</span></h2>
+                                                                                                                <div style="font-family: inherit; text-align: inherit">{{#if MAINMESSAGE.content}}{{{MAINMESSAGE.Content}}}{{/if}}</div>
                                                                                                                 <div style="font-family: inherit; text-align: inherit"><strong>{{LABELS.REASON}}:</strong> {{Booking.Reason}}</div><div></div>
                                                                                                             </div>
                                                                                                         </td>
@@ -457,7 +457,7 @@
                                                                                                         <td style="padding:0px 0px 30px 0px; line-height:30px; text-align:inherit; background-color:#fff;" height="100%" valign="top" bgcolor="#fff"><div><div style="font-family: inherit; text-align: inherit">{{{BlockButtonText}}}</div><div></div></div></td>
                                                                                                     </tr>
                                                                                                 </tbody>
-                                                                                            </table><table border="0" cellpadding="0" cellspacing="0" class="module" data-role="module-button" data-type="button" role="module" style="table-layout:fixed" width="100%" data-muid="fwXTWd75bmFQk2P4aSNrUV"><tbody><tr><td align="center" class="outer-td" style="padding:0px 0px 0px 0px;" bgcolor=""><table border="0" cellpadding="0" cellspacing="0" class="button-css__deep-table___2OZyb wrapper-mobile" style="text-align:center"><tbody><tr><td align="center" bgcolor="#e16640" class="inner-td" style="border-radius:6px; font-size:16px; text-align:center; background-color:inherit;"><a style="background-color:#e16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" href="{{MainMessage.ButtonUrl}}" target="_blank">{{MainMessage.ButttonText}}</a></td></tr></tbody></table></td></tr></tbody></table><table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="4XsW3BFt2q8qigVhRWzxss">
+                                                                                            </table><table border="0" cellpadding="0" cellspacing="0" class="module" data-role="module-button" data-type="button" role="module" style="table-layout:fixed" width="100%" data-muid="fwXTWd75bmFQk2P4aSNrUV"><tbody><tr><td align="center" class="outer-td" style="padding:0px 0px 0px 0px;" bgcolor=""><table border="0" cellpadding="0" cellspacing="0" class="button-css__deep-table___2OZyb wrapper-mobile" style="text-align:center"><tbody><tr><td align="center" bgcolor="#e16640" class="inner-td" style="border-radius:6px; font-size:16px; text-align:center; background-color:inherit;"><a style="background-color:#e16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" href="{{MAINMESSAGE.ButtonUrl}}" target="_blank">{{MAINMESSAGE.ButtonText}}</a></td></tr></tbody></table></td></tr></tbody></table><table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="4XsW3BFt2q8qigVhRWzxss">
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td style="padding:40px 0px 0px 0px;" role="module-content" height="100%" valign="top" bgcolor="">
@@ -558,7 +558,7 @@
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
-                                                                                            </table><table border="0" cellpadding="0" cellspacing="0" class="module" data-role="module-button" data-type="button" role="module" style="table-layout:fixed" width="100%" data-muid="fYZm6TG3oD5MsbWBNdjYc2"><tbody><tr><td align="center" class="outer-td" style="padding:0px 0px 0px 0px;" bgcolor=""><table border="0" cellpadding="0" cellspacing="0" class="button-css__deep-table___2OZyb wrapper-mobile" style="text-align:center"><tbody><tr><td align="center" bgcolor="#E16640" class="inner-td" style="border-radius:6px; font-size:16px; text-align:center; background-color:inherit;"><a style="background-color:#E16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" href="{{booking.butttonUrl}}" target="_blank">{{booking.butttonText}}</a></td></tr></tbody></table></td></tr></tbody></table><table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="dFV5bkKxeJ9fJ6edRtoLh4">
+                                                                                            </table><table border="0" cellpadding="0" cellspacing="0" class="module" data-role="module-button" data-type="button" role="module" style="table-layout:fixed" width="100%" data-muid="fYZm6TG3oD5MsbWBNdjYc2"><tbody><tr><td align="center" class="outer-td" style="padding:0px 0px 0px 0px;" bgcolor=""><table border="0" cellpadding="0" cellspacing="0" class="button-css__deep-table___2OZyb wrapper-mobile" style="text-align:center"><tbody><tr><td align="center" bgcolor="#E16640" class="inner-td" style="border-radius:6px; font-size:16px; text-align:center; background-color:inherit;"><a style="background-color:#E16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" href="{{booking.ButtonUrl}}" target="_blank">{{booking.ButtonText}}</a></td></tr></tbody></table></td></tr></tbody></table><table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="dFV5bkKxeJ9fJ6edRtoLh4">
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td style="padding:40px 0px 0px 0px;" role="module-content" height="100%" valign="top" bgcolor="">
@@ -737,8 +737,8 @@
                                                                                                     <tr>
                                                                                                         <td height="100%" valign="top">
                                                                                                             <div>
-                                                                                                                {{#if this.title}}
-                                                                                                                <h2 style="text-align: start"><span style="color: #44413e; font-size: 16px">{{this.title}}</span></h2>
+                                                                                                                {{#if this.TITLE}}
+                                                                                                                <h2 style="text-align: start"><span style="color: #44413e; font-size: 16px">{{this.TITLE}}</span></h2>
                                                                                                                 {{/if}}
 
                                                                                                                 <div>{{#if this.content}} {{{this.content}}} {{/if}}</div>
@@ -800,7 +800,7 @@
                                                                                                     <tr>
                                                                                                         <td style="padding:0px 0px 30px 0px; line-height:30px; text-align:inherit; background-color:#fff;" height="100%" valign="top" bgcolor="#fff">
                                                                                                             <div>
-                                                                                                                <h2 style="text-align: inherit"><span style="font-size: 16px">{{Footer.Title}}</span></h2>
+                                                                                                                <h2 style="text-align: inherit"><span style="font-size: 16px">{{Footer.TITLE}}</span></h2>
                                                                                                                 <div style="font-family: inherit; text-align: inherit">{{Footer.Content}}</div><div></div>
                                                                                                             </div>
                                                                                                         </td>

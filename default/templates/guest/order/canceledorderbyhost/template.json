@@ -1,0 +1,21 @@
+{
+  "Name": "CANCELEDORDER",
+  "DisplayName": "Host Canceled Order",
+  "Description": "Notification sent to a guest to inform that order was canceled.",
+  "SUBJECT": "{{I18N.CANCELEDORDER.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELEDORDER.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELEDORDER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CANCELEDORDER.TEXT}}",
+    "push": "{{I18N.CANCELEDORDER.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": null,
+    "Content": "{{I18N.CANCELEDORDER.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}"
+  }
+}

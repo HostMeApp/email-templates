@@ -3,19 +3,19 @@
   "DisplayName": "Reservation Changed Confirmation",
   "Description": "Email sent to customer to confirm the change",
   "Language": "en",
-  "Subject": "Your reservation at {{restaurant.name}} has changed!",
+  "SUBJECT": "Your reservation at {{restaurant.name}} has changed!",
   "EmailHeader": "<span>The reservation has been changed</span>",
   "EmailFooter": "",
   "Image": "https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg",
   "SmsContent": "",
-  "header": "Reservation changed",
-  "mainMessage": {
-    "title": "From {{restaurant.name}}:",
+  "HEADER": "Reservation changed",
+  "MAINMESSAGE": {
+    "TITLE": "From {{restaurant.name}}:",
     "content": "{{restaurant.welcomeMessage}}",
-    "butttonText": null,
+    "ButtonText": null,
     "buttonUrl": null
   },
   "booking":{
-    "butttonText": "{{labels._managereservation}}"
+    "ButtonText": "{{labels._managereservation}}"
   }
 }

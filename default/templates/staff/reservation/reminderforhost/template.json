@@ -1,19 +1,19 @@
 {
-    "Name":"Reminderforhost",
-    "DisplayName": "Upcoming reservation reminder for restaurant",
+    "Name":"REMINDERFORHOST",
+    "DisplayName": "Upcoming reservation REMINDER for restaurant",
     "Description": "Email to remind restaurant about a reservation based on a rule",
-    "Subject": "{{i18n.Reminderforhost.SUBJECT}}",
-    "Preheader": "{{i18n.Reminderforhost.PREHEADER}}",
-    "Header":"{{i18n.Reminderforhost.Header}}",
+    "SUBJECT": "{{I18N.REMINDERFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.REMINDERFORHOST.PREHEADER}}",
+    "HEADER":"{{I18N.REMINDERFORHOST}}",
     "ContentTemplate": {
-      "sms": "{{i18n.Reminderforhost.TEXT}}",
-      "push": "{{i18n.Reminderforhost.TEXT}}"
+      "sms": "{{I18N.REMINDERFORHOST.TEXT}}",
+      "push": "{{I18N.REMINDERFORHOST.TEXT}}"
     },
-    "MainMessage": {
-  "Title": "{{i18n.Reminderforhost.TITLE}}",
-      "Content": "{{i18n.Reminderforhost.MAINMESSAGE}}",
+    "MAINMESSAGE": {
+  "TITLE": "{{I18N.REMINDERFORHOST.TITLE}}",
+      "Content": "{{I18N.REMINDERFORHOST.MAINMESSAGE}}",
     },
     "Booking": {
-      "butttonText": "{{i18n.LABELS.REVIEWRESERVATION}}"
+      "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
     }
   }

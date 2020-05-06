@@ -1,0 +1,20 @@
+{
+  "Name": "REJECTED",
+  "DisplayName": "Order Rejected",
+  "Description": "Email sent to customer to reject order request",
+  "SUBJECT": "{{I18N.REJECTED.SUBJECT}}",
+  "PREHEADER": "{{I18N.REJECTED.PREHEADER}}",
+  "HEADER": "{{I18N.REJECTED}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.REJECTED.TEXT}}",
+    "push": "{{I18N.REJECTED.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.REJECTED.TITLE}}",
+    "Content": "{{I18N.REJECTED.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}
