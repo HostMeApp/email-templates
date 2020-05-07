@@ -4,7 +4,7 @@
   "Description": "Email sent to restaurant's team when reservation has been CHANGEDFORHOST",
   "SUBJECT": "{{I18N.CHANGEDFORHOST.SUBJECT}}",
   "PREHEADER": "{{I18N.CHANGEDFORHOST.PREHEADER}}",
-  "HEADER": "{{I18N.CHANGEDFORHOST}}",
+  "HEADER": "{{I18N.CHANGEDFORHOST.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.CHANGEDFORHOST.TEXT}}",
     "email": null,

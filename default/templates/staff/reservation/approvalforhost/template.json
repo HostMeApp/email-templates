@@ -4,7 +4,7 @@
   "Description": "This email sent to a restaurant to review the reservation and approve.",
   "SUBJECT": "{{I18N.APPROVALFORHOST.SUBJECT}}",
   "PREHEADER": "{{I18N.APPROVALFORHOST.PREHEADER}}",
-  "HEADER": "{{I18N.APPROVALFORHOST}}",
+  "HEADER": "{{I18N.APPROVALFORHOST.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.APPROVALFORHOST.TEXT}}",
     "push": "{{I18N.APPROVALFORHOST.TEXT}}"

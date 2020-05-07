@@ -1,18 +1,18 @@
 {
-    "Name":"EXPORTTOCSV",
-    "DisplayName": "Email with the CSV file",
-    "Description": "Exported reservations or guestbook",
-    "SUBJECT": "{{I18N.EXPORTTOCSV.SUBJECT}}",
-    "PREHEADER": "{{I18N.EXPORTTOCSV.PREHEADER}}",
-    "HEADER":"{{I18N.EXPORTTOCSV}}",
-    "ContentTemplate": {
-      "sms": "{{I18N.EXPORTTOCSV.TEXT}}",
-      "push": "{{I18N.EXPORTTOCSV.TEXT}}"
-    },
-    "MAINMESSAGE": {
-  "TITLE": "{{I18N.EXPORTTOCSV.TITLE}}",
-      "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
-      "ButtonText": "{{I18N.EXPORTTOCSV.BUTTONTEXT}}",
-      "ButtonUrl": null
-    },
+  "Name": "EXPORTTOCSV",
+  "DisplayName": "Email with the CSV file",
+  "Description": "Exported reservations or guestbook",
+  "SUBJECT": "{{I18N.EXPORTTOCSV.SUBJECT}}",
+  "PREHEADER": "{{I18N.EXPORTTOCSV.PREHEADER}}",
+  "HEADER": "{{I18N.EXPORTTOCSV.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.EXPORTTOCSV.TEXT}}",
+    "push": "{{I18N.EXPORTTOCSV.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.EXPORTTOCSV.TITLE}}",
+    "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.EXPORTTOCSV.BUTTONTEXT}}",
+    "ButtonUrl": null
   }
+}

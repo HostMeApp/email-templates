@@ -4,7 +4,7 @@
   "Description": "Email sent to customer to confirm new reservation",
   "SUBJECT": "{{I18N.NEWRESERVATION.SUBJECT}}",
   "PREHEADER": "{{I18N.NEWRESERVATION.PREHEADER}}",
-  "HEADER": "{{I18N.NEWRESERVATION}}",
+  "HEADER": "{{I18N.NEWRESERVATION.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.NEWRESERVATION.TEXT}}",
     "push": "{{I18N.NEWRESERVATION.TEXT}}"

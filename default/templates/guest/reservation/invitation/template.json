@@ -4,7 +4,7 @@
   "Description": "Email sent to guests to invite them to the reservation",
   "SUBJECT": "{{I18N.INVITATION.SUBJECT}}",
   "PREHEADER": "{{I18N.INVITATION.PREHEADER}}",
-  "HEADER": "{{I18N.INVITATION}}",
+  "HEADER": "{{I18N.INVITATION.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.INVITATION.TEXT}}",
     "push": "{{I18N.INVITATION.TEXT}}"

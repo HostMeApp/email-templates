@@ -4,7 +4,7 @@
   "Description": "Email sent to customer when reservation has been confirmed",
   "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
-  "HEADER": "{{I18N.CONFIRMED}}",
+  "HEADER": "{{I18N.CONFIRMED.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.CONFIRMED.TEXT}}",
     "push": "{{I18N.CONFIRMED.TEXT}}"

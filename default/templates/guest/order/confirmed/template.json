@@ -4,7 +4,7 @@
   "Description": "Notification sent to the guest to inform that his order was confirmed.",
   "SUBJECT": "{{I18N.CONFIRMEDORDER.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMEDORDER.PREHEADER}}",
-  "HEADER": "{{I18N.CONFIRMEDORDER}}",
+  "HEADER": "{{I18N.CONFIRMEDORDER.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.CONFIRMEDORDER.TEXT}}",
     "push": "{{I18N.CONFIRMEDORDER.TEXT}}"

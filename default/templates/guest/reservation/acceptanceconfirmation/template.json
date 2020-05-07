@@ -4,7 +4,7 @@
   "Description": "Email sent to guests to confirm they accepted the reservation invite",
   "SUBJECT": "{{I18N.ACCEPTANCECONFIRMATION.SUBJECT}}",
   "PREHEADER": "{{I18N.ACCEPTANCECONFIRMATION.PREHEADER}}",
-  "HEADER": "{{I18N.ACCEPTANCECONFIRMATION}}",
+  "HEADER": "{{I18N.ACCEPTANCECONFIRMATION.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.ACCEPTANCECONFIRMATION.TEXT}}",
     "push": "{{I18N.ACCEPTANCECONFIRMATION.TEXT}}"

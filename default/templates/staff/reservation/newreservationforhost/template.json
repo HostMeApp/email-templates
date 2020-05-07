@@ -4,7 +4,7 @@
   "Description": "Email sent to restaurant's team when new online reservation has been added",
   "SUBJECT": "{{I18N.NEWRESERVATIONFORHOST.SUBJECT}}",
   "PREHEADER": "{{I18N.NEWRESERVATIONFORHOST.PREHEADER}}",
-  "HEADER": "{{I18N.NEWRESERVATIONFORHOST}}",
+  "HEADER": "{{I18N.NEWRESERVATIONFORHOST.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.NEWRESERVATIONFORHOST.TEXT}}",
     "email": null,

@@ -4,7 +4,7 @@
   "Description": "Email sent to customer to reject order request",
   "SUBJECT": "{{I18N.REJECTED.SUBJECT}}",
   "PREHEADER": "{{I18N.REJECTED.PREHEADER}}",
-  "HEADER": "{{I18N.REJECTED}}",
+  "HEADER": "{{I18N.REJECTED.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.REJECTED.TEXT}}",
     "push": "{{I18N.REJECTED.TEXT}}"

@@ -4,7 +4,7 @@
   "Description": "Notification sent to the guest to inform that his name from removed from list",
   "SUBJECT": "{{I18N.CANCELEDBYHOST.SUBJECT}}",
   "PREHEADER": "{{I18N.CANCELEDBYHOST.PREHEADER}}",
-  "HEADER": "{{I18N.CANCELEDBYHOST}}",
+  "HEADER": "{{I18N.CANCELEDBYHOST.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.CANCELEDBYHOST.TEXT}}",
     "push": "{{I18N.CANCELEDBYHOST.TEXT}}"

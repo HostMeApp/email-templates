@@ -4,7 +4,7 @@
   "Description": "Email sent to guests to confirm their order request was received",
   "SUBJECT": "{{I18N.NEWORDER.SUBJECT}}",
   "PREHEADER": "{{I18N.NEWORDER.PREHEADER}}",
-  "HEADER": "{{I18N.NEWORDER}}",
+  "HEADER": "{{I18N.NEWORDER.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.NEWORDER.TEXT}}",
     "push": "{{I18N.NEWORDER.TEXT}}"

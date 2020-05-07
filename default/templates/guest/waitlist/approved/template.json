@@ -4,7 +4,7 @@
   "Description": "Notification sent to the guest to inform that he is on a waitlist",
   "SUBJECT": "{{I18N.APPROVED.SUBJECT}}",
   "PREHEADER": "{{I18N.APPROVED.PREHEADER}}",
-  "HEADER": "{{I18N.APPROVED}}",
+  "HEADER": "{{I18N.APPROVED.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.APPROVED.TEXT}}",
     "push": "{{I18N.APPROVED.TEXT}}"

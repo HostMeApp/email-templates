@@ -1,18 +1,18 @@
 {
-    "Name":"BLOCKED",
-    "DisplayName": "Restaurant is BLOCKED",
-    "Description": "Restaurant is BLOCKED due to payment issues",
-    "SUBJECT": "{{I18N.BLOCKED.SUBJECT}}",
-    "PREHEADER": "{{I18N.BLOCKED.PREHEADER}}",
-    "HEADER":"{{I18N.BLOCKED}}",
-    "ContentTemplate": {
-      "sms": "{{I18N.BLOCKED.TEXT}}",
-      "push": "{{I18N.BLOCKED.TEXT}}"
-    },
-    "MAINMESSAGE": {
-  "TITLE": "{{I18N.BLOCKED.TITLE}}",
-      "Content": "{{I18N.BLOCKED.MAINMESSAGE}}",
-      "ButtonText": "{{I18N.BLOCKED.BUTTONTEXT}}",
-      "ButtonUrl": null
-    },
+  "Name": "BLOCKED",
+  "DisplayName": "Restaurant is BLOCKED",
+  "Description": "Restaurant is BLOCKED due to payment issues",
+  "SUBJECT": "{{I18N.BLOCKED.SUBJECT}}",
+  "PREHEADER": "{{I18N.BLOCKED.PREHEADER}}",
+  "HEADER": "{{I18N.BLOCKED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.BLOCKED.TEXT}}",
+    "push": "{{I18N.BLOCKED.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.BLOCKED.TITLE}}",
+    "Content": "{{I18N.BLOCKED.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.BLOCKED.BUTTONTEXT}}",
+    "ButtonUrl": null
   }
+}

@@ -4,7 +4,7 @@
   "Description": "Email sent to customer to confirm accepted invitation by guests",
   "SUBJECT": "{{I18N.INVITATIONACCEPTED.SUBJECT}}",
   "PREHEADER": "{{I18N.INVITATIONACCEPTED.PREHEADER}}",
-  "HEADER": "{{I18N.INVITATIONACCEPTED}}",
+  "HEADER": "{{I18N.INVITATIONACCEPTED.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.INVITATIONACCEPTED.TEXT}}",
     "push": "{{I18N.INVITATIONACCEPTED.TEXT}}"

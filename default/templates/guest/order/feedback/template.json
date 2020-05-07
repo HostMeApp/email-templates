@@ -4,7 +4,7 @@
   "Description": "Email sent to a customer after completed order to request private feedback.",
   "SUBJECT": "{{I18N.ORDERFEEDBACK.SUBJECT}}",
   "PREHEADER": "{{I18N.ORDERFEEDBACK.PREHEADER}}",
-  "HEADER": "{{I18N.ORDERFEEDBACK}}",
+  "HEADER": "{{I18N.ORDERFEEDBACK.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.ORDERFEEDBACK.TEXT}}",
     "push": "{{I18N.ORDERFEEDBACK.TEXT}}"

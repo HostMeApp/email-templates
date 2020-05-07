@@ -4,7 +4,7 @@
   "Description": "Notification sent to the guest to inform that they receive request to cancel wait",
   "SUBJECT": "{{I18N.CANCELEDBYGUEST.SUBJECT}}",
   "PREHEADER": "{{I18N.CANCELEDBYGUEST.PREHEADER}}",
-  "HEADER": "{{I18N.CANCELEDBYGUEST}}",
+  "HEADER": "{{I18N.CANCELEDBYGUES.HEADERT}}",
   "ContentTemplate": {
     "sms": "{{I18N.CANCELEDBYGUEST.TEXT}}",
     "push": "{{I18N.CANCELEDBYGUEST.TEXT}}"
