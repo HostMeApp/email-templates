@@ -1,7 +1,7 @@
 {
   "Name": "INVITATIONFORHOST",
   "DisplayName": "Restaurant user INVITATIONFORHOST email",
-  "Description": "The email to accept INVITATIONFORHOST and join a restaurant as a user",
+  "Description": "The email to accept INVITATIONFORHOST and join a restaurant as a user.",
   "SUBJECT": "{{I18N.INVITATIONFORHOST.SUBJECT}}",
   "PREHEADER": "{{I18N.INVITATIONFORHOST.PREHEADER}}",
   "HEADER": "{{I18N.INVITATIONFORHOST.HEADER}}",
