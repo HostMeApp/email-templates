@@ -10,7 +10,6 @@
     "push": "{{I18N.CONFIRMEDORDER.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": null,
     "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}",
     "ButtonText": null,
     "ButtonUrl": null

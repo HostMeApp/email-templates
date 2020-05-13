@@ -10,7 +10,6 @@
     "push": "{{I18N.NEWRESERVATION.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.NEWRESERVATION.TITLE}}",
     "Content": "{{I18N.NEWRESERVATION.CONTENT}}"
   },
   "Booking": {

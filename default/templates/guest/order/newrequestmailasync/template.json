@@ -10,7 +10,6 @@
     "push": "{{I18N.NEWORDER.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.NEWORDER.TITLE}}",
     "Content": "{{I18N.NEWORDER.CONTENT}}"
   },
   "Booking": {

@@ -10,7 +10,6 @@
     "push": "{{I18N.INVITATION.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.INVITATION.TITLE}}",
     "Content": "{{I18N.INVITATION.MAINMESSAGE}}"
   }
 }

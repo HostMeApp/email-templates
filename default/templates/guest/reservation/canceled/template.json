@@ -10,7 +10,6 @@
     "push": "{{I18N.CANCELED.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.CANCELED.TITLE}}",
     "Content": "{{I18N.CANCELED.MAINMESSAGE}}"
   },
   "Booking": {

@@ -10,7 +10,6 @@
     "push": "{{I18N.REMINDERTOPAY.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.REMINDERTOPAY.TITLE}}",
     "Content": "{{I18N.REMINDERTOPAY.MAINMESSAGE}}",
     "ButtonText": "{{I18N.REMINDERTOPAY.BUTTONTEXT}}",
     "ButtonUrl": null

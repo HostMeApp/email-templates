@@ -12,7 +12,7 @@
   },
   "Recipients": [ "restaurant" ],
   "MAINMESSAGE": {
-    "TITLE": null,
+    
     "content": "The following reservation has been changed:",
     "ButtonText": null,
     "buttonUrl": null

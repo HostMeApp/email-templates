@@ -10,7 +10,6 @@
     "push": "{{I18N.WELCOMEGUEST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": null,
     "Content": "{{I18N.WELCOMEGUEST.MAINMESSAGE}}",
     "ButtonText": null,
     "ButtonUrl": null

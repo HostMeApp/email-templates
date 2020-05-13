@@ -10,7 +10,6 @@
     "push": "{{I18N.PAYMENTLINK.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.PAYMENTLINK.TITLE}}",
     "Content": "{{I18N.PAYMENTLINK.MAINMESSAGE}}",
     "ButtonText": "{{I18N.PAYMENTLINK.BUTTONTEXT}}",
     "ButtonUrl": null

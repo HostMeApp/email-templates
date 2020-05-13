@@ -10,7 +10,6 @@
     "push": "{{I18N.FEEDBACK.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.FEEDBACK.TITLE}}",
     "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}",
     "ButtonText": "{{I18N.FEEDBACK.BUTTONTEXT}}",
     "ButtonUrl": null

@@ -10,7 +10,6 @@
     "push": "{{I18N.BLOCKED.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.BLOCKED.TITLE}}",
     "Content": "{{I18N.BLOCKED.MAINMESSAGE}}",
     "ButtonText": "{{I18N.BLOCKED.BUTTONTEXT}}",
     "ButtonUrl": null

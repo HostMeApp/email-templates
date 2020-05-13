@@ -10,7 +10,6 @@
     "push": "{{I18N.RESETPASSWORD.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.RESETPASSWORD.TITLE}}",
     "Content": "{{I18N.RESETPASSWORD.MAINMESSAGE}}",
     "ButtonText": "{{I18N.RESETPASSWORD.BUTTONTEXT}}",
     "ButtonUrl": null

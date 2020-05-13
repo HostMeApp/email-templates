@@ -10,7 +10,6 @@
     "push": "{{I18N.CHANGEDFORINVITEDGUEST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.CHANGEDFORINVITEDGUEST.TITLE}}",
     "Content": "{{I18N.CHANGEDFORINVITEDGUEST.MAINMESSAGE}}",
     "ButtonText": null,
     "ButtonUrl": null

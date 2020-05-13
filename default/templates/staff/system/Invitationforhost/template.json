@@ -10,7 +10,6 @@
     "push": "{{I18N.INVITATIONFORHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.INVITATIONFORHOST.TITLE}}",
     "Content": "{{I18N.INVITATIONFORHOST.MAINMESSAGE}}",
     "ButtonText": "{{I18N.INVITATIONFORHOST.BUTTONTEXT}}",
     "ButtonUrl": null

@@ -94,7 +94,6 @@
     "NEWRESERVATION": {
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Review the reservation",
-      "TITLE": "Reservation Confirmed",
       "CONTENT": "Your reservation",
       "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
@@ -245,7 +244,6 @@
       "PREHEADER": "X days left",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "TITLE": "Please, upgrade.",
       "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{author}} account active. Restaurant account will be blocked after X days if no payment received."
     },
     "BLOCKED": {
@@ -267,7 +265,6 @@
     "EXPORTTOCSV": {
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
       "HEADER": "Your CSV export is ready",
-      "TITLE": "",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {

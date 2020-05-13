@@ -10,7 +10,6 @@
     "push": "{{I18N.CANCELEDORDERBYGUEST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": null,
     "Content": "{{I18N.CANCELEDORDERBYGUEST.MAINMESSAGE}}",
     "ButtonText": null,
     "ButtonUrl": null

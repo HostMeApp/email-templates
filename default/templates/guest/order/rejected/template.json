@@ -10,7 +10,6 @@
     "push": "{{I18N.REJECTED.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.REJECTED.TITLE}}",
     "Content": "{{I18N.REJECTED.MAINMESSAGE}}"
   },
   "Booking": {

@@ -10,7 +10,6 @@
     "push": "{{I18N.REMINDER.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.REMINDER.TITLE}}",
     "Content": "{{I18N.REMINDER.MAINMESSAGE}}"
   },
   "Booking": {

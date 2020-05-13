@@ -10,7 +10,6 @@
     "push": "{{I18N.CANCELEDBYHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": null,
     "Content": "{{I18N.CANCELEDBYHOST.MAINMESSAGE}}",
     "ButtonText": null,
     "ButtonUrl": null

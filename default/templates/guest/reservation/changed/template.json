@@ -4,17 +4,16 @@
   "Description": "Email sent to customer to confirm the change",
   "SUBJECT": "{{I18N.CHANGED.SUBJECT}}",
   "PREHEADER": "{{I18N.CHANGED.PREHEADER}}",
-      "HEADER":"{{I18N.CHANGED.HEADER}}",
+  "HEADER": "{{I18N.CHANGED.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.CHANGED.TEXT}}",
     "push": "{{I18N.CHANGED.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.CHANGED.TITLE}}"
-    "Content": "{{I18N.CHANGED.MAINMESSAGE}}",
+    "Content": "{{I18N.CHANGED.MAINMESSAGE}}"
   },
   "Booking": {
     "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
-   }
+  }
 }

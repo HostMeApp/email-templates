@@ -10,7 +10,6 @@
     "push": "{{I18N.ORDERFEEDBACK.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.ORDERFEEDBACK.TITLE}}",
     "Content": "{{I18N.ORDERFEEDBACK.MAINMESSAGE}}"
   },
   "Booking": {

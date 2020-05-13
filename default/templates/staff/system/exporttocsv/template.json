@@ -10,7 +10,6 @@
     "push": "{{I18N.EXPORTTOCSV.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.EXPORTTOCSV.TITLE}}",
     "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
     "ButtonText": "{{I18N.EXPORTTOCSV.BUTTONTEXT}}",
     "ButtonUrl": null

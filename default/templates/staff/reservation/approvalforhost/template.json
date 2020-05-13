@@ -10,7 +10,6 @@
     "push": "{{I18N.APPROVALFORHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.APPROVALFORHOST.TITLE}}",
     "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}",
     "ButtonText": "{{I18N.APPROVALFORHOST.BUTTONTEXT}}",
     "ButtonUrl": null

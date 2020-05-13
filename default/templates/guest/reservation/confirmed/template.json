@@ -10,7 +10,6 @@
     "push": "{{I18N.CONFIRMED.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.CONFIRMED.TITLE}}",
     "Content": "{{I18N.CONFIRMED.MAINMESSAGE}}"
   },
   "Booking": {

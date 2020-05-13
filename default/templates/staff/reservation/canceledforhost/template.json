@@ -2,17 +2,16 @@
   "Name": ".CANCELEDFORHOST",
   "DisplayName": "Reservation Canceled notification sent to host",
   "Description": "This email sent to a restaurant whenever the cancellation was made by host or a guest.",
-  "SUBJECT": "{{I18N..CANCELEDFORHOST.SUBJECT}}",
-  "PREHEADER": "{{I18N..CANCELEDFORHOST.PREHEADER}}",
-  "HEADER": "{{I18N..CANCELEDFORHOST.HEADER}}",
+  "SUBJECT": "{{I18N.CANCELEDFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELEDFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELEDFORHOST.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N..CANCELEDFORHOST.TEXT}}",
-    "push": "{{I18N..CANCELEDFORHOST.TEXT}}"
+    "sms": "{{I18N.CANCELEDFORHOST.TEXT}}",
+    "push": "{{I18N.CANCELEDFORHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N..CANCELEDFORHOST.TITLE}}",
-    "Content": "{{I18N..CANCELEDFORHOST.MAINMESSAGE}}",
-    "ButtonText": "{{I18N..CANCELEDFORHOST.BUTTONTEXT}}",
+    "Content": "{{I18N.CANCELEDFORHOST.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.CANCELEDFORHOST.BUTTONTEXT}}",
     "ButtonUrl": null
   },
   "Booking": {

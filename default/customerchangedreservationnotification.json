@@ -17,7 +17,7 @@
 			"push": "Your reservation on March 27 3:30 PM for 0 at My  Restaurant with Events has changed."
 		},
 		"MAINMESSAGE": {
-			"TITLE": null,
+
 			"Content": "The following reservation has changed:",
 			"ButtonText": null,
 			"ButtonUrl": null,

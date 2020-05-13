@@ -10,7 +10,7 @@
   "SmsContent": "",
   "HEADER": "Reservation canceled",
   "MAINMESSAGE": {
-    "TITLE": null,
+    
     "content": null,
     "ButtonText": null,
     "buttonUrl": null
