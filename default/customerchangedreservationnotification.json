@@ -1,4 +1,4 @@
-	﻿{
+{
 		"Name": "CustomerChangedReservationNotification",
 		"EnvironmentPrefix": null,
 		"EmailHeader": null,
@@ -217,4 +217,5 @@
 				"MAINMESSAGE": "You have accepted the following reservation invite:"
 			}
 		}
-	}
+
+	 }
