@@ -27,7 +27,16 @@
       "MANAGERESERVATION": "View or Modify",
       "MANAGEORDER": "View My Order",
       "MANAGEWAITLIST": "Manage Your Wait",
-      "VIEWRESERVATION": "View Reservation"
+      "VIEWRESERVATION": "View Reservation",
+      "DELIVERY": "Delivery",
+      "PICKUP": "Pickup"
+    },
+    "ORDER": {
+      "SUBTOTAL": "Subtotal",
+      "DELIVERYFEE": "Delivery Fee",
+      "TAXES": "Taxes",
+      "TIPS": "Tips",
+      "TOTAL": "Total:"
     },
     "CANCELEDORDERBYGUEST": {
       "SUBJECT": "The order has been canceled",
