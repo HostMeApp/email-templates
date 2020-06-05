@@ -1,20 +1,15 @@
 {
-  "Name": "WELCOMEGUEST",
-  "DisplayName": "Welcome Email for guests",
+  "Name": "CAMPAIGN",
+  "DisplayName": "Marketing campaigns draft",
   "Description": "Email sent to guest when they sign up Hostme account",
-  "SUBJECT": "{{I18N.WELCOMEGUEST.SUBJECT}}",
-  "PREHEADER": "{{I18N.WELCOMEGUEST.PREHEADER}}",
-  "HEADER": "{{I18N.WELCOMEGUEST}}",
+  "SUBJECT": "{{I18N.CAMPAIGN.SUBJECT}}",
+  "PREHEADER": "{{I18N.CAMPAIGN.PREHEADER}}",
+  "HEADER": "{{I18N.CAMPAIGN.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N.WELCOMEGUEST.TEXT}}",
-    "push": "{{I18N.WELCOMEGUEST.TEXT}}"
+    "sms": "{{I18N.CAMPAIGN.TEXT}}",
+    "push": "{{I18N.CAMPAIGN.TEXT}}"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.WELCOMEGUEST.MAINMESSAGE}}",
-    "ButtonText": null,
-    "ButtonUrl": null
-  },
-  "Booking": {
-    "ButtonText": null
+    "Content": "{{I18N.CAMPAIGN.MAINMESSAGE}}"
   }
 }

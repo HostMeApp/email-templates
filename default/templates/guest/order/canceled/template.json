@@ -1,7 +1,7 @@
 {
   "Name": "CanceledOrderByGuest",
-  "DisplayName": "Customer Cancels Wait",
-  "Description": "Notification sent to the guest to inform that they receive request to cancel wait",
+  "DisplayName": "Customer Cancels ORDER",
+  "Description": "Notification sent to the guest to inform that they receive request to cancel order",
   "SUBJECT": "{{I18N.CANCELEDORDERBYGUEST.SUBJECT}}",
   "PREHEADER": "{{I18N.CANCELEDORDERBYGUEST.PREHEADER}}",
   "HEADER": "{{I18N.CANCELEDORDERBYGUEST.HEADER}}",
