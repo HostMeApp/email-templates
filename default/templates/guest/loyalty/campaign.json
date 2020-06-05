@@ -1,0 +1,20 @@
+{
+  "Name": "WELCOMEGUEST",
+  "DisplayName": "Welcome Email for guests",
+  "Description": "Email sent to guest when they sign up Hostme account",
+  "SUBJECT": "{{I18N.WELCOMEGUEST.SUBJECT}}",
+  "PREHEADER": "{{I18N.WELCOMEGUEST.PREHEADER}}",
+  "HEADER": "{{I18N.WELCOMEGUEST}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.WELCOMEGUEST.TEXT}}",
+    "push": "{{I18N.WELCOMEGUEST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.WELCOMEGUEST.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": null
+  }
+}
