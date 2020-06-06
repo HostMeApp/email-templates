@@ -1,0 +1,285 @@
+{
+  "I18N": {
+    "GUESTPOLICES": {
+      "TITLE": "!_ Any questions?",
+      "CONTENT": "!_ We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
+    },
+    "RESTAURANTPOLICES": {
+      "TITLE": "!_ Any questions?",
+      "CONTENT": "!_ We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+    },
+    "PROMO": {
+      "TITLE": "!_ Manage your reservations anytime and anywhere!",
+      "CONTENT": "!_ With our apps, you can discover, reserve, and manage restaurant reservations \ufffd anytime, anywhere."
+    },
+    "RESTPROMO": {
+      "TITLE": "!_ Manage your restaurant anytime and anywhere!",
+      "CONTENT": "!_ With our apps, you can manage restaurant reservations, waitlist, tables and servers \ufffd anytime, anywhere."
+    },
+    "LABELS": {
+      "PARTY": "!_ Party of",
+      "FOR": "!_ for",
+      "TABLE": "!_ Table #",
+      "ALLERGIES": "!_ Allergies:",
+      "DEPOSIT": "!_ Deposit:",
+      "REASON": "!_ Reason:",
+      "REVIEWRESERVATION": "!_ View or Modify",
+      "MANAGERESERVATION": "!_ View or Modify",
+      "MANAGEORDER": "!_ View My Order",
+      "MANAGEWAITLIST": "!_ Manage Your Wait",
+      "VIEWRESERVATION": "!_ View Reservation",
+      "DELIVERY": "!_ Delivery",
+      "PICKUP": "!_ Pickup"
+    },
+    "ORDER": {
+      "SUBTOTAL": "!_ Subtotal",
+      "DELIVERYFEE": "!_ Delivery Fee",
+      "TAXES": "!_ Taxes",
+      "TIPS": "!_ Tips",
+      "TOTAL": "!_ Total:"
+    },
+    "CANCELEDORDERBYGUEST": {
+      "SUBJECT": "!_ The order has been canceled",
+      "PREHEADER": "!_ Review the changes",
+      "TEXT": "!_ Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "HEADER": "!_ Order Canceled",
+      "BUTTONTEXT": "!_ View Order Details",
+      "MAINMESSAGE": "!_ The following reservation has been changed:"
+    },
+    "CANCELEDORDERBYHOST": {
+      "SUBJECT": "!_ The order has been canceled",
+      "PREHEADER": "!_ Check the details",
+      "TEXT": "!_ Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "HEADER": "!_ Order Canceled ",
+      "BUTTONTEXT": "!_ View Order Details",
+      "MAINMESSAGE": "!_ The following reservation has been changed:"
+    },
+    "NEWORDER": {
+      "SUBJECT": "!_ Your order at {{Restaurant.Name}} has been confirmed!",
+      "PREHEADER": "!_ Order receipt",
+      "TEXT": "!_ Your order at {{Restaurant.Name}} has been confirmed.",
+      "HEADER": "!_ Order Confirmed",
+      "MAINMESSAGE": "!_ The following order has been confirmed:"
+    },
+    "ORDERFEEDBACK": {
+      "SUBJECT": "!_ Thanks for your order! Leave your feedback.",
+      "PREHEADER": "!_ Help us improve.",
+      "TEXT": "!_ Order on {{Booking.ReservationDateTime}} for  {{Booking.ReservationName}} has been changed.",
+      "HEADER": "!_ Leave a Feedback",
+      "BUTTONTEXT": "!_ Leave a Feedback",
+      "MAINMESSAGE": "!_ Please, help us improve and leave your feedback:"
+    },
+    "REJECTEDORDER": {
+      "SUBJECT": "!_ Order request was rejected",
+      "PREHEADER": "!_ Review the reason",
+      "TEXT": "!_ Your order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been rejected.",
+      "HEADER": "!_ Order Rejected",
+      "MAINMESSAGE": "!_ The following order has been rejected:"
+    },
+    "CHANGED": {
+      "SUBJECT": "!_ The reservation has been changed",
+      "PREHEADER": "!_ Review the changes",
+      "TEXT": "!_ Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "HEADER": "!_ Reservation Changed",
+      "BUTTONTEXT": "!_ Manage your Reservation",
+      "MAINMESSAGE": "!_ The following reservation has been changed:"
+    },
+    "CONFIRMED": {
+      "SUBJECT": "!_ Your reservation at {{Restaurant.Name}} has been confirmed!",
+      "PREHEADER": "!_ Review the reservation",
+      "TEXT": "!_ Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "HEADER": "!_ Reservation Confirmed",
+      "MAINMESSAGE": "!_ The following reservation has been confirmed:"
+    },
+    "NEWRESERVATION": {
+      "SUBJECT": "!_ Your reservation at {{Restaurant.Name}} has been confirmed!",
+      "PREHEADER": "!_ Review the reservation",
+      "CONTENT": "!_ Your reservation",
+      "TEXT": "!_ Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "HEADER": "!_ Reservation Confirmed",
+      "MAINMESSAGE": "!_ The following reservation has been confirmed:"
+    },
+    "CANCELED": {
+      "SUBJECT": "!_ Your reservation at {{Restaurant.Name}} has been canceled.",
+      "PREHEADER": "!_ {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+      "TEXT": "!_ Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
+      "HEADER": "!_ Reservation Canceled",
+      "MAINMESSAGE": "!_ The following reservation has been canceled:"
+    },
+    "NEWRESERVATIONREQUESTMAILASYNC": {
+      "SUBJECT": "!_ Your reservation request at {{Restaurant.Name}} has been received.",
+      "PREHEADER": "!_ {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+      "TEXT": "!_ Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
+      "HEADER": "!_ Request Received",
+      "MAINMESSAGE": "!_ The following reservation request has been received:"
+    },
+    "INVITATIONACCEPTED": {
+      "SUBJECT": "!_ Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
+      "PREHEADER": "!_ {{Guest.CustomerName}} has accepted your invitation",
+      "TEXT": "!_ {{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "HEADER": "!_ Invitation Accepted",
+      "BUTTONTEXT": "!_ ",
+      "MAINMESSAGE": "!_ The following reservation invite has been accepted:"
+    },
+    "INVITATION": {
+      "SUBJECT": "!_ You have been invited to join the {{author}} app!",
+      "PREHEADER": "!_ Accept the invite",
+      "TEXT": "!_ You have been invited to join the {{author}} app!",
+      "HEADER": "!_ You have been invited to join the {{author}} app as {{Role}}!",
+      "BUTTONTEXT": "!_ Accept",
+      "MAINMESSAGE": "!_ "
+    },
+    "REJECTED": {
+      "SUBJECT": "!_ Your reservation at {{Restaurant.Name}} has been rejected",
+      "PREHEADER": "!_ Check the reason",
+      "TEXT": "!_ Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
+      "HEADER": "!_ Reservation Rejected",
+      "MAINMESSAGE": "!_ The following reservation request has been rejected:"
+    },
+    "ACCEPTANCECONFIRMATION": {
+      "SUBJECT": "!_ You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "PREHEADER": "!_ Check your reservation details.",
+      "TEXT": "!_ You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "HEADER": "!_ Reservation Accepted",
+      "MAINMESSAGE": "!_ You have accepted the following reservation invite:"
+    },
+    "REMINDER": {
+      "SUBJECT": "!_ You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "PREHEADER": "!_ Please, cancel if you're not able to come.",
+      "TEXT": "!_ You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "HEADER": "!_ Upcoming Reservation",
+      "MAINMESSAGE": "!_ "
+    },
+    "FEEDBACK": {
+      "SUBJECT": "!_ Leave your feedback for {{Restaurant.Name}}",
+      "PREHEADER": "!_ Only {{Restaurant.Name}} will read",
+      "TEXT": "!_ Leave your feedback for {{Restaurant.Name}}",
+      "HEADER": "!_ Thanks for the visit!",
+      "BUTTONTEXT": "!_ Leave a Feedback",
+      "MAINMESSAGE": "!_ "
+    },
+    "APPROVED": {
+      "HEADER": "!_ You're on the waitlist!",
+      "CONTENT": "!_ Please, check your status by following the link.",
+      "SUBJECT": "!_ You're now on the waitlist at {{Restaurant.Name}}",
+      "PREHEADER": "!_ Check your status",
+      "TEXT": "!_ You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
+      "MAINMESSAGE": "!_ You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
+    },
+    "CALLED": {
+      "HEADER": "!_ Table is Ready",
+      "SUBJECT": "!_ You table at {{Restaurant.Name}} is ready!",
+      "PREHEADER": "!_ We're waiting for you.",
+      "TEXT": "!_ Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
+      "MAINMESSAGE": "!_ Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
+    },
+    "CANCELEDBYGUEST": {
+      "SUBJECT": "!_ You have been removed from the waitlist at {{Restaurant.Name}}",
+      "PREHEADER": "!_ Hope to see you back soon",
+      "TEXT": "!_ You have been removed from the waitlist. We hope to see you next time!",
+      "MAINMESSAGE": "!_ You have been removed from the waitlist. We hope to see you next time!"
+    },
+    "CAMPAIGN": {
+      "SUBJECT": "!_ Some nice subtitle!",
+      "PREHEADER": "!_ Why they should open the email?",
+      "TEXT": "!_ Let's send the text",
+      "MAINMESSAGE": "!_ Promote promote promote!"
+    },
+    "CANCELEDBYHOST": {
+      "SUBJECT": "!_ You have been removed from the waitlist at {{Restaurant.Name}}",
+      "PREHEADER": "!_ ",
+      "TEXT": "!_ We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+      "MAINMESSAGE": "!_ We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
+    },
+    "CHANGEDFORHOST": {
+      "SUBJECT": "!_ The reservation has been changed",
+      "PREHEADER": "!_ Check the changes.",
+      "TEXT": "!_ The reservation for {{GuestName}} {{ReservationDateTime}} has been canceled",
+      "HEADER": "!_ Reservation Changed",
+      "BUTTONTEXT": "!_ ",
+      "MAINMESSAGE": "!_ "
+    },
+    "CANCELEDFORHOST": {
+      "SUBJECT": "!_ The reservation has been changed",
+      "PREHEADER": "!_ Check the changes.",
+      "TEXT": "!_ The reservation for {{GuestName}} {{ReservationDateTime}} has been changed",
+      "HEADER": "!_ Reservation Changed",
+      "BUTTONTEXT": "!_ ",
+      "MAINMESSAGE": "!_ "
+    },
+    "APPROVALFORHOST": {
+      "SUBJECT": "!_ New online reservation request. Action required!",
+      "PREHEADER": "!_ Review Reservation",
+      "TEXT": "!_ New reservation request: {{ReservationDateTime}} / {{GuestName}}. Please review.",
+      "HEADER": "!_ New Request",
+      "BUTTONTEXT": "!_ Review",
+      "MAINMESSAGE": "!_ {{ReservationDateTime}} / {{GuestName}}"
+    },
+    "NEWRESERVATIONFORHOST": {
+      "SUBJECT": "!_ New Reservation!",
+      "PREHEADER": "!_ {{ReservationDateTime}} / {{GuestName}}",
+      "TEXT": "!_ New reservation: {{ReservationDateTime}} / {{GuestName}}",
+      "HEADER": "!_ New Reservation",
+      "BUTTONTEXT": "!_ ",
+      "MAINMESSAGE": "!_ "
+    },
+    "REMINDERFORHOST": {
+      "SUBJECT": "!_ Upcoming reservation reminder",
+      "PREHEADER": "!_ {{GuestName}} / {{ReservationDateTime}}",
+      "TEXT": "!_ Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
+      "HEADER": "!_ Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
+      "BUTTONTEXT": "!_ Manage the Reservation",
+      "MAINMESSAGE": "!_ "
+    },
+    "INVITATIONFORHOST": {
+      "SUBJECT": "!_ You have been invited to join the {{author}} app!",
+      "PREHEADER": "!_ Follow the link to accept the invitation",
+      "HEADER": "!_ You have been invited to join the {{author}} app as {{Role}}!",
+      "BUTTONTEXT": "!_ Accept",
+      "MAINMESSAGE": "!_ "
+    },
+    "PAYMENTLINK": {
+      "SUBJECT": "!_ Pay for the {{author}} {{PlanName}} plan",
+      "PREHEADER": "!_ Follow the payment link to complete {{author}} {{PlanName}}",
+      "HEADER": "!_ Subscribe",
+      "BUTTONTEXT": "!_ Subscribe",
+      "MAINMESSAGE": "!_ "
+    },
+    "REMINDERTOPAY": {
+      "SUBJECT": "!_ Your staff reminds you to upgrade your {{author}} plan",
+      "PREHEADER": "!_ X days left",
+      "HEADER": "!_ Billing",
+      "BUTTONTEXT": "!_ Billing",
+      "MAINMESSAGE": "!_ Your staff reminds you to solve billing issues to remain {{author}} account active. Restaurant account will be blocked after X days if no payment received."
+    },
+    "BLOCKED": {
+      "SUBJECT": "!_ Restaurant is blocked",
+      "PREHEADER": "!_ Please, check your payment settings",
+      "TEXT": "!_ Your restaurant account was blocked. Please, check your payment settings or upgrade.",
+      "HEADER": "!_ Your restaurant is blocked",
+      "BUTTONTEXT": "!_ Billing",
+      "MAINMESSAGE": "!_ Your restaurant account was blocked. Please, check your payment settings or upgrade."
+    },
+    "RESETPASSWORD": {
+      "SUBJECT": "!_ Your {{author}} password was successfully reset",
+      "PREHEADER": "!_ Password inside",
+      "TEXT": "!_ Your {{author}} password was successfully reset",
+      "HEADER": "!_ Your {{author}} password was successfully reset",
+      "BUTTONTEXT": "!_ Sign In",
+      "MAINMESSAGE": "!_ Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
+    },
+    "EXPORTTOCSV": {
+      "SUBJECT": "!_ Your CSV export is ready {{CsvFileName}}",
+      "HEADER": "!_ Your CSV export is ready",
+      "MAINMESSAGE": "!_ "
+    },
+    "WELCOMEFORHOST": {
+      "SUBJECT": "!_ Welcome to the {{author}} app!",
+      "PREHEADER": "!_ How to start",
+      "HEADER": "!_ Welcome to {{author}}!",
+      "BUTTONTEXT": "!_ Learn more",
+      "TITLE": "!_ How to start",
+      "MAINMESSAGE": "!_ Thanks for signing up with {{author}}! Please, complete your registration to remain access..."
+    }
+  }
+}

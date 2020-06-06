@@ -1,5 +1,5 @@
 {
-  "Name": ".CANCELEDFORHOST",
+  "Name": "CANCELEDFORHOST",
   "DisplayName": "Reservation Canceled notification sent to host",
   "Description": "This email sent to a restaurant whenever the cancellation was made by host or a guest.",
   "SUBJECT": "{{I18N.CANCELEDFORHOST.SUBJECT}}",
