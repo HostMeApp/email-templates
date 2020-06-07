@@ -1,5 +1,5 @@
 {
-  "Name": "CanceledOrderByGuest",
+  "Name": "CANCELEDORDERBYGUEST",
   "DisplayName": "Customer Cancels ORDER",
   "Description": "Notification sent to the guest to inform that they receive request to cancel order",
   "SUBJECT": "{{I18N.CANCELEDORDERBYGUEST.SUBJECT}}",

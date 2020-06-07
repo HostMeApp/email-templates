@@ -1,16 +1,16 @@
 {
-  "Name": "NEWORDER",
+  "Name": "ORDERREQUEST",
   "DisplayName": "Your Order has been Received",
   "Description": "Email sent to guests to confirm their order request was received",
-  "SUBJECT": "{{I18N.NEWORDER.SUBJECT}}",
-  "PREHEADER": "{{I18N.NEWORDER.PREHEADER}}",
-  "HEADER": "{{I18N.NEWORDER.HEADER}}",
+  "SUBJECT": "{{I18N.ORDERREQUEST.SUBJECT}}",
+  "PREHEADER": "{{I18N.ORDERREQUEST.PREHEADER}}",
+  "HEADER": "{{I18N.ORDERREQUEST.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N.NEWORDER.TEXT}}",
-    "push": "{{I18N.NEWORDER.TEXT}}"
+    "sms": "{{I18N.ORDERREQUEST.TEXT}}",
+    "push": "{{I18N.ORDERREQUEST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.NEWORDER.CONTENT}}"
+    "Content": "{{I18N.ORDERREQUEST.CONTENT}}"
   },
   "Booking": {
     "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
