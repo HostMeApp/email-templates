@@ -1,0 +1,21 @@
+{
+  "Name": "ORDERREADY",
+  "DisplayName": "Order is Ready",
+  "Description": "Notification sent to the guest to inform that his order is ready for pickup.",
+  "SUBJECT": "{{I18N.ORDERREADY.SUBJECT}}",
+  "PREHEADER": "{{I18N.ORDERREADY.PREHEADER}}",
+  "HEADER": "{{I18N.ORDERREADY.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.ORDERREADY.TEXT}}",
+    "push": "{{I18N.ORDERREADY.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.ORDERREADY.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

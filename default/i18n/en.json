@@ -67,6 +67,13 @@
       "HEADER": "Order Confirmed",
       "MAINMESSAGE": "The following order has been confirmed:"
     },
+    "ORDERREADY": {
+      "SUBJECT": "Your order at {{Restaurant.Name}} is ready!",
+      "PREHEADER": "Order is ready",
+      "TEXT": "Your order at {{Restaurant.Name}} is ready for pickup.",
+      "HEADER": "Order Is Ready",
+      "MAINMESSAGE": "The following order is ready for pickup:"
+    },
     "ORDERREQUEST": {
       "DISPLAYNAME": "Your Order has been Received",
       "DESCRIPTION": "Email sent to guests to confirm their order request was received",
