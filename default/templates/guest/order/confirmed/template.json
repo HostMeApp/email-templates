@@ -1,7 +1,7 @@
 {
   "Name": "CONFIRMEDORDER",
-  "DisplayName": "Order Confirmed",
-  "Description": "Notification sent to the guest to inform that his order was confirmed.",
+  "DisplayName": "{{I18N.CONFIRMEDORDER.DISPLAYNAME}}",
+  "Description": "{{I18N.CONFIRMEDORDER.DESCRIPTION}}",
   "SUBJECT": "{{I18N.CONFIRMEDORDER.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMEDORDER.PREHEADER}}",
   "HEADER": "{{I18N.CONFIRMEDORDER.HEADER}}",

@@ -1,7 +1,7 @@
 {
   "Name": "CHANGEDFORINVITEDGUEST",
-  "DisplayName": "Reservation Changed Confirmation",
-  "Description": "Email sent to customer's friends to confirm the change",
+  "DisplayName": "{{I18N.CHANGEDFORINVITEDGUEST.DISPLAYNAME}}",
+  "Description": "{{I18N.CHANGEDFORINVITEDGUEST.DESCRIPTION}}",
   "SUBJECT": "{{I18N.CHANGEDFORINVITEDGUEST.SUBJECT}}",
   "PREHEADER": "{{I18N.CHANGEDFORINVITEDGUEST.PREHEADER}}",
   "HEADER": "{{I18N.CHANGEDFORINVITEDGUEST.HEADER}}",

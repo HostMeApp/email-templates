@@ -1,7 +1,7 @@
 {
   "Name": "ACCEPTANCECONFIRMATION",
-  "DisplayName": "Reservation Invite Accepted",
-  "Description": "Email sent to guests to confirm they accepted the reservation invite",
+  "DisplayName": "{{I18N.ACCEPTANCECONFIRMATION.DISPLAYNAME}}",
+  "Description": "{{I18N.ACCEPTANCECONFIRMATION.DESCRIPTION}}",
   "SUBJECT": "{{I18N.ACCEPTANCECONFIRMATION.SUBJECT}}",
   "PREHEADER": "{{I18N.ACCEPTANCECONFIRMATION.PREHEADER}}",
   "HEADER": "{{I18N.ACCEPTANCECONFIRMATION.HEADER}}",

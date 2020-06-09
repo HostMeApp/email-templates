@@ -1,7 +1,7 @@
 {
   "Name": "INVITATION",
-  "DisplayName": "Reservation Invitation",
-  "Description": "Email sent to guests to invite them to the reservation",
+  "DisplayName": "{{I18N.INVITATION.DISPLAYNAME}}",
+  "Description": "{{I18N.INVITATION.DESCRIPTION}}",
   "SUBJECT": "{{I18N.INVITATION.SUBJECT}}",
   "PREHEADER": "{{I18N.INVITATION.PREHEADER}}",
   "HEADER": "{{I18N.INVITATION.HEADER}}",

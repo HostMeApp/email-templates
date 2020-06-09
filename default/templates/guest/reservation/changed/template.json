@@ -1,7 +1,7 @@
 {
   "Name": "CHANGED",
-  "DisplayName": "Reservation Changed Confirmation",
-  "Description": "Email sent to customer to confirm the change",
+  "DisplayName": "{{I18N.CHANGED.DISPLAYNAME}}",
+  "Description": "{{I18N.CHANGED.DESCRIPTION}}",
   "SUBJECT": "{{I18N.CHANGED.SUBJECT}}",
   "PREHEADER": "{{I18N.CHANGED.PREHEADER}}",
   "HEADER": "{{I18N.CHANGED.HEADER}}",

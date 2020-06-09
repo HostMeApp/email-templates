@@ -1,7 +1,7 @@
 {
   "Name": "NEWRESERVATION",
-  "DisplayName": "Reservation Confirmation",
-  "Description": "Email sent to customer to confirm new reservation",
+  "DisplayName": "{{I18N.NEWRESERVATION.DISPLAYNAME}}",
+  "Description": "{{I18N.NEWRESERVATION.DESCRIPTION}}",
   "SUBJECT": "{{I18N.NEWRESERVATION.SUBJECT}}",
   "PREHEADER": "{{I18N.NEWRESERVATION.PREHEADER}}",
   "HEADER": "{{I18N.NEWRESERVATION.HEADER}}",

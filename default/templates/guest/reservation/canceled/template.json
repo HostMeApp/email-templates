@@ -1,7 +1,7 @@
 {
   "Name": "CANCELED",
-  "DisplayName": "Reservation Canceled Notification",
-  "Description": "Email sent to restaurant's team when reservation has been canceled",
+  "DisplayName": "{{I18N.CANCELED.DISPLAYNAME}}",
+  "Description": "{{I18N.CANCELED.DESCRIPTION}}",
   "SUBJECT": "{{I18N.CANCELED.SUBJECT}}",
   "PREHEADER": "{{I18N.CANCELED.PREHEADER}}",
   "HEADER": "{{I18N.CANCELED.HEADER}}",

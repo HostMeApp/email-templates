@@ -1,0 +1,19 @@
+{
+  "Name": "RESERVATIONREQUEST",
+  "DisplayName": "{{I18N.RESERVATIONREQUEST.DISPLAYNAME}}",
+  "Description": "{{I18N.RESERVATIONREQUEST.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.RESERVATIONREQUEST.SUBJECT}}",
+  "PREHEADER": "{{I18N.RESERVATIONREQUEST.PREHEADER}}",
+  "HEADER": "{{I18N.RESERVATIONREQUEST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.RESERVATIONREQUEST.TEXT}}",
+    "push": "{{I18N.RESERVATIONREQUEST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.RESERVATIONREQUEST.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

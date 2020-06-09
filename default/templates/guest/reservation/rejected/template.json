@@ -1,7 +1,7 @@
 {
   "Name": "REJECTED",
-  "DisplayName": "Reservation Rejected",
-  "Description": "Email sent to customer to reject reservation request",
+  "DisplayName": "{{I18N.REJECTED.DISPLAYNAME}}",
+  "Description": "{{I18N.REJECTED.DESCRIPTION}}",
   "SUBJECT": "{{I18N.REJECTED.SUBJECT}}",
   "PREHEADER": "{{I18N.REJECTED.PREHEADER}}",
   "HEADER": "{{I18N.REJECTED.HEADER}}",

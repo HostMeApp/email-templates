@@ -1,7 +1,7 @@
 {
   "Name": "CONFIRMED",
-  "DisplayName": "Reservation Confirmation Notification",
-  "Description": "Email sent to customer when reservation has been confirmed",
+  "DisplayName": "{{I18N.CONFIRMED.DISPLAYNAME}}",
+  "Description": "{{I18N.CONFIRMED.DESCRIPTION}}",
   "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
   "HEADER": "{{I18N.CONFIRMED.HEADER}}",

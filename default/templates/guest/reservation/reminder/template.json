@@ -1,7 +1,7 @@
 {
   "Name": "REMINDER",
-  "DisplayName": "Upcoming Reservation",
-  "Description": "Email sent to customer to remind about upcoming reservation request",
+  "DisplayName": "{{I18N.REMINDER.DISPLAYNAME}}",
+  "Description": "{{I18N.REMINDER.DESCRIPTION}}",
   "SUBJECT": "{{I18N.REMINDER.SUBJECT}}",
   "PREHEADER": "{{I18N.REMINDER.PREHEADER}}",
   "HEADER": "{{I18N.REMINDER.HEADER}}",

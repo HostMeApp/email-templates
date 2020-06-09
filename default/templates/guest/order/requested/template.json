@@ -1,7 +1,7 @@
 {
   "Name": "ORDERREQUEST",
-  "DisplayName": "Your Order has been Received",
-  "Description": "Email sent to guests to confirm their order request was received",
+  "DisplayName": "{{I18N.ORDERREQUEST.DISPLAYNAME}}",
+  "Description": "{{I18N.ORDERREQUEST.DESCRIPTION}}",
   "SUBJECT": "{{I18N.ORDERREQUEST.SUBJECT}}",
   "PREHEADER": "{{I18N.ORDERREQUEST.PREHEADER}}",
   "HEADER": "{{I18N.ORDERREQUEST.HEADER}}",

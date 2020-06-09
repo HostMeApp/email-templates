@@ -1,7 +1,7 @@
 {
   "Name": "FEEDBACK",
-  "DisplayName": "Feedback request",
-  "Description": "Email sent to customer to request a feedback after visit.",
+  "DisplayName": "{{I18N.FEEDBACK.DISPLAYNAME}}",
+  "Description": "{{I18N.FEEDBACK.DESCRIPTION}}",
   "SUBJECT": "{{I18N.FEEDBACK.SUBJECT}}",
   "PREHEADER": "{{I18N.FEEDBACK.PREHEADER}}",
   "HEADER": "{{I18N.FEEDBACK.HEADER}}",
