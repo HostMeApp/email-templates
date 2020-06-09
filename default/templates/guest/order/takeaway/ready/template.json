@@ -1,7 +1,7 @@
 {
   "Name": "ORDERREADY",
-  "DisplayName": "Order is Ready",
-  "Description": "Notification sent to the guest to inform that his order is ready for pickup.",
+  "DisplayName": "{{I18N.ORDERREADY.DISPLAYNAME}}",
+  "Description": "{{I18N.ORDERREADY.DESCRIPTION}}",
   "SUBJECT": "{{I18N.ORDERREADY.SUBJECT}}",
   "PREHEADER": "{{I18N.ORDERREADY.PREHEADER}}",
   "HEADER": "{{I18N.ORDERREADY.HEADER}}",

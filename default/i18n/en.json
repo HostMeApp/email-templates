@@ -43,20 +43,20 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
-      "MAINMESSAGE": "The following reservation has been changed:"
+      "MAINMESSAGE": "The following order has been canceled:"
     },
-    "CHANGED": {
-      "DISPLAYNAME": "Reservation Changed Confirmation",
+    "CHANGEDORDER": {
+      "DISPLAYNAME": "Order Changed Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm the change",
-      "SUBJECT": "The reservation has been changed",
+      "SUBJECT": "The order has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "Manage your Reservation",
-      "MAINMESSAGE": "The following reservation has been changed:"
+      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "HEADER": "Order Changed",
+      "BUTTONTEXT": "View Order Details",
+      "MAINMESSAGE": "The following order has been changed:"
     },
     "CONFIRMEDORDER": {
       "DISPLAYNAME": "Order Confirmed",
@@ -68,6 +68,8 @@
       "MAINMESSAGE": "The following order has been confirmed:"
     },
     "ORDERREADY": {
+      "DISPLAYNAME": "Order is Ready",
+      "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
       "SUBJECT": "Your order at {{Restaurant.Name}} is ready!",
       "PREHEADER": "Order is ready",
       "TEXT": "Your order at {{Restaurant.Name}} is ready for pickup.",
