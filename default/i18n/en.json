@@ -29,7 +29,10 @@
       "MANAGEWAITLIST": "Manage Your Wait",
       "VIEWRESERVATION": "View Reservation",
       "DELIVERY": "Delivery",
-      "PICKUP": "Pickup"
+      "PICKUP": "Pickup",
+      "NOTES": "Notes:",
+      "STATUS": "Status:",
+      "AREA": "Seating Area:"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",
