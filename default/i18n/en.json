@@ -125,9 +125,9 @@
       "HEADER": "Reservation Canceled",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
-    "CHANGEDFORINVITEDGUEST": {
+    "CHANGED": {
       "DISPLAYNAME": "Reservation Changed Confirmation",
-      "DESCRIPTION": "Email sent to customer's friends to confirm the change",
+      "DESCRIPTION": "Email sent to customers to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
       "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
