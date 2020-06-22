@@ -230,6 +230,15 @@
       "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
       "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
     },
+    "SEATED": {
+      "DISPLAYNAME": "Customer is seated",
+      "DESCRIPTION": "Notification sent to the guest when he was seated",
+      "HEADER": "Thanks for dining with us",
+      "SUBJECT": "Thanks for dining with us",
+      "PREHEADER": "Thanks for dining with us",
+      "TEXT": "Thanks for dining with us!",
+      "MAINMESSAGE": "Thanks for dining with us"
+    },
     "CANCELEDBYGUEST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
