@@ -1,0 +1,8 @@
+<div>
+    <p><strong>{{Booking.ReservationDateTime}}</strong></p>
+    {{#if Booking.DeliveryType.Delivery}}<p>{{LABELS.DELIVERY}}</p>{{/if}}
+    {{#if Booking.DeliveryType.Pickup}} <p>{{LABELS.PICKUP}}</p>{{/if}}
+    <p>{{LABELS.FOR}} {{Guest.CustomerName}}</p>
+    <p>{{Guest.Phone}}</p>
+    <p>{{Booking.DeliveryAddress}}</p>
+</div>
