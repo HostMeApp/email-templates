@@ -1,11 +1,11 @@
-{{#if CUSTOMUI.SHOWPOLICY2}}
-{{#each RestaurantPolices}}
+{{#if CUSTOMUI.SHOWPOLICY}}
+{{#each GuestPolices}}
 <div>
-    {{#if this.Title}} {{#if @root.CUSTOMUI.SHOWPOLICY2TITLE}}
+    {{#if this.Title}}
     <h2 style="text-align: start;margin-top:0"><span style="color: #44413e; font-size: 16px">{{this.Title}}</span></h2>
-    {{/if}} {{/if}}
+    {{/if}}
 
     <div>{{#if this.Content}} {{{this.Content}}} {{/if}}</div>
 </div>
-{{/each}}         
+{{/each}} 
 {{/if}}

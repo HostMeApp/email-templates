@@ -65,8 +65,13 @@
     "ReservationDateTime": "June 20 12:15 PM",
     "PartySize": 1,
     "Status": "Confirmed",
-    "Areas": "",
+    "Areas": "Near the South window.",
     "Duration": "1 h 30 m",
+    "Deposit": "usd10.00",
+    "TableNumber": 6,
+    "TableNotes": "Romantic place with candles.",
+    "Allergies": "Onion, Peanut",
+    "BookingNote": "Please bring the vase.",
     "TimeToLeave": "1:45 PM",
     "Order": {
       "Total": "usd12.00",
@@ -99,7 +104,10 @@
         "Tips": "usd0.00"
       }
     },
-    "DeliveryType": "takeaway",
+    "DeliveryType": {
+      "Delivery": false,
+      "Pickup": false
+    },
     "JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"f42c5cdae9c8471aa2ed509c1db9053c\",\"reservationStatus\":\"Approved\",\"underName\":{\"@type\":\"Person\"},\"bookingTime\":\"2020-06-20T12:10:04.7641329+03:00\",\"partySize\":1,\"programMembership\":{\"memberNumber\":\"54990\",\"program\":\"Hostme\"},\"startTime\":\"2020-06-20T12:15:00+03:00\"}</script>",
     "ButtonText": "View My Order",
     "ButtonUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/6171/?r=f42c5cdae9c8471aa2ed509c1db9053c&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImY0MmM1Y2RhZTljODQ3MWFhMmVkNTA5YzFkYjkwNTNjIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1OTI2NDQyNDIsImV4cCI6MTU5MjY0Nzg0MiwiaWF0IjoxNTkyNjQ0MjQyLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.Z6X-OtYLsmD9sE3io-vSJedFf6NMONO3RWNc8JaCR_c",
@@ -171,6 +179,7 @@
     "LABELS": {
       "PARTY": "Party of",
       "FOR": "for",
+      "DURATION": "Duration:",
       "TABLE": "Table #",
       "ALLERGIES": "Allergies:",
       "DEPOSIT": "Deposit:",
@@ -531,18 +540,18 @@
     "SHOWMESSAGE": true,
     "SHOWREASON": true,
     "SHOWMANAGEBUTTON": true,
+    "SHOWDURATION": true,
+    "SHOWDEPOSIT": true,
+    "SHOWTABLENUMBER": true,
+    "SHOWTABLENOTES": true,
+    "SHOWALLERGIES": true,
+    "SHOWAREAS": true,
+    "SHOWNOTE": true,
     "SHOWRESTAURANTDETAILS": true,
     "SHOWRESTAURANTADDRESS": true,
     "SHOWRESTAURANTSERVICES": true,
     "SHOWPOLICY": true,
-    "SHOWPOLICYTITLE": true,
-    "SHOWPOLICY2": true,
-    "SHOWPOLICY2TITLE": true,
     "SHOWPROMO": true,
-    "SHOWAPPSTORE": true,
-    "SHOWGOOGLEPLAY": true,
-    "SHOWTABLENUMBER": true,
-    "SHOWREASON": true,
     "SHOWORDER": true
   }
 }
