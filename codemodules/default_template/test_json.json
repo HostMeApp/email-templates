@@ -522,12 +522,27 @@
     }
   },
   "CUSTOMUI": {
+    "SHOWAUTHORLOGO": true,
+    "SHOWTWITTER": true,
+    "SHOWFACEBOOK": true,
+    "SHOWINSTAGRAM": true,
+    "SHOWRESTAURANTLOGO": true,
+    "SHOWMESSAGETITLE": true,
+    "SHOWMESSAGE": true,
+    "SHOWREASON": true,
+    "SHOWMANAGEBUTTON": true,
+    "SHOWRESTAURANTDETAILS": true,
+    "SHOWRESTAURANTADDRESS": true,
+    "SHOWRESTAURANTSERVICES": true,
+    "SHOWPOLICY": true,
+    "SHOWPOLICYTITLE": true,
+    "SHOWPOLICY2": true,
+    "SHOWPOLICY2TITLE": true,
+    "SHOWPROMO": true,
+    "SHOWAPPSTORE": true,
+    "SHOWGOOGLEPLAY": true,
     "SHOWTABLENUMBER": true,
     "SHOWREASON": true,
-    "SHOWORDER": true,
-    "SHOWRESTAURANTADDRESS": true,
-    "SHOWPOLICY": true,
-    "SHOWMESSAGETITLE": true,
-    "SHOWMESSAGE": true
+    "SHOWORDER": true
   }
 }

@@ -1,19 +1,27 @@
 
 {{#if Branding.Logo}}
 <div class="res-logo" style="text-align:right;display:inline-block;width:49%;">
+    {{#if SHOWAUTHORLOGO}}
     <a style="text-align:left" href="{{Branding.LogoLink}}">
         <img width="100" class="max-width" style="display:block;height:auto" alt="" src="{{Branding.Logo}}" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
+    {{/if}}
 </div>
 <div style="text-align:right;display:inline-block;width:50%;">
+    {{#if SHOWTWITTER}}
     <a href="{{Restaurant.Social.Twitter}}">
         <img width="24" height="24" class="max-width" style="display:inline-block;" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/9be9247fb27e66027399cd9861e6aa52bb5540c83ffa0a7b26387edb7a81e142e35f9a37b7f5345c4c2d28da7f11753599ff7ec6d6c7f4d0af606134c7ad2637.png" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
+    {{/if}}
+    {{#if SHOWFACEBOOK}}
     <a href="{{Restaurant.Social.Facebook}}">
         <img width="24" height="24" class="max-width" style="display:inline-block" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/1b784106d74f812f67447ccf936630d51a2d53f8ce81067eb5590df71328dce2cdf0f77aeb319da56ffe93c3e5efcf34de788f2e95389e26118794efff358af5.png" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
+    {{/if}}
+    {{#if SHOWINSTAGRAM}}
     <a href="{{Restaurant.Social.Instagram}}">
         <img width="24" height="24" class="max-width" style="display:inline-block;" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/6cc238e9428e0431d67b1b6e6c77a409433ca1396dca2535dd442bd46b5473c5ded8a0dd1f0ecf66f7dbba1cfcb535bcce871c4c5b31070150b68cee0734c5bf.png" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
+    {{/if}}
 </div>
 {{/if}}

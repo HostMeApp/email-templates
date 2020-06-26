@@ -1,0 +1,22 @@
+{{#if CUSTOMUI.SHOWPROMO}}
+<div style="text-align:center" class="mobile-no-padding">
+    <table>
+        <tr>
+            {{#if CUSTOMUI.SHOWAPPSTORE}}
+            <td>
+                <a style="display:inline-block" href="{{Promo.Links.0.Link}}">
+                    <img width="283.1" class="max-width" style="display:blockmax-width:95%;width:95%;height:auto" alt="" src="{{Promo.Links.0.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true">
+                </a>
+            </td>
+            {{/if}}
+            {{#if CUSTOMUI.SHOWGOOGLEPLAY}}
+            <td>
+                <a style="display:inline-block" href="{{Promo.Links.1.Link}}">
+                    <img width="283.1" class="max-width" style="display:blockmax-width:95%;width:95%;height:auto" alt="" src="{{Promo.Links.1.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true">
+                </a>
+            </td>
+            {{/if}}
+        </tr>
+    </table>
+</div>
+{{/if}}

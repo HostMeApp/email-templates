@@ -1,0 +1,15 @@
+{{#if CUSTOMUI.SHOWRESTAURANTADDRESS}}
+<div>
+    <table class="map" style="min-height:135px;max-width: 100%;display: block;padding:49px 42% 53px 42%;background-repeat: no-repeat; background-size:contain;background-image:url( {{Restaurant.Map.MapUrl}} )" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td style="padding:0px 5px 0px 0px;border:none">
+                    {{#if Restaurant.Map.Marker}}	
+                    <img width="60" height="70" class="icon" src="{{Restaurant.Map.Marker}}">
+                    {{/if}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{{/if}}

@@ -1,9 +1,9 @@
 <div class="res-logo">
-    {{#if Restaurant.Logo }}
+    {{#if Restaurant.Logo}} {{#if CUSTOMUI.SHOWRESTAURANTLOGO}}
     <a style="display:inline-block;vertical-align:middle;line-height:60px" href="{{Restaurant.Links.GuestAppUrl}}">
         <img width="60" class="max-width" style="display:block;height:auto" alt="" src="{{Restaurant.Logo}}" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
-    {{/if}}
+    {{/if}} {{/if}}
     <div class="res-name" style="padding-left: 30px; display:inline-block;vertical-align:middle;line-height:60px"><strong><font color="#44413e"><span style="font-size: 24px;">{{Restaurant.Name}}</span></font></strong></div>
 </div>
 
