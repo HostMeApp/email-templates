@@ -1,5 +1,0 @@
-{{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
-{{Restaurant.Name}}
-{{Restaurant.Address}}
-{{Restaurant.Phone}}
-{{/if}}
