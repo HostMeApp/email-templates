@@ -540,6 +540,7 @@
     "SHOWMESSAGE": true,
     "SHOWREASON": true,
     "SHOWMANAGEBUTTON": true,
+    "SHOWRESERVATIONDETAILS": true,
     "SHOWDURATION": true,
     "SHOWDEPOSIT": true,
     "SHOWTABLENUMBER": true,
@@ -547,11 +548,11 @@
     "SHOWALLERGIES": true,
     "SHOWAREAS": true,
     "SHOWNOTE": true,
+    "SHOWORDER": true,
     "SHOWRESTAURANTDETAILS": true,
     "SHOWRESTAURANTADDRESS": true,
     "SHOWRESTAURANTSERVICES": true,
     "SHOWPOLICY": true,
-    "SHOWPROMO": true,
-    "SHOWORDER": true
+    "SHOWPROMO": true
   }
 }

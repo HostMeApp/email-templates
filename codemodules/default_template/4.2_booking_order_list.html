@@ -1,6 +1,6 @@
+{{#if Booking.Order}} {{#if CUSTOMUI.SHOWORDER}}
 <div style="width:100%;padding-top:10px;"></div>
 <div style="font-family: inherit; margin: 0 auto">
-    {{#if Booking.Order}}
     <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden">
         {{#each Booking.Order.OrderLines}}
         <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
@@ -29,8 +29,7 @@
             <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.Total}}</span></td>
         </tr>
     </table>
-    {{/if}}
 </div>
 <div style="width:100%;padding-top:15px;"></div>
-
+{{/if}} {{/if}}
 
