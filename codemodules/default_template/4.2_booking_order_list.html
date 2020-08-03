@@ -1,11 +1,29 @@
 {{#if Booking.Order}} {{#if CUSTOMUI.SHOWORDER}}
 <div style="width:100%;padding-top:10px;"></div>
+
+
 <div style="font-family: inherit; margin: 0 auto">
-    <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden">
+    <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden;  mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
         {{#each Booking.Order.OrderLines}}
         <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-            <td><span style="display:inline-block; background:#FFF; position:relative;">{{Amount}} x {{ProductName}}</span></td>
+            <!--[if gte mso 9]>
+
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                        <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/ab6852be-d3c9-41f6-aa7f-6fd4ebde0a74/80x400.png" size="4pt,22pt" /></v:fill>
+                </v:rect>
+                <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                <v:shape style="position: absolute;left: 0; height: 100;">
+            <![endif]-->
+            <td><span style="display:inline-block; background:#FFF; position:relative;font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;font-size: 16px; color: #666666; padding-left: 0px !important">{{Amount}} x {{ProductName}}</span></td>
+            <!--[if gte mso 9]>
+            </v:shape>
+            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+            <![endif]-->
             <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{TotalPrice}}</span></td>
+            <!--[if gte mso 9]>
+            </v:shape>
+            </v:group>
+            <![endif]-->
         </tr>
         {{/each}}
         <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
