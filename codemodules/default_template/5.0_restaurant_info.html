@@ -1,7 +1,11 @@
 {{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
-    <h2 style="text-align: start; margin-top: 0px"><span style="color: #44413e">{{Restaurant.Name}}</span></h2>
+<div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+    <h2 style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; text-align: start; margin-top: 0px"><span style="color: #44413e">{{Restaurant.Name}}</span></h2>
+    {{#if CUSTOMUI.SHOWRESTAURANTADDRESS}}
     <div style="font-family: inherit; text-align: start">
-        <span style="color: #666666">{{Restaurant.Address}}</span><br>
-        <a href="tel:{{MapPhone}}">{{Restaurant.Phone}}</a>
+        <span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; color: #666666">{{Restaurant.Address}}</span><br>
+        <a style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; color: #e16640" href="tel:{{MapPhone}}">{{Restaurant.Phone}}</a>
     </div>
+    {{/if}}
+</div>
 {{/if}}

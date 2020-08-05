@@ -181,6 +181,14 @@
          .res-logo{text-align:center}
          .res-name{padding:0 !important}
          }
+         * {
+         -ms-text-size-adjust: 100%;
+         }
+         table,
+         td {
+         mso-table-lspace: 0pt !important;
+         mso-table-rspace: 0pt !important;
+         }
       </style>
       <!--End Head user entered-->
    </head>
@@ -317,11 +325,14 @@
                                                                                     <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="45d3d1eb-de60-492f-badb-b1dbc77d4555">
                                                                                        <tbody>
                                                                                           <tr>
-                                                                                             <td height="100%" valign="top" role="module-content">{{#if CUSTOMUI.SHOWMESSAGE}}
-                                                                                                {{#if MainMessage.Title}} {{#if CUSTOMUI.SHOWMESSAGETITLE}} 
-                                                                                                {{{MainMessage.Title}}} 
-                                                                                                {{/if}} {{/if}} 
-                                                                                                {{#if MainMessage.Content}}{{{MainMessage.Content}}} {{/if}}
+                                                                                             <td height="100%" valign="top" role="module-content">
+                                                                                                {{#if CUSTOMUI.SHOWMESSAGE}}
+                                                                                                <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+                                                                                                   {{#if MainMessage.Title}} {{#if CUSTOMUI.SHOWMESSAGETITLE}} 
+                                                                                                   {{{MainMessage.Title}}} 
+                                                                                                   {{/if}} {{/if}} 
+                                                                                                   {{#if MainMessage.Content}}{{{MainMessage.Content}}} {{/if}}
+                                                                                                </div>
                                                                                                 {{/if}}
                                                                                              </td>
                                                                                           </tr>
@@ -411,8 +422,8 @@
                                                                                        <tbody>
                                                                                           <tr>
                                                                                              <td height="100%" valign="top" role="module-content">
-                                                                                                <div>
-                                                                                                   <p><strong>{{Booking.ReservationDateTime}}</strong></p>
+                                                                                                <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+                                                                                                   <p style="color: #44413e"><strong>{{Booking.ReservationDateTime}}</strong></p>
                                                                                                    <p>
                                                                                                       {{#if Booking.DeliveryType.Delivery}}
                                                                                                       {{I18N.LABELS.DELIVERY}}
@@ -444,19 +455,20 @@
                                                                                        <tbody>
                                                                                           <tr>
                                                                                              <td height="100%" valign="top" role="module-content">
-                                                                                                <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden">
+                                                                                                {{#if CUSTOMUI.SHOWRESERVATIONDETAILS}}
+                                                                                                <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden; font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
                                                                                                    {{#if CUSTOMUI.SHOWDURATION}} {{#if Booking.Duration}} 
-                                                                                                   <tr>
-                                                                                                      <td><strong>{{I18N.LABELS.DURATION}}</strong> {{Booking.Duration}} </td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;"><strong>{{I18N.LABELS.DURATION}}</strong> {{Booking.Duration}} </td>
                                                                                                    </tr>
                                                                                                    {{/if}} {{/if}}
                                                                                                    {{#if CUSTOMUI.SHOWDEPOSIT}} {{#if Booking.Deposit}} 
-                                                                                                   <tr>
-                                                                                                      <td><strong>{{I18N.LABELS.DEPOSIT}}</strong> {{Booking.Deposit}} </td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;"><strong>{{I18N.LABELS.DEPOSIT}}</strong> {{Booking.Deposit}} </td>
                                                                                                    </tr>
                                                                                                    {{/if}} {{/if}}
-                                                                                                   <tr>
-                                                                                                      <td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;">
                                                                                                          {{#if CUSTOMUI.SHOWTABLENUMBER}} {{#if Booking.TableNumber}}
                                                                                                          <strong>
                                                                                                          {{#if CUSTOMUI.SHOWTABLENOTES}} 
@@ -474,21 +486,22 @@
                                                                                                       </td>
                                                                                                    </tr>
                                                                                                    {{#if CUSTOMUI.SHOWALLERGIES}} {{#if Booking.Allergies}} 
-                                                                                                   <tr>
-                                                                                                      <td><strong>{{I18N.LABELS.ALLERGIES}}</strong> {{Booking.Allergies}} </td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;"><strong>{{I18N.LABELS.ALLERGIES}}</strong> {{Booking.Allergies}} </td>
                                                                                                    </tr>
                                                                                                    {{/if}} {{/if}}
                                                                                                    {{#if CUSTOMUI.SHOWAREAS}} {{#if Booking.Areas}} 
-                                                                                                   <tr>
-                                                                                                      <td><strong>{{I18N.LABELS.AREA}}</strong> {{Booking.Areas}} </td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;"><strong>{{I18N.LABELS.AREA}}</strong> {{Booking.Areas}} </td>
                                                                                                    </tr>
                                                                                                    {{/if}} {{/if}} 
                                                                                                    {{#if CUSTOMUI.SHOWNOTE}} {{#if Booking.Note}} 
-                                                                                                   <tr>
-                                                                                                      <td><strong>{{I18N.LABELS.REQUESTS}}</strong> {{Booking.Note}} </td>
+                                                                                                   <tr style="font-family: inherit;">
+                                                                                                      <td style="font-family: inherit;"><strong>{{I18N.LABELS.REQUESTS}}</strong> {{Booking.Note}} </td>
                                                                                                    </tr>
                                                                                                    {{/if}} {{/if}} 
                                                                                                 </table>
+                                                                                                {{/if}}
                                                                                              </td>
                                                                                           </tr>
                                                                                        </tbody>
@@ -497,40 +510,136 @@
                                                                                        <tbody>
                                                                                           <tr>
                                                                                              <td height="100%" valign="top" role="module-content">
+                                                                                                {{#if Booking.Order}} {{#if CUSTOMUI.SHOWORDER}}
                                                                                                 <div style="width:100%;padding-top:10px;"></div>
                                                                                                 <div style="font-family: inherit; margin: 0 auto">
-                                                                                                   {{#if Booking.Order}}
-                                                                                                   <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden">
+                                                                                                   <table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden;  mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
                                                                                                       {{#each Booking.Order.OrderLines}}
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{Amount}} x {{ProductName}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{TotalPrice}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666; padding-left: 0px !important">{{Amount}} x {{ProductName}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{TotalPrice}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
                                                                                                       {{/each}}
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{I18N.ORDER.SUBTOTAL}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.SubTotal}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.SUBTOTAL}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.SubTotal}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{I18N.ORDER.DELIVERYFEE}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.DeliveryFee}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.DELIVERYFEE}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px;  font-size: 16px; color: #666666;">{{Booking.Order.DeliveryFee}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{I18N.ORDER.TAXES}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.Taxes}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TAXES}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Taxes}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{I18N.ORDER.TIPS}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.Tips}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TIPS}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Tips}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
-                                                                                                      <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
-                                                                                                         <td><span style="display:inline-block; background:#FFF; position:relative;">{{I18N.ORDER.TOTAL}}</span></td>
-                                                                                                         <td style="width:10%;text-align:right"><span style="display:inline-block; background:#FFF; position:relative; padding-left: 3px;">{{Booking.Order.Total}}</span></td>
+                                                                                                      <tr style="font-family: inherit; background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                            <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                            </v:fill>
+                                                                                                         </v:rect>
+                                                                                                         <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                            <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                               <![endif]-->
+                                                                                                               <td><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TOTAL}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                            <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                               <![endif]-->
+                                                                                                               <td style="font-family: inherit; width:10%;text-align:right"><span style="font-family: inherit; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Total}}</span></td>
+                                                                                                               <!--[if gte mso 9]>
+                                                                                                            </v:shape>
+                                                                                                         </v:group>
+                                                                                                         <![endif]-->
                                                                                                       </tr>
                                                                                                    </table>
-                                                                                                   {{/if}}
                                                                                                 </div>
                                                                                                 <div style="width:100%;padding-top:15px;"></div>
+                                                                                                {{/if}} {{/if}}
                                                                                              </td>
                                                                                           </tr>
                                                                                        </tbody>
@@ -550,20 +659,18 @@
                                                                                                 {{#if CUSTOMUI.SHOWMANAGEBUTTON}}
                                                                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                                                    <tr>
-                                                                                                      <td align="center" bgcolor="#E16640" class="inner-td" style="border-radius:6px; font-size:18px; text-align:center; background-color:inherit;">
-                                                                                                         <div>
-                                                                                                            <!--[if mso]>
-                                                                                                            <v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="{{Booking.ButtonUrl}}" style="height:40px;v-text-anchor:middle;width:520px;" arcsize="15%" strokecolor="#E16640" fillcolor="#E16640">
-                                                                                                               <w:anchorlock/>
-                                                                                                               <center style="color:#ffffff;font-family:Helvetica, Arial,sans-serif;font-size:18px;">{{Booking.ButtonText}}</center>
-                                                                                                            </v:roundrect>
-                                                                                                            <div style="width:0px; height:0px; overflow:hidden; display:none; visibility:hidden; mso-hide:all;">
-                                                                                                               <![endif]-->
-                                                                                                               <a href="{{Booking.ButtonUrl}}" style="background-color:#E16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" target="_blank">{{Booking.ButtonText}}</a>
-                                                                                                               <!--[if mso]>
-                                                                                                            </div>
+                                                                                                      <td align="center" class="inner-td" style="border-radius:6px; font-size:18px; text-align:center; background-color:inherit; font-family: font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;;">
+                                                                                                         <!--[if gte mso 9]>
+                                                                                                         <v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="{{Booking.ButtonUrl}}" style="height:40px;v-text-anchor:middle;width:520px;" arcsize="15%" strokecolor="#E16640" fillcolor="#E16640">
+                                                                                                            <w:anchorlock/>
+                                                                                                            <center style="color:#ffffff;font-family:Helvetica, Arial,sans-serif;font-size:18px;">{{Booking.ButtonText}}</center>
+                                                                                                         </v:roundrect>
+                                                                                                         <div style="width:0px; height:0px; overflow:hidden; display:none; visibility:hidden; mso-hide:all;">
                                                                                                             <![endif]-->
+                                                                                                            <a href="{{Booking.ButtonUrl}}" style="background-color:#E16640; max-width:100%; border:0px solid #E16640; border-color:#E16640; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" target="_blank">{{Booking.ButtonText}}</a>
+                                                                                                            <!--[if mso]>
                                                                                                          </div>
+                                                                                                         <![endif]-->
                                                                                                       </td>
                                                                                                    </tr>
                                                                                                 </table>
@@ -608,10 +715,14 @@
                                                                                           <tr>
                                                                                              <td height="100%" valign="top" role="module-content">
                                                                                                 {{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
-                                                                                                <h2 style="text-align: start; margin-top: 0px"><span style="color: #44413e">{{Restaurant.Name}}</span></h2>
-                                                                                                <div style="font-family: inherit; text-align: start">
-                                                                                                   <span style="color: #666666">{{Restaurant.Address}}</span><br>
-                                                                                                   <a href="tel:{{MapPhone}}">{{Restaurant.Phone}}</a>
+                                                                                                <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+                                                                                                   <h2 style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; text-align: start; margin-top: 0px"><span style="color: #44413e">{{Restaurant.Name}}</span></h2>
+                                                                                                   {{#if CUSTOMUI.SHOWRESTAURANTADDRESS}}
+                                                                                                   <div style="text-align: start">
+                                                                                                      <span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; color: #666666">{{Restaurant.Address}}</span><br>
+                                                                                                      <a style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; color: #e16640" href="tel:{{MapPhone}}">{{Restaurant.Phone}}</a>
+                                                                                                   </div>
+                                                                                                   {{/if}}
                                                                                                 </div>
                                                                                                 {{/if}}
                                                                                              </td>
@@ -713,7 +824,7 @@
                                                                                                 {{#each GuestPolices}}
                                                                                                 <div>
                                                                                                    {{#if this.Title}}
-                                                                                                   <h2 style="text-align: start;margin-top:0"><span style="color: #44413e; font-size: 16px">{{this.Title}}</span></h2>
+                                                                                                   <h2 style="text-align: start;margin-top:0"><span style="color: #666666; font-size: 16px">{{this.Title}}</span></h2>
                                                                                                    {{/if}}
                                                                                                    <div>{{#if this.Content}} {{{this.Content}}} {{/if}}</div>
                                                                                                 </div>
@@ -769,9 +880,9 @@
                                                                                           <tr>
                                                                                              <td height="100%" valign="top" role="module-content">
                                                                                                 {{#if CUSTOMUI.SHOWPROMO}}
-                                                                                                <div style="font-family: inherit; text-align: inherit">
-                                                                                                   <h2 style="text-align: inherit;margin-top:0"><span style="font-size: 16px">{{Promo.Title}}</span></h2>
-                                                                                                   <div style="font-family: inherit; text-align: inherit">{{Promo.Content}}</div>
+                                                                                                <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; text-align: inherit">
+                                                                                                   <h2 style="text-align: inherit;margin-top:0"><span style="color: #44413e; font-size: 16px">{{Promo.Title}}</span></h2>
+                                                                                                   <div style="text-align: inherit; margin-bottom: 10px">{{Promo.Content}}</div>
                                                                                                    <p> </p>
                                                                                                 </div>
                                                                                                 {{/if}}
@@ -785,12 +896,16 @@
                                                                                              <td height="100%" valign="top" role="module-content">
                                                                                                 {{#if CUSTOMUI.SHOWPROMO}}
                                                                                                 <div style="text-align:center" class="mobile-no-padding">
-                                                                                                   <table>
+                                                                                                   <table cellpadding="0" cellspacing="0">
+                                                                                                      <!--[if mso]>
+                                                                                                   </table>
+                                                                                                   <table cellpadding="6" cellspacing="0">
+                                                                                                      <![endif]-->
                                                                                                       <tr>
                                                                                                          {{#each Promo.Links}}
                                                                                                          <td>
-                                                                                                            <a style="display:inline-block" href="{{this.Link}}">
-                                                                                                            <img width="283.1" class="max-width" style="display:blockmax-width:95%;width:95%;height:auto" alt="" src="{{this.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true">
+                                                                                                            <a style="display:inline-block;" href="{{this.Link}}">
+                                                                                                            <img width="129" class="max-width" style="display:block;max-width:95%;width:95%;height:auto;" alt="" src="{{this.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true">
                                                                                                             </a>
                                                                                                          </td>
                                                                                                          {{/each}}
