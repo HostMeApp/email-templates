@@ -1,9 +1,9 @@
 {{#if CUSTOMUI.SHOWRESERVATIONDETAILS}}
-<table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden; font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
-    {{#if CUSTOMUI.SHOWDURATION}} {{#if Booking.Duration}} <tr style="font-family: inherit;"><td style="font-family: inherit;"><strong>{{I18N.LABELS.DURATION}}</strong> {{Booking.Duration}} </td></tr> {{/if}} {{/if}}
-    {{#if CUSTOMUI.SHOWDEPOSIT}} {{#if Booking.Deposit}} <tr style="font-family: inherit;"><td style="font-family: inherit;"><strong>{{I18N.LABELS.DEPOSIT}}</strong> {{Booking.Deposit}} </td></tr> {{/if}} {{/if}}
+<table style="width:100%;padding-left:20px;border-left:4px solid #ccc;overflow:hidden;">
+    {{#if CUSTOMUI.SHOWDURATION}} {{#if Booking.Duration}} <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;"><strong>{{I18N.LABELS.DURATION}}</strong> {{Booking.Duration}} </td></tr> {{/if}} {{/if}}
+    {{#if CUSTOMUI.SHOWDEPOSIT}} {{#if Booking.Deposit}} <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;"><strong>{{I18N.LABELS.DEPOSIT}}</strong> {{Booking.Deposit}} </td></tr> {{/if}} {{/if}}
     
-    <tr style="font-family: inherit;"><td style="font-family: inherit;">
+    <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
         {{#if CUSTOMUI.SHOWTABLENUMBER}} {{#if Booking.TableNumber}}
         <strong>
             {{#if CUSTOMUI.SHOWTABLENOTES}} 
@@ -22,8 +22,8 @@
     </td></tr>
     
     
-    {{#if CUSTOMUI.SHOWALLERGIES}} {{#if Booking.Allergies}} <tr style="font-family: inherit;"><td style="font-family: inherit;"><strong>{{I18N.LABELS.ALLERGIES}}</strong> {{Booking.Allergies}} </td></tr> {{/if}} {{/if}}
-    {{#if CUSTOMUI.SHOWAREAS}} {{#if Booking.Areas}} <tr style="font-family: inherit;"><td style="font-family: inherit;"><strong>{{I18N.LABELS.AREA}}</strong> {{Booking.Areas}} </td></tr> {{/if}} {{/if}} 
-    {{#if CUSTOMUI.SHOWNOTE}} {{#if Booking.Note}} <tr style="font-family: inherit;"><td style="font-family: inherit;"><strong>{{I18N.LABELS.REQUESTS}}</strong> {{Booking.Note}} </td></tr> {{/if}} {{/if}} 
+    {{#if CUSTOMUI.SHOWALLERGIES}} {{#if Booking.Allergies}} <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;"><strong>{{I18N.LABELS.ALLERGIES}}</strong> {{Booking.Allergies}} </td></tr> {{/if}} {{/if}}
+    {{#if CUSTOMUI.SHOWAREAS}} {{#if Booking.Areas}} <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;"><strong>{{I18N.LABELS.AREA}}</strong> {{Booking.Areas}} </td></tr> {{/if}} {{/if}} 
+    {{#if CUSTOMUI.SHOWNOTE}} {{#if Booking.Note}} <tr><td style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;"><strong>{{I18N.LABELS.REQUESTS}}</strong> {{Booking.Note}} </td></tr> {{/if}} {{/if}} 
 </table>
 {{/if}}

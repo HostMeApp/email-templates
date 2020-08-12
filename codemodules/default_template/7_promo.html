@@ -1,0 +1,95 @@
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" role="module" data-type="columns" style="padding:15px 40px 0px 40px;" bgcolor="">
+   <tbody>
+      <tr role="module-content">
+         <td height="100%" valign="top">
+            <!--[if gte mso 9]>
+            <table width="540" align="center">
+            <tr>
+            <td width="220">
+            <![endif]-->
+            <table width="258" style="width:258px; border-spacing:0; border-collapse:collapse; margin:0px 2px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="" class="column column-0">
+               <tbody>
+                  <tr>
+                     <td style="padding:0px;margin:0px;border-spacing:0;">
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="vuYwY3zvGByzkJjasL97oR.1">
+                           <tbody>
+                              <tr>
+                                 <td height="100%" valign="top" role="module-content">
+                                    {{#if CUSTOMUI.SHOWPROMO}}
+                                    <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; text-align: inherit">
+                                       <h2 style="text-align: inherit;margin-top:0"><span style="color: #44413e; font-size: 16px">{{Promo.Title}}</span></h2>
+                                       <div style="text-align: inherit; margin-bottom: 10px">{{Promo.Content}}</div>
+                                       <p> </p>
+                                    </div>
+                                    {{/if}}
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="a2o2DP1cPuMabh486Kquq1.1">
+                           <tbody>
+                              <tr>
+                                 <td height="100%" valign="top" role="module-content">
+                                    {{#if CUSTOMUI.SHOWPROMO}}
+                                    <div style="text-align:center" class="mobile-no-padding">
+                                       <table cellpadding="0" cellspacing="0">
+                                          <!--[if mso]>
+                                       </table>
+                                       <table cellpadding="6" cellspacing="0">
+                                          <![endif]-->
+                                          <tr>
+                                             {{#each Promo.Links}}
+                                             <td>
+                                                <a style="display:inline-block;" href="{{this.Link}}">
+                                                <img width="129" class="max-width" style="display:block;max-width:95%;width:95%;height:auto;" alt="" src="{{this.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true">
+                                                </a>
+                                             </td>
+                                             {{/each}}
+                                          </tr>
+                                       </table>
+                                    </div>
+                                    {{/if}}
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <!--[if gte mso 9]>
+            </td>
+            <td width="220">
+            <![endif]-->
+            <table width="258" style="width:258px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 2px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="" class="column column-1">
+               <tbody>
+                  <tr>
+                     <td style="padding:0px;margin:0px;border-spacing:0;">
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="3c758bef-5e63-46d3-8a39-1a80a4174d1f">
+                           <tbody>
+                              <tr>
+                                 <td height="100%" valign="top" role="module-content">
+                                    {{#if CUSTOMUI.SHOWPROMO}}
+                                    <table>
+                                       <tr>
+                                          <td style="font-size:6px; line-height:10px; padding:0px 0px 0px 0px;" valign="top" align="right"><img width="258" class="max-width" style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !important; width:100%; height:auto !important;" alt="" src="{{Promo.Image}}" border="0" data-proportionally-constrained="true" data-responsive="true"></td>
+                                       </tr>
+                                    </table>
+                                    {{/if}}
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <!--[if gte mso 9]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+         </td>
+      </tr>
+   </tbody>
+</table>
