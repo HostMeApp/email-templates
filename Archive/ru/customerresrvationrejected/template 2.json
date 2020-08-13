@@ -1,0 +1,1 @@
+{"Name":"CustomerResrvationRejected","Language":"ru","SUBJECT":"Ваш резерв в{{RestaurantName}} был отменен","EmailHeader":"<span>Ваш резерв в {{RestaurantName}} был отменен</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}

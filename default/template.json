@@ -16,12 +16,28 @@
     "SendSmsFrom": "MGc888d53f2c1c75bf3c4fccb3c68441df"
   },
   "CUSTOMUI": {
-    "SHOWTABLENUMBER": true,
-    "SHOWREASON": true,
-    "SHOWORDER": true,
-    "SHOWRESTAURANTADDRESS": true,
-    "SHOWPOLICY": true,
+    "SHOWAUTHORLOGO": true,
+    "SHOWTWITTER": true,
+    "SHOWFACEBOOK": true,
+    "SHOWINSTAGRAM": true,
+    "SHOWRESTAURANTLOGO": true,
     "SHOWMESSAGETITLE": true,
-    "SHOWMESSAGE": true
+    "SHOWMESSAGE": true,
+    "SHOWREASON": true,
+    "SHOWMANAGEBUTTON": true,
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWDURATION": true,
+    "SHOWDEPOSIT": true,
+    "SHOWTABLENUMBER": true,
+    "SHOWTABLENOTES": true,
+    "SHOWALLERGIES": true,
+    "SHOWAREAS": true,
+    "SHOWNOTE": true,
+    "SHOWORDER": true,
+    "SHOWRESTAURANTDETAILS": true,
+    "SHOWRESTAURANTADDRESS": true,
+    "SHOWRESTAURANTSERVICES": true,
+    "SHOWPOLICY": true,
+    "SHOWPROMO": true
   }
 }
