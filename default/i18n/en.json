@@ -46,7 +46,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been canceled.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been canceled:"
@@ -56,7 +56,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "The order has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been changed.",
       "HEADER": "Order Changed",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been changed:"
@@ -93,7 +93,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for  {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for  {{Booking.ReservationName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
       "MAINMESSAGE": "Please, help us improve and leave your feedback:"
@@ -103,16 +103,16 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
-      "TEXT": "Your order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been rejected.",
+      "TEXT": "Your order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
     "ACCEPTANCECONFIRMATION": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
-      "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Check your reservation details.",
-      "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "HEADER": "Reservation Accepted",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
     },
@@ -120,8 +120,8 @@
       "DISPLAYNAME": "Reservation Canceled Notification",
       "DESCRIPTION": "Email sent to restaurant's team when reservation has been canceled",
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
+      "PREHEADER": "Reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+      "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
       "HEADER": "Reservation Canceled",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
@@ -130,7 +130,7 @@
       "DESCRIPTION": "Email sent to customers to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Reservation for {{Booking.PartySize}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
@@ -140,7 +140,7 @@
       "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Review the reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
@@ -152,17 +152,16 @@
       "TEXT": "Leave your feedback for {{Restaurant.Name}}",
       "HEADER": "Thanks for the visit!",
       "BUTTONTEXT": "Leave a Feedback",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "We always strive to improve the service. Please, "
     },
     "INVITATION": {
       "DISPLAYNAME": "Reservation Invitation",
       "DESCRIPTION": "Email sent to guests to invite them to the reservation",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Accept the invite",
-      "TEXT": "You have been invited to join the {{author}} app!",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "TEXT": "You have been invited to join the {{Branding.Copirate}} app!",
+      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
+      "BUTTONTEXT": "Accept"
     },
     "INVITATIONACCEPTED": {
       "DISPLAYNAME": "Reservation Invite Accepted",
@@ -171,7 +170,6 @@
       "PREHEADER": "{{Guest.CustomerName}} has accepted your invitation",
       "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
       "HEADER": "Invitation Accepted",
-      "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
     },
     "NEWRESERVATION": {
@@ -180,7 +178,7 @@
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Review the reservation",
       "CONTENT": "Your reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
@@ -196,24 +194,23 @@
     "REMINDER": {
       "DISPLAYNAME": "Upcoming Reservation",
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
-      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
+      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Please, cancel if you're not able to come.",
-      "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
-      "HEADER": "Upcoming Reservation",
-      "MAINMESSAGE": ""
+      "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "HEADER": "Upcoming Reservation"
     },
     "RESERVATIONREQUEST": {
       "DISPLAYNAME": "Reservation Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
+      "PREHEADER": "Reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+      "TEXT": "Your reservation request on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
       "HEADER": "Request Received",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "APPROVED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Waitlist group added",
+      "DESCRIPTION": "A group added on the waitlist",
       "HEADER": "You're on the waitlist!",
       "CONTENT": "Please, check your status by following the link.",
       "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
@@ -222,8 +219,8 @@
       "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
     },
     "CALLED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Waitlist group called",
+      "DESCRIPTION": "Message or email sent when a waitlist group status changed to called",
       "HEADER": "Table is Ready",
       "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
       "PREHEADER": "We're waiting for you.",
@@ -240,109 +237,99 @@
       "MAINMESSAGE": "Thanks for dining with us"
     },
     "CANCELEDBYGUEST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Guest left the waitlist",
+      "DESCRIPTION": "Message sent when a guest cancels the waitlist themselves",
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Hope to see you back soon",
       "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
       "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
     },
+    "CANCELEDBYHOST": {
+      "DISPLAYNAME": "Canceled by host",
+      "DESCRIPTION": "Host removed a guest from the waitlist",
+      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+      "PREHEADER": "Removed from the waitlist.",
+      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
+    },
     "CAMPAIGN": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Your marketing email campaign",
+      "DESCRIPTION": "Send your marketing email to your customers",
       "SUBJECT": "Some nice subtitle!",
       "PREHEADER": "Why they should open the email?",
       "TEXT": "Let's send the text",
       "MAINMESSAGE": "Promote promote promote!"
     },
-    "CANCELEDBYHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
-      "PREHEADER": "",
-      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
-      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
-    },
     "CHANGEDFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Changed reservation notification",
+      "DESCRIPTION": "Email send to host when a reservation was changed",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "TEXT": "The reservation for {{Booking.ReservationName}} {{Booking.ReservationDateTime}} has been canceled",
+      "HEADER": "Reservation Changed"
     },
     "CANCELEDFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Canceled reservation notification",
+      "DESCRIPTION": "Email send to host when a reservation was canceled.",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been changed",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "TEXT": "The reservation for {{Booking.ReservationName}} {{Booking.ReservationDateTime}} has been changed",
+      "HEADER": "Reservation Changed"
     },
     "APPROVALFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Manual approval request",
+      "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
       "SUBJECT": "New online reservation request. Action required!",
       "PREHEADER": "Review Reservation",
-      "TEXT": "New reservation request: {{ReservationDateTime}} / {{GuestName}}. Please review.",
+      "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}. Please review.",
       "HEADER": "New Request",
-      "BUTTONTEXT": "Review",
-      "MAINMESSAGE": "{{ReservationDateTime}} / {{GuestName}}"
+      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Booking.ReservationName}}"
     },
     "NEWRESERVATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "New Reservation Notification",
+      "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
-      "PREHEADER": "{{ReservationDateTime}} / {{GuestName}}",
-      "TEXT": "New reservation: {{ReservationDateTime}} / {{GuestName}}",
-      "HEADER": "New Reservation",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "PREHEADER": "{{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "HEADER": "New Reservation"
     },
     "REMINDERFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Reservation reminder for host",
+      "DESCRIPTION": "Upcoming reservation reminder for staff",
       "SUBJECT": "Upcoming reservation reminder",
-      "PREHEADER": "{{GuestName}} / {{ReservationDateTime}}",
-      "TEXT": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
-      "HEADER": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
-      "BUTTONTEXT": "Manage the Reservation",
-      "MAINMESSAGE": ""
+      "PREHEADER": "{{Booking.ReservationName}} / {{Booking.ReservationDateTime}}",
+      "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "BUTTONTEXT": "Manage the Reservation"
     },
     "INVITATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "DISPLAYNAME": "Invitation for staff",
+      "DESCRIPTION": "Invitation to join restaurant as a user",
+      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
+      "BUTTONTEXT": "Accept"
     },
     "PAYMENTLINK": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Pay for the {{author}} {{PlanName}} plan",
-      "PREHEADER": "Follow the payment link to complete {{author}} {{PlanName}}",
+      "DISPLAYNAME": "Payment link",
+      "DESCRIPTION": "Easy way to send the link to pay for {{Branding.Copirate}} subscribtion",
+      "SUBJECT": "Pay for the {{Branding.Copirate}} {{PlanName}} plan",
+      "PREHEADER": "Follow the payment link to complete {{Branding.Copirate}} {{PlanName}}",
       "HEADER": "Subscribe",
-      "BUTTONTEXT": "Subscribe",
-      "MAINMESSAGE": ""
+      "BUTTONTEXT": "Subscribe"
     },
     "REMINDERTOPAY": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Your staff reminds you to upgrade your {{author}} plan",
-      "PREHEADER": "X days left",
+      "DISPLAYNAME": "Reminder to pay for the subscribtion",
+      "DESCRIPTION": "Reminder to pay for the {{Branding.Copirate}} subscribtion",
+      "SUBJECT": "Your staff reminds you to upgrade your {{Branding.Copirate}}  plan",
+      "PREHEADER": "Reminder",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{author}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after X days if no payment received."
     },
     "BLOCKED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Restaurant account is blocked",
+      "DESCRIPTION": "Notification to restaurant owners and managers when a restaurant was blocked due to billing issues.",
       "SUBJECT": "Restaurant is blocked",
       "PREHEADER": "Please, check your payment settings",
       "TEXT": "Your restaurant account was blocked. Please, check your payment settings or upgrade.",
@@ -351,31 +338,30 @@
       "MAINMESSAGE": "Your restaurant account was blocked. Please, check your payment settings or upgrade."
     },
     "RESETPASSWORD": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Your {{author}} password was successfully reset",
+      "DISPLAYNAME": "Reset Password",
+      "DESCRIPTION": "Reset Password email for hosts",
+      "SUBJECT": "Your {{Branding.Copirate}} password was successfully reset",
       "PREHEADER": "Password inside",
-      "TEXT": "Your {{author}} password was successfully reset",
-      "HEADER": "Your {{author}} password was successfully reset",
+      "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
+      "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
       "BUTTONTEXT": "Sign In",
       "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
     },
     "EXPORTTOCSV": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Export guestbook email",
+      "DESCRIPTION": "The email with attached CSV file",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready",
-      "MAINMESSAGE": ""
+      "HEADER": "Your CSV export is ready"
     },
     "WELCOMEFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Welcome to the {{author}} app!",
+      "DISPLAYNAME": "Welcome restaurant user",
+      "DESCRIPTION": "Welcome email for new restaurant user signups",
+      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{author}}!",
+      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
       "TITLE": "How to start",
-      "MAINMESSAGE": "Thanks for signing up with {{author}}! Please, complete your registration to remain access..."
+      "MAINMESSAGE": "Thanks for signing up with {{Branding.Copirate}}! Please, complete your registration to remain access..."
     }
   }
 }

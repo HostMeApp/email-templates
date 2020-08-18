@@ -1,0 +1,1 @@
+{"Name":"RestaurantUserResetPasswordEmail","Language":"it","SUBJECT":"La tua password {{author}} è stata reimpostata con successo","EmailHeader":"<span>La tua password {{author}} è stata <br>reimpostata con successo</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}
