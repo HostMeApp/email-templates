@@ -32,7 +32,8 @@
       "PICKUP": "Pickup",
       "NOTES": "Notes:",
       "STATUS": "Status:",
-      "AREA": "Seating Area:"
+      "AREA": "Seating Area:",
+      "DURATION": "Duration"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",
