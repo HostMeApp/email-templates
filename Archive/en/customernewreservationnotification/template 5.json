@@ -1,0 +1,21 @@
+{
+  "Name": "CustomerNewReservationNotification",
+  "DisplayName": "Reservation Confirmation",
+  "Description": "Email sent to customer to confirm new reservation",
+  "Language": "en",
+  "SUBJECT": "Reservation confirmed!",
+  "EmailHeader": "<span>{{restaurant.name}}<br> Table for {{booking.partySize}}, {{booking.reservationDateTime}}</span>",
+  "EmailFooter": "",
+  "Image": "https://res.cloudinary.com/hostme/image/upload/v1485344707/mails/email/thank-you.jpg",
+  "SmsContent": "",
+  "HEADER": "Reservation confirmed",
+  "MAINMESSAGE": {
+    "TITLE": "From {{restaurant.name}}:",
+    "Content": "{{restaurant.welcomeMessage}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking":{
+    "ButtonText": "{{labels._managereservation}}"
+  }
+}

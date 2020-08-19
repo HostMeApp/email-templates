@@ -1,0 +1,1 @@
+{"Name":"CustomerNewReservationRequestMailAsync","Language":"it","SUBJECT":"La tua richiesta di prenotazione per {{RestaurantName}} è stata ricevuta!","EmailHeader":"<span>{{RestaurantName}}<br> Tavolo per {{PartySize}}, {{ReservationDateTime}}</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485344707/mails/email/thank-you.jpg","SmsContent":""}
