@@ -1,16 +1,16 @@
 <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
     <p style="color: #44413e"><strong>{{Booking.ReservationDateTime}}</strong></p>
     <p>
-        {{#if Booking.DeliveryType.Delivery}}
+        {{#if Booking.Delivery}}
             {{I18N.LABELS.DELIVERY}}
-        {{else if Booking.DeliveryType.Pickup}}
+        {{else if Booking.Pickup}}
             {{I18N.LABELS.PICKUP}}
         {{else}}
-            {{I18N.LABELS.PARTY}} {{Booking.PartySize}} 
+            {{I18N.LABELS.PARTY}} {{Booking.PartySize}}
         {{/if}}
-        
+
         {{I18N.LABELS.FOR}} {{Guest.CustomerName}}
     </p>
-    <p>{{Guest.Phone}}</p>
     {{#if Booking.DeliveryAddress}} <p>{{Booking.DeliveryAddress}}</p> {{/if}}
+    <p>{{Guest.Phone}}</p>
 </div>
