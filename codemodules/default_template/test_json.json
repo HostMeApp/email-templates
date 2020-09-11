@@ -1,102 +1,89 @@
 {
-  "Id": "guest/order/confirmed",
-  "Name": "CONFIRMEDORDER",
-  "Description": "Notification sent to the guest to inform that his order was confirmed.",
-  "DisplayName": "Order Confirmed",
+  "Id": "guest/order/canceled",
+  "Name": "CANCELEDORDER",
+  "Description": "Notification sent to the guest to inform that they receive request to cancel order",
+  "DisplayName": "Customer Cancels order",
   "EnvironmentPrefix": "Qa",
-  "Subject": "Your order at Едим ногами has been confirmed!",
-  "Preheader": "Order receipt",
-  "Header": "Order Confirmed",
+  "Subject": "The order has been canceled",
+  "Preheader": "Review the changes",
+  "Header": "Order Canceled",
   "Recipients": [
     "evgeny.popov@gmail.com"
   ],
   "ContentTemplate": {
-    "sms": "Your order at Едим ногами has been confirmed.",
+    "sms": "Order on July 16 at 10:30 AM for {{Booking.ReservationName}} has been canceled.",
     "email": "d-1122c81a54d84f259f2a44a34524a136",
-    "push": "Your order at Едим ногами has been confirmed."
+    "push": "Order on July 16 at 10:30 AM for {{Booking.ReservationName}} has been canceled."
   },
   "MainMessage": {
-    "Content": "The following order has been confirmed:"
+    "Content": "The following order has been canceled:"
   },
   "Restaurant": {
-    "Id": 6171,
-    "HostmeGlobalId": "sankt-peterburg",
-    "Name": "Едим ногами",
+    "Id": 4559,
+    "HostmeGlobalId": "millers-ale-house---jupiter-jupiter-003",
+    "Name": "My  Restaurant with Events",
     "TimeZone": "Europe/Moscow",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis earum eveniet excepturi iste itaque officiis omnis placeat quisquam rerum vel. Culpa distinctio dolore itaque, minus nulla numquam possimus tenetur veritatis?",
-    "Address": "Rubinstein St, 1, Sankt-Peterburg, Russia, 191025",
-    "Phone": "+7 999 585-21-04",
-    "BookingEmail": "prgrf@ya.ru",
+    "Description": "ffff   Mgggggy  events",
+    "Address": "St Petersburg, Russia",
+    "Phone": "+1 561-746-6720",
+    "BookingEmail": "evgeny.popov@gmail.com",
     "DefaultLanguage": "en",
     "Social": {
       "Facebook": {
-        "Link": "1337"
+        "Link": "https://www.facebook.com/thipkhaodc"
       },
       "GooglePlus": null,
       "Instagram": {
-        "Link": "1337"
+        "Link": "https://www.instagram.com/thipkhaodc/"
       },
-      "Pinterest": {
-        "Link": "1337"
-      },
+      "Pinterest": null,
       "Twitter": {
-        "Link": "1337"
+        "Link": "https://twitter.com/thipkhaoDC"
       },
-      "Youtube": {
-        "Link": "1337"
-      }
+      "Youtube": null
     },
-    "Logo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/sankt-peterburg-232b338d1b0ea34f4cbd3c597646f74a.png",
-    "Promo": "https://hostmerestaurantsqa.blob.core.windows.net/restaurants/sankt-peterburg/photos/sm/sankt-peterburg-3fedf28ce1dd28995cc18ea719d519be.jpeg",
-    "Website": "http://edim-nogami.fake",
+    "Logo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-af606f9836e84fd9ba2e8f9d56a149c3",
+    "Promo": "https://hostmerestaurantsqa.blob.core.windows.net/photos/original/millers-ale-house---jupiter-jupiter-003-9fd9091bfc32100a2b9c2850cb7ea66d",
+    "Website": "https://demo.hostmeapp.com",
     "Map": {
-      "MapUrl": "https://hostmerestaurantsqa.blob.core.windows.net/restaurants/sankt-peterburg/sankt-peterburg-locationmap640x320.jpeg"
+      "MapUrl": "https://hostmerestaurantsqa.blob.core.windows.net/restaurants/millers-ale-house---jupiter-jupiter-003/millers-ale-house---jupiter-jupiter-003-locationmap640x320.jpeg"
     },
     "Links": {
-      "PanelUrl": "https://hostme-panel-qa.azurewebsites.net/panel/#/6171",
-      "GuestAppUrl": "https://hostme-webguest-qa.azurewebsites.net/restaurants/6171",
-      "AdminUrl": "https://hostme-panel-qa.azurewebsites.net/admin/#/restaurant/6171"
+      "PanelUrl": "https://hostme-panel-qa.azurewebsites.net/panel/#/4559",
+      "GuestAppUrl": "https://hostme-webguest-qa.azurewebsites.net/restaurants/4559",
+      "AdminUrl": "https://hostme-panel-qa.azurewebsites.net/admin/#/restaurant/4559"
     }
   },
   "Booking": {
-    "ConfirmationNumber": "f42c5cdae9c8471aa2ed509c1db9053c",
-    "ReservationDate": "June 20",
-    "ReservationTime": "12:15 PM",
-    "ReservationDateTime": "June 20 12:15 PM",
+    "ConfirmationNumber": "aaac615862be4280889beb09585196f7",
+    "ReservationDate": "July 16",
+    "ReservationTime": "10:30 AM",
+    "ReservationDateTime": "July 16 10:30 AM",
+    "MinutesToConfirm": "1h 0m",
+    "WaitTime": "0h 0m",
     "PartySize": 1,
     "Status": "Confirmed",
-    "Areas": "Near the South window.",
+    "Areas": "Main,Patio",
     "Duration": "1 h 30 m",
-    "Deposit": "usd10.00",
-    "TableNumber": 6,
-    "TableNotes": "Romantic place with candles.",
-    "Allergies": "Onion, Peanut",
-    "BookingNote": "Please bring the vase.",
-    "TimeToLeave": "1:45 PM",
+    "TimeToLeave": "12:00 PM",
     "Order": {
-      "Total": "usd12.00",
-      "SubTotal": "usd8.00",
-      "Tips": "usd4.00",
+      "Total": "usd2.00",
+      "SubTotal": "usd2.00",
       "Taxes": "usd0.00",
       "Currency": "usd",
       "OrderLines": [
         {
-          "ProductName": "Салатик",
+          "ProductName": "Test",
+          "Info": "ddddыыыыыы",
+          "Amount": 2,
+          "UnitPrice": "usd0.00",
+          "TotalPrice": "usd0.00"
+        },
+        {
+          "ProductName": "Tea",
           "Amount": 1,
           "UnitPrice": "usd2.00",
           "TotalPrice": "usd2.00"
-        },
-        {
-          "ProductName": "Огурчик",
-          "Amount": 1,
-          "UnitPrice": "usd1.00",
-          "TotalPrice": "usd1.00"
-        },
-        {
-          "ProductName": "Картошечка",
-          "Amount": 1,
-          "UnitPrice": "usd5.00",
-          "TotalPrice": "usd5.00"
         }
       ],
       "Payments": {
@@ -104,32 +91,44 @@
         "Tips": "usd0.00"
       }
     },
-    "DeliveryType": {
-      "Delivery": false,
-      "Pickup": false
+    "DeliveryType": "takeaway",
+    "JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"aaac615862be4280889beb09585196f7\",\"reservationStatus\":\"Approved\",\"underName\":{\"@type\":\"Person\"},\"bookingTime\":\"2020-07-09T02:35:28.1569485+03:00\",\"partySize\":1,\"programMembership\":{\"memberNumber\":\"18823\",\"program\":\"Hostme\"},\"startTime\":\"2020-07-16T10:30:00+03:00\"}</script>",
+    "Delivery": {
+      "takeaway": true
     },
-    "JsonLd": "<script type='application/ld+json'>{\"@type\":\"FoodEstablishmentReservation\",\"reservationNumber\":\"f42c5cdae9c8471aa2ed509c1db9053c\",\"reservationStatus\":\"Approved\",\"underName\":{\"@type\":\"Person\"},\"bookingTime\":\"2020-06-20T12:10:04.7641329+03:00\",\"partySize\":1,\"programMembership\":{\"memberNumber\":\"54990\",\"program\":\"Hostme\"},\"startTime\":\"2020-06-20T12:15:00+03:00\"}</script>",
     "ButtonText": "View My Order",
-    "ButtonUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/6171/?r=f42c5cdae9c8471aa2ed509c1db9053c&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImY0MmM1Y2RhZTljODQ3MWFhMmVkNTA5YzFkYjkwNTNjIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1OTI2NDQyNDIsImV4cCI6MTU5MjY0Nzg0MiwiaWF0IjoxNTkyNjQ0MjQyLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.Z6X-OtYLsmD9sE3io-vSJedFf6NMONO3RWNc8JaCR_c",
-    "MessageThreadId": "aaa32ac7-2170-47a4-8b5b-42af18977c95",
+    "ButtonUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/4559/?r=aaac615862be4280889beb09585196f7&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImFhYWM2MTU4NjJiZTQyODA4ODliZWIwOTU4NTE5NmY3Iiwicm9sZSI6IlZpZXciLCJuYmYiOjE1OTc5MDIyMDcsImV4cCI6MTU5NzkwNTgwNywiaWF0IjoxNTk3OTAyMjA3LCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.rY-Ysn_-56L-sZ6Y7_Esob8k2Nol3SPTIL0IiVavWwA",
+    "MessageThreadId": "e0ff03d9-69c1-4f4a-b4a6-8bfa36188d39",
     "BookingType": "reservation",
     "Links": {
-      "GuestReservationEditUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/6171/?r=f42c5cdae9c8471aa2ed509c1db9053c&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImY0MmM1Y2RhZTljODQ3MWFhMmVkNTA5YzFkYjkwNTNjIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1OTI2NDQyNDIsImV4cCI6MTU5MjY0Nzg0MiwiaWF0IjoxNTkyNjQ0MjQyLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.YTvpzCtgLTKOI-K2ImuaZuSHONyf4v1_sBnWnsRgEBM",
-      "GuestReservationPayUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/6171/?r=f42c5cdae9c8471aa2ed509c1db9053c&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImY0MmM1Y2RhZTljODQ3MWFhMmVkNTA5YzFkYjkwNTNjIiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1OTI2NDQyNDIsImV4cCI6MTU5MjY0Nzg0MiwiaWF0IjoxNTkyNjQ0MjQyLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.YTvpzCtgLTKOI-K2ImuaZuSHONyf4v1_sBnWnsRgEBM",
-      "GuestReservationViewUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/6171/?r=f42c5cdae9c8471aa2ed509c1db9053c&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImY0MmM1Y2RhZTljODQ3MWFhMmVkNTA5YzFkYjkwNTNjIiwicm9sZSI6IlZpZXciLCJuYmYiOjE1OTI2NDQyNDIsImV4cCI6MTU5MjY0Nzg0MiwiaWF0IjoxNTkyNjQ0MjQyLCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.Z6X-OtYLsmD9sE3io-vSJedFf6NMONO3RWNc8JaCR_c",
-      "RestaurantReservationViewUrl": "https://hostme-panel-qa.azurewebsites.net/panel/#/6171?deep_link=reservation&deep_id=f42c5cdae9c8471aa2ed509c1db9053c"
+      "GuestReservationEditUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/4559/?r=aaac615862be4280889beb09585196f7&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImFhYWM2MTU4NjJiZTQyODA4ODliZWIwOTU4NTE5NmY3Iiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1OTc5MDIyMDcsImV4cCI6MTU5NzkwNTgwNywiaWF0IjoxNTk3OTAyMjA3LCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.hiPWELJ8_-bnDnGf7TZpSEteVXRrxgb_5xcZJSsbOi0",
+      "GuestReservationPayUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/4559/?r=aaac615862be4280889beb09585196f7&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImFhYWM2MTU4NjJiZTQyODA4ODliZWIwOTU4NTE5NmY3Iiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1OTc5MDIyMDcsImV4cCI6MTU5NzkwNTgwNywiaWF0IjoxNTk3OTAyMjA3LCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.hiPWELJ8_-bnDnGf7TZpSEteVXRrxgb_5xcZJSsbOi0",
+      "GuestReservationViewUrl": "https://hostme-webguest-qa.azurewebsites.net/booking#/delivery-mode/4559/?r=aaac615862be4280889beb09585196f7&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImFhYWM2MTU4NjJiZTQyODA4ODliZWIwOTU4NTE5NmY3Iiwicm9sZSI6IlZpZXciLCJuYmYiOjE1OTc5MDIyMDcsImV4cCI6MTU5NzkwNTgwNywiaWF0IjoxNTk3OTAyMjA3LCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.rY-Ysn_-56L-sZ6Y7_Esob8k2Nol3SPTIL0IiVavWwA",
+      "RestaurantReservationViewUrl": "https://hostme-panel-qa.azurewebsites.net/panel/#/4559?deep_link=reservation&deep_id=aaac615862be4280889beb09585196f7",
+      "ReservationFeedbackUrl": "https://hostme-webguest-qa.azurewebsites.net/profile#/feedback?reservation=aaac615862be4280889beb09585196f7&a=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJncm91cHNpZCI6ImFhYWM2MTU4NjJiZTQyODA4ODliZWIwOTU4NTE5NmY3Iiwicm9sZSI6WyJFZGl0IiwiVmlldyJdLCJuYmYiOjE1OTc5MDIyMDcsImV4cCI6MTU5NzkwNTgwNywiaWF0IjoxNTk3OTAyMjA3LCJpc3MiOiJodHRwczovL2hvc3RtZS13ZWJndWVzdC1xYS5henVyZXdlYnNpdGVzLm5ldCIsImF1ZCI6Imhvc3RtZS1zZXJ2aWNlcy1xYS5henVyZXdlYnNpdGVzLm5ldCJ9.hiPWELJ8_-bnDnGf7TZpSEteVXRrxgb_5xcZJSsbOi0"
+    },
+    "StatusTime": {
+      "TimeToDrinks": "10:39 AM",
+      "TimeToCustom6": "10:39 AM",
+      "TimeToCustom7": "10:39 AM",
+      "TimeToCustom8": "10:39 AM",
+      "TimeToCustom9": "10:39 AM",
+      "TimeToStarters": "10:48 AM",
+      "TimeToMaincourse": "11:15 AM",
+      "TimeToDessert": "11:24 AM",
+      "TimeToBilldropped": "11:55 AM",
+      "TimeToPaidbill": "11:59 AM"
     }
   },
   "Guest": {
-    "CustomerName": "Evgeny Popov",
-    "Phone": "+7 983 137-58-77",
-    "Email": "evgeny.popov@gmail.com",
-    "Language": "en"
+    "CustomerName": "Evgeny",
+    "Phone": "+1 703-303-7416",
+    "Email": "evgeny.popov@gmail.com"
   },
   "GuestPolices": [
     {
       "Title": "Any questions?",
-      "Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:prgrf@ya.ru'>prgrf@ya.ru</a>."
+      "Content": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:evgeny.popov@gmail.com'>evgeny.popov@gmail.com</a>."
     }
   ],
   "Promo": {
@@ -162,7 +161,7 @@
   "I18N": {
     "GUESTPOLICES": {
       "TITLE": "Any questions?",
-      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:prgrf@ya.ru'>prgrf@ya.ru</a>."
+      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:evgeny.popov@gmail.com'>evgeny.popov@gmail.com</a>."
     },
     "RESTAURANTPOLICES": {
       "TITLE": "Any questions?",
@@ -179,7 +178,6 @@
     "LABELS": {
       "PARTY": "Party of",
       "FOR": "for",
-      "DURATION": "Duration:",
       "TABLE": "Table #",
       "ALLERGIES": "Allergies:",
       "DEPOSIT": "Deposit:",
@@ -207,7 +205,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on June 20 12:15 PM for {{Booking.ReservationName}} has been canceled.",
+      "TEXT": "Order on July 16 at 10:30 AM for {{Booking.ReservationName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been canceled:"
@@ -217,7 +215,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "The order has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on June 20 12:15 PM for {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on July 16 at 10:30 AM for {{Booking.ReservationName}} has been changed.",
       "HEADER": "Order Changed",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been changed:"
@@ -225,27 +223,27 @@
     "CONFIRMEDORDER": {
       "DISPLAYNAME": "Order Confirmed",
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
-      "SUBJECT": "Your order at Едим ногами has been confirmed!",
+      "SUBJECT": "Your order at My  Restaurant with Events has been confirmed!",
       "PREHEADER": "Order receipt",
-      "TEXT": "Your order at Едим ногами has been confirmed.",
+      "TEXT": "Your order at My  Restaurant with Events has been confirmed.",
       "HEADER": "Order Confirmed",
       "MAINMESSAGE": "The following order has been confirmed:"
     },
     "ORDERREADY": {
       "DISPLAYNAME": "Order is Ready",
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
-      "SUBJECT": "Your order at Едим ногами is ready!",
+      "SUBJECT": "Your order at My  Restaurant with Events is ready!",
       "PREHEADER": "Order is ready",
-      "TEXT": "Your order at Едим ногами is ready for pickup.",
+      "TEXT": "Your order at My  Restaurant with Events is ready for pickup.",
       "HEADER": "Order Is Ready",
       "MAINMESSAGE": "The following order is ready for pickup:"
     },
     "ORDERREQUEST": {
       "DISPLAYNAME": "Your Order has been Received",
       "DESCRIPTION": "Email sent to guests to confirm their order request was received",
-      "SUBJECT": "Your order request at Едим ногами has been received!",
+      "SUBJECT": "Your order request at My  Restaurant with Events has been received!",
       "PREHEADER": "Order request",
-      "TEXT": "Your order request at Едим ногами has been received.",
+      "TEXT": "Your order request at My  Restaurant with Events has been received.",
       "HEADER": "Order Request Received",
       "MAINMESSAGE": "The following order request has been received:"
     },
@@ -254,7 +252,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
-      "TEXT": "Order on June 20 12:15 PM for  {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on July 16 at 10:30 AM for  {{Booking.ReservationName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
       "MAINMESSAGE": "Please, help us improve and leave your feedback:"
@@ -264,25 +262,25 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
-      "TEXT": "Your order on June 20 12:15 PM for {{Booking.ReservationName}} has been rejected.",
+      "TEXT": "Your order on July 16 at 10:30 AM for {{Booking.ReservationName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
     "ACCEPTANCECONFIRMATION": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
-      "SUBJECT": "You have accepted reservation in Едим ногами on June 20 at June 20 12:15 PM",
+      "SUBJECT": "You have accepted reservation in My  Restaurant with Events on July 16 at 10:30 AM",
       "PREHEADER": "Check your reservation details.",
-      "TEXT": "You have accepted reservation in Едим ногами on June 20 at June 20 12:15 PM",
+      "TEXT": "You have accepted reservation in My  Restaurant with Events on July 16 at 10:30 AM",
       "HEADER": "Reservation Accepted",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
     },
     "CANCELED": {
       "DISPLAYNAME": "Reservation Canceled Notification",
       "DESCRIPTION": "Email sent to restaurant's team when reservation has been canceled",
-      "SUBJECT": "Your reservation at Едим ногами has been canceled.",
-      "PREHEADER": "June 20 12:15 PM for 1 at Едим ногами",
-      "TEXT": "Your reservation on June 20 12:15 PM for 1 at Едим ногами has been canceled.",
+      "SUBJECT": "Your reservation at My  Restaurant with Events has been canceled.",
+      "PREHEADER": "Reservation on July 16 at 10:30 AM for 1 at My  Restaurant with Events",
+      "TEXT": "Your reservation on July 16 at 10:30 AM for 1 at My  Restaurant with Events has been canceled.",
       "HEADER": "Reservation Canceled",
       "MAINMESSAGE": "The following reservation has been canceled:"
     },
@@ -291,7 +289,7 @@
       "DESCRIPTION": "Email sent to customers to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on June 20 12:15 PM for 1 {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Reservation for 1 has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
@@ -299,202 +297,198 @@
     "CONFIRMED": {
       "DISPLAYNAME": "Reservation Confirmation Notification",
       "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
-      "SUBJECT": "Your reservation at Едим ногами has been confirmed!",
+      "SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
       "PREHEADER": "Review the reservation",
-      "TEXT": "Your reservation on June 20 12:15 PM for 1 at Едим ногами has been confirmed.",
+      "TEXT": "Your reservation on July 16 10:30 AM at My  Restaurant with Events has been accepted.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "FEEDBACK": {
       "DISPLAYNAME": "Feedback request",
       "DESCRIPTION": "Email sent to customer to request a feedback after visit.",
-      "SUBJECT": "Leave your feedback for Едим ногами",
-      "PREHEADER": "Only Едим ногами will read",
-      "TEXT": "Leave your feedback for Едим ногами",
+      "SUBJECT": "Leave your feedback for My  Restaurant with Events",
+      "PREHEADER": "Only My  Restaurant with Events will read",
+      "TEXT": "Leave your feedback for My  Restaurant with Events",
       "HEADER": "Thanks for the visit!",
       "BUTTONTEXT": "Leave a Feedback",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "We always strive to improve the service. Please, "
     },
     "INVITATION": {
       "DISPLAYNAME": "Reservation Invitation",
       "DESCRIPTION": "Email sent to guests to invite them to the reservation",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "SUBJECT": "You have been invited to join the 2020 Hostme LLC. All Rights Reserved. app!",
       "PREHEADER": "Accept the invite",
-      "TEXT": "You have been invited to join the {{author}} app!",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "TEXT": "You have been invited to join the 2020 Hostme LLC. All Rights Reserved. app!",
+      "HEADER": "You have been invited to join the 2020 Hostme LLC. All Rights Reserved. app as {{Role}}!",
+      "BUTTONTEXT": "Accept"
     },
     "INVITATIONACCEPTED": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to customer to confirm accepted invitation by guests.",
-      "SUBJECT": "Your reservation invite at Едим ногами has been accepted by Evgeny Popov.",
-      "PREHEADER": "Evgeny Popov has accepted your invitation",
-      "TEXT": "Evgeny Popov has accepted your invitation to Едим ногами on June 20 at {{ReservationTime}}",
+      "SUBJECT": "Your reservation invite at My  Restaurant with Events has been accepted by Evgeny.",
+      "PREHEADER": "Evgeny has accepted your invitation",
+      "TEXT": "Evgeny has accepted your invitation to My  Restaurant with Events on July 16 at {{ReservationTime}}",
       "HEADER": "Invitation Accepted",
-      "BUTTONTEXT": "",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
     },
     "NEWRESERVATION": {
       "DISPLAYNAME": "Reservation Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation at Едим ногами has been confirmed!",
+      "SUBJECT": "Your reservation at My  Restaurant with Events has been confirmed!",
       "PREHEADER": "Review the reservation",
       "CONTENT": "Your reservation",
-      "TEXT": "Your reservation on June 20 12:15 PM for 1 at Едим ногами has been confirmed.",
+      "TEXT": "Your reservation on July 16 at 10:30 AM for 1 at My  Restaurant with Events has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "REJECTED": {
       "DISPLAYNAME": "Reservation Rejected",
       "DESCRIPTION": "Email sent to customer to reject reservation request",
-      "SUBJECT": "Your reservation at Едим ногами has been rejected",
+      "SUBJECT": "Your reservation at My  Restaurant with Events has been rejected",
       "PREHEADER": "Check the reason",
-      "TEXT": "Your reservation request at Едим ногами was rejected - {{Booking.Reason}}",
+      "TEXT": "Your reservation request at My  Restaurant with Events on July 16 10:30 AM was rejected (reason: {{Booking.Reason}}). Please retry here: https://hostme-webguest-qa.azurewebsites.net/restaurants/4559",
       "HEADER": "Reservation Rejected",
       "MAINMESSAGE": "The following reservation request has been rejected:"
     },
     "REMINDER": {
       "DISPLAYNAME": "Upcoming Reservation",
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
-      "SUBJECT": "You have Upcoming reservation in Едим ногами on June 20 at June 20 12:15 PM",
+      "SUBJECT": "You have Upcoming reservation in My  Restaurant with Events on July 16 at 10:30 AM",
       "PREHEADER": "Please, cancel if you're not able to come.",
-      "TEXT": "You have Upcoming reservation in Едим ногами on June 20 at June 20 12:15 PM",
-      "HEADER": "Upcoming Reservation",
-      "MAINMESSAGE": ""
+      "TEXT": "You have a reservation on July 16 at 10:30 AM until 11:24 AM at My  Restaurant with Events.",
+      "HEADER": "Upcoming Reservation"
     },
     "RESERVATIONREQUEST": {
       "DISPLAYNAME": "Reservation Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation request at Едим ногами has been received.",
-      "PREHEADER": "June 20 12:15 PM for 1 at Едим ногами",
-      "TEXT": "Your reservation request on June 20 12:15 PM for 1 at Едим ногами is waiting confirmation.",
+      "SUBJECT": "Your reservation request at My  Restaurant with Events has been received.",
+      "PREHEADER": "Reservation on July 16 at 10:30 AM for 1 at My  Restaurant with Events",
+      "TEXT": "Your reservation on July 16 at 10:30 AM at My  Restaurant with Events is awaiting confirmation.",
       "HEADER": "Request Received",
       "MAINMESSAGE": "The following reservation request has been received:"
     },
     "APPROVED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "HEADER": "You're on the waitlist!",
+      "DISPLAYNAME": "Waitlist group added",
+      "DESCRIPTION": "A group added on the waitlist",
+      "HEADER": "header",
       "CONTENT": "Please, check your status by following the link.",
-      "SUBJECT": "You're now on the waitlist at Едим ногами",
+      "SUBJECT": "You're now on the waitlist at My  Restaurant with Events",
       "PREHEADER": "Check your status",
-      "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
+      "TEXT": "You’re now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
       "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
     },
     "CALLED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Waitlist group called",
+      "DESCRIPTION": "Message or email sent when a waitlist group status changed to called",
       "HEADER": "Table is Ready",
-      "SUBJECT": "You table at Едим ногами is ready!",
+      "SUBJECT": "You table at My  Restaurant with Events is ready!",
       "PREHEADER": "We're waiting for you.",
-      "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
+      "TEXT": "Your table is ready! You have it until 11:24 AM. Please go to the host to be seated. Thank you for using Hostme!",
       "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
     },
+    "SEATED": {
+      "DISPLAYNAME": "Customer is seated",
+      "DESCRIPTION": "Notification sent to the guest when he was seated",
+      "HEADER": "Thanks for dining with us",
+      "SUBJECT": "Thanks for dining with us",
+      "PREHEADER": "Thanks for dining with us",
+      "TEXT": "Thanks for dining with us! The {RestaurantName} team",
+      "MAINMESSAGE": "Thanks for dining with us"
+    },
     "CANCELEDBYGUEST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been removed from the waitlist at Едим ногами",
+      "DISPLAYNAME": "Guest left the waitlist",
+      "DESCRIPTION": "Message sent when a guest cancels the waitlist themselves",
+      "SUBJECT": "You have been removed from the waitlist at My  Restaurant with Events",
       "PREHEADER": "Hope to see you back soon",
       "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
       "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
     },
+    "CANCELEDBYHOST": {
+      "DISPLAYNAME": "Canceled by host",
+      "DESCRIPTION": "Host removed a guest from the waitlist",
+      "SUBJECT": "You have been removed from the waitlist at My  Restaurant with Events",
+      "PREHEADER": "Removed from the waitlist.",
+      "TEXT": "We didn’t hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
+    },
     "CAMPAIGN": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Your marketing email campaign",
+      "DESCRIPTION": "Send your marketing email to your customers",
       "SUBJECT": "Some nice subtitle!",
       "PREHEADER": "Why they should open the email?",
       "TEXT": "Let's send the text",
       "MAINMESSAGE": "Promote promote promote!"
     },
-    "CANCELEDBYHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been removed from the waitlist at Едим ногами",
-      "PREHEADER": "",
-      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
-      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
-    },
     "CHANGEDFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Changed reservation notification",
+      "DESCRIPTION": "Email send to host when a reservation was changed",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "TEXT": "The reservation for {{Booking.ReservationName}} July 16 10:30 AM has been canceled",
+      "HEADER": "Reservation Changed"
     },
     "CANCELEDFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Canceled reservation notification",
+      "DESCRIPTION": "Email send to host when a reservation was canceled.",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been changed",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "TEXT": "The reservation for {{Booking.ReservationName}} July 16 10:30 AM has been changed",
+      "HEADER": "Reservation Changed"
     },
     "APPROVALFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Manual approval request",
+      "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
       "SUBJECT": "New online reservation request. Action required!",
       "PREHEADER": "Review Reservation",
-      "TEXT": "New reservation request: {{ReservationDateTime}} / {{GuestName}}. Please review.",
+      "TEXT": "New reservation request: July 16 10:30 AM / {{Booking.ReservationName}}. Please review.",
       "HEADER": "New Request",
-      "BUTTONTEXT": "Review",
-      "MAINMESSAGE": "{{ReservationDateTime}} / {{GuestName}}"
+      "MAINMESSAGE": "July 16 10:30 AM / {{Booking.ReservationName}}"
     },
     "NEWRESERVATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "New Reservation Notification",
+      "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
-      "PREHEADER": "{{ReservationDateTime}} / {{GuestName}}",
-      "TEXT": "New reservation: {{ReservationDateTime}} / {{GuestName}}",
-      "HEADER": "New Reservation",
-      "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "PREHEADER": "July 16 10:30 AM / {{Booking.ReservationName}}",
+      "TEXT": "New reservation: July 16 10:30 AM / {{Booking.ReservationName}}",
+      "HEADER": "New Reservation"
     },
     "REMINDERFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Reservation reminder for host",
+      "DESCRIPTION": "Upcoming reservation reminder for staff",
       "SUBJECT": "Upcoming reservation reminder",
-      "PREHEADER": "{{GuestName}} / {{ReservationDateTime}}",
-      "TEXT": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
-      "HEADER": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
-      "BUTTONTEXT": "Manage the Reservation",
-      "MAINMESSAGE": ""
+      "PREHEADER": "{{Booking.ReservationName}} / July 16 10:30 AM",
+      "TEXT": "Upcoming reservation reminder: July 16 10:30 AM / {{Booking.ReservationName}}",
+      "HEADER": "Upcoming reservation reminder: July 16 10:30 AM / {{Booking.ReservationName}}",
+      "BUTTONTEXT": "Manage the Reservation"
     },
     "INVITATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "DISPLAYNAME": "Invitation for staff",
+      "DESCRIPTION": "Invitation to join restaurant as a user",
+      "SUBJECT": "You have been invited to join the 2020 Hostme LLC. All Rights Reserved. app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "HEADER": "You have been invited to join the 2020 Hostme LLC. All Rights Reserved. app as {{Role}}!",
+      "BUTTONTEXT": "Accept"
     },
     "PAYMENTLINK": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Pay for the {{author}} {{PlanName}} plan",
-      "PREHEADER": "Follow the payment link to complete {{author}} {{PlanName}}",
+      "DISPLAYNAME": "Payment link",
+      "DESCRIPTION": "Easy way to send the link to pay for 2020 Hostme LLC. All Rights Reserved. subscribtion",
+      "SUBJECT": "Pay for the 2020 Hostme LLC. All Rights Reserved. {{PlanName}} plan",
+      "PREHEADER": "Follow the payment link to complete 2020 Hostme LLC. All Rights Reserved. {{PlanName}}",
       "HEADER": "Subscribe",
-      "BUTTONTEXT": "Subscribe",
-      "MAINMESSAGE": ""
+      "BUTTONTEXT": "Subscribe"
     },
     "REMINDERTOPAY": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Your staff reminds you to upgrade your {{author}} plan",
-      "PREHEADER": "X days left",
+      "DISPLAYNAME": "Reminder to pay for the subscribtion",
+      "DESCRIPTION": "Reminder to pay for the 2020 Hostme LLC. All Rights Reserved. subscribtion",
+      "SUBJECT": "Your staff reminds you to upgrade your 2020 Hostme LLC. All Rights Reserved.  plan",
+      "PREHEADER": "Reminder",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{author}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain 2020 Hostme LLC. All Rights Reserved. account active. Restaurant account will be blocked after X days if no payment received."
     },
     "BLOCKED": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Restaurant account is blocked",
+      "DESCRIPTION": "Notification to restaurant owners and managers when a restaurant was blocked due to billing issues.",
       "SUBJECT": "Restaurant is blocked",
       "PREHEADER": "Please, check your payment settings",
       "TEXT": "Your restaurant account was blocked. Please, check your payment settings or upgrade.",
@@ -503,31 +497,33 @@
       "MAINMESSAGE": "Your restaurant account was blocked. Please, check your payment settings or upgrade."
     },
     "RESETPASSWORD": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Your {{author}} password was successfully reset",
+      "DISPLAYNAME": "Reset Password",
+      "DESCRIPTION": "Reset Password email for hosts",
+      "SUBJECT": "Your 2020 Hostme LLC. All Rights Reserved. password was successfully reset",
       "PREHEADER": "Password inside",
-      "TEXT": "Your {{author}} password was successfully reset",
-      "HEADER": "Your {{author}} password was successfully reset",
+      "TEXT": "Your 2020 Hostme LLC. All Rights Reserved. password was successfully reset",
+      "HEADER": "Your 2020 Hostme LLC. All Rights Reserved. password was successfully reset",
       "BUTTONTEXT": "Sign In",
       "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
     },
     "EXPORTTOCSV": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Export guestbook email",
+      "DESCRIPTION": "The email with attached CSV file",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready",
-      "MAINMESSAGE": ""
+      "HEADER": "Your CSV export is ready"
     },
     "WELCOMEFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Welcome to the {{author}} app!",
+      "DISPLAYNAME": "Welcome restaurant user",
+      "DESCRIPTION": "Welcome email for new restaurant user signups",
+      "SUBJECT": "Welcome to the 2020 Hostme LLC. All Rights Reserved. app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{author}}!",
+      "HEADER": "Welcome to 2020 Hostme LLC. All Rights Reserved.!",
       "BUTTONTEXT": "Learn more",
       "TITLE": "How to start",
-      "MAINMESSAGE": "Thanks for signing up with {{author}}! Please, complete your registration to remain access..."
+      "MAINMESSAGE": "Thanks for signing up with 2020 Hostme LLC. All Rights Reserved.! Please, complete your registration to remain access..."
+    },
+    "TEST": {
+      "TEXT": "sdhfgsdhfghds"
     }
   },
   "CUSTOMUI": {
