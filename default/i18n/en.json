@@ -47,7 +47,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been canceled.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been canceled:"
@@ -57,7 +57,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "The order has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been changed.",
       "HEADER": "Order Changed",
       "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been changed:"
@@ -94,7 +94,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
-      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for  {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for  {{Guest.CustomerName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
       "MAINMESSAGE": "Please, help us improve and leave your feedback:"
@@ -104,7 +104,7 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
-      "TEXT": "Your order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.ReservationName}} has been rejected.",
+      "TEXT": "Your order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
@@ -266,7 +266,7 @@
       "DESCRIPTION": "Email send to host when a reservation was changed",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Booking.ReservationName}} {{Booking.ReservationDateTime}} has been canceled",
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
       "HEADER": "Reservation Changed"
     },
     "CANCELEDFORHOST": {
@@ -274,7 +274,7 @@
       "DESCRIPTION": "Email send to host when a reservation was canceled.",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Booking.ReservationName}} {{Booking.ReservationDateTime}} has been changed",
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
       "HEADER": "Reservation Changed"
     },
     "APPROVALFORHOST": {
@@ -282,25 +282,25 @@
       "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
       "SUBJECT": "New online reservation request. Action required!",
       "PREHEADER": "Review Reservation",
-      "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}. Please review.",
+      "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
       "HEADER": "New Request",
-      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Booking.ReservationName}}"
+      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"
     },
     "NEWRESERVATIONFORHOST": {
       "DISPLAYNAME": "New Reservation Notification",
       "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
-      "PREHEADER": "{{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
-      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
       "HEADER": "New Reservation"
     },
     "REMINDERFORHOST": {
       "DISPLAYNAME": "Reservation reminder for host",
       "DESCRIPTION": "Upcoming reservation reminder for staff",
       "SUBJECT": "Upcoming reservation reminder",
-      "PREHEADER": "{{Booking.ReservationName}} / {{Booking.ReservationDateTime}}",
-      "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
-      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Booking.ReservationName}}",
+      "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
+      "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
       "BUTTONTEXT": "Manage the Reservation"
     },
     "INVITATIONFORHOST": {

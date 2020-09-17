@@ -43,7 +43,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "Заказ отменен",
       "PREHEADER": "Посмотреть изменения",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been canceled.",
+      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been canceled.",
       "HEADER": "Заказ отменен",
       "BUTTONTEXT": "Детали Заказа",
       "MAINMESSAGE": "Ваш заказ был отменен:"
@@ -53,7 +53,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "Заказ был изменен",
       "PREHEADER": "Посмотреть изменения",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been changed.",
       "HEADER": "Заказ Изменен",
       "BUTTONTEXT": "Детали Заказа",
       "MAINMESSAGE": "Ваш заказ был изменен:"
@@ -63,7 +63,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
@@ -100,7 +100,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
-      "TEXT": "Order on {{Booking.ReservationDateTime}} for  {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Order on {{Booking.ReservationDateTime}} for  {{Guest.CustomerName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
       "MAINMESSAGE": "Please, help us improve and leave your feedback:"
@@ -110,7 +110,7 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
-      "TEXT": "Your order on {{Booking.ReservationDateTime}} for {{Booking.ReservationName}} has been rejected.",
+      "TEXT": "Your order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
@@ -137,7 +137,7 @@
       "DESCRIPTION": "Email sent to customer's friends to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Booking.ReservationName}} has been changed.",
+      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
       "MAINMESSAGE": "The following reservation has been changed:"
