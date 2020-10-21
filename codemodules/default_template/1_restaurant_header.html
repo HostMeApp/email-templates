@@ -1,9 +1,26 @@
 <div class="res-logo">
+    <!--[if gte mso 9]>
+    <table width="540" align="center">
+    <tr>
+    <![endif]-->
     {{#if Restaurant.Logo}} {{#if CUSTOMUI.SHOWRESTAURANTLOGO}}
+    <!--[if gte mso 9]>
+    <td width="100" align="left">
+    <![endif]-->
     <a style="display:inline-block;vertical-align:middle;line-height:60px" href="{{Restaurant.Links.GuestAppUrl}}">
         <img width="60" class="max-width" style="display:block;height:auto" alt="" src="{{Restaurant.Logo}}" border="0" data-proportionally-constrained="true" data-responsive="false">
     </a>
+    <!--[if gte mso 9]>
+    </td>
+    <![endif]-->
     {{/if}} {{/if}}
+    <!--[if gte mso 9]>
+    <td width="440">
+    <![endif]-->
     <div class="res-name" style="padding-left: 30px; display:inline-block;vertical-align:middle;line-height:60px"><strong><font color="#44413e"><span style="font-size: 24px;">{{Restaurant.Name}}</span></font></strong></div>
+    <!--[if gte mso 9]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
 </div>
-
