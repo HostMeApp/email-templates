@@ -17,6 +17,9 @@
   },
   "CUSTOMUI": {
     "SHOWAUTHORLOGO": true,
+    "SHOWCUSTOMPOLICY1": true,
+    "SHOWCUSTOMPOLICY2": false,
+    "SHOWCUSTOMPOLICY3": false,
     "SHOWTWITTER": true,
     "SHOWFACEBOOK": true,
     "SHOWINSTAGRAM": true,
