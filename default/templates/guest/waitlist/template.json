@@ -1,13 +1,15 @@
 {
-  "ContentTemplate": {
-    "sms": null,
-    "email": "d-1122c81a54d84f259f2a44a34524a136",
-    "push": null
-  },
   "CUSTOMUI": {
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,
     "SHOWCUSTOMPOLICY3": false,
+    "SHOWREASON": true,
+    "SHOWMANAGEBUTTON": true,
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWDURATION": true,
+    "SHOWDEPOSIT": true,
+    "SHOWTABLENUMBER": true,
+    "SHOWTABLENOTES": true,
     "SHOWALLERGIES": true,
     "SHOWAREAS": true,
     "SHOWNOTE": true,
