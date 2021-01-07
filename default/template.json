@@ -13,7 +13,13 @@
     "SendGridApiKey": null,
     "SendSendFromEmail": "HostmeQA@notify.hostmeapp.com",
     "SendSendFromName": "Hostme QA",
-    "SendSmsFrom": "MGc888d53f2c1c75bf3c4fccb3c68441df"
+    "SendSmsFrom": "MGc888d53f2c1c75bf3c4fccb3c68441df",
+    "Social": {
+      "Facebook": { "Link": "https://facebook.com/hostme" },
+      "Instagram": { "Link": "https://www.instagram.com/hostmeapp" },
+      "Twitter": { "Link": "https://twitter.com/hostmeapp" },
+      "Youtube": { "Link": "https://www.youtube.com/channel/UCRYfyahfR6hK1lVnZpMHWdg" }
+    }
   },
   "CUSTOMUI": {
     "SHOWAUTHORLOGO": true,
