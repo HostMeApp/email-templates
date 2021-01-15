@@ -20,33 +20,5 @@
       "Twitter": { "Link": "https://twitter.com/hostmeapp" },
       "Youtube": { "Link": "https://www.youtube.com/channel/UCRYfyahfR6hK1lVnZpMHWdg" }
     }
-  },
-  "CUSTOMUI": {
-    "SHOWAUTHORLOGO": true,
-    "SHOWCUSTOMPOLICY1": true,
-    "SHOWCUSTOMPOLICY2": false,
-    "SHOWCUSTOMPOLICY3": false,
-    "SHOWTWITTER": true,
-    "SHOWFACEBOOK": true,
-    "SHOWINSTAGRAM": true,
-    "SHOWRESTAURANTLOGO": true,
-    "SHOWMESSAGETITLE": true,
-    "SHOWMESSAGE": true,
-    "SHOWREASON": true,
-    "SHOWMANAGEBUTTON": true,
-    "SHOWRESERVATIONDETAILS": true,
-    "SHOWDURATION": true,
-    "SHOWDEPOSIT": true,
-    "SHOWTABLENUMBER": true,
-    "SHOWTABLENOTES": true,
-    "SHOWALLERGIES": true,
-    "SHOWAREAS": true,
-    "SHOWNOTE": true,
-    "SHOWORDER": true,
-    "SHOWRESTAURANTDETAILS": true,
-    "SHOWRESTAURANTADDRESS": true,
-    "SHOWRESTAURANTSERVICES": true,
-    "SHOWPOLICY": true,
-    "SHOWPROMO": true
   }
 }
