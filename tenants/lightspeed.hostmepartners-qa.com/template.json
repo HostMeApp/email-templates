@@ -1,0 +1,24 @@
+{
+  "ContentTemplate": {
+    "sms": null,
+    "email": "d-fa4bb4cda19c4c2fa58fa99467390634",
+    "push": null
+  },
+  "Branding": {
+    "Copirate": "Hostme Lightspeed QA",
+    "Background": "#000000",
+    "TextColor": "#ff0000",
+    "LinkColor": "#e16640",
+    "Logo": "https://hostmeprod.blob.core.windows.net/marketplace/lightspeed/lightspeed.png",
+    "SendGridApiKey": "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",
+    "SendSendFromEmail": "HostmeQALightspeed@notify.hostmeapp-qa.dev",
+    "SendSendFromName": "Hostme Lightspeed QA",
+    "SendSmsFrom": "MG361ce59272d6d07eb0bf7e54c56f11da",
+    "Social": {
+      "Facebook": { "Link": "https://facebook.com/hostme-qa" },
+      "Instagram": { "Link": "https://www.instagram.com/hostmeapp-qa" },
+      "Twitter": { "Link": "https://twitter.com/hostmeapp-qa" },
+      "Youtube": { "Link": "https://www.youtube.com/channel/UCRYfyahfR6hK1lVnZpMHWdg-qa" }
+    }
+  }
+}
