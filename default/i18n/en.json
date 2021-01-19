@@ -58,7 +58,7 @@
       "DISPLAYNAME": "Customer Cancels order",
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
-      "PREHEADER": "Review the changes",
+      "PREHEADER": "Order Canceled",
       "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
@@ -184,16 +184,6 @@
       "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
       "HEADER": "Invitation Accepted",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
-    },
-    "NEWRESERVATION": {
-      "DISPLAYNAME": "Reservation Confirmation",
-      "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "Review the reservation",
-      "CONTENT": "Your reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
     },
     "REJECTED": {
       "DISPLAYNAME": "Reservation Rejected",

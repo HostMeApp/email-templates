@@ -4,6 +4,11 @@
     "email": "d-50af7ab122984e9dac289732375e43f6",
     "push": null
   },
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true },
+    "push": { "Enable": true }
+  },
   "RestaurantPolices": [
     {
       "TITLE": "{{I18N.RESTAURANTPOLICES.TITLE}}",

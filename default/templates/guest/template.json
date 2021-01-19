@@ -4,23 +4,6 @@
     "email": "d-67955651fbb84215adc7679645a387eb",
     "push": null
   },
-  "Branding": {
-    "Copirate": "2020 Hostme LLC. All Rights Reserved.",
-    "Background": "#F8F8F8",
-    "TextColor": "#666666",
-    "LinkColor": "#E16640",
-    "Logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png"
-  },
-  "UI": {
-    "BOOKING": {
-      "SHOWTABLENUMBER": false,
-      "SHOWNOTES": true
-    },
-    "ORDER": {
-      "SHOWTABLENUMBER": false,
-      "SHOWNOTES": true
-    }
-  },
   "GuestPolices": [
     {
       "TITLE": "{{I18N.GUESTPOLICES.TITLE}}",
