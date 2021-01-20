@@ -9,6 +9,9 @@
     "sms": "{{I18N.ORDERREADY.TEXT}}",
     "push": "{{I18N.ORDERREADY.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.ORDERREADY.MAINMESSAGE}}",
     "ButtonText": null,

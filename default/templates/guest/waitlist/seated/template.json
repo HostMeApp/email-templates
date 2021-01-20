@@ -9,6 +9,9 @@
     "sms": "{{I18N.SEATED.TEXT}}",
     "push": "{{I18N.SEATED.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": false }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.SEATED.MAINMESSAGE}}",
     "ButtonText": null,

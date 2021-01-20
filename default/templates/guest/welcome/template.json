@@ -9,6 +9,11 @@
     "sms": "{{I18N.WELCOMEGUEST.TEXT}}",
     "push": "{{I18N.WELCOMEGUEST.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": false },
+    "push": { "Enable": false }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.WELCOMEGUEST.MAINMESSAGE}}",
     "ButtonText": null,

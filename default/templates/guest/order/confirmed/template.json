@@ -9,6 +9,9 @@
     "sms": "{{I18N.CONFIRMEDORDER.TEXT}}",
     "push": "{{I18N.CONFIRMEDORDER.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}",
     "ButtonText": null,

@@ -9,6 +9,9 @@
     "sms": "{{I18N.CANCELEDORDER.TEXT}}",
     "push": "{{I18N.CANCELEDORDER.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.CANCELEDORDER.MAINMESSAGE}}",
     "ButtonText": null,

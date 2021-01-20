@@ -1,4 +1,9 @@
 {
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true },
+    "push": { "Enable": true }
+  },
   "CUSTOMUI": {
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,

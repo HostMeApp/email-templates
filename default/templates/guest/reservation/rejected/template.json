@@ -9,6 +9,9 @@
     "sms": "{{I18N.REJECTED.TEXT}}",
     "push": "{{I18N.REJECTED.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.REJECTED.MAINMESSAGE}}"
   },

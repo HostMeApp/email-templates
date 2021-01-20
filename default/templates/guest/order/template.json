@@ -4,6 +4,11 @@
     "email": "d-1122c81a54d84f259f2a44a34524a136",
     "push": null
   },
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true },
+    "push": { "Enable": false }
+  },
   "CUSTOMUI": {
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,

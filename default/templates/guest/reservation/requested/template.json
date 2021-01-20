@@ -9,6 +9,9 @@
     "sms": "{{I18N.RESERVATIONREQUEST.TEXT}}",
     "push": "{{I18N.RESERVATIONREQUEST.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.RESERVATIONREQUEST.MAINMESSAGE}}"
   },

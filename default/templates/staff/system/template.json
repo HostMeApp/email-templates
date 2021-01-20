@@ -1,4 +1,9 @@
 {
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true },
+    "push": { "Enable": false }
+  },
   "ContentTemplate": {
     "sms": null,
     "email": "d-f307342b9f984f2097527990534e8a14",
