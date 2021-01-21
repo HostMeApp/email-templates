@@ -5,15 +5,15 @@
     "push": null
   },
   "Branding": {
-    "Copirate": "Hostme QA",
+    "Copirate": "Hostme LLC",
     "Background": "#f8f8f8",
     "TextColor": "#666666",
     "LinkColor": "#e16640",
     "Logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png",
     "SendGridApiKey": null,
-    "SendSendFromEmail": "HostmeQA@notify.hostmeapp.com",
-    "SendSendFromName": "Hostme QA",
-    "SendSmsFrom": "MGc888d53f2c1c75bf3c4fccb3c68441df",
+    "SendSendFromEmail": "no-reply@notify.hostmeapp.com",
+    "SendSendFromName": "Hostme team",
+    "SendSmsFrom": "MGd91b909712d17351d5852aa16f9f33c0",
     "Social": {
       "Facebook": { "Link": "https://facebook.com/hostme" },
       "Instagram": { "Link": "https://www.instagram.com/hostmeapp" },
