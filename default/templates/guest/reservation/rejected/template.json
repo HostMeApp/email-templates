@@ -1,0 +1,22 @@
+{
+  "Name": "REJECTED",
+  "DisplayName": "{{I18N.REJECTED.DISPLAYNAME}}",
+  "Description": "{{I18N.REJECTED.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.REJECTED.SUBJECT}}",
+  "PREHEADER": "{{I18N.REJECTED.PREHEADER}}",
+  "HEADER": "{{I18N.REJECTED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.REJECTED.TEXT}}",
+    "push": "{{I18N.REJECTED.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.REJECTED.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

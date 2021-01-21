@@ -1,0 +1,1 @@
+{"Name":"RestaurantUsersExportToCsv","Language":"it","SUBJECT":"Il tuo file di esportazione CSV è pronto {{CsvFileName}}","EmailHeader":"<span>Il tuo file di esportazione CSV è pronto</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

@@ -1,0 +1,22 @@
+{
+  "Name": "CONFIRMED",
+  "DisplayName": "{{I18N.CONFIRMED.DISPLAYNAME}}",
+  "Description": "{{I18N.CONFIRMED.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
+  "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
+  "HEADER": "{{I18N.CONFIRMED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CONFIRMED.TEXT}}",
+    "push": "{{I18N.CONFIRMED.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CONFIRMED.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

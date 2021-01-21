@@ -1,0 +1,19 @@
+{
+  "Name": "ORDERFEEDBACK",
+  "DisplayName": "{{I18N.ORDERFEEDBACK.DISPLAYNAME}}",
+  "Description": "{{I18N.ORDERFEEDBACK.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.ORDERFEEDBACK.SUBJECT}}",
+  "PREHEADER": "{{I18N.ORDERFEEDBACK.PREHEADER}}",
+  "HEADER": "{{I18N.ORDERFEEDBACK.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.ORDERFEEDBACK.TEXT}}",
+    "push": "{{I18N.ORDERFEEDBACK.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.ORDERFEEDBACK.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.ORDERFEEDBACK.BUTTONTEXT}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

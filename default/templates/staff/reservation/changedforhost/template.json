@@ -1,0 +1,21 @@
+{
+  "Name": "CHANGEDFORHOST",
+  "DisplayName": "Reservation CHANGEDFORHOST Notification",
+  "Description": "Email sent to restaurant's team when reservation has been CHANGEDFORHOST",
+  "SUBJECT": "{{I18N.CHANGEDFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.CHANGEDFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.CHANGEDFORHOST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CHANGEDFORHOST.TEXT}}",
+    "email": null,
+    "push": "{{I18N.CHANGEDFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CHANGEDFORHOST.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
+  }
+}

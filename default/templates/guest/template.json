@@ -1,0 +1,30 @@
+{
+  "ContentTemplate": {
+    "sms": null,
+    "email": "d-67955651fbb84215adc7679645a387eb",
+    "push": null
+  },
+  "GuestPolices": [
+    {
+      "TITLE": "{{I18N.GUESTPOLICES.TITLE}}",
+      "Content": "{{I18N.GUESTPOLICES.CONTENT}}"
+    }
+  ],
+  "Promo": {
+    "TITLE": "{{I18N.PROMO.TITLE}}",
+    "Content": "{{I18N.PROMO.CONTENT}}",
+    "ButtonText": "",
+    "ButtonUrl": "",
+    "Image": "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/footer-image@2x.png",
+    "Links": [
+      {
+        "Image": "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/app-store@2x.png",
+        "Link": "https://apps.apple.com/app/hostme/id1290719016"
+      },
+      {
+        "Image": "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/google-play@2x.png",
+        "Link": "https://play.google.com/store/apps/details?id=com.hostmeapp.guest"
+      }
+    ]
+  }
+}

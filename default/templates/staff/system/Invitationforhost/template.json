@@ -1,0 +1,17 @@
+{
+  "Name": "INVITATIONFORHOST",
+  "DisplayName": "Restaurant user INVITATIONFORHOST email",
+  "Description": "The email to accept INVITATIONFORHOST and join a restaurant as a user.",
+  "SUBJECT": "{{I18N.INVITATIONFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.INVITATIONFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.INVITATIONFORHOST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.INVITATIONFORHOST.TEXT}}",
+    "push": "{{I18N.INVITATIONFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.INVITATIONFORHOST.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.INVITATIONFORHOST.BUTTONTEXT}}",
+    "ButtonUrl": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "WELCOMEFORHOST",
+  "DisplayName": "Welcome new restaurant user account",
+  "Description": "Email sent to all new accounts in a restaurant both owners and others.",
+  "SUBJECT": "{{I18N.WELCOMEFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.WELCOMEFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.WELCOMEFORHOST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.WELCOMEFORHOST.TEXT}}",
+    "push": "{{I18N.WELCOMEFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.WELCOMEFORHOST.TITLE}}",
+    "Content": "{{I18N.WELCOMEFORHOST.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.WELCOMEFORHOST.BUTTONTEXT}}",
+    "ButtonUrl": null
+  }
+}

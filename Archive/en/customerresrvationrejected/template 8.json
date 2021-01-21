@@ -1,0 +1,1 @@
+{"Name":"CustomerResrvationRejected","Language":"en","SUBJECT":"Your reservation at {{RestaurantName}} has been rejected","EmailHeader":"<span>Your reservation at {{RestaurantName}} has been rejected</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

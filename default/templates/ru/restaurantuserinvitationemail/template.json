@@ -1,1 +1,0 @@
-{"Name":"RestaurantUserInvitationEmail","Language":"ru","Subject":"Вы были приглашены в {{author}}!","EmailHeader":"<span>Вы были приглашены в <br> {{author}} в роли{{Role}}!</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485349275/mails/email/invited-1.jpg","SmsContent":null}

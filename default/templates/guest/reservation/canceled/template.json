@@ -1,0 +1,22 @@
+{
+  "Name": "CANCELED",
+  "DisplayName": "{{I18N.CANCELED.DISPLAYNAME}}",
+  "Description": "{{I18N.CANCELED.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CANCELED.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELED.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CANCELED.TEXT}}",
+    "push": "{{I18N.CANCELED.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CANCELED.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

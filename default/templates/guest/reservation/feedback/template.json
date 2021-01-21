@@ -1,0 +1,17 @@
+{
+  "Name": "FEEDBACK",
+  "DisplayName": "{{I18N.FEEDBACK.DISPLAYNAME}}",
+  "Description": "{{I18N.FEEDBACK.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.FEEDBACK.SUBJECT}}",
+  "PREHEADER": "{{I18N.FEEDBACK.PREHEADER}}",
+  "HEADER": "{{I18N.FEEDBACK.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.FEEDBACK.TEXT}}",
+    "push": "{{I18N.FEEDBACK.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.FEEDBACK.BUTTONTEXT}}",
+    "ButtonUrl": null
+  }
+}

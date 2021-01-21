@@ -1,0 +1,21 @@
+{
+  "Name": "NEWRESERVATIONFORHOST",
+  "DisplayName": "New Online Reservation Notification",
+  "Description": "Email sent to restaurant's team when new online reservation has been added",
+  "SUBJECT": "{{I18N.NEWRESERVATIONFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.NEWRESERVATIONFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.NEWRESERVATIONFORHOST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.NEWRESERVATIONFORHOST.TEXT}}",
+    "email": null,
+    "push": "{{I18N.NEWRESERVATIONFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.NEWRESERVATIONFORHOST.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
+  }
+}

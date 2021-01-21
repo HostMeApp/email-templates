@@ -1,0 +1,24 @@
+{
+  "Name": "CONFIRMEDORDER",
+  "DisplayName": "{{I18N.CONFIRMEDORDER.DISPLAYNAME}}",
+  "Description": "{{I18N.CONFIRMEDORDER.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CONFIRMEDORDER.SUBJECT}}",
+  "PREHEADER": "{{I18N.CONFIRMEDORDER.PREHEADER}}",
+  "HEADER": "{{I18N.CONFIRMEDORDER.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CONFIRMEDORDER.TEXT}}",
+    "push": "{{I18N.CONFIRMEDORDER.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

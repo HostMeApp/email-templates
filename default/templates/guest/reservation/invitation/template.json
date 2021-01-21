@@ -1,0 +1,15 @@
+{
+  "Name": "INVITATION",
+  "DisplayName": "{{I18N.INVITATION.DISPLAYNAME}}",
+  "Description": "{{I18N.INVITATION.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.INVITATION.SUBJECT}}",
+  "PREHEADER": "{{I18N.INVITATION.PREHEADER}}",
+  "HEADER": "{{I18N.INVITATION.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.INVITATION.TEXT}}",
+    "push": "{{I18N.INVITATION.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.INVITATION.MAINMESSAGE}}"
+  }
+}

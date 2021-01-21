@@ -1,0 +1,20 @@
+{
+  "Name": "CANCELEDBYGUEST",
+  "DisplayName": "Customer Cancels Wait",
+  "Description": "Notification sent to the guest to inform that they receive request to cancel wait",
+  "SUBJECT": "{{I18N.CANCELEDBYGUEST.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELEDBYGUEST.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELEDBYGUES.HEADERT}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CANCELEDBYGUEST.TEXT}}",
+    "push": "{{I18N.CANCELEDBYGUEST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CANCELEDBYGUEST.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEWAITLIST}}"
+  }
+}

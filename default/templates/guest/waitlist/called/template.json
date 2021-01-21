@@ -1,0 +1,20 @@
+{
+  "Name": "CALLED",
+  "DisplayName": "Customer is Called",
+  "Description": "Notification sent to the guest to inform that table is ready",
+  "SUBJECT": "{{I18N.CALLED.SUBJECT}}",
+  "PREHEADER": "{{I18N.CALLED.PREHEADER}}",
+  "HEADER": "{{I18N.CALLED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CALLED.TEXT}}",
+    "push": "{{I18N.CALLED.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CALLED.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEWAITLIST}}"
+  }
+}

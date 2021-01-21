@@ -1,0 +1,24 @@
+{
+  "Name": "CANCELEDORDER",
+  "DisplayName": "{{I18N.CANCELEDORDER.DISPLAYNAME}}",
+  "Description": "{{I18N.CANCELEDORDER.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CANCELEDORDER.SUBJECT}}",
+  "PREHEADER": "{{I18N.CANCELEDORDER.PREHEADER}}",
+  "HEADER": "{{I18N.CANCELEDORDER.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CANCELEDORDER.TEXT}}",
+    "push": "{{I18N.CANCELEDORDER.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CANCELEDORDER.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Name": "SEATED",
+  "DisplayName": "Customer is seated",
+  "Description": "Notification sent to the guest when he was seated",
+  "SUBJECT": "{{I18N.SEATED.SUBJECT}}",
+  "PREHEADER": "{{I18N.SEATED.PREHEADER}}",
+  "HEADER": "{{I18N.SEATED.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.SEATED.TEXT}}",
+    "push": "{{I18N.SEATED.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": false }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.SEATED.MAINMESSAGE}}",
+    "ButtonText": null,
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGEWAITLIST}}"
+  }
+}

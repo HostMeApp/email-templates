@@ -1,0 +1,15 @@
+{
+  "Name": "CAMPAIGN",
+  "DisplayName": "Marketing campaigns draft",
+  "Description": "Email sent to guest when they sign up Hostme account",
+  "SUBJECT": "{{I18N.CAMPAIGN.SUBJECT}}",
+  "PREHEADER": "{{I18N.CAMPAIGN.PREHEADER}}",
+  "HEADER": "{{I18N.CAMPAIGN.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CAMPAIGN.TEXT}}",
+    "push": "{{I18N.CAMPAIGN.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CAMPAIGN.MAINMESSAGE}}"
+  }
+}

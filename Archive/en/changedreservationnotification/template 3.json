@@ -1,0 +1,23 @@
+{
+  "Name": "ChangedReservationNotification",
+  "DisplayName": "Reservation Changed Notification",
+  "Description": "Email sent to restaurant's team when reservation has been changed",
+  "Language": "en",
+  "SUBJECT": "The reservation has been changed",
+  "PREHEADER": "Reservation on {{booking.ReservationDateTime}} for {{booking.partySize}} {{booking.reservationName}} has been changed.",
+  "ContentTemplate": {
+    "sms": "Reservation on {{booking.ReservationDateTime}} for {{booking.partySize}} {{booking.reservationName}} has been changed.",
+    "email": null,
+    "push": "Reservation on {{booking.ReservationDateTime}} for {{booking.partySize}} {{booking.reservationName}} has been changed."
+  },
+  "Recipients": [ "restaurant" ],
+  "MAINMESSAGE": {
+    
+    "content": "The following reservation has been changed:",
+    "ButtonText": null,
+    "buttonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{labels._reviewreservation}}"
+  }
+}

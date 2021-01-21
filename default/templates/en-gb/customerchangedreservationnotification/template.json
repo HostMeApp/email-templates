@@ -1,1 +1,0 @@
-{"Name":"CustomerChangedReservationNotification","Language":"en","Subject":"Your reservation at {{RestaurantName}} has changed!","EmailHeader":"<span>The reservation has been changed</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

@@ -1,0 +1,20 @@
+{
+  "Name": "APPROVALFORHOST",
+  "DisplayName": "Request for approval for restaurant.",
+  "Description": "This email sent to a restaurant to review the reservation and approve.",
+  "SUBJECT": "{{I18N.APPROVALFORHOST.SUBJECT}}",
+  "PREHEADER": "{{I18N.APPROVALFORHOST.PREHEADER}}",
+  "HEADER": "{{I18N.APPROVALFORHOST.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.APPROVALFORHOST.TEXT}}",
+    "push": "{{I18N.APPROVALFORHOST.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.APPROVALFORHOST.BUTTONTEXT}}",
+    "ButtonUrl": null
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
+  }
+}

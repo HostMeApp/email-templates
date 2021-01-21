@@ -1,0 +1,19 @@
+{
+  "Name": "CHANGEDORDER",
+  "DisplayName": "{{I18N.CHANGEDORDER.DISPLAYNAME}}",
+  "Description": "{{I18N.CHANGEDORDER.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CHANGEDORDER.SUBJECT}}",
+  "PREHEADER": "{{I18N.CHANGEDORDER.PREHEADER}}",
+  "HEADER": "{{I18N.CHANGEDORDER.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.CHANGEDORDER.TEXT}}",
+    "push": "{{I18N.CHANGEDORDER.TEXT}}"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CHANGEDORDER.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

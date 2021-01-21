@@ -1,1 +1,0 @@
-{"Name":"CustomerChangedReservationNotification","Language":"pt-PT","Subject":"A sua reserva no restaurante {{RestaurantName}} foi alterada!","EmailHeader":"<span>A reserva foi alterada</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":""}

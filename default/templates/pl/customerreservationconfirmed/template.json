@@ -1,1 +1,0 @@
-{"Name":"CustomerReservationConfirmed","Language":"pl","Subject":"Twoja rezerwacja w {{RestaurantName}} została potwierdzona!","EmailHeader":"<span>{{RestaurantName}} <br>Stolik dla {{PartySize}}, {{ReservationDateTime}} </ span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485344707/mails/email/thank-you.jpg","SmsContent":null}

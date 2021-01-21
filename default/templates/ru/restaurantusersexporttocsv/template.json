@@ -1,1 +1,0 @@
-{"Name":"RestaurantUsersExportToCsv","Language":"ru","Subject":"Ваш CSV файл готов {{CsvFileName}}","EmailHeader":"<span>Ваш экспорт CSV файла готов</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}

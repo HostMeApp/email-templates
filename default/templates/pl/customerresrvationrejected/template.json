@@ -1,1 +1,0 @@
-{"Name":"CustomerResrvationRejected","Language":"pl","Subject":"Twoja rezerwacja w {{RestaurantName}} została odrzucona","EmailHeader":"<span>Twoja rezerwacja w {{RestaurantName}} została odrzucona</span>","EmailFooter":"","Image":"https://res.cloudinary.com/hostme/image/upload/v1485342755/mails/email/default-bg.jpg","SmsContent":null}

@@ -1,0 +1,24 @@
+{
+  "ChannelStatus": {
+    "sms": { "Enable": true },
+    "email": { "Enable": false },
+    "push": { "Enable": true }
+  },
+  "CUSTOMUI": {
+    "SHOWCUSTOMPOLICY1": true,
+    "SHOWCUSTOMPOLICY2": false,
+    "SHOWCUSTOMPOLICY3": false,
+    "SHOWREASON": true,
+    "SHOWMANAGEBUTTON": true,
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWDURATION": true,
+    "SHOWDEPOSIT": true,
+    "SHOWTABLENUMBER": true,
+    "SHOWTABLENOTES": true,
+    "SHOWALLERGIES": true,
+    "SHOWAREAS": true,
+    "SHOWNOTE": true,
+    "SHOWORDER": true,
+    "SHOWPROMO": true
+  }
+}
