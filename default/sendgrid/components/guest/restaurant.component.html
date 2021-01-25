@@ -1,0 +1,95 @@
+<tr role="module-content">
+    <td height="100%" valign="top">
+        <table width="260" style="width:260px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="" class="column column-0">
+            <tbody>
+                <tr>
+                    <td style="padding:0px;margin:0px;border-spacing:0;">
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="0486c75d-a1a6-403d-9869-e82efbb2197c">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top" role="module-content">
+                                        {{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
+                                        <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+
+                                            <h2 style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; text-align: start; margin-top: 0px"><span style="color: #44413e">{{Restaurant.Name}}</span></h2>
+
+                                            <div style="text-align: start">
+                                                <span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; color: #666666">{{Restaurant.Address}}</span><br />
+                                                <a style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; " href="tel:{{MapPhone}}">{{Restaurant.Phone}}</a><br />
+                                                <a style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;; " href="{{Restaurant.Links.GuestAppUrl}}">Website</a>
+                                            </div>
+
+                                            <div style="text-align:left;display:inline-block;width:50%;">
+                                                {{#if Restaurant.Social.Twitter.Link}}
+                                                <a href="{{Restaurant.Social.Twitter.Link}}">
+                                                    <img width="24" height="24" class="max-width" style="display:inline-block;" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/9be9247fb27e66027399cd9861e6aa52bb5540c83ffa0a7b26387edb7a81e142e35f9a37b7f5345c4c2d28da7f11753599ff7ec6d6c7f4d0af606134c7ad2637.png" border="0" data-proportionally-constrained="true" data-responsive="false" />
+                                                </a>
+                                                {{/if}}
+                                                {{#if Restaurant.Social.Facebook.Link}}
+                                                <a href="{{Restaurant.Social.Facebook.Link}}">
+                                                    <img width="24" height="24" class="max-width" style="display:inline-block" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/1b784106d74f812f67447ccf936630d51a2d53f8ce81067eb5590df71328dce2cdf0f77aeb319da56ffe93c3e5efcf34de788f2e95389e26118794efff358af5.png" border="0" data-proportionally-constrained="true" data-responsive="false" />
+                                                </a>
+                                                {{/if}}
+                                                {{#if Restaurant.Social.Instagram.Link}}
+                                                <a href="{{Restaurant.Social.Instagram.Link}}">
+                                                    <img width="24" height="24" class="max-width" style="display:inline-block;" alt="" src="https://marketing-image-production.s3.amazonaws.com/uploads/6cc238e9428e0431d67b1b6e6c77a409433ca1396dca2535dd442bd46b5473c5ded8a0dd1f0ecf66f7dbba1cfcb535bcce871c4c5b31070150b68cee0734c5bf.png" border="0" data-proportionally-constrained="true" data-responsive="false" />
+                                                </a>
+                                                {{/if}}
+
+                                            </div>
+                                        </div>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="pWaSpYLJiuH56S6D2h48EC">
+                            <tbody>
+                                <tr>
+                                    {{#each Restaurant.Services}}
+                                    <td height="100%" valign="top">
+                                        {{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
+                                        <div>
+                                            <img width="20" height="20" class="icon" src="{{this.Image}}" />
+                                        </div>
+                                        {{/if}}
+                                    </td>
+                                    {{/each}}
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table><table width="260" style="width:260px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="" class="column column-1">
+            <tbody>
+                <tr>
+                    <td style="padding:0px;margin:0px;border-spacing:0;">
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="bypsDuzR3NJWEk8yiA3n3">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top">
+                                        {{#if CUSTOMUI.SHOWRESTAURANTDETAILS}}
+                                        <div>
+                                            <table class="map" style="min-height:135px;max-width: 100%;display: block;padding:49px 42% 53px 42%;background-repeat: no-repeat; background-size:contain;background-image:url( {{Restaurant.Map.MapUrl}} )" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="padding:0px 5px 0px 0px;border:none">
+                                                            {{#if Restaurant.Map.Marker}}
+                                                            <img width="60" height="70" class="icon" src="{{Restaurant.Map.Marker}}" />
+                                                            {{/if}}
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>

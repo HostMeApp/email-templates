@@ -1,0 +1,98 @@
+{
+  "status": "NEW",
+  "creationDate": "2020-11-18T14:30:48.2000929+00:00",
+  "modificationDate": "2020-11-18T14:30:48.2000929+00:00",
+  "closingDate": "0001-01-01T00:00:00+00:00",
+  "deliveryDate": "0001-01-01T00:00:00+00:00",
+  "printDate": "0001-01-01T00:00:00+00:00",
+  "numberOfCustomers": 0,
+  "type": "delivery",
+  "total": 33.0,
+  "subTotal": 23.0,
+  "taxes": 0.0,
+  "tips": 0.0,
+  "deliveryFee": 10.0,
+  "deliveryAddress": {
+    "addressString": "2055 26th s, Arlington, VA",
+    "city": "Arlington",
+    "country": "United States",
+    "countryShort": "US",
+    "zip": "22206",
+    "coordinates": {
+      "lat": 60.0149865,
+      "lng": 30.3902476
+    },
+    "formattedAddress": "2055 26th s, Arlington, VA 22206"
+  },
+  "items": [],
+  "actionItems": [
+    {
+      "prodId": "637238672235923738",
+      "productName": "Beef tongue salad ",
+      "amount": 1,
+      "unitPrice": 3.0,
+      "totalPrice": 3.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156131+00:00"
+    },
+    {
+      "prodId": "637238673565832787",
+      "productName": "Smoked Tuna salad",
+      "amount": 1,
+      "unitPrice": 2.0,
+      "totalPrice": 2.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156151+00:00"
+    },
+    {
+      "prodId": "637238662879484305",
+      "productName": "Beef Burger",
+      "info": "meat",
+      "amount": 1,
+      "unitPrice": 4.0,
+      "totalPrice": 4.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156153+00:00"
+    },
+    {
+      "prodId": "637238659909054916",
+      "productName": "Hamburger",
+      "info": "",
+      "amount": 1,
+      "unitPrice": 3.0,
+      "totalPrice": 3.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156156+00:00"
+    },
+    {
+      "prodId": "637238663371850373",
+      "productName": "Parmesan Fish Burger",
+      "info": "fish",
+      "amount": 1,
+      "unitPrice": 5.0,
+      "totalPrice": 5.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156159+00:00"
+    },
+    {
+      "prodId": "637243635793064847",
+      "productName": "Choko Pie",
+      "info": "10 in pack",
+      "amount": 2,
+      "unitPrice": 3.0,
+      "totalPrice": 6.0,
+      "modifierValues": [],
+      "creationDate": "2020-11-18T14:30:48.3156164+00:00"
+    }
+  ],
+  "payments": [
+    {
+      "type": "Hostme via Stripe",
+      "paymentTypeId": 9889,
+      "paymentTypeCategoryId": 1,
+      "amount": 33.0,
+      "tips": 0.0,
+      "statusId": 0
+    }
+  ]
+}

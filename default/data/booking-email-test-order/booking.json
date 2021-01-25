@@ -1,0 +1,53 @@
+{
+  "id": "booking-email-test-order",
+  "customerName": "Anna",
+  "phone": "+1 111 111-11-11",
+  "status": "Approved",
+  "areas": "",
+  "depositStatus": "succeeded",
+  "email": "test@fake.com",
+  "source": "web",
+  "deliveryType": "delivery",
+  "type": "reservation",
+  "messageThreadId": "d551939a-0d0d-44e0-81f4-789e48bee4f0",
+  "approvalRequired": false,
+  "paymentCustomerId": "cus_IPh4vxHxY3N49L",
+  "created": "2020-11-18T17:30:50.912066+03:00",
+  "reservationTime": "2020-11-18T19:00:00+03:00",
+  "groupSize": 1,
+  "unreadMessageCount": 0,
+  "amount": 0.0,
+  "receiptAmount": 33.0,
+  "currency": "usd",
+  "cancellationTime": "2020-11-17T19:00:00+03:00",
+  "isDeposit": true,
+  "autoSeat": false,
+  "cardAttached": true,
+  "membership": {
+    "id": 18697,
+    "membershipLevel": "None",
+    "points": 0,
+    "language": "en"
+  },
+  "waiters": [],
+  "customerProfile": {
+    "vegetarian": false,
+    "vip": false,
+    "handicapAccessible": false,
+    "deliveryAddress": "2055 26th s, Arlington, VA 22206"
+  },
+  "additionals": {
+    "booth": false,
+    "highTop": false,
+    "table": false,
+    "highChair": false,
+    "babyCarrier": false,
+    "stroller": false,
+    "party": false,
+    "contactless": false,
+    "dontDisturb": false,
+    "needCardReader": false
+  },
+  "estimatedTurnOverTime": 30.0,
+  "estimatedTurnOver": "00:30:00"
+}

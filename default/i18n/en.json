@@ -26,7 +26,7 @@
     },
     "RESTPROMO": {
       "TITLE": "Manage your restaurant anytime and anywhere!",
-      "CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers anytime, anywhere."
+      "CONTENT": "<div>The Hostme app is available for <a href='https://hostmeapp.page.link/app'>iOS</a>, <a href='https://hostmeapp.page.link/app'>Android </a>and <a href='https://www.microsoft.com/store/apps/9nblggh1k8v9?utm_source=website-promo&amp;utm_medium=website&amp;utm_campaign=website'>Windows </a>tablets and smartphones or from any <a href='https://{{Employee.ApplicationId}}'>browser</a>.</div>"
     },
     "LABELS": {
       "PARTY": "Party of",
@@ -173,7 +173,7 @@
       "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Accept the invite",
       "TEXT": "You have been invited to join the {{Branding.Copirate}} app!",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
+      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!",
       "BUTTONTEXT": "Accept"
     },
     "INVITATIONACCEPTED": {
@@ -310,7 +310,7 @@
       "DESCRIPTION": "Invitation to join restaurant as a user",
       "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
+      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!",
       "BUTTONTEXT": "Accept"
     },
     "PAYMENTLINK": {
@@ -363,8 +363,19 @@
       "PREHEADER": "How to start",
       "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "How to start",
-      "MAINMESSAGE": "Thanks for signing up with {{Branding.Copirate}}! Please, complete your registration to remain access..."
+      "TITLE": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "MAINMESSAGE": "<p>You have been invited to join the {{Branding.Copirate}} app as <strong>{{Employee.Role}}</strong> for <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Your sign-in email is:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Your host panel URL:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+    },
+    "WELCOMEFOROWNER": {
+      "DISPLAYNAME": "Welcome restaurant user",
+      "DESCRIPTION": "Welcome email for new restaurant user signups",
+      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
+      "PREHEADER": "How to start",
+      "HEADER": "Welcome to {{Branding.Copirate}}!",
+      "BUTTONTEXT": "Learn more",
+      "TITLE": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve.",
+      "PROMOTEXT": "<h2 style='text-align: left'>Online Omnipresence</h2><div style='font-family: inherit; text-align: inherit'>Be where your customers are. Make it easy for your guests and allow them to make reservations through your website, your social media profile and through all Google search and map sites. And as a bonus, keep all your information consistent with Yext!</div><h2 style='text-align: inherit'>Reservations as easy as 1.2.3</h2><div style='font-family: inherit; text-align: inherit'>Guests can make reservations in fewer clicks, increasing conversions into actual bookings. No more lost reservation, or double-bookings. Install the Hostme widget on your website without extra fees and see your business grow.</div><h2 style='text-align: inherit'>And so much more!</h2><div style='font-family: inherit; text-align: inherit'>Did you know that Hostme can also help you organize events, accept online orders, and manage your waitlist without the need for pagers? Be in touch with your guests and provide world class service without breaking the bank!</div>"
     }
   }
 }

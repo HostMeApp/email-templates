@@ -1,379 +1,389 @@
 {
-    "I18N": {
-        "GUESTPOLICES": {
-            "TITLE": "Qualsiasi domanda?",
-            "CONTENT": "Siamo sempre lieti di ricevere le notizie: facci sapere se hai domande o suggerimenti su <a href='mailto:{{Restaurant.BookingEmail}}'> {{Restaurant.BookingEmail}} <\/a>."
-        },
-        "RESTAURANTPOLICES": {
-            "TITLE": "Qualsiasi domanda?",
-            "CONTENT": "Siamo sempre felici di sentire la tua opinione: facci sapere se hai domande o suggerimenti a <a href='mailto:support@hostmeapp.com'> support@hostmeapp.com <\/a>."
-        },
-        "PROMO": {
-            "TITLE": "Gestisci le tue prenotazioni sempre e ovunque!",
-            "CONTENT": "Con le nostre app puoi scoprire, prenotare e gestire le prenotazioni dei ristoranti sempre e ovunque."
-        },
-        "RESTPROMO": {
-            "TITLE": "Gestisci il tuo ristorante sempre e ovunque!",
-            "CONTENT": "Con le nostre app puoi gestire prenotazioni di ristoranti, liste d'attesa, tavoli e server sempre e ovunque."
-        },
-        "LABELS": {
-            "PARTY": "Gruppo di",
-            "FOR": "per",
-            "TABLE": "Tavolo #",
-            "ALLERGIES": "Allergie:",
-            "DEPOSIT": "Anticipo",
-            "REASON": "Motivo",
-            "REVIEWRESERVATION": "Visualizza o modifica",
-            "MANAGERESERVATION": "Visualizza o modifica",
-            "MANAGEORDER": "Visualizza il mio ordine",
-            "MANAGEWAITLIST": "Gestisci la tua attesa",
-            "VIEWRESERVATION": "Visualizza la prenotazione",
-            "DELIVERY": "Consegna",
-            "PICKUP": "A raccogliere"
-        },
-        "ORDER": {
-            "SUBTOTAL": "Totale parziale",
-            "DELIVERYFEE": "Tassa di consegna",
-            "TAXES": "Le tasse",
-            "TIPS": "Mancia",
-            "TOTAL": "Totale:"
-        },
-        "CANCELEDORDER": {
-            "DISPLAYNAME": "Il cliente annulla l'ordine",
-            "DESCRIPTION": "Notifica inviata all'ospite per informare che ricevano la richiesta di annullamento dell'ordine",
-            "SUBJECT": "L'ordine \u00e8 stato annullato",
-            "PREHEADER": "Rivedi le modifiche",
-            "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato annullato.",
-            "HEADER": "L'ordine \u00e8 stato annullato",
-            "BUTTONTEXT": "Visualizza i dettagli dell'ordine",
-            "MAINMESSAGE": "L'ordine \u00e8 stato annullato"
-        },
-        "CHANGEDORDER": {
-            "DISPLAYNAME": "Conferma della modifica dell'ordine",
-            "DESCRIPTION": "E-mail inviata al cliente per confermare la modifica",
-            "SUBJECT": "L'ordine \u00e8 stato modificato",
-            "PREHEADER": "Rivedi le modifiche",
-            "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
-            "HEADER": "L'ordine \u00e8 stato modificato",
-            "BUTTONTEXT": "Visualizza i dettagli dell'ordine",
-            "MAINMESSAGE": "L'ordine \u00e8 stato modificato"
-        },
-        "CHANGED": {
-            "DISPLAYNAME": "Conferma della prenotazione modificata",
-            "DESCRIPTION": "E-mail inviata al cliente per confermare la modifica",
-            "SUBJECT": "La prenotazione \u00e8 stata modificata",
-            "PREHEADER": "Rivedi le modifiche",
-            "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
-            "HEADER": "La prenotazione \u00e8 stata modificata",
-            "BUTTONTEXT": "Gestisci la tua prenotazione",
-            "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
-        },
-        "CONFIRMEDORDER": {
-            "DISPLAYNAME": "Ordine confermato",
-            "DESCRIPTION": "Notifica inviata agli ospiti per informargli che il loro ordine \u00e8 stato confermato.",
-            "SUBJECT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 stato confermato!",
-            "PREHEADER": "Ricevuta d'ordine",
-            "TEXT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 stato confermato!",
-            "HEADER": "Ordine confermato",
-            "MAINMESSAGE": "L'ordine \u00e8 stato confermato"
-        },
-        "ORDERREADY": {
-            "DISPLAYNAME": "L'ordine \u00e8 pronto",
-            "DESCRIPTION": "Notifica inviata agli ospiti per informare che il loro ordine \u00e8 stato confermato.",
-            "SUBJECT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 pronto!",
-            "PREHEADER": "L'ordine \u00e8 pronto",
-            "TEXT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 pronto a raccogliere!",
-            "HEADER": "L'ordine \u00e8 pronto",
-            "MAINMESSAGE": "L'ordine \u00e8 pronto a raccogliere!"
-        },
-        "ORDERREQUEST": {
-            "DISPLAYNAME": "L'ordine \u00e8 stato ricevuto",
-            "DESCRIPTION": "Email inviata agli ospiti per confermare che la loro richiesta d'ordine \u00e8 stata ricevuta",
-            "SUBJECT": "La tua richiesta d'ordine al {{Restaurant.Name}} \u00e8 stata ricevuta!",
-            "PREHEADER": "Richiesta d'ordine",
-            "TEXT": "La tua richiesta d'ordine al {{Restaurant.Name}} \u00e8 stata ricevuta!",
-            "HEADER": "La richiesta d'ordine \u00e8 stata ricevuta!",
-            "MAINMESSAGE": "La tua richiesta d'ordine \u00e8 stata ricevuta!"
-        },
-        "ORDERFEEDBACK": {
-            "DISPLAYNAME": "Richiesta di feedback sull'ordine",
-            "DESCRIPTION": "Email inviata ai clienti dopo che l'ordine \u00e8 stato completato per richiedere feedback.",
-            "SUBJECT": "Grazie per il tuo ordine! Lascia il tuo feedback.",
-            "PREHEADER": "Aiutaci a migliorare.",
-            "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
-            "HEADER": "Lascia il tuo feedback.",
-            "BUTTONTEXT": "Lascia il tuo feedback.",
-            "MAINMESSAGE": "Aiutaci a migliorare e lascia il tuo feedback."
-        },
-        "REJECTEDORDER": {
-            "DISPLAYNAME": "Ordine rifiutata",
-            "DESCRIPTION": "Email inviata ai clienti per rifiutare la richiesta d'ordine",
-            "SUBJECT": "La richiesta d'ordine \u00e8 stata rifiutata",
-            "PREHEADER": "Rivedi i motivi",
-            "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato rifiutato.",
-            "HEADER": "L'ordine \u00e8 stato rifiutato",
-            "MAINMESSAGE": "L'ordine \u00e8 stato rifiutato:"
-        },
-        "ACCEPTANCECONFIRMATION": {
-            "DISPLAYNAME": "Invito alla prenotazione accettato",
-            "DESCRIPTION": "E-mail inviata agli ospiti per confermare che hanno accettato l'invito alla prenotazione",
-            "SUBJECT": "Hai accettato la prenotazione in {{Restaurant.Name}} il {{Booking.ReservationDate}} al {{Booking.ReservationDateTime}}",
-            "PREHEADER": "Controlla i dettagli della tua prenotazione.",
-            "TEXT": "Hai accettato la prenotazione in {{Restaurant.Name}} il {{Booking.ReservationDate}} al {{Booking.ReservationDateTime}}",
-            "HEADER": "Prenotazione accettato",
-            "MAINMESSAGE": "Hai accettato l'nvito alla prenotazione"
-        },
-        "CANCELED": {
-            "DISPLAYNAME": "Notifica di annullamento della prenotazione",
-            "DESCRIPTION": "Email inviata al personale del ristorante quando una prenotazione \u00e8 stata cancellata",
-            "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata annullata.",
-            "PREHEADER": "{{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}}",
-            "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} al {{Restaurant.Name}} \u00e8 stato annullato.",
-            "HEADER": "Prenotazione annullata",
-            "MAINMESSAGE": "L'ordine \u00e8 stato annullato"
-        },
-        "CHANGEDFORINVITEDGUEST": {
-            "DISPLAYNAME": "Conferma della prenotazione modificata",
-            "DESCRIPTION": "E-mail inviata agli amici del cliente per confermare la modifica",
-            "SUBJECT": "La prenotazione \u00e8 stata modificata",
-            "PREHEADER": "Rivedi le modifiche",
-            "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.PartySize}} {{Booking.ReservationName}}  \u00e8 stata modificata.",
-            "HEADER": "La prenotazione \u00e8 stata modificata",
-            "BUTTONTEXT": "Gestisci la tua prenotazione",
-            "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
-        },
-        "CONFIRMED": {
-            "DISPLAYNAME": "Notifica di conferma della prenotazione",
-            "DESCRIPTION": "Notifica inviata agli ospiti per informare che il loro prenotazione \u00e8 stata confermata.",
-            "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata confermata.",
-            "PREHEADER": "Rivedi la prenotazione",
-            "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} al {{Restaurant.Name}} \u00e8 stato confermato.",
-            "HEADER": "La prenotazine confermata",
-            "MAINMESSAGE": "La prenotazione \u00e8 stata confermata"
-        },
-        "FEEDBACK": {
-            "DISPLAYNAME": "Richiesta di feedback",
-            "DESCRIPTION": "Email inviata ai clienti per richiedere feedback dopo la visita",
-            "SUBJECT": "Lascia il tuo feedback per {{Restaurant.Name}}",
-            "PREHEADER": "Legger\u00e0 solo {{Restaurant.Name}}",
-            "TEXT": "Lascia il tuo feedback per {{Restaurant.Name}}",
-            "HEADER": "Grazie per la tua visita!",
-            "BUTTONTEXT": "Lascia il tuo feedback.",
-            "MAINMESSAGE": ""
-        },
-        "INVITATION": {
-            "DISPLAYNAME": "Invito alla prenotazione",
-            "DESCRIPTION": "Email inviata per invitare gli ospiti alla prenotazione",
-            "SUBJECT": "Sei stato invitato a iscriverti all'app {{author}}!",
-            "PREHEADER": "Accetta l'invito",
-            "TEXT": "Sei stato invitato a iscriverti all'app {{author}}!",
-            "HEADER": "Sei stato invitato a partecipare all'app {{author}} come {{Role}}!",
-            "BUTTONTEXT": "Accetta",
-            "MAINMESSAGE": ""
-        },
-        "INVITATIONACCEPTED": {
-            "DISPLAYNAME": "Invito alla prenotazione accettato",
-            "DESCRIPTION": "E-mail inviata al cliente per confermare l'accettazione dell'invito da parte degli ospiti.",
-            "SUBJECT": "Il tuo invito alla prenotazione presso {{Restaurant.Name}} \u00e8 stato accettato da {{Guest.CustomerName}}.",
-            "PREHEADER": "{{Guest.CustomerName}} ha accettato il tuo invito",
-            "TEXT": "{{Guest.CustomerName}} ha accettato il tuo invito a {{Restaurant.Name}} in data {{Booking.ReservationDate}} al {{ReservationTime}}",
-            "HEADER": "Invito accettato",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": "Invito alla prenotazione accettato"
-        },
-        "NEWRESERVATION": {
-            "DISPLAYNAME": "Prenotazione confermata",
-            "DESCRIPTION": "Email inviata ai clienti per confermare le nuove prenotazioni",
-            "SUBJECT": "La tua perenotazione al {{Restaurant.Name}} \u00e8 stata confermata!",
-            "PREHEADER": "Rivedi la prenotazione",
-            "CONTENT": "La tua prenotazione",
-            "TEXT": "La tua prenotazione il giorno {{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}} \u00e8 stata confermata.",
-            "HEADER": "Prenotazione confermata",
-            "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
-        },
-        "REJECTED": {
-            "DISPLAYNAME": "Prenotazione rifiutata",
-            "DESCRIPTION": "Email inviata ai clienti per rifiutare la richiesta d'ordine",
-            "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata.",
-            "PREHEADER": "Controlla il motivo",
-            "TEXT": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata - {{Booking.Reason}}",
-            "HEADER": "Prenotazione rifiutata",
-            "MAINMESSAGE": "La seguente prenotazione \u00e8 stata rifiutata:"
-        },
-        "REMINDER": {
-            "DISPLAYNAME": "Prenotazione imminente",
-            "DESCRIPTION": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata - {{Booking.Reason}}",
-            "SUBJECT": "Hai una prenotazione imminente al {{Restaurant.Name}} in data {{Booking.ReservationDate}} in {{Booking.ReservationDateTime}}",
-            "PREHEADER": "Annulla se non puoi venire, per favore.",
-            "TEXT": "Hai una prenotazione imminente al {{Restaurant.Name}} in data {{Booking.ReservationDate}} in {{Booking.ReservationDateTime}}",
-            "HEADER": "Prenotazione imminente",
-            "MAINMESSAGE": ""
-        },
-        "RESERVATIONREQUEST": {
-            "DISPLAYNAME": "Prenotazione confermata",
-            "DESCRIPTION": "Email inviata al cliente per confermare la nuova prenotazione",
-            "SUBJECT": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata ricevuta!",
-            "PREHEADER": "{{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}}",
-            "TEXT": "La tua richiesta di prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}} \u00e8 in attesa di conferma.",
-            "HEADER": "La richiesta \u00e8 stata ricevuta!",
-            "MAINMESSAGE": "La richiesta di prenotazione \u00e8 stata ricevuta!"
-        },
-        "APPROVED": {
-            "DISPLAYNAME": "\t",
-            "DESCRIPTION": "",
-            "HEADER": "Sei in lista d'attesa!",
-            "CONTENT": "Controlla il tuo stato seguendo il collegamento, per favore.",
-            "SUBJECT": "Ora sei in lista d'attesa di {{Restaurant.Name}}",
-            "PREHEADER": "Controlla il tuo stato",
-            "TEXT": "Ora sei in lista d'attesa e riceverai aggiornamenti sullo stato del tuo tavolo. Utilizza il tuo telefono per comunicare con noi sul tuo stato.",
-            "MAINMESSAGE": "Ora sei in lista d'attesa e riceverai aggiornamenti sullo stato del tuo tavolo. Utilizza il tuo telefono per comunicare con noi sul tuo stato."
-        },
-        "CALLED": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "HEADER": "Il tavolo \u00e8 pronto",
-            "SUBJECT": "Il tuo tavolo al {{Restaurant.Name}} \u00e8 pronto!",
-            "PREHEADER": "Ti stiamo aspettando.",
-            "TEXT": "Il tuo tavolo \u00e8 pronto! Per favore, vai dall'host per sederti. Grazie per aver utilizzato Hostme!",
-            "MAINMESSAGE": "Il tuo tavolo \u00e8 pronto! Per favore, vai dall'host per sederti. Grazie per aver utilizzato Hostme!"
-        },
-        "CANCELEDBYGUEST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Sei stato rimosso dalla lista di attesa di {{Restaurant.Name}}",
-            "PREHEADER": "Speriamo di rivederti presto",
-            "TEXT": "Sei stato rimosso dalla lista di attesa. Speriamo di rivederti presto!",
-            "MAINMESSAGE": "Sei stato rimosso dalla lista di attesa. Speriamo di rivederti presto!"
-        },
-        "CAMPAIGN": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Qualche bel sottotitolo!",
-            "PREHEADER": "Perch\u00e9 loro dovrebbero aprire l'email?",
-            "TEXT": "Mandiamo il testo",
-            "MAINMESSAGE": "Promuovere promuovere promuovere!"
-        },
-        "CANCELEDBYHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Sei stato rimosso dalla lista di attesa di {{Restaurant.Name}}",
-            "PREHEADER": "",
-            "TEXT": "Non abbiamo avuto le notizie, quindi ti abbiamo rimosso dalla lista di attesa. Per favore rispondi a questo messaggio con un testo se vuoi restare in linea.",
-            "MAINMESSAGE": "Non abbiamo avuto le notizie, quindi ti abbiamo rimosso dalla lista di attesa. Per favore rispondi a questo messaggio con un testo se vuoi restare in linea."
-        },
-        "CHANGEDFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "La prenotazione \u00e8 stata modificata",
-            "PREHEADER": "Controlla le modifiche",
-            "TEXT": "L'ordine per {{GuestName}} in data {{ReservationDateTime}} \u00e8 stato annullato.",
-            "HEADER": "La prenotazione \u00e8 stata modificata",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "CANCELEDFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "La prenotazione \u00e8 stata modificata",
-            "PREHEADER": "Controlla le modifiche",
-            "TEXT": "La prenotazione per {{GuestName}} in data {{ReservationDateTime}} \u00e8 stata modificata",
-            "HEADER": "La prenotazione \u00e8 stata modificata",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "APPROVALFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Nuova richiesta di prenotazione online. Azione neccessaria!",
-            "PREHEADER": "Rivedi la prenotazione",
-            "TEXT": "Nuova richiesta di prenotazione: {{ReservationDateTime}} \/ {{GuestName}}. Controlla per favore.",
-            "HEADER": "Nuova richiesta",
-            "BUTTONTEXT": "Rivedi",
-            "MAINMESSAGE": "{{ReservationDateTime}} \/ {{GuestName}}"
-        },
-        "NEWRESERVATIONFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Nuova prenotazine",
-            "PREHEADER": "{{ReservationDateTime}} \/ {{GuestName}}",
-            "TEXT": "Nuova prenotazine: {{ReservationDateTime}} \/ {{GuestName}}",
-            "HEADER": "Nuova prenotazione",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "REMINDERFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Promemoria di prenotazione imminente",
-            "PREHEADER": "{{GuestName}} \/ {{ReservationDateTime}}",
-            "TEXT": "Promemoria di prenotazione imminente: {{ReservationDateTime}} \/ {{GuestName}}",
-            "HEADER": "Promemoria di prenotazione imminente: {{ReservationDateTime}} \/ {{GuestName}}",
-            "BUTTONTEXT": "Gestisci la tua prenotazione",
-            "MAINMESSAGE": ""
-        },
-        "INVITATIONFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Sei stato invitato a iscriverti all'app {{author}}!",
-            "PREHEADER": "Segui il collegamento per accettare l'invito",
-            "HEADER": "Sei stato invitato a partecipare all'app {{author}} come {{Role}}!",
-            "BUTTONTEXT": "Accetta",
-            "MAINMESSAGE": ""
-        },
-        "PAYMENTLINK": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Paga il piano {{author}} {{PlanName}}",
-            "PREHEADER": "Segui il collegamento per il pagamento per completare {{author}} {{PlanName}}",
-            "HEADER": "Sottoscrivi",
-            "BUTTONTEXT": "Sottoscrivi",
-            "MAINMESSAGE": ""
-        },
-        "REMINDERTOPAY": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Il tuo staff ti ricorda di aggiornare il tuo piano {{author}}",
-            "PREHEADER": "X giorni rimanenti",
-            "HEADER": "Fatturazione",
-            "BUTTONTEXT": "Fatturazione",
-            "MAINMESSAGE": "Il tuo staff ti ricorda di risolvere i problemi di fatturazione per mantenere l'account attivo {{author}}. L'account del ristorante verr\u00e0 bloccato dopo X giorni se non viene ricevuto alcun pagamento."
-        },
-        "BLOCKED": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Il ristorante \u00e8 bloccato",
-            "PREHEADER": "Controlla le tue impostazioni di pagamento, per favore.",
-            "TEXT": "Il ristorante \u00e8 bloccato. Controlla le tue impostazioni di pagamento, per favore.",
-            "HEADER": "Il ristorante \u00e8 bloccato",
-            "BUTTONTEXT": "Fatturazione",
-            "MAINMESSAGE": "Il ristorante \u00e8 bloccato. Controlla le tue impostazioni di pagamento, per favore."
-        },
-        "RESETPASSWORD": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "La tua password {{author}} \u00e8 stata reimpostata con successo",
-            "PREHEADER": "Password all'interno",
-            "TEXT": "La tua password {{author}} \u00e8 stata reimpostata con successo",
-            "HEADER": "La tua password {{author}} \u00e8 stata reimpostata con successo",
-            "BUTTONTEXT": "Accedi",
-            "MAINMESSAGE": "Copia e incolla la tua nuova password. Si consiglia di modificare la password nelle impostazioni dopo aver effettuato l'accesso con questa nuova password."
-        },
-        "EXPORTTOCSV": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "La tua esportazione CSV \u00e8 pronta {{CsvFileName}}",
-            "HEADER": "La tua esportazione CSV \u00e8 pronta",
-            "MAINMESSAGE": ""
-        },
-        "WELCOMEFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Benvenuto nell'app {{author}}!",
-            "PREHEADER": "Come iniziare",
-            "HEADER": "Benvenuto in {{author}}!",
-            "BUTTONTEXT": "Per saperne di pi\u00f9",
-            "TITLE": "Come iniziare",
-            "MAINMESSAGE": "Grazie per esserti registrato con {{author}}! Per favore, completa la registrazione per accedere"
-        }
+  "I18N": {
+    "GUESTPOLICES": {
+      "TITLE": "Qualsiasi domanda?",
+      "CONTENT": "Siamo sempre lieti di ricevere le notizie: facci sapere se hai domande o suggerimenti su <a href='mailto:{{Restaurant.BookingEmail}}'> {{Restaurant.BookingEmail}} <\/a>."
+    },
+    "RESTAURANTPOLICES": {
+      "TITLE": "Qualsiasi domanda?",
+      "CONTENT": "Siamo sempre felici di sentire la tua opinione: facci sapere se hai domande o suggerimenti a <a href='mailto:support@hostmeapp.com'> support@hostmeapp.com <\/a>."
+    },
+    "PROMO": {
+      "TITLE": "Gestisci le tue prenotazioni sempre e ovunque!",
+      "CONTENT": "Con le nostre app puoi scoprire, prenotare e gestire le prenotazioni dei ristoranti sempre e ovunque."
+    },
+    "RESTPROMO": {
+      "TITLE": "Gestisci il tuo ristorante sempre e ovunque!",
+      "CONTENT": "Con le nostre app puoi gestire prenotazioni di ristoranti, liste d'attesa, tavoli e server sempre e ovunque."
+    },
+    "LABELS": {
+      "PARTY": "Gruppo di",
+      "FOR": "per",
+      "TABLE": "Tavolo #",
+      "ALLERGIES": "Allergie:",
+      "DEPOSIT": "Anticipo",
+      "REASON": "Motivo",
+      "REVIEWRESERVATION": "Visualizza o modifica",
+      "MANAGERESERVATION": "Visualizza o modifica",
+      "MANAGEORDER": "Visualizza il mio ordine",
+      "MANAGEWAITLIST": "Gestisci la tua attesa",
+      "VIEWRESERVATION": "Visualizza la prenotazione",
+      "DELIVERY": "Consegna",
+      "PICKUP": "A raccogliere"
+    },
+    "ORDER": {
+      "SUBTOTAL": "Totale parziale",
+      "DELIVERYFEE": "Tassa di consegna",
+      "TAXES": "Le tasse",
+      "TIPS": "Mancia",
+      "TOTAL": "Totale:"
+    },
+    "CANCELEDORDER": {
+      "DISPLAYNAME": "Il cliente annulla l'ordine",
+      "DESCRIPTION": "Notifica inviata all'ospite per informare che ricevano la richiesta di annullamento dell'ordine",
+      "SUBJECT": "L'ordine \u00e8 stato annullato",
+      "PREHEADER": "Rivedi le modifiche",
+      "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato annullato.",
+      "HEADER": "L'ordine \u00e8 stato annullato",
+      "BUTTONTEXT": "Visualizza i dettagli dell'ordine",
+      "MAINMESSAGE": "L'ordine \u00e8 stato annullato"
+    },
+    "CHANGEDORDER": {
+      "DISPLAYNAME": "Conferma della modifica dell'ordine",
+      "DESCRIPTION": "E-mail inviata al cliente per confermare la modifica",
+      "SUBJECT": "L'ordine \u00e8 stato modificato",
+      "PREHEADER": "Rivedi le modifiche",
+      "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
+      "HEADER": "L'ordine \u00e8 stato modificato",
+      "BUTTONTEXT": "Visualizza i dettagli dell'ordine",
+      "MAINMESSAGE": "L'ordine \u00e8 stato modificato"
+    },
+    "CHANGED": {
+      "DISPLAYNAME": "Conferma della prenotazione modificata",
+      "DESCRIPTION": "E-mail inviata al cliente per confermare la modifica",
+      "SUBJECT": "La prenotazione \u00e8 stata modificata",
+      "PREHEADER": "Rivedi le modifiche",
+      "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
+      "HEADER": "La prenotazione \u00e8 stata modificata",
+      "BUTTONTEXT": "Gestisci la tua prenotazione",
+      "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
+    },
+    "CONFIRMEDORDER": {
+      "DISPLAYNAME": "Ordine confermato",
+      "DESCRIPTION": "Notifica inviata agli ospiti per informargli che il loro ordine \u00e8 stato confermato.",
+      "SUBJECT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 stato confermato!",
+      "PREHEADER": "Ricevuta d'ordine",
+      "TEXT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 stato confermato!",
+      "HEADER": "Ordine confermato",
+      "MAINMESSAGE": "L'ordine \u00e8 stato confermato"
+    },
+    "ORDERREADY": {
+      "DISPLAYNAME": "L'ordine \u00e8 pronto",
+      "DESCRIPTION": "Notifica inviata agli ospiti per informare che il loro ordine \u00e8 stato confermato.",
+      "SUBJECT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 pronto!",
+      "PREHEADER": "L'ordine \u00e8 pronto",
+      "TEXT": "Il tuo ordine al {{Restaurant.Name}} \u00e8 pronto a raccogliere!",
+      "HEADER": "L'ordine \u00e8 pronto",
+      "MAINMESSAGE": "L'ordine \u00e8 pronto a raccogliere!"
+    },
+    "ORDERREQUEST": {
+      "DISPLAYNAME": "L'ordine \u00e8 stato ricevuto",
+      "DESCRIPTION": "Email inviata agli ospiti per confermare che la loro richiesta d'ordine \u00e8 stata ricevuta",
+      "SUBJECT": "La tua richiesta d'ordine al {{Restaurant.Name}} \u00e8 stata ricevuta!",
+      "PREHEADER": "Richiesta d'ordine",
+      "TEXT": "La tua richiesta d'ordine al {{Restaurant.Name}} \u00e8 stata ricevuta!",
+      "HEADER": "La richiesta d'ordine \u00e8 stata ricevuta!",
+      "MAINMESSAGE": "La tua richiesta d'ordine \u00e8 stata ricevuta!"
+    },
+    "ORDERFEEDBACK": {
+      "DISPLAYNAME": "Richiesta di feedback sull'ordine",
+      "DESCRIPTION": "Email inviata ai clienti dopo che l'ordine \u00e8 stato completato per richiedere feedback.",
+      "SUBJECT": "Grazie per il tuo ordine! Lascia il tuo feedback.",
+      "PREHEADER": "Aiutaci a migliorare.",
+      "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato modificato.",
+      "HEADER": "Lascia il tuo feedback.",
+      "BUTTONTEXT": "Lascia il tuo feedback.",
+      "MAINMESSAGE": "Aiutaci a migliorare e lascia il tuo feedback."
+    },
+    "REJECTEDORDER": {
+      "DISPLAYNAME": "Ordine rifiutata",
+      "DESCRIPTION": "Email inviata ai clienti per rifiutare la richiesta d'ordine",
+      "SUBJECT": "La richiesta d'ordine \u00e8 stata rifiutata",
+      "PREHEADER": "Rivedi i motivi",
+      "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} \u00e8 stato rifiutato.",
+      "HEADER": "L'ordine \u00e8 stato rifiutato",
+      "MAINMESSAGE": "L'ordine \u00e8 stato rifiutato:"
+    },
+    "ACCEPTANCECONFIRMATION": {
+      "DISPLAYNAME": "Invito alla prenotazione accettato",
+      "DESCRIPTION": "E-mail inviata agli ospiti per confermare che hanno accettato l'invito alla prenotazione",
+      "SUBJECT": "Hai accettato la prenotazione in {{Restaurant.Name}} il {{Booking.ReservationDate}} al {{Booking.ReservationDateTime}}",
+      "PREHEADER": "Controlla i dettagli della tua prenotazione.",
+      "TEXT": "Hai accettato la prenotazione in {{Restaurant.Name}} il {{Booking.ReservationDate}} al {{Booking.ReservationDateTime}}",
+      "HEADER": "Prenotazione accettato",
+      "MAINMESSAGE": "Hai accettato l'nvito alla prenotazione"
+    },
+    "CANCELED": {
+      "DISPLAYNAME": "Notifica di annullamento della prenotazione",
+      "DESCRIPTION": "Email inviata al personale del ristorante quando una prenotazione \u00e8 stata cancellata",
+      "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata annullata.",
+      "PREHEADER": "{{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}}",
+      "TEXT": "L'ordine in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} al {{Restaurant.Name}} \u00e8 stato annullato.",
+      "HEADER": "Prenotazione annullata",
+      "MAINMESSAGE": "L'ordine \u00e8 stato annullato"
+    },
+    "CHANGEDFORINVITEDGUEST": {
+      "DISPLAYNAME": "Conferma della prenotazione modificata",
+      "DESCRIPTION": "E-mail inviata agli amici del cliente per confermare la modifica",
+      "SUBJECT": "La prenotazione \u00e8 stata modificata",
+      "PREHEADER": "Rivedi le modifiche",
+      "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.PartySize}} {{Booking.ReservationName}}  \u00e8 stata modificata.",
+      "HEADER": "La prenotazione \u00e8 stata modificata",
+      "BUTTONTEXT": "Gestisci la tua prenotazione",
+      "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
+    },
+    "CONFIRMED": {
+      "DISPLAYNAME": "Notifica di conferma della prenotazione",
+      "DESCRIPTION": "Notifica inviata agli ospiti per informare che il loro prenotazione \u00e8 stata confermata.",
+      "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata confermata.",
+      "PREHEADER": "Rivedi la prenotazione",
+      "TEXT": "La prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.ReservationName}} al {{Restaurant.Name}} \u00e8 stato confermato.",
+      "HEADER": "La prenotazine confermata",
+      "MAINMESSAGE": "La prenotazione \u00e8 stata confermata"
+    },
+    "FEEDBACK": {
+      "DISPLAYNAME": "Richiesta di feedback",
+      "DESCRIPTION": "Email inviata ai clienti per richiedere feedback dopo la visita",
+      "SUBJECT": "Lascia il tuo feedback per {{Restaurant.Name}}",
+      "PREHEADER": "Legger\u00e0 solo {{Restaurant.Name}}",
+      "TEXT": "Lascia il tuo feedback per {{Restaurant.Name}}",
+      "HEADER": "Grazie per la tua visita!",
+      "BUTTONTEXT": "Lascia il tuo feedback.",
+      "MAINMESSAGE": ""
+    },
+    "INVITATION": {
+      "DISPLAYNAME": "Invito alla prenotazione",
+      "DESCRIPTION": "Email inviata per invitare gli ospiti alla prenotazione",
+      "SUBJECT": "Sei stato invitato a iscriverti all'app {{Branding.Copirate}}!",
+      "PREHEADER": "Accetta l'invito",
+      "TEXT": "Sei stato invitato a iscriverti all'app {{Branding.Copirate}}!",
+      "HEADER": "Sei stato invitato a partecipare all'app {{Branding.Copirate}} come {{Employee.Role}}!",
+      "BUTTONTEXT": "Accetta",
+      "MAINMESSAGE": ""
+    },
+    "INVITATIONACCEPTED": {
+      "DISPLAYNAME": "Invito alla prenotazione accettato",
+      "DESCRIPTION": "E-mail inviata al cliente per confermare l'accettazione dell'invito da parte degli ospiti.",
+      "SUBJECT": "Il tuo invito alla prenotazione presso {{Restaurant.Name}} \u00e8 stato accettato da {{Guest.CustomerName}}.",
+      "PREHEADER": "{{Guest.CustomerName}} ha accettato il tuo invito",
+      "TEXT": "{{Guest.CustomerName}} ha accettato il tuo invito a {{Restaurant.Name}} in data {{Booking.ReservationDate}} al {{ReservationTime}}",
+      "HEADER": "Invito accettato",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": "Invito alla prenotazione accettato"
+    },
+    "NEWRESERVATION": {
+      "DISPLAYNAME": "Prenotazione confermata",
+      "DESCRIPTION": "Email inviata ai clienti per confermare le nuove prenotazioni",
+      "SUBJECT": "La tua perenotazione al {{Restaurant.Name}} \u00e8 stata confermata!",
+      "PREHEADER": "Rivedi la prenotazione",
+      "CONTENT": "La tua prenotazione",
+      "TEXT": "La tua prenotazione il giorno {{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}} \u00e8 stata confermata.",
+      "HEADER": "Prenotazione confermata",
+      "MAINMESSAGE": "La seguente prenotazione \u00e8 stata modificata:"
+    },
+    "REJECTED": {
+      "DISPLAYNAME": "Prenotazione rifiutata",
+      "DESCRIPTION": "Email inviata ai clienti per rifiutare la richiesta d'ordine",
+      "SUBJECT": "La tua prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata.",
+      "PREHEADER": "Controlla il motivo",
+      "TEXT": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata - {{Booking.Reason}}",
+      "HEADER": "Prenotazione rifiutata",
+      "MAINMESSAGE": "La seguente prenotazione \u00e8 stata rifiutata:"
+    },
+    "REMINDER": {
+      "DISPLAYNAME": "Prenotazione imminente",
+      "DESCRIPTION": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata rifiutata - {{Booking.Reason}}",
+      "SUBJECT": "Hai una prenotazione imminente al {{Restaurant.Name}} in data {{Booking.ReservationDate}} in {{Booking.ReservationDateTime}}",
+      "PREHEADER": "Annulla se non puoi venire, per favore.",
+      "TEXT": "Hai una prenotazione imminente al {{Restaurant.Name}} in data {{Booking.ReservationDate}} in {{Booking.ReservationDateTime}}",
+      "HEADER": "Prenotazione imminente",
+      "MAINMESSAGE": ""
+    },
+    "RESERVATIONREQUEST": {
+      "DISPLAYNAME": "Prenotazione confermata",
+      "DESCRIPTION": "Email inviata al cliente per confermare la nuova prenotazione",
+      "SUBJECT": "La tua richiesta di prenotazione al {{Restaurant.Name}} \u00e8 stata ricevuta!",
+      "PREHEADER": "{{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}}",
+      "TEXT": "La tua richiesta di prenotazione in data {{Booking.ReservationDateTime}} per {{Booking.PartySize}} al {{Restaurant.Name}} \u00e8 in attesa di conferma.",
+      "HEADER": "La richiesta \u00e8 stata ricevuta!",
+      "MAINMESSAGE": "La richiesta di prenotazione \u00e8 stata ricevuta!"
+    },
+    "APPROVED": {
+      "DISPLAYNAME": "\t",
+      "DESCRIPTION": "",
+      "HEADER": "Sei in lista d'attesa!",
+      "CONTENT": "Controlla il tuo stato seguendo il collegamento, per favore.",
+      "SUBJECT": "Ora sei in lista d'attesa di {{Restaurant.Name}}",
+      "PREHEADER": "Controlla il tuo stato",
+      "TEXT": "Ora sei in lista d'attesa e riceverai aggiornamenti sullo stato del tuo tavolo. Utilizza il tuo telefono per comunicare con noi sul tuo stato.",
+      "MAINMESSAGE": "Ora sei in lista d'attesa e riceverai aggiornamenti sullo stato del tuo tavolo. Utilizza il tuo telefono per comunicare con noi sul tuo stato."
+    },
+    "CALLED": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "HEADER": "Il tavolo \u00e8 pronto",
+      "SUBJECT": "Il tuo tavolo al {{Restaurant.Name}} \u00e8 pronto!",
+      "PREHEADER": "Ti stiamo aspettando.",
+      "TEXT": "Il tuo tavolo \u00e8 pronto! Per favore, vai dall'host per sederti. Grazie per aver utilizzato Hostme!",
+      "MAINMESSAGE": "Il tuo tavolo \u00e8 pronto! Per favore, vai dall'host per sederti. Grazie per aver utilizzato Hostme!"
+    },
+    "CANCELEDBYGUEST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Sei stato rimosso dalla lista di attesa di {{Restaurant.Name}}",
+      "PREHEADER": "Speriamo di rivederti presto",
+      "TEXT": "Sei stato rimosso dalla lista di attesa. Speriamo di rivederti presto!",
+      "MAINMESSAGE": "Sei stato rimosso dalla lista di attesa. Speriamo di rivederti presto!"
+    },
+    "CAMPAIGN": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Qualche bel sottotitolo!",
+      "PREHEADER": "Perch\u00e9 loro dovrebbero aprire l'email?",
+      "TEXT": "Mandiamo il testo",
+      "MAINMESSAGE": "Promuovere promuovere promuovere!"
+    },
+    "CANCELEDBYHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Sei stato rimosso dalla lista di attesa di {{Restaurant.Name}}",
+      "PREHEADER": "",
+      "TEXT": "Non abbiamo avuto le notizie, quindi ti abbiamo rimosso dalla lista di attesa. Per favore rispondi a questo messaggio con un testo se vuoi restare in linea.",
+      "MAINMESSAGE": "Non abbiamo avuto le notizie, quindi ti abbiamo rimosso dalla lista di attesa. Per favore rispondi a questo messaggio con un testo se vuoi restare in linea."
+    },
+    "CHANGEDFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "La prenotazione \u00e8 stata modificata",
+      "PREHEADER": "Controlla le modifiche",
+      "TEXT": "L'ordine per {{Guest.CustomerName}} in data {{Booking.ReservationDateTime}} \u00e8 stato annullato.",
+      "HEADER": "La prenotazione \u00e8 stata modificata",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "CANCELEDFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "La prenotazione \u00e8 stata modificata",
+      "PREHEADER": "Controlla le modifiche",
+      "TEXT": "La prenotazione per {{Guest.CustomerName}} in data {{Booking.ReservationDateTime}} \u00e8 stata modificata",
+      "HEADER": "La prenotazione \u00e8 stata modificata",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "APPROVALFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Nuova richiesta di prenotazione online. Azione neccessaria!",
+      "PREHEADER": "Rivedi la prenotazione",
+      "TEXT": "Nuova richiesta di prenotazione: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}. Controlla per favore.",
+      "HEADER": "Nuova richiesta",
+      "BUTTONTEXT": "Rivedi",
+      "MAINMESSAGE": "{{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}"
+    },
+    "NEWRESERVATIONFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Nuova prenotazine",
+      "PREHEADER": "{{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "TEXT": "Nuova prenotazine: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "HEADER": "Nuova prenotazione",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "REMINDERFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Promemoria di prenotazione imminente",
+      "PREHEADER": "{{Guest.CustomerName}} \/ {{Booking.ReservationDateTime}}",
+      "TEXT": "Promemoria di prenotazione imminente: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "HEADER": "Promemoria di prenotazione imminente: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "BUTTONTEXT": "Gestisci la tua prenotazione",
+      "MAINMESSAGE": ""
+    },
+    "INVITATIONFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Sei stato invitato a iscriverti all'app {{Branding.Copirate}}!",
+      "PREHEADER": "Segui il collegamento per accettare l'invito",
+      "HEADER": "Sei stato invitato a partecipare all'app {{Branding.Copirate}} come {{Employee.Role}}!",
+      "BUTTONTEXT": "Accetta",
+      "MAINMESSAGE": ""
+    },
+    "PAYMENTLINK": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Paga il piano {{Branding.Copirate}} {{PlanName}}",
+      "PREHEADER": "Segui il collegamento per il pagamento per completare {{Branding.Copirate}} {{PlanName}}",
+      "HEADER": "Sottoscrivi",
+      "BUTTONTEXT": "Sottoscrivi",
+      "MAINMESSAGE": ""
+    },
+    "REMINDERTOPAY": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Il tuo staff ti ricorda di aggiornare il tuo piano {{Branding.Copirate}}",
+      "PREHEADER": "X giorni rimanenti",
+      "HEADER": "Fatturazione",
+      "BUTTONTEXT": "Fatturazione",
+      "MAINMESSAGE": "Il tuo staff ti ricorda di risolvere i problemi di fatturazione per mantenere l'account attivo {{Branding.Copirate}}. L'account del ristorante verr\u00e0 bloccato dopo X giorni se non viene ricevuto alcun pagamento."
+    },
+    "BLOCKED": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Il ristorante \u00e8 bloccato",
+      "PREHEADER": "Controlla le tue impostazioni di pagamento, per favore.",
+      "TEXT": "Il ristorante \u00e8 bloccato. Controlla le tue impostazioni di pagamento, per favore.",
+      "HEADER": "Il ristorante \u00e8 bloccato",
+      "BUTTONTEXT": "Fatturazione",
+      "MAINMESSAGE": "Il ristorante \u00e8 bloccato. Controlla le tue impostazioni di pagamento, per favore."
+    },
+    "RESETPASSWORD": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "La tua password {{Branding.Copirate}} \u00e8 stata reimpostata con successo",
+      "PREHEADER": "Password all'interno",
+      "TEXT": "La tua password {{Branding.Copirate}} \u00e8 stata reimpostata con successo",
+      "HEADER": "La tua password {{Branding.Copirate}} \u00e8 stata reimpostata con successo",
+      "BUTTONTEXT": "Accedi",
+      "MAINMESSAGE": "Copia e incolla la tua nuova password. Si consiglia di modificare la password nelle impostazioni dopo aver effettuato l'accesso con questa nuova password."
+    },
+    "EXPORTTOCSV": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "La tua esportazione CSV \u00e8 pronta {{CsvFileName}}",
+      "HEADER": "La tua esportazione CSV \u00e8 pronta",
+      "MAINMESSAGE": ""
+    },
+    "WELCOMEFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "PREHEADER": "Come iniziare",
+      "HEADER": "Benvenuto in {{Branding.Copirate}}!",
+      "BUTTONTEXT": "Per saperne di pi\u00f9",
+      "TITLE": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "MAINMESSAGE": "<p>Sei stato invitato a far parte di {{Branding.Copirate}} come <strong>{{Employee.Role}}</strong> per <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>La tua e-mail di iscrizione è:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>L'URL del tuo pannello ospite:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+    },
+    "WELCOMEFOROWNER": {
+      "DISPLAYNAME": "Welcome restaurant user",
+      "DESCRIPTION": "Welcome email for new restaurant user signups",
+      "SUBJECT": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "PREHEADER": "Come iniziare",
+      "HEADER": "Benvenuto in {{Branding.Copirate}}!",
+      "BUTTONTEXT": "Per saperne di pi\u00f9",
+      "TITLE": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
+  }
 }

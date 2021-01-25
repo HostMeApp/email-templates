@@ -1,379 +1,389 @@
 {
-    "I18N": {
-        "GUESTPOLICES": {
-            "TITLE": "Har du n\u00e5gra fr\u00e5gor?",
-            "CONTENT": "Vi \u00e4r alltid glada \u00f6ver att h\u00f6ra fr\u00e5n dig - l\u00e5t oss veta om du har n\u00e5gra fr\u00e5gor eller f\u00f6rslag p\u00e5 <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}<\/a>."
-        },
-        "RESTAURANTPOLICES": {
-            "TITLE": "Har du n\u00e5gra fr\u00e5gor?",
-            "CONTENT": "Vi \u00e4r alltid glada att h\u00f6ra fr\u00e5n dig - l\u00e5t oss veta om du har n\u00e5gra fr\u00e5gor eller f\u00f6rslag p\u00e5 <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com<\/a>."
-        },
-        "PROMO": {
-            "TITLE": "Hantera dina bokningar n\u00e4r som helst och var som helst!",
-            "CONTENT": "Med v\u00e5ra appar kan du uppt\u00e4cka, reservera och hantera restaurangbokningar n\u00e4r som helst och var som helst."
-        },
-        "RESTPROMO": {
-            "TITLE": "Hantera din restaurang n\u00e4r som helst och var som helst!",
-            "CONTENT": "Med v\u00e5ra appar kan du hantera restaurangbokningar, v\u00e4ntelista, bord och serveringspersonal n\u00e4r som helst och var som helst."
-        },
-        "LABELS": {
-            "PARTY": "S\u00e4llskap p\u00e5",
-            "FOR": "f\u00f6r",
-            "TABLE": "Bord #",
-            "ALLERGIES": "Allergier:",
-            "DEPOSIT": "Avgift:",
-            "REASON": "Anledning:",
-            "REVIEWRESERVATION": "Visa eller \u00e4ndra",
-            "MANAGERESERVATION": "Visa eller \u00e4ndra",
-            "MANAGEORDER": "Visa min best\u00e4llning",
-            "MANAGEWAITLIST": "Hantera din k\u00f6plats",
-            "VIEWRESERVATION": "Visa din bokning",
-            "DELIVERY": "Leverans",
-            "PICKUP": "H\u00e4mtning"
-        },
-        "ORDER": {
-            "SUBTOTAL": "Delsumma",
-            "DELIVERYFEE": "Leveranskostand",
-            "TAXES": "Moms",
-            "TIPS": "Dricks",
-            "TOTAL": "Summa:"
-        },
-        "CANCELEDORDER": {
-            "DISPLAYNAME": "Kunden annullerar sin best\u00e4llning",
-            "DESCRIPTION": "Meddelande skickas till g\u00e4sten f\u00f6r att informera om beg\u00e4ran om att annullerar best\u00e4llningen",
-            "SUBJECT": "Best\u00e4llningen har blivit annullerad",
-            "PREHEADER": "Granska \u00e4ndringar",
-            "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har annullerad.",
-            "HEADER": "Best\u00e4llning annullerad",
-            "BUTTONTEXT": "Granska best\u00e4llningsdetaljer",
-            "MAINMESSAGE": "F\u00f6ljande best\u00e4llning har blivit annullerad:"
-        },
-        "CHANGEDORDER": {
-            "DISPLAYNAME": "Best\u00e4llningen har \u00e4ndrats",
-            "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta \u00e4ndringen",
-            "SUBJECT": "Best\u00e4llningen har \u00e4ndrats",
-            "PREHEADER": "Granska \u00e4ndringar",
-            "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har \u00e4ndrats.",
-            "HEADER": "Best\u00e4llningen har \u00e4ndrats",
-            "BUTTONTEXT": "Visa best\u00e4llningens detaljer",
-            "MAINMESSAGE": "F\u00f6ljande order har \u00e4ndrats:"
-        },
-        "CHANGED": {
-            "DISPLAYNAME": "Bekr\u00e4ftelse p\u00e5 att bokningen har \u00e4ndrats",
-            "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta \u00e4ndringen",
-            "SUBJECT": "Bokningen har \u00e4ndrats",
-            "PREHEADER": "Granska \u00e4ndringar",
-            "TEXT": "Bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} {{Booking.ReservationName}} har \u00e4ndrats.",
-            "HEADER": "Bokningen har \u00e4ndrats",
-            "BUTTONTEXT": "\u00c4ndra din bokning",
-            "MAINMESSAGE": "F\u00f6ljande bokning har \u00e4ndrats:"
-        },
-        "CONFIRMEDORDER": {
-            "DISPLAYNAME": "Best\u00e4llning bekr\u00e4ftad",
-            "DESCRIPTION": "Meddelande skickas till g\u00e4ster f\u00f6r att informera om att deras best\u00e4llning har bekr\u00e4ftats.",
-            "SUBJECT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
-            "PREHEADER": "Orderkvitto",
-            "TEXT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats.",
-            "HEADER": "Best\u00e4llning bekr\u00e4ftad",
-            "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
-        },
-        "ORDERREADY": {
-            "DISPLAYNAME": "Best\u00e4llning klar",
-            "DESCRIPTION": "Meddelande skickas till g\u00e4ster f\u00f6r att informera om att deras best\u00e4llning har bekr\u00e4ftats.",
-            "SUBJECT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} \u00e4r klar!",
-            "PREHEADER": "Best\u00e4llning \u00e4r klar!",
-            "TEXT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} \u00e4r klar f\u00f6r h\u00e4mtning.",
-            "HEADER": "Best\u00e4llning \u00e4r klar!",
-            "MAINMESSAGE": "F\u00f6ljande order \u00e4r klar f\u00f6r h\u00e4mtning;"
-        },
-        "ORDERREQUEST": {
-            "DISPLAYNAME": "Din order har mottagits",
-            "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta att deras best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits",
-            "SUBJECT": "Din best\u00e4llningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot!",
-            "PREHEADER": "Best\u00e4llningsf\u00f6rfr\u00e5gan",
-            "TEXT": "Din best\u00e4llningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot.",
-            "HEADER": "Best\u00e4llningsf\u00f6rfr\u00e5gan har tagits emot.",
-            "MAINMESSAGE": "F\u00f6ljande best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits:"
-        },
-        "ORDERFEEDBACK": {
-            "DISPLAYNAME": "Best\u00e4ll feedback-beg\u00e4ran",
-            "DESCRIPTION": "Mejl som skickas till kunder efter att best\u00e4llningen slutf\u00f6rts f\u00f6r att beg\u00e4ra feedback.",
-            "SUBJECT": "Tack f\u00f6r din best\u00e4llning! L\u00e4mna g\u00e4rna din feedback.",
-            "PREHEADER": "Hj\u00e4lp oss att f\u00f6rb\u00e4ttra.",
-            "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har \u00e4ndrats.",
-            "HEADER": "L\u00e4mna din feedback",
-            "BUTTONTEXT": "L\u00e4mna din feedback",
-            "MAINMESSAGE": "Sn\u00e4lla, hj\u00e4lp oss att f\u00f6rb\u00e4ttra och l\u00e4mna din feedback:"
-        },
-        "REJECTEDORDER": {
-            "DISPLAYNAME": "Best\u00e4llning avvisad",
-            "DESCRIPTION": "Mejl har skickats till kunder f\u00f6r att avsl\u00e5 best\u00e4llningsf\u00f6rfr\u00e5gan",
-            "SUBJECT": "Orderbeg\u00e4ran avvisades",
-            "PREHEADER": "Granska orsaken",
-            "TEXT": "Din best\u00e4llning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har avvisats.",
-            "HEADER": "Best\u00e4llning avvisad",
-            "MAINMESSAGE": "F\u00f6ljande order har avvisats:"
-        },
-        "ACCEPTANCECONFIRMATION": {
-            "DISPLAYNAME": "Bokningsinbjudan accepteras",
-            "DESCRIPTION": "Mejlmeddelande har skickats till g\u00e4ster f\u00f6r att bekr\u00e4fta att de accepterade bokningsinbjudan",
-            "SUBJECT": "Du har accepterat bokningen i {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationDateTime}}",
-            "PREHEADER": "Kontrollera dina bokningsuppgifter.",
-            "TEXT": "Du har accepterat bokningen p\u00e5 {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationDateTime}}",
-            "HEADER": "Bokning accepterad",
-            "MAINMESSAGE": "Du har accepterat f\u00f6ljande bokningsinbjudan:"
-        },
-        "CANCELED": {
-            "DISPLAYNAME": "Meddelande om avbruten bokning",
-            "DESCRIPTION": "Mejl har skickas till restaurangpersonalen n\u00e4r en bokning har annullerats",
-            "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har annullerats.",
-            "PREHEADER": "{{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}}",
-            "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har annullerats.",
-            "HEADER": "Bokningen annulleras",
-            "MAINMESSAGE": "F\u00f6ljande bokning har annullerats:"
-        },
-        "CHANGEDFORINVITEDGUEST": {
-            "DISPLAYNAME": "Bekr\u00e4ftelse p\u00e5 att bokningen har \u00e4ndrats",
-            "DESCRIPTION": "Mejl skickas till kundens v\u00e4nner f\u00f6r att bekr\u00e4fta \u00e4ndringen",
-            "SUBJECT": "Bokningen har \u00e4ndrats",
-            "PREHEADER": "Granska \u00e4ndringar",
-            "TEXT": "Bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} {{Booking.ReservationName}} har \u00e4ndrats.",
-            "HEADER": "Bokningen har \u00e4ndrats",
-            "BUTTONTEXT": "Hantera din bokning",
-            "MAINMESSAGE": "F\u00f6ljande bokning har \u00e4ndrats:"
-        },
-        "CONFIRMED": {
-            "DISPLAYNAME": "Meddelande om bokningsbekr\u00e4ftelse",
-            "DESCRIPTION": "Mejl skickas till kunder n\u00e4r deras bokning har bekr\u00e4ftats",
-            "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
-            "PREHEADER": "Granska bokningen",
-            "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats.",
-            "HEADER": "Reservationen bekr\u00e4ftad",
-            "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
-        },
-        "FEEDBACK": {
-            "DISPLAYNAME": "Beg\u00e4ran om feedback",
-            "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att beg\u00e4ra feedback efter bes\u00f6k.",
-            "SUBJECT": "L\u00e4mna din feedback till {{Restaurant.Name}}",
-            "PREHEADER": "Endast {{Restaurant.Name}} kommer att l\u00e4sa",
-            "TEXT": "L\u00e4mna din feedback till {{Restaurant.Name}}",
-            "HEADER": "Tack f\u00f6r ditt bes\u00f6k!",
-            "BUTTONTEXT": "L\u00e4mna din feedback",
-            "MAINMESSAGE": "(en tom fras)"
-        },
-        "INVITATION": {
-            "DISPLAYNAME": "Bokningsinbjudan",
-            "DESCRIPTION": "Mejl skickas f\u00f6r att bjuda in g\u00e4ster till bokningen",
-            "SUBJECT": "Du har blivit inbjuden att g\u00e5 med i appen {{author}}!",
-            "PREHEADER": "Acceptera inbjudan",
-            "TEXT": "Du har blivit inbjuden att g\u00e5 med i appen {{author}}!",
-            "HEADER": "Du har blivit inbjuden att g\u00e5 med i {{author}} -appen som {{Role}}!",
-            "BUTTONTEXT": "Acceptera",
-            "MAINMESSAGE": "(en tom fras)"
-        },
-        "INVITATIONACCEPTED": {
-            "DISPLAYNAME": "Bokningsinbjudan accepteras",
-            "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta acceptera inbjudan av g\u00e4ster.",
-            "SUBJECT": "Din bokningsinbjudan p\u00e5 {{Restaurant.Name}} har accepterats av {{Guest.CustomerName}}.",
-            "PREHEADER": "{{Guest.CustomerName}} har accepterat din inbjudan",
-            "TEXT": "{{Guest.CustomerName}} har accepterat din inbjudan till {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{ReservationTime}}",
-            "HEADER": "Inbjudan accepterad",
-            "BUTTONTEXT": "(en tom fras)",
-            "MAINMESSAGE": "F\u00f6ljande bokningsinbjudan har accepterats:"
-        },
-        "NEWRESERVATION": {
-            "DISPLAYNAME": "Bokningsbekr\u00e4ftelse",
-            "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta nya bokningar",
-            "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
-            "PREHEADER": "Granska bokningen",
-            "CONTENT": "Din bokning",
-            "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats av restaurangen.",
-            "HEADER": "Bokning bekr\u00e4ftad",
-            "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
-        },
-        "REJECTED": {
-            "DISPLAYNAME": "Bokning avvisad",
-            "DESCRIPTION": "Mejl skickas till kunder f\u00f6r att avvisa bokningsf\u00f6rfr\u00e5gan",
-            "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har avvisats",
-            "PREHEADER": "Kontrollera orsaken",
-            "TEXT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} avvisades - {{Booking.Reason}}",
-            "HEADER": "Bokning avvisad",
-            "MAINMESSAGE": "F\u00f6ljande bokningsf\u00f6rfr\u00e5gan har avvisats:"
-        },
-        "REMINDER": {
-            "DISPLAYNAME": "Kommande bokning",
-            "DESCRIPTION": "P\u00e5minnelsemejl skickas till kunder om kommande bokningsf\u00f6rfr\u00e5gan",
-            "SUBJECT": "Du har en kommande bokning p\u00e5 {{Restaurant.Name}} den {{Booking.Reservation Date}} p\u00e5 {{Booking.Reservation DateTime}}",
-            "PREHEADER": "V\u00e4nligen avboka om du inte kan komma.",
-            "TEXT": "Du har en kommande bokning p\u00e5 {{Restaurant.Name}} den {{Booking.Reservation Date}} p\u00e5 {{Booking.Reservation DateTime}}",
-            "HEADER": "Kommande bokning",
-            "MAINMESSAGE": ""
-        },
-        "RESERVATIONREQUEST": {
-            "DISPLAYNAME": "Bokningsbekr\u00e4ftelse",
-            "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta ny bokning",
-            "SUBJECT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot.",
-            "PREHEADER": "{{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}}",
-            "TEXT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} v\u00e4ntar p\u00e5 bekr\u00e4ftelse fr\u00e5n restaurangen.",
-            "HEADER": "F\u00f6rfr\u00e5gan har tagits emot.",
-            "MAINMESSAGE": "F\u00f6ljande best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits:"
-        },
-        "APPROVED": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "HEADER": "Du st\u00e5r p\u00e5 v\u00e4ntelistan!",
-            "CONTENT": "Kontrollera din status genom att klicka p\u00e5 l\u00e4nken.",
-            "SUBJECT": "Du st\u00e5r nu med p\u00e5 v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
-            "PREHEADER": "Kontrollera din status",
-            "TEXT": "Du \u00e4r nu p\u00e5 v\u00e4ntelistan och kommer att f\u00e5 uppdateringar om statusen p\u00e5 ditt bord. Anv\u00e4nd din telefon f\u00f6r att kommunicera med oss om din status.",
-            "MAINMESSAGE": "Du \u00e4r nu p\u00e5 v\u00e4ntelistan och kommer att f\u00e5 uppdateringar om statusen p\u00e5 ditt bord. Anv\u00e4nd din telefon f\u00f6r att kommunicera med oss om din status."
-        },
-        "CALLED": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "HEADER": "Bordet \u00e4r klart",
-            "SUBJECT": "Ditt bord p\u00e5 {{Restaurant.Name}} \u00e4r klart!",
-            "PREHEADER": "Vi v\u00e4ntar p\u00e5 dig.",
-            "TEXT": "Ditt bord \u00e4r klart! G\u00e5 till v\u00e4rden f\u00f6r att bli placerad. ",
-            "MAINMESSAGE": "Ditt bord \u00e4r klart! G\u00e5 till v\u00e4rden f\u00f6r att bli placerad. "
-        },
-        "CANCELEDBYGUEST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
-            "PREHEADER": "Tack f\u00f6r bes\u00f6ket. Hoppas att ses snart igen.",
-            "TEXT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan. Vi hoppas att vi ses snart igen!",
-            "MAINMESSAGE": "Du har tagits bort fr\u00e5n v\u00e4ntelistan. Vi hoppas att vi ses snart igen!"
-        },
-        "CAMPAIGN": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "N\u00e5gra trevliga undertexter!",
-            "PREHEADER": "Varf\u00f6r ska de \u00f6ppna mejlmeddelandet?",
-            "TEXT": "L\u00e5t oss skicka texten",
-            "MAINMESSAGE": "Promota promota promota!"
-        },
-        "CANCELEDBYHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
-            "PREHEADER": "",
-            "TEXT": "Vi h\u00f6rde inte fr\u00e5n dig, s\u00e5 vi tog bort dig fr\u00e5n v\u00e4ntelistan. Svara p\u00e5 det h\u00e4r meddelandet med en text om du vill s\u00e5 kvar i k\u00f6n.",
-            "MAINMESSAGE": "Vi h\u00f6rde inte fr\u00e5n dig, s\u00e5 vi tog bort dig fr\u00e5n v\u00e4ntelistan. Svara p\u00e5 det h\u00e4r meddelandet med en text om du vill s\u00e5 kvar i k\u00f6n."
-        },
-        "CHANGEDFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Bokningen har \u00e4ndrats",
-            "PREHEADER": "Kontrollera \u00e4ndringarna.",
-            "TEXT": "Bokningen f\u00f6r {{GuestName}} den {{ReservationDateTime}} har st\u00e4llts in.",
-            "HEADER": "Bokningen har \u00e4ndrats",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "CANCELEDFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Bokningen har \u00e4ndrats",
-            "PREHEADER": "Kontrollera \u00e4ndringarna.",
-            "TEXT": "Bokningen f\u00f6r {{GuestName}} den {{ReservationDateTime}} har \u00e4ndrats",
-            "HEADER": "Bokningen har \u00e4ndrats",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "APPROVALFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Ny online-bokningsf\u00f6rfr\u00e5gan. \u00c5tg\u00e4rd kr\u00e4vs!",
-            "PREHEADER": "Granska bokningen",
-            "TEXT": "Ny bokningsbeg\u00e4ran: {{ReservationDateTime}} \/ {{GuestName}}. V\u00e4nligen granska.",
-            "HEADER": "Ny bokningsf\u00f6rfr\u00e5gan",
-            "BUTTONTEXT": "Granska",
-            "MAINMESSAGE": "{{ReservationDateTime}} \/ {{GuestName}}"
-        },
-        "NEWRESERVATIONFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Ny bokning!",
-            "PREHEADER": "{{ReservationDateTime}} \/ {{GuestName}}",
-            "TEXT": "Ny bokning: {{ReservationDateTime}} \/ {{GuestName}}",
-            "HEADER": "Ny bokning",
-            "BUTTONTEXT": "",
-            "MAINMESSAGE": ""
-        },
-        "REMINDERFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "P\u00e5minnelse om en kommande bokning",
-            "PREHEADER": "{{GuestName}} \/ {{ReservationDateTime}}",
-            "TEXT": "P\u00e5minnelse om en kommande bokning: {{ReservationDateTime}} \/ {{GuestName}}",
-            "HEADER": "P\u00e5minnelse om en kommande bokning: {{ReservationDateTime}} \/ {{GuestName}}",
-            "BUTTONTEXT": "Granska bokningen",
-            "MAINMESSAGE": ""
-        },
-        "INVITATIONFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Du har blivit inbjuden att g\u00e5 med i appen {{author}}!",
-            "PREHEADER": "Klicka p\u00e5 l\u00e4nken f\u00f6r att acceptera inbjudan",
-            "HEADER": "Du har blivit inbjuden att g\u00e5 med i {{author}} -appen som {{Role}}!",
-            "BUTTONTEXT": "Acceptera",
-            "MAINMESSAGE": ""
-        },
-        "PAYMENTLINK": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Betala f\u00f6r {{author}} {{PlanName}} -planen",
-            "PREHEADER": "Klicka p\u00e5 betalningsl\u00e4nken f\u00f6r att slutf\u00f6ra {{author}} {{PlanName}}",
-            "HEADER": "Prenumerera",
-            "BUTTONTEXT": "Prenumerera",
-            "MAINMESSAGE": ""
-        },
-        "REMINDERTOPAY": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Din personal p\u00e5minner dig om att uppgradera din {{author}} -plan",
-            "PREHEADER": "X dagar kvar",
-            "HEADER": "Fakturering",
-            "BUTTONTEXT": "Fakturering",
-            "MAINMESSAGE": "Din personal p\u00e5minner dig om att l\u00f6sa faktureringsproblem f\u00f6r att h\u00e5lla {{author}} kontot aktivt. Restaurangkonto kommer att blockeras efter X dagar om ingen betalning tas emot."
-        },
-        "BLOCKED": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Restaurangen \u00e4r blockerad",
-            "PREHEADER": "Kontrollera dina betalningsinst\u00e4llningar",
-            "TEXT": "Ditt restaurangkonto var blockerat. Kontrollera dina betalningsinst\u00e4llningar eller uppgradera.",
-            "HEADER": "Din restaurang \u00e4r blockerad",
-            "BUTTONTEXT": "Fakturering",
-            "MAINMESSAGE": "Ditt restaurangkonto var blockerat. Kontrollera dina betalningsinst\u00e4llningar eller uppgradera."
-        },
-        "RESETPASSWORD": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Ditt {{author}} l\u00f6senord \u00e5terst\u00e4lldes",
-            "PREHEADER": "L\u00f6senord inuti",
-            "TEXT": "Ditt {{author}} l\u00f6senord \u00e5terst\u00e4lldes",
-            "HEADER": "Ditt {{author}} l\u00f6senord \u00e5terst\u00e4lldes",
-            "BUTTONTEXT": "Logga in",
-            "MAINMESSAGE": "Kopiera och klistra in ditt nya l\u00f6senord. Vi rekommenderar att du \u00e4ndrar l\u00f6senordet i inst\u00e4llningarna n\u00e4r du loggar in med det nya l\u00f6senordet."
-        },
-        "EXPORTTOCSV": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "Din CSV-export \u00e4r klar {{CsvFileName}}",
-            "HEADER": "Din CSV-export \u00e4r klar",
-            "MAINMESSAGE": ""
-        },
-        "WELCOMEFORHOST": {
-            "DISPLAYNAME": "",
-            "DESCRIPTION": "",
-            "SUBJECT": "V\u00e4lkommen till appen {{author}}!",
-            "PREHEADER": "Hur man b\u00f6rjar",
-            "HEADER": "V\u00e4lkommen till {{author}}!",
-            "BUTTONTEXT": "L\u00e4s mer",
-            "TITLE": "Hur man b\u00f6rjar",
-            "MAINMESSAGE": "Tack f\u00f6r att du registrerade dig med {{author}}! V\u00e4nligen fyll i din registrering f\u00f6r att ha \u00e5tkomst ..."
-        }
+  "I18N": {
+    "GUESTPOLICES": {
+      "TITLE": "Har du n\u00e5gra fr\u00e5gor?",
+      "CONTENT": "Vi \u00e4r alltid glada \u00f6ver att h\u00f6ra fr\u00e5n dig - l\u00e5t oss veta om du har n\u00e5gra fr\u00e5gor eller f\u00f6rslag p\u00e5 <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}<\/a>."
+    },
+    "RESTAURANTPOLICES": {
+      "TITLE": "Har du n\u00e5gra fr\u00e5gor?",
+      "CONTENT": "Vi \u00e4r alltid glada att h\u00f6ra fr\u00e5n dig - l\u00e5t oss veta om du har n\u00e5gra fr\u00e5gor eller f\u00f6rslag p\u00e5 <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com<\/a>."
+    },
+    "PROMO": {
+      "TITLE": "Hantera dina bokningar n\u00e4r som helst och var som helst!",
+      "CONTENT": "Med v\u00e5ra appar kan du uppt\u00e4cka, reservera och hantera restaurangbokningar n\u00e4r som helst och var som helst."
+    },
+    "RESTPROMO": {
+      "TITLE": "Hantera din restaurang n\u00e4r som helst och var som helst!",
+      "CONTENT": "Med v\u00e5ra appar kan du hantera restaurangbokningar, v\u00e4ntelista, bord och serveringspersonal n\u00e4r som helst och var som helst."
+    },
+    "LABELS": {
+      "PARTY": "S\u00e4llskap p\u00e5",
+      "FOR": "f\u00f6r",
+      "TABLE": "Bord #",
+      "ALLERGIES": "Allergier:",
+      "DEPOSIT": "Avgift:",
+      "REASON": "Anledning:",
+      "REVIEWRESERVATION": "Visa eller \u00e4ndra",
+      "MANAGERESERVATION": "Visa eller \u00e4ndra",
+      "MANAGEORDER": "Visa min best\u00e4llning",
+      "MANAGEWAITLIST": "Hantera din k\u00f6plats",
+      "VIEWRESERVATION": "Visa din bokning",
+      "DELIVERY": "Leverans",
+      "PICKUP": "H\u00e4mtning"
+    },
+    "ORDER": {
+      "SUBTOTAL": "Delsumma",
+      "DELIVERYFEE": "Leveranskostand",
+      "TAXES": "Moms",
+      "TIPS": "Dricks",
+      "TOTAL": "Summa:"
+    },
+    "CANCELEDORDER": {
+      "DISPLAYNAME": "Kunden annullerar sin best\u00e4llning",
+      "DESCRIPTION": "Meddelande skickas till g\u00e4sten f\u00f6r att informera om beg\u00e4ran om att annullerar best\u00e4llningen",
+      "SUBJECT": "Best\u00e4llningen har blivit annullerad",
+      "PREHEADER": "Granska \u00e4ndringar",
+      "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har annullerad.",
+      "HEADER": "Best\u00e4llning annullerad",
+      "BUTTONTEXT": "Granska best\u00e4llningsdetaljer",
+      "MAINMESSAGE": "F\u00f6ljande best\u00e4llning har blivit annullerad:"
+    },
+    "CHANGEDORDER": {
+      "DISPLAYNAME": "Best\u00e4llningen har \u00e4ndrats",
+      "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta \u00e4ndringen",
+      "SUBJECT": "Best\u00e4llningen har \u00e4ndrats",
+      "PREHEADER": "Granska \u00e4ndringar",
+      "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har \u00e4ndrats.",
+      "HEADER": "Best\u00e4llningen har \u00e4ndrats",
+      "BUTTONTEXT": "Visa best\u00e4llningens detaljer",
+      "MAINMESSAGE": "F\u00f6ljande order har \u00e4ndrats:"
+    },
+    "CHANGED": {
+      "DISPLAYNAME": "Bekr\u00e4ftelse p\u00e5 att bokningen har \u00e4ndrats",
+      "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta \u00e4ndringen",
+      "SUBJECT": "Bokningen har \u00e4ndrats",
+      "PREHEADER": "Granska \u00e4ndringar",
+      "TEXT": "Bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} {{Booking.ReservationName}} har \u00e4ndrats.",
+      "HEADER": "Bokningen har \u00e4ndrats",
+      "BUTTONTEXT": "\u00c4ndra din bokning",
+      "MAINMESSAGE": "F\u00f6ljande bokning har \u00e4ndrats:"
+    },
+    "CONFIRMEDORDER": {
+      "DISPLAYNAME": "Best\u00e4llning bekr\u00e4ftad",
+      "DESCRIPTION": "Meddelande skickas till g\u00e4ster f\u00f6r att informera om att deras best\u00e4llning har bekr\u00e4ftats.",
+      "SUBJECT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
+      "PREHEADER": "Orderkvitto",
+      "TEXT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats.",
+      "HEADER": "Best\u00e4llning bekr\u00e4ftad",
+      "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
+    },
+    "ORDERREADY": {
+      "DISPLAYNAME": "Best\u00e4llning klar",
+      "DESCRIPTION": "Meddelande skickas till g\u00e4ster f\u00f6r att informera om att deras best\u00e4llning har bekr\u00e4ftats.",
+      "SUBJECT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} \u00e4r klar!",
+      "PREHEADER": "Best\u00e4llning \u00e4r klar!",
+      "TEXT": "Din best\u00e4llning p\u00e5 {{Restaurant.Name}} \u00e4r klar f\u00f6r h\u00e4mtning.",
+      "HEADER": "Best\u00e4llning \u00e4r klar!",
+      "MAINMESSAGE": "F\u00f6ljande order \u00e4r klar f\u00f6r h\u00e4mtning;"
+    },
+    "ORDERREQUEST": {
+      "DISPLAYNAME": "Din order har mottagits",
+      "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta att deras best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits",
+      "SUBJECT": "Din best\u00e4llningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot!",
+      "PREHEADER": "Best\u00e4llningsf\u00f6rfr\u00e5gan",
+      "TEXT": "Din best\u00e4llningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot.",
+      "HEADER": "Best\u00e4llningsf\u00f6rfr\u00e5gan har tagits emot.",
+      "MAINMESSAGE": "F\u00f6ljande best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits:"
+    },
+    "ORDERFEEDBACK": {
+      "DISPLAYNAME": "Best\u00e4ll feedback-beg\u00e4ran",
+      "DESCRIPTION": "Mejl som skickas till kunder efter att best\u00e4llningen slutf\u00f6rts f\u00f6r att beg\u00e4ra feedback.",
+      "SUBJECT": "Tack f\u00f6r din best\u00e4llning! L\u00e4mna g\u00e4rna din feedback.",
+      "PREHEADER": "Hj\u00e4lp oss att f\u00f6rb\u00e4ttra.",
+      "TEXT": "Best\u00e4llningen p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har \u00e4ndrats.",
+      "HEADER": "L\u00e4mna din feedback",
+      "BUTTONTEXT": "L\u00e4mna din feedback",
+      "MAINMESSAGE": "Sn\u00e4lla, hj\u00e4lp oss att f\u00f6rb\u00e4ttra och l\u00e4mna din feedback:"
+    },
+    "REJECTEDORDER": {
+      "DISPLAYNAME": "Best\u00e4llning avvisad",
+      "DESCRIPTION": "Mejl har skickats till kunder f\u00f6r att avsl\u00e5 best\u00e4llningsf\u00f6rfr\u00e5gan",
+      "SUBJECT": "Orderbeg\u00e4ran avvisades",
+      "PREHEADER": "Granska orsaken",
+      "TEXT": "Din best\u00e4llning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.ReservationName}} har avvisats.",
+      "HEADER": "Best\u00e4llning avvisad",
+      "MAINMESSAGE": "F\u00f6ljande order har avvisats:"
+    },
+    "ACCEPTANCECONFIRMATION": {
+      "DISPLAYNAME": "Bokningsinbjudan accepteras",
+      "DESCRIPTION": "Mejlmeddelande har skickats till g\u00e4ster f\u00f6r att bekr\u00e4fta att de accepterade bokningsinbjudan",
+      "SUBJECT": "Du har accepterat bokningen i {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationDateTime}}",
+      "PREHEADER": "Kontrollera dina bokningsuppgifter.",
+      "TEXT": "Du har accepterat bokningen p\u00e5 {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationDateTime}}",
+      "HEADER": "Bokning accepterad",
+      "MAINMESSAGE": "Du har accepterat f\u00f6ljande bokningsinbjudan:"
+    },
+    "CANCELED": {
+      "DISPLAYNAME": "Meddelande om avbruten bokning",
+      "DESCRIPTION": "Mejl har skickas till restaurangpersonalen n\u00e4r en bokning har annullerats",
+      "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har annullerats.",
+      "PREHEADER": "{{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}}",
+      "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har annullerats.",
+      "HEADER": "Bokningen annulleras",
+      "MAINMESSAGE": "F\u00f6ljande bokning har annullerats:"
+    },
+    "CHANGEDFORINVITEDGUEST": {
+      "DISPLAYNAME": "Bekr\u00e4ftelse p\u00e5 att bokningen har \u00e4ndrats",
+      "DESCRIPTION": "Mejl skickas till kundens v\u00e4nner f\u00f6r att bekr\u00e4fta \u00e4ndringen",
+      "SUBJECT": "Bokningen har \u00e4ndrats",
+      "PREHEADER": "Granska \u00e4ndringar",
+      "TEXT": "Bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} {{Booking.ReservationName}} har \u00e4ndrats.",
+      "HEADER": "Bokningen har \u00e4ndrats",
+      "BUTTONTEXT": "Hantera din bokning",
+      "MAINMESSAGE": "F\u00f6ljande bokning har \u00e4ndrats:"
+    },
+    "CONFIRMED": {
+      "DISPLAYNAME": "Meddelande om bokningsbekr\u00e4ftelse",
+      "DESCRIPTION": "Mejl skickas till kunder n\u00e4r deras bokning har bekr\u00e4ftats",
+      "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
+      "PREHEADER": "Granska bokningen",
+      "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats.",
+      "HEADER": "Reservationen bekr\u00e4ftad",
+      "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
+    },
+    "FEEDBACK": {
+      "DISPLAYNAME": "Beg\u00e4ran om feedback",
+      "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att beg\u00e4ra feedback efter bes\u00f6k.",
+      "SUBJECT": "L\u00e4mna din feedback till {{Restaurant.Name}}",
+      "PREHEADER": "Endast {{Restaurant.Name}} kommer att l\u00e4sa",
+      "TEXT": "L\u00e4mna din feedback till {{Restaurant.Name}}",
+      "HEADER": "Tack f\u00f6r ditt bes\u00f6k!",
+      "BUTTONTEXT": "L\u00e4mna din feedback",
+      "MAINMESSAGE": "(en tom fras)"
+    },
+    "INVITATION": {
+      "DISPLAYNAME": "Bokningsinbjudan",
+      "DESCRIPTION": "Mejl skickas f\u00f6r att bjuda in g\u00e4ster till bokningen",
+      "SUBJECT": "Du har blivit inbjuden att g\u00e5 med i appen {{Branding.Copirate}}!",
+      "PREHEADER": "Acceptera inbjudan",
+      "TEXT": "Du har blivit inbjuden att g\u00e5 med i appen {{Branding.Copirate}}!",
+      "HEADER": "Du har blivit inbjuden att g\u00e5 med i {{Branding.Copirate}} -appen som {{Employee.Role}}!",
+      "BUTTONTEXT": "Acceptera",
+      "MAINMESSAGE": "(en tom fras)"
+    },
+    "INVITATIONACCEPTED": {
+      "DISPLAYNAME": "Bokningsinbjudan accepteras",
+      "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta acceptera inbjudan av g\u00e4ster.",
+      "SUBJECT": "Din bokningsinbjudan p\u00e5 {{Restaurant.Name}} har accepterats av {{Guest.CustomerName}}.",
+      "PREHEADER": "{{Guest.CustomerName}} har accepterat din inbjudan",
+      "TEXT": "{{Guest.CustomerName}} har accepterat din inbjudan till {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{ReservationTime}}",
+      "HEADER": "Inbjudan accepterad",
+      "BUTTONTEXT": "(en tom fras)",
+      "MAINMESSAGE": "F\u00f6ljande bokningsinbjudan har accepterats:"
+    },
+    "NEWRESERVATION": {
+      "DISPLAYNAME": "Bokningsbekr\u00e4ftelse",
+      "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta nya bokningar",
+      "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats!",
+      "PREHEADER": "Granska bokningen",
+      "CONTENT": "Din bokning",
+      "TEXT": "Din bokning p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} har bekr\u00e4ftats av restaurangen.",
+      "HEADER": "Bokning bekr\u00e4ftad",
+      "MAINMESSAGE": "F\u00f6ljande bokning har bekr\u00e4ftats:"
+    },
+    "REJECTED": {
+      "DISPLAYNAME": "Bokning avvisad",
+      "DESCRIPTION": "Mejl skickas till kunder f\u00f6r att avvisa bokningsf\u00f6rfr\u00e5gan",
+      "SUBJECT": "Din bokning p\u00e5 {{Restaurant.Name}} har avvisats",
+      "PREHEADER": "Kontrollera orsaken",
+      "TEXT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} avvisades - {{Booking.Reason}}",
+      "HEADER": "Bokning avvisad",
+      "MAINMESSAGE": "F\u00f6ljande bokningsf\u00f6rfr\u00e5gan har avvisats:"
+    },
+    "REMINDER": {
+      "DISPLAYNAME": "Kommande bokning",
+      "DESCRIPTION": "P\u00e5minnelsemejl skickas till kunder om kommande bokningsf\u00f6rfr\u00e5gan",
+      "SUBJECT": "Du har en kommande bokning p\u00e5 {{Restaurant.Name}} den {{Booking.Reservation Date}} p\u00e5 {{Booking.Reservation DateTime}}",
+      "PREHEADER": "V\u00e4nligen avboka om du inte kan komma.",
+      "TEXT": "Du har en kommande bokning p\u00e5 {{Restaurant.Name}} den {{Booking.Reservation Date}} p\u00e5 {{Booking.Reservation DateTime}}",
+      "HEADER": "Kommande bokning",
+      "MAINMESSAGE": ""
+    },
+    "RESERVATIONREQUEST": {
+      "DISPLAYNAME": "Bokningsbekr\u00e4ftelse",
+      "DESCRIPTION": "Mejl skickas till g\u00e4ster f\u00f6r att bekr\u00e4fta ny bokning",
+      "SUBJECT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Restaurant.Name}} har tagits emot.",
+      "PREHEADER": "{{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}}",
+      "TEXT": "Din bokningsf\u00f6rfr\u00e5gan p\u00e5 {{Booking.ReservationDateTime}} f\u00f6r {{Booking.PartySize}} p\u00e5 {{Restaurant.Name}} v\u00e4ntar p\u00e5 bekr\u00e4ftelse fr\u00e5n restaurangen.",
+      "HEADER": "F\u00f6rfr\u00e5gan har tagits emot.",
+      "MAINMESSAGE": "F\u00f6ljande best\u00e4llningsf\u00f6rfr\u00e5gan har mottagits:"
+    },
+    "APPROVED": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "HEADER": "Du st\u00e5r p\u00e5 v\u00e4ntelistan!",
+      "CONTENT": "Kontrollera din status genom att klicka p\u00e5 l\u00e4nken.",
+      "SUBJECT": "Du st\u00e5r nu med p\u00e5 v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
+      "PREHEADER": "Kontrollera din status",
+      "TEXT": "Du \u00e4r nu p\u00e5 v\u00e4ntelistan och kommer att f\u00e5 uppdateringar om statusen p\u00e5 ditt bord. Anv\u00e4nd din telefon f\u00f6r att kommunicera med oss om din status.",
+      "MAINMESSAGE": "Du \u00e4r nu p\u00e5 v\u00e4ntelistan och kommer att f\u00e5 uppdateringar om statusen p\u00e5 ditt bord. Anv\u00e4nd din telefon f\u00f6r att kommunicera med oss om din status."
+    },
+    "CALLED": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "HEADER": "Bordet \u00e4r klart",
+      "SUBJECT": "Ditt bord p\u00e5 {{Restaurant.Name}} \u00e4r klart!",
+      "PREHEADER": "Vi v\u00e4ntar p\u00e5 dig.",
+      "TEXT": "Ditt bord \u00e4r klart! G\u00e5 till v\u00e4rden f\u00f6r att bli placerad. ",
+      "MAINMESSAGE": "Ditt bord \u00e4r klart! G\u00e5 till v\u00e4rden f\u00f6r att bli placerad. "
+    },
+    "CANCELEDBYGUEST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
+      "PREHEADER": "Tack f\u00f6r bes\u00f6ket. Hoppas att ses snart igen.",
+      "TEXT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan. Vi hoppas att vi ses snart igen!",
+      "MAINMESSAGE": "Du har tagits bort fr\u00e5n v\u00e4ntelistan. Vi hoppas att vi ses snart igen!"
+    },
+    "CAMPAIGN": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "N\u00e5gra trevliga undertexter!",
+      "PREHEADER": "Varf\u00f6r ska de \u00f6ppna mejlmeddelandet?",
+      "TEXT": "L\u00e5t oss skicka texten",
+      "MAINMESSAGE": "Promota promota promota!"
+    },
+    "CANCELEDBYHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Du har tagits bort fr\u00e5n v\u00e4ntelistan p\u00e5 {{Restaurant.Name}}",
+      "PREHEADER": "",
+      "TEXT": "Vi h\u00f6rde inte fr\u00e5n dig, s\u00e5 vi tog bort dig fr\u00e5n v\u00e4ntelistan. Svara p\u00e5 det h\u00e4r meddelandet med en text om du vill s\u00e5 kvar i k\u00f6n.",
+      "MAINMESSAGE": "Vi h\u00f6rde inte fr\u00e5n dig, s\u00e5 vi tog bort dig fr\u00e5n v\u00e4ntelistan. Svara p\u00e5 det h\u00e4r meddelandet med en text om du vill s\u00e5 kvar i k\u00f6n."
+    },
+    "CHANGEDFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Bokningen har \u00e4ndrats",
+      "PREHEADER": "Kontrollera \u00e4ndringarna.",
+      "TEXT": "Bokningen f\u00f6r {{Guest.CustomerName}} den {{Booking.ReservationDateTime}} har st\u00e4llts in.",
+      "HEADER": "Bokningen har \u00e4ndrats",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "CANCELEDFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Bokningen har \u00e4ndrats",
+      "PREHEADER": "Kontrollera \u00e4ndringarna.",
+      "TEXT": "Bokningen f\u00f6r {{Guest.CustomerName}} den {{Booking.ReservationDateTime}} har \u00e4ndrats",
+      "HEADER": "Bokningen har \u00e4ndrats",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "APPROVALFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Ny online-bokningsf\u00f6rfr\u00e5gan. \u00c5tg\u00e4rd kr\u00e4vs!",
+      "PREHEADER": "Granska bokningen",
+      "TEXT": "Ny bokningsbeg\u00e4ran: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}. V\u00e4nligen granska.",
+      "HEADER": "Ny bokningsf\u00f6rfr\u00e5gan",
+      "BUTTONTEXT": "Granska",
+      "MAINMESSAGE": "{{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}"
+    },
+    "NEWRESERVATIONFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Ny bokning!",
+      "PREHEADER": "{{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "TEXT": "Ny bokning: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "HEADER": "Ny bokning",
+      "BUTTONTEXT": "",
+      "MAINMESSAGE": ""
+    },
+    "REMINDERFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "P\u00e5minnelse om en kommande bokning",
+      "PREHEADER": "{{Guest.CustomerName}} \/ {{Booking.ReservationDateTime}}",
+      "TEXT": "P\u00e5minnelse om en kommande bokning: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "HEADER": "P\u00e5minnelse om en kommande bokning: {{Booking.ReservationDateTime}} \/ {{Guest.CustomerName}}",
+      "BUTTONTEXT": "Granska bokningen",
+      "MAINMESSAGE": ""
+    },
+    "INVITATIONFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Du har blivit inbjuden att g\u00e5 med i appen {{Branding.Copirate}}!",
+      "PREHEADER": "Klicka p\u00e5 l\u00e4nken f\u00f6r att acceptera inbjudan",
+      "HEADER": "Du har blivit inbjuden att g\u00e5 med i {{Branding.Copirate}} -appen som {{Employee.Role}}!",
+      "BUTTONTEXT": "Acceptera",
+      "MAINMESSAGE": ""
+    },
+    "PAYMENTLINK": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Betala f\u00f6r {{Branding.Copirate}} {{PlanName}} -planen",
+      "PREHEADER": "Klicka p\u00e5 betalningsl\u00e4nken f\u00f6r att slutf\u00f6ra {{Branding.Copirate}} {{PlanName}}",
+      "HEADER": "Prenumerera",
+      "BUTTONTEXT": "Prenumerera",
+      "MAINMESSAGE": ""
+    },
+    "REMINDERTOPAY": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Din personal p\u00e5minner dig om att uppgradera din {{Branding.Copirate}} -plan",
+      "PREHEADER": "X dagar kvar",
+      "HEADER": "Fakturering",
+      "BUTTONTEXT": "Fakturering",
+      "MAINMESSAGE": "Din personal p\u00e5minner dig om att l\u00f6sa faktureringsproblem f\u00f6r att h\u00e5lla {{Branding.Copirate}} kontot aktivt. Restaurangkonto kommer att blockeras efter X dagar om ingen betalning tas emot."
+    },
+    "BLOCKED": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Restaurangen \u00e4r blockerad",
+      "PREHEADER": "Kontrollera dina betalningsinst\u00e4llningar",
+      "TEXT": "Ditt restaurangkonto var blockerat. Kontrollera dina betalningsinst\u00e4llningar eller uppgradera.",
+      "HEADER": "Din restaurang \u00e4r blockerad",
+      "BUTTONTEXT": "Fakturering",
+      "MAINMESSAGE": "Ditt restaurangkonto var blockerat. Kontrollera dina betalningsinst\u00e4llningar eller uppgradera."
+    },
+    "RESETPASSWORD": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Ditt {{Branding.Copirate}} l\u00f6senord \u00e5terst\u00e4lldes",
+      "PREHEADER": "L\u00f6senord inuti",
+      "TEXT": "Ditt {{Branding.Copirate}} l\u00f6senord \u00e5terst\u00e4lldes",
+      "HEADER": "Ditt {{Branding.Copirate}} l\u00f6senord \u00e5terst\u00e4lldes",
+      "BUTTONTEXT": "Logga in",
+      "MAINMESSAGE": "Kopiera och klistra in ditt nya l\u00f6senord. Vi rekommenderar att du \u00e4ndrar l\u00f6senordet i inst\u00e4llningarna n\u00e4r du loggar in med det nya l\u00f6senordet."
+    },
+    "EXPORTTOCSV": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Din CSV-export \u00e4r klar {{CsvFileName}}",
+      "HEADER": "Din CSV-export \u00e4r klar",
+      "MAINMESSAGE": ""
+    },
+    "WELCOMEFORHOST": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "PREHEADER": "Hur man b\u00f6rjar",
+      "HEADER": "V\u00e4lkommen till {{Branding.Copirate}}!",
+      "BUTTONTEXT": "L\u00e4s mer",
+      "TITLE": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Tack f\u00f6r att du registrerade dig med {{Branding.Copirate}}! V\u00e4nligen fyll i din registrering f\u00f6r att ha \u00e5tkomst ..."
+    },
+    "WELCOMEFOROWNER": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "PREHEADER": "Hur man b\u00f6rjar",
+      "HEADER": "V\u00e4lkommen till {{Branding.Copirate}}!",
+      "BUTTONTEXT": "L\u00e4s mer",
+      "TITLE": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
+  }
 }

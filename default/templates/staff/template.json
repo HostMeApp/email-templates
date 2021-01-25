@@ -9,27 +9,11 @@
     "email": { "Enable": true },
     "push": { "Enable": true }
   },
-  "RestaurantPolices": [
-    {
-      "TITLE": "{{I18N.RESTAURANTPOLICES.TITLE}}",
-      "Content": "{{I18N.RESTAURANTPOLICES.CONTENT}}"
-    }
-  ],
   "Promo": {
     "TITLE": "{{I18N.RESTPROMO.TITLE}}",
     "Content": "{{I18N.RESTPROMO.CONTENT}}",
     "ButtonText": "",
     "ButtonUrl": "",
-    "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/fa784ceedf25a1a8bb7648a2b45fe28ddc318a9b650d525b89ccf32acf3b20102f6346c35423bbaf259fe22503575a258325c979c38b7094d924b08bd7d7e4e6.png",
-    "Links": [
-      {
-        "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/98cb67188ce91ba9dc16f695f12706e31885b8f8410e39a1b6cbe547a8e4c96dd2a9720b5561d0ecc13fd05db8afc77553e15785b719ba417bd90c9b58b9c515.png",
-        "Link": "#"
-      },
-      {
-        "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/b065cae9bd827a5d8b8a53b0889ef9326f504f9ce4ae62cb2de3fee212f69d8c2b928b709261699d143b1c3f0e8d9fd918e432f63ecbeea7ec6f17280809d03f.png",
-        "Link": "#"
-      }
-    ]
+    "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/d0f36c37b067d9c1967d9f191efdf7bd3aafa460a65863f24b94773e107ac4efae217950b6cc39146d7b3bad27af0552db78c3f97d828c11720c83f7007e14ac.png"
   }
 }
