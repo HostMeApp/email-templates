@@ -336,7 +336,7 @@
       "PREHEADER": "X days left",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after {{Subscription.DaysBeforeTrialEnds}} days if no payment received."
     },
     "BLOCKED": {
       "DISPLAYNAME": "",

@@ -336,7 +336,7 @@
       "PREHEADER": "X dagar kvar",
       "HEADER": "Fakturering",
       "BUTTONTEXT": "Fakturering",
-      "MAINMESSAGE": "Din personal p\u00e5minner dig om att l\u00f6sa faktureringsproblem f\u00f6r att h\u00e5lla {{Branding.Copirate}} kontot aktivt. Restaurangkonto kommer att blockeras efter X dagar om ingen betalning tas emot."
+      "MAINMESSAGE": "Din personal p\u00e5minner dig om att l\u00f6sa faktureringsproblem f\u00f6r att h\u00e5lla {{Branding.Copirate}} kontot aktivt. Restaurangkonto kommer att blockeras efter {{Subscription.DaysBeforeTrialEnds}} dagar om ingen betalning tas emot."
     },
     "BLOCKED": {
       "DISPLAYNAME": "",

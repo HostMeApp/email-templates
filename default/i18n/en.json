@@ -319,7 +319,8 @@
       "SUBJECT": "Pay for the {{Branding.Copirate}} {{PlanName}} plan",
       "PREHEADER": "Follow the payment link to complete {{Branding.Copirate}} {{PlanName}}",
       "HEADER": "Subscribe",
-      "BUTTONTEXT": "Subscribe"
+      "BUTTONTEXT": "Subscribe",
+      "MAINMESSAGE": "Please follow this link to complete {{Branding.Copirate}} {{PlanName}} subscription purchase for {{Restaurant.Name}} restaurant:"
     },
     "REMINDERTOPAY": {
       "DISPLAYNAME": "Reminder to pay for the subscribtion",
@@ -328,7 +329,7 @@
       "PREHEADER": "Reminder",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after {{Subscription.DaysBeforeTrialEnds}} days if no payment received."
     },
     "BLOCKED": {
       "DISPLAYNAME": "Restaurant account is blocked",
@@ -348,13 +349,15 @@
       "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
       "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
       "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
+      "MAINMESSAGE": "Please copy and paste your new password: {{NewPassword}} <b> We recommend to change the password in settings after you sign in with this new password."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "Export guestbook email",
       "DESCRIPTION": "The email with attached CSV file",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready"
+      "HEADER": "Your CSV export is ready",
+      "TITLE": "Hello {{Guest.CustomerName}},",
+      "MAINMESSAGE": "Your, CSV export is attached."
     },
     "WELCOMEFORHOST": {
       "DISPLAYNAME": "Welcome restaurant user",

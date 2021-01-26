@@ -12,6 +12,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.PAYMENTLINK.MAINMESSAGE}}",
     "ButtonText": "{{I18N.PAYMENTLINK.BUTTONTEXT}}",
-    "ButtonUrl": null
+    "ButtonUrl": "{{Subscription.Links.PaymentUrl}}"
   }
 }

@@ -336,7 +336,7 @@
       "PREHEADER": "X giorni rimanenti",
       "HEADER": "Fatturazione",
       "BUTTONTEXT": "Fatturazione",
-      "MAINMESSAGE": "Il tuo staff ti ricorda di risolvere i problemi di fatturazione per mantenere l'account attivo {{Branding.Copirate}}. L'account del ristorante verr\u00e0 bloccato dopo X giorni se non viene ricevuto alcun pagamento."
+      "MAINMESSAGE": "Il tuo staff ti ricorda di risolvere i problemi di fatturazione per mantenere l'account attivo {{Branding.Copirate}}. L'account del ristorante verr\u00e0 bloccato dopo {{Subscription.DaysBeforeTrialEnds}} giorni se non viene ricevuto alcun pagamento."
     },
     "BLOCKED": {
       "DISPLAYNAME": "",
