@@ -357,8 +357,8 @@
       "DISPLAYNAME": "Export guestbook email",
       "DESCRIPTION": "The email with attached CSV file",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready",
-      "TITLE": "Hello {{Guest.CustomerName}},",
+      "PREHEADER": "Your CSV export is ready {{CsvFileName}}",
+      "HEADER": "Hello {{Guest.CustomerName}},",
       "MAINMESSAGE": "Your, CSV export is attached."
     },
     "WELCOMEFORHOST": {
@@ -366,9 +366,8 @@
       "DESCRIPTION": "Welcome email for new restaurant user signups",
       "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
       "MAINMESSAGE": "<p>You have been invited to join the {{Branding.Copirate}} app as <strong>{{Employee.Role}}</strong> for <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Your sign-in email is:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Your host panel URL:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
@@ -376,9 +375,8 @@
       "DESCRIPTION": "Welcome email for new restaurant user signups",
       "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve.",
       "PROMOTEXT": "<h2 style='text-align: left'>Online Omnipresence</h2><div style='font-family: inherit; text-align: inherit'>Be where your customers are. Make it easy for your guests and allow them to make reservations through your website, your social media profile and through all Google search and map sites. And as a bonus, keep all your information consistent with Yext!</div><h2 style='text-align: inherit'>Reservations as easy as 1.2.3</h2><div style='font-family: inherit; text-align: inherit'>Guests can make reservations in fewer clicks, increasing conversions into actual bookings. No more lost reservation, or double-bookings. Install the Hostme widget on your website without extra fees and see your business grow.</div><h2 style='text-align: inherit'>And so much more!</h2><div style='font-family: inherit; text-align: inherit'>Did you know that Hostme can also help you organize events, accept online orders, and manage your waitlist without the need for pagers? Be in touch with your guests and provide world class service without breaking the bank!</div>"
     }

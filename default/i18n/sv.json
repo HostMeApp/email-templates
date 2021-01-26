@@ -363,6 +363,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "Din CSV-export \u00e4r klar {{CsvFileName}}",
       "HEADER": "Din CSV-export \u00e4r klar",
+      "PREHEADER": "Din CSV-export \u00e4r klar",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {
@@ -370,9 +371,8 @@
       "DESCRIPTION": "",
       "SUBJECT": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
       "PREHEADER": "Hur man b\u00f6rjar",
-      "HEADER": "V\u00e4lkommen till {{Branding.Copirate}}!",
       "BUTTONTEXT": "L\u00e4s mer",
-      "TITLE": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "HEADER": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
       "MAINMESSAGE": "Tack f\u00f6r att du registrerade dig med {{Branding.Copirate}}! V\u00e4nligen fyll i din registrering f\u00f6r att ha \u00e5tkomst ..."
     },
     "WELCOMEFOROWNER": {
@@ -380,9 +380,8 @@
       "DESCRIPTION": "",
       "SUBJECT": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
       "PREHEADER": "Hur man b\u00f6rjar",
-      "HEADER": "V\u00e4lkommen till {{Branding.Copirate}}!",
       "BUTTONTEXT": "L\u00e4s mer",
-      "TITLE": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
+      "HEADER": "V\u00e4lkommen till appen {{Branding.Copirate}}!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
   }

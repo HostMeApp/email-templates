@@ -363,6 +363,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "La tua esportazione CSV \u00e8 pronta {{CsvFileName}}",
       "HEADER": "La tua esportazione CSV \u00e8 pronta",
+      "PREHEADER": "La tua esportazione CSV \u00e8 pronta",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {
@@ -370,9 +371,8 @@
       "DESCRIPTION": "",
       "SUBJECT": "Benvenuto nell'app {{Branding.Copirate}}!",
       "PREHEADER": "Come iniziare",
-      "HEADER": "Benvenuto in {{Branding.Copirate}}!",
       "BUTTONTEXT": "Per saperne di pi\u00f9",
-      "TITLE": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "HEADER": "Benvenuto nell'app {{Branding.Copirate}}!",
       "MAINMESSAGE": "<p>Sei stato invitato a far parte di {{Branding.Copirate}} come <strong>{{Employee.Role}}</strong> per <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>La tua e-mail di iscrizione è:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>L'URL del tuo pannello ospite:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
@@ -380,9 +380,8 @@
       "DESCRIPTION": "Welcome email for new restaurant user signups",
       "SUBJECT": "Benvenuto nell'app {{Branding.Copirate}}!",
       "PREHEADER": "Come iniziare",
-      "HEADER": "Benvenuto in {{Branding.Copirate}}!",
       "BUTTONTEXT": "Per saperne di pi\u00f9",
-      "TITLE": "Benvenuto nell'app {{Branding.Copirate}}!",
+      "HEADER": "Benvenuto nell'app {{Branding.Copirate}}!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
   }

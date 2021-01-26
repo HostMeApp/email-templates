@@ -363,6 +363,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
       "HEADER": "Your CSV export is ready",
+      "PREHEADER": "Your CSV export is ready",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {
@@ -370,9 +371,8 @@
       "DESCRIPTION": "",
       "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "Welcome to the {{Branding.Copirate}} app!",
+      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
       "MAINMESSAGE": "<p>Вы были приглашены в {{Branding.Copirate}} в качестве <strong>{{Employee.Role}}</strong> в <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Ваш email для входа:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Ссылка на приложение для хостес:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
@@ -380,9 +380,8 @@
       "DESCRIPTION": "",
       "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "Welcome to the {{Branding.Copirate}} app!",
+      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
   }
