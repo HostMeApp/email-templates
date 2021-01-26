@@ -166,8 +166,8 @@
       "DESCRIPTION": "Email inviata per invitare gli ospiti alla prenotazione",
       "SUBJECT": "Sei stato invitato a iscriverti all'app {{Branding.Copirate}}!",
       "PREHEADER": "Accetta l'invito",
-      "TEXT": "Sei stato invitato a iscriverti all'app {{Branding.Copirate}}!",
-      "HEADER": "Sei stato invitato a partecipare all'app {{Branding.Copirate}} come {{Employee.Role}}!",
+      "TEXT": "{{Guest.CustomerName}} ha accettato il tuo invito a {{Restaurant.Name}} in data {{Booking.ReservationDate}} al {{Booking.ReservationTime}}",
+      "HEADER": "Sei stato invitato!",
       "BUTTONTEXT": "Accetta",
       "MAINMESSAGE": ""
     },
@@ -176,7 +176,7 @@
       "DESCRIPTION": "E-mail inviata al cliente per confermare l'accettazione dell'invito da parte degli ospiti.",
       "SUBJECT": "Il tuo invito alla prenotazione presso {{Restaurant.Name}} \u00e8 stato accettato da {{Guest.CustomerName}}.",
       "PREHEADER": "{{Guest.CustomerName}} ha accettato il tuo invito",
-      "TEXT": "{{Guest.CustomerName}} ha accettato il tuo invito a {{Restaurant.Name}} in data {{Booking.ReservationDate}} al {{ReservationTime}}",
+      "TEXT": "{{Guest.CustomerName}} ha accettato il tuo invito a {{Restaurant.Name}} in data {{Booking.ReservationDate}} al {{Booking.ReservationTime}}",
       "HEADER": "Invito accettato",
       "BUTTONTEXT": "",
       "MAINMESSAGE": "Invito alla prenotazione accettato"

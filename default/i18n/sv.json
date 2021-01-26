@@ -166,8 +166,8 @@
       "DESCRIPTION": "Mejl skickas f\u00f6r att bjuda in g\u00e4ster till bokningen",
       "SUBJECT": "Du har blivit inbjuden att g\u00e5 med i appen {{Branding.Copirate}}!",
       "PREHEADER": "Acceptera inbjudan",
-      "TEXT": "Du har blivit inbjuden att g\u00e5 med i appen {{Branding.Copirate}}!",
-      "HEADER": "Du har blivit inbjuden att g\u00e5 med i {{Branding.Copirate}} -appen som {{Employee.Role}}!",
+      "TEXT": "{{Guest.CustomerName}} har accepterat din inbjudan till {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationTime}}",
+      "HEADER": "",
       "BUTTONTEXT": "Acceptera",
       "MAINMESSAGE": "(en tom fras)"
     },
@@ -176,7 +176,7 @@
       "DESCRIPTION": "Mejl skickas till kunden f\u00f6r att bekr\u00e4fta acceptera inbjudan av g\u00e4ster.",
       "SUBJECT": "Din bokningsinbjudan p\u00e5 {{Restaurant.Name}} har accepterats av {{Guest.CustomerName}}.",
       "PREHEADER": "{{Guest.CustomerName}} har accepterat din inbjudan",
-      "TEXT": "{{Guest.CustomerName}} har accepterat din inbjudan till {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{ReservationTime}}",
+      "TEXT": "{{Guest.CustomerName}} har accepterat din inbjudan till {{Restaurant.Name}} den {{Booking.ReservationDate}} p\u00e5 {{Booking.ReservationTime}}",
       "HEADER": "Inbjudan accepterad",
       "BUTTONTEXT": "(en tom fras)",
       "MAINMESSAGE": "F\u00f6ljande bokningsinbjudan har accepterats:"

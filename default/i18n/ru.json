@@ -164,12 +164,12 @@
     "INVITATION": {
       "DISPLAYNAME": "Reservation Invitation",
       "DESCRIPTION": "Email sent to guests to invite them to the reservation",
-      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
+      "SUBJECT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Accept the invite",
-      "TEXT": "You have been invited to join the {{Branding.Copirate}} app!",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!",
+      "TEXT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "HEADER": "You have been invited!",
       "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "You have been invited to the following reservation:"
     },
     "INVITATIONACCEPTED": {
       "DISPLAYNAME": "Reservation Invite Accepted",
@@ -312,13 +312,13 @@
       "MAINMESSAGE": ""
     },
     "INVITATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
+      "DISPLAYNAME": "Invitation for staff",
+      "DESCRIPTION": "Invitation to join restaurant as a user",
       "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!",
+      "HEADER": "",
       "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!"
     },
     "PAYMENTLINK": {
       "DISPLAYNAME": "",
