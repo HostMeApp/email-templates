@@ -284,7 +284,7 @@
       "DISPLAYNAME": "Manual approval request",
       "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
       "SUBJECT": "New online reservation request. Action required!",
-      "PREHEADER": "Review Reservation",
+      "PREHEADER": " {{Booking.ReservationDateTime}} / {{Guest.CustomerName}} / {{Booking.PartySize}} guests",
       "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
       "HEADER": "New Request",
       "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"

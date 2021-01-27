@@ -11,7 +11,7 @@
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.APPROVALFORHOST.BUTTONTEXT}}",
+    "ButtonText": null,
     "ButtonUrl": null
   },
   "Booking": {

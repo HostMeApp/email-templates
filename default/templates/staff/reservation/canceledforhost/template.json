@@ -11,7 +11,7 @@
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.CANCELEDFORHOST.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonText": null,
     "ButtonUrl": null
   },
   "Booking": {

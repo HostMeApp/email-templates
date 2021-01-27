@@ -15,5 +15,22 @@
     "ButtonText": "",
     "ButtonUrl": "",
     "Image": "https://marketing-image-production.s3.amazonaws.com/uploads/d0f36c37b067d9c1967d9f191efdf7bd3aafa460a65863f24b94773e107ac4efae217950b6cc39146d7b3bad27af0552db78c3f97d828c11720c83f7007e14ac.png"
+  },
+  "CUSTOMUI": {
+    "SHOWCUSTOMPOLICY1": true,
+    "SHOWCUSTOMPOLICY2": false,
+    "SHOWCUSTOMPOLICY3": false,
+    "SHOWREASON": true,
+    "SHOWMANAGEBUTTON": true,
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWDURATION": true,
+    "SHOWDEPOSIT": true,
+    "SHOWTABLENUMBER": true,
+    "SHOWTABLENOTES": true,
+    "SHOWALLERGIES": true,
+    "SHOWAREAS": true,
+    "SHOWNOTE": true,
+    "SHOWORDER": true,
+    "SHOWPROMO": true
   }
 }
