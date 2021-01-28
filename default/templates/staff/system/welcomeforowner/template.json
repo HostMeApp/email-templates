@@ -1,0 +1,19 @@
+{
+  "Name": "WELCOMEFOROWNER",
+  "DisplayName": "Welcome new restaurant user account",
+  "Description": "Email sent to all new owners in a restaurant",
+  "SUBJECT": "{{I18N.WELCOMEFOROWNER.SUBJECT}}",
+  "PREHEADER": "{{I18N.WELCOMEFOROWNER.PREHEADER}}",
+  "HEADER": "{{I18N.WELCOMEFOROWNER.HEADER}}",
+  "ContentTemplate": {
+    "sms": null,
+    "push": null,
+    "email": "d-d75f858ba285402b825c5d988fc15ab6"
+  },
+  "MAINMESSAGE": {
+    "TITLE": "{{I18N.WELCOMEFOROWNER.TITLE}}",
+    "Content": "{{I18N.WELCOMEFOROWNER.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.WELCOMEFOROWNER.BUTTONTEXT}}",
+    "ButtonUrl": "https://{{Employee.ApplicationId}}"
+  }
+}

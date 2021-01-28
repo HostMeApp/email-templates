@@ -1,0 +1,94 @@
+<tr role="module-content">
+    <td height="100%" valign="top">
+        <table width="520" style="width:520px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="" class="column column-0">
+            <tbody>
+                <tr>
+                    <td style="padding:0px;margin:0px;border-spacing:0;">
+                        <table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="45d3d1eb-de60-492f-badb-b1dbc77d4555">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top" role="module-content">
+                                        {{#if CUSTOMUI.SHOWMESSAGE}}
+                                        <div style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;">
+                                            {{#if MainMessage.Title}} {{#if CUSTOMUI.SHOWMESSAGETITLE}}
+                                            {{{MainMessage.Title}}}
+                                            {{/if}} {{/if}}
+                                            {{#if MainMessage.Content}}{{{MainMessage.Content}}} {{/if}}
+                                        </div>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="f39619a8-0aed-4b33-b4c0-6effea1ac049">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top" role="module-content">
+                                        {{#if MainMessage.ButtonText}} {{#if CUSTOMUI.SHOWMESSAGE}}
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="center" bgcolor="{{Branding.Background}}" class="inner-td" style="border-radius:6px; font-size:18px; text-align:center; background-color:inherit;">
+                                                    <div>
+                                                        <!--[if mso]>
+                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{MainMessage.ButtonURL}}" style="height:40px;v-text-anchor:middle;width:540px;" arcsize="15%" strokecolor="{{Branding.Background}}" fillcolor="{{Branding.Background}}">
+                                                           <w:anchorlock/>
+                                                           <center style="color:{{Branding.TextColor}};font-family:Helvetica, Arial,sans-serif;font-size:18px;">
+                                                              {{MainMessage.ButtonText}}
+                                                           </center>
+                                                        </v:roundrect>
+                                                        <![endif]-->
+                                                        <!--[if mso]>
+                                                        <div style="width:0px; height:0px; overflow:hidden; display:none; visibility:hidden; mso-hide:all;">
+                                                           <![endif]-->
+                                                        <a href="{{MainMessage.ButtonURL}}" style="background-color:{{Branding.Background}}; max-width:100%; border:0px solid {{Branding.Background}}; border-color:{{Branding.Background}}; border-radius:6px; border-width:0px; color:{{Branding.TextColor}}; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:100%;" target="_blank">{{MainMessage.ButtonText}}</a>
+                                                        <!--[if mso]>
+                                                        </div>
+                                                        <![endif]-->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        {{/if}} {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="3aa3196e-4b8d-4f63-b35e-5d1a98cd01dd">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top" role="module-content">
+                                        {{#if Booking.Reason}} {{#if CUSTOMUI.SHOWREASON}}
+                                        <strong>{{I18N.LABELS.REASON}}</strong> {{Booking.Reason}}
+                                        {{/if}} {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><table class="module" role="module" data-type="code" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="f96758df-5660-4c2d-91dd-91dc74b644ed">
+                            <tbody>
+                                <tr>
+                                    <td height="100%" valign="top" role="module-content">
+                                        {{#if CUSTOMUI.SHOWMESSAGE}}
+                                        <table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="nxn2aEMbjYPWdUYkmswyWd.2">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding:20px 0px 20px 0px;" role="module-content" height="100%" valign="top" bgcolor="#fff">
+                                                        <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" height="1px" style="line-height:1px; font-size:1px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding:0px 0px 1px 0px;" bgcolor="#eeeeee"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>

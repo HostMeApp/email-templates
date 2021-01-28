@@ -26,7 +26,7 @@
     },
     "RESTPROMO": {
       "TITLE": "Manage your restaurant anytime and anywhere!",
-      "CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers anytime, anywhere."
+      "CONTENT": "<div>The Hostme app is available for <a href='https://hostmeapp.page.link/app'>iOS</a>, <a href='https://hostmeapp.page.link/app'>Android </a>and <a href='https://www.microsoft.com/store/apps/9nblggh1k8v9?utm_source=website-promo&amp;utm_medium=website&amp;utm_campaign=website'>Windows </a>tablets and smartphones or from any <a href='https://{{Employee.ApplicationId}}'>browser</a>.</div>"
     },
     "LABELS": {
       "PARTY": "Party of",
@@ -170,18 +170,19 @@
     "INVITATION": {
       "DISPLAYNAME": "Reservation Invitation",
       "DESCRIPTION": "Email sent to guests to invite them to the reservation",
-      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
+      "SUBJECT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Accept the invite",
-      "TEXT": "You have been invited to join the {{Branding.Copirate}} app!",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept"
+      "TEXT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "HEADER": "You have been invited!",
+      "BUTTONTEXT": "Accept",
+      "MAINMESSAGE": "You have been invited to the following reservation:"
     },
     "INVITATIONACCEPTED": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to customer to confirm accepted invitation by guests.",
       "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
       "PREHEADER": "{{Guest.CustomerName}} has accepted your invitation",
-      "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{ReservationTime}}",
+      "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "HEADER": "Invitation Accepted",
       "MAINMESSAGE": "The following reservation invite has been accepted:"
     },
@@ -268,32 +269,34 @@
       "DESCRIPTION": "Email send to host when a reservation was changed",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed"
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
+      "HEADER": "Reservation Changed",
+      "MAINMESSAGE": "The following resrevation has been changed"
     },
     "CANCELEDFORHOST": {
       "DISPLAYNAME": "Canceled reservation notification",
       "DESCRIPTION": "Email send to host when a reservation was canceled.",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
-      "HEADER": "Reservation Changed"
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
+      "HEADER": "Reservation Changed",
+      "MAINMESSAGE": "The following resrevation has been changed"
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "Manual approval request",
       "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
       "SUBJECT": "New online reservation request. Action required!",
-      "PREHEADER": "Review Reservation",
+      "PREHEADER": " {{Booking.ReservationDateTime}} / {{Guest.CustomerName}} / {{Booking.PartySize}} guests",
       "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
       "HEADER": "New Request",
-      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"
+      "MAINMESSAGE": "Please, review and approve the following reservation"
     },
     "NEWRESERVATIONFORHOST": {
       "DISPLAYNAME": "New Reservation Notification",
       "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
       "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "TEXT": "New reservation",
       "HEADER": "New Reservation"
     },
     "REMINDERFORHOST": {
@@ -302,16 +305,17 @@
       "SUBJECT": "Upcoming reservation reminder",
       "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
       "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "BUTTONTEXT": "Manage the Reservation"
+      "HEADER": "Upcoming reservation:",
+      "MAINMESSAGE": "This is friendly reminder about upcoming reservation:"
     },
     "INVITATIONFORHOST": {
       "DISPLAYNAME": "Invitation for staff",
       "DESCRIPTION": "Invitation to join restaurant as a user",
       "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{Branding.Copirate}} app as {{Role}}!",
-      "BUTTONTEXT": "Accept"
+      "HEADER": "",
+      "BUTTONTEXT": "Accept",
+      "MAINMESSAGE": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!"
     },
     "PAYMENTLINK": {
       "DISPLAYNAME": "Payment link",
@@ -319,7 +323,8 @@
       "SUBJECT": "Pay for the {{Branding.Copirate}} {{PlanName}} plan",
       "PREHEADER": "Follow the payment link to complete {{Branding.Copirate}} {{PlanName}}",
       "HEADER": "Subscribe",
-      "BUTTONTEXT": "Subscribe"
+      "BUTTONTEXT": "Subscribe",
+      "MAINMESSAGE": "Please follow this link to complete {{Branding.Copirate}} {{PlanName}} subscription purchase for {{Restaurant.Name}} restaurant:"
     },
     "REMINDERTOPAY": {
       "DISPLAYNAME": "Reminder to pay for the subscribtion",
@@ -328,7 +333,7 @@
       "PREHEADER": "Reminder",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after {{Subscription.DaysBeforeTrialEnds}} days if no payment received."
     },
     "BLOCKED": {
       "DISPLAYNAME": "Restaurant account is blocked",
@@ -348,23 +353,34 @@
       "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
       "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
       "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
+      "MAINMESSAGE": "Please copy and paste your new password: {{NewPassword}} <b> We recommend to change the password in settings after you sign in with this new password."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "Export guestbook email",
       "DESCRIPTION": "The email with attached CSV file",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready"
+      "PREHEADER": "Your CSV export is ready {{CsvFileName}}",
+      "HEADER": "Hello {{Guest.CustomerName}},",
+      "MAINMESSAGE": "Your, CSV export is attached."
     },
     "WELCOMEFORHOST": {
       "DISPLAYNAME": "Welcome restaurant user",
       "DESCRIPTION": "Welcome email for new restaurant user signups",
       "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{Branding.Copirate}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "How to start",
-      "MAINMESSAGE": "Thanks for signing up with {{Branding.Copirate}}! Please, complete your registration to remain access..."
+      "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "MAINMESSAGE": "<p>You have been invited to join the {{Branding.Copirate}} app as <strong>{{Employee.Role}}</strong> for <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Your sign-in email is:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Your host panel URL:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+    },
+    "WELCOMEFOROWNER": {
+      "DISPLAYNAME": "Welcome restaurant user",
+      "DESCRIPTION": "Welcome email for new restaurant user signups",
+      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
+      "PREHEADER": "How to start",
+      "BUTTONTEXT": "Learn more",
+      "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve.",
+      "PROMOTEXT": "<h2 style='text-align: left'>Online Omnipresence</h2><div style='font-family: inherit; text-align: inherit'>Be where your customers are. Make it easy for your guests and allow them to make reservations through your website, your social media profile and through all Google search and map sites. And as a bonus, keep all your information consistent with Yext!</div><h2 style='text-align: inherit'>Reservations as easy as 1.2.3</h2><div style='font-family: inherit; text-align: inherit'>Guests can make reservations in fewer clicks, increasing conversions into actual bookings. No more lost reservation, or double-bookings. Install the Hostme widget on your website without extra fees and see your business grow.</div><h2 style='text-align: inherit'>And so much more!</h2><div style='font-family: inherit; text-align: inherit'>Did you know that Hostme can also help you organize events, accept online orders, and manage your waitlist without the need for pagers? Be in touch with your guests and provide world class service without breaking the bank!</div>"
     }
   }
 }

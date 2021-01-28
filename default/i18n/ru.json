@@ -164,12 +164,12 @@
     "INVITATION": {
       "DISPLAYNAME": "Reservation Invitation",
       "DESCRIPTION": "Email sent to guests to invite them to the reservation",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "SUBJECT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Accept the invite",
-      "TEXT": "You have been invited to join the {{author}} app!",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
+      "TEXT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "HEADER": "You have been invited!",
       "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "You have been invited to the following reservation:"
     },
     "INVITATIONACCEPTED": {
       "DISPLAYNAME": "Reservation Invite Accepted",
@@ -266,7 +266,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been canceled",
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
@@ -276,7 +276,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{GuestName}} {{ReservationDateTime}} has been changed",
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
@@ -286,17 +286,17 @@
       "DESCRIPTION": "",
       "SUBJECT": "New online reservation request. Action required!",
       "PREHEADER": "Review Reservation",
-      "TEXT": "New reservation request: {{ReservationDateTime}} / {{GuestName}}. Please review.",
+      "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
       "HEADER": "New Request",
       "BUTTONTEXT": "Review",
-      "MAINMESSAGE": "{{ReservationDateTime}} / {{GuestName}}"
+      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"
     },
     "NEWRESERVATIONFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
       "SUBJECT": "New Reservation!",
-      "PREHEADER": "{{ReservationDateTime}} / {{GuestName}}",
-      "TEXT": "New reservation: {{ReservationDateTime}} / {{GuestName}}",
+      "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
       "HEADER": "New Reservation",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
@@ -305,26 +305,26 @@
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
       "SUBJECT": "Upcoming reservation reminder",
-      "PREHEADER": "{{GuestName}} / {{ReservationDateTime}}",
-      "TEXT": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
-      "HEADER": "Upcoming reservation reminder: {{ReservationDateTime}} / {{GuestName}}",
+      "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
+      "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
       "BUTTONTEXT": "Manage the Reservation",
       "MAINMESSAGE": ""
     },
     "INVITATIONFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "You have been invited to join the {{author}} app!",
+      "DISPLAYNAME": "Invitation for staff",
+      "DESCRIPTION": "Invitation to join restaurant as a user",
+      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
       "PREHEADER": "Follow the link to accept the invitation",
-      "HEADER": "You have been invited to join the {{author}} app as {{Role}}!",
+      "HEADER": "",
       "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!"
     },
     "PAYMENTLINK": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Pay for the {{author}} {{PlanName}} plan",
-      "PREHEADER": "Follow the payment link to complete {{author}} {{PlanName}}",
+      "SUBJECT": "Pay for the {{Branding.Copirate}} {{PlanName}} plan",
+      "PREHEADER": "Follow the payment link to complete {{Branding.Copirate}} {{PlanName}}",
       "HEADER": "Subscribe",
       "BUTTONTEXT": "Subscribe",
       "MAINMESSAGE": ""
@@ -332,11 +332,11 @@
     "REMINDERTOPAY": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Your staff reminds you to upgrade your {{author}} plan",
+      "SUBJECT": "Your staff reminds you to upgrade your {{Branding.Copirate}} plan",
       "PREHEADER": "X days left",
       "HEADER": "Billing",
       "BUTTONTEXT": "Billing",
-      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{author}} account active. Restaurant account will be blocked after X days if no payment received."
+      "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after {{Subscription.DaysBeforeTrialEnds}} days if no payment received."
     },
     "BLOCKED": {
       "DISPLAYNAME": "",
@@ -351,10 +351,10 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Your {{author}} password was successfully reset",
+      "SUBJECT": "Your {{Branding.Copirate}} password was successfully reset",
       "PREHEADER": "Password inside",
-      "TEXT": "Your {{author}} password was successfully reset",
-      "HEADER": "Your {{author}} password was successfully reset",
+      "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
+      "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
       "BUTTONTEXT": "Sign In",
       "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
     },
@@ -363,17 +363,26 @@
       "DESCRIPTION": "",
       "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
       "HEADER": "Your CSV export is ready",
+      "PREHEADER": "Your CSV export is ready",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Welcome to the {{author}} app!",
+      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
       "PREHEADER": "How to start",
-      "HEADER": "Welcome to {{author}}!",
       "BUTTONTEXT": "Learn more",
-      "TITLE": "How to start",
-      "MAINMESSAGE": "Thanks for signing up with {{author}}! Please, complete your registration to remain access..."
+      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
+      "MAINMESSAGE": "<p>Вы были приглашены в {{Branding.Copirate}} в качестве <strong>{{Employee.Role}}</strong> в <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Ваш email для входа:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Ссылка на приложение для хостес:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+    },
+    "WELCOMEFOROWNER": {
+      "DISPLAYNAME": "",
+      "DESCRIPTION": "",
+      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
+      "PREHEADER": "How to start",
+      "BUTTONTEXT": "Learn more",
+      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
+      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     }
   }
 }

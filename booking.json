@@ -1,0 +1,52 @@
+{
+  "id": "booking-email-test-reservation",
+  "customerName": "Anna",
+  "phone": "+1 111 1111-11-11",
+  "status": "Approved",
+  "areas": "",
+  "depositStatus": "succeeded",
+  "email": "test@example.com",
+  "source": "web",
+  "type": "reservation",
+  "updatedBy": "Anna",
+  "messageThreadId": "7bd46a3f-9f76-4bfb-bda5-be6778348484",
+  "approvalRequired": false,
+  "paymentCustomerId": "cus_ISFcgEK3c9b5mx",
+  "created": "2020-11-25T13:20:28.9035431+03:00",
+  "reservationTime": "2020-11-26T11:30:00+03:00",
+  "groupSize": 3,
+  "unreadMessageCount": 0,
+  "amount": 20.00,
+  "currency": "usd",
+  "isDeposit": true,
+  "autoSeat": false,
+  "cardAttached": true,
+  "membership": {
+    "id": 18697,
+    "membershipLevel": "None",
+    "points": 0,
+    "language": "en"
+  },
+  "waiters": [],
+  "customerProfile": {
+    "allergy": [],
+    "vegetarian": false,
+    "vip": false,
+    "handicapAccessible": false
+  },
+  "additionals": {
+    "booth": false,
+    "highTop": false,
+    "table": false,
+    "highChair": false,
+    "babyCarrier": false,
+    "stroller": false,
+    "party": false,
+    "contactless": false,
+    "dontDisturb": false,
+    "needCardReader": false,
+    "eventTypes": []
+  },
+  "estimatedTurnOverTime": 40.0,
+  "estimatedTurnOver": "00:40:00"
+}

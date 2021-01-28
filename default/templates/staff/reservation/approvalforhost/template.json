@@ -10,9 +10,7 @@
     "push": "{{I18N.APPROVALFORHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.APPROVALFORHOST.BUTTONTEXT}}",
-    "ButtonUrl": null
+    "Content": "{{I18N.APPROVALFORHOST.MAINMESSAGE}}"
   },
   "Booking": {
     "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
