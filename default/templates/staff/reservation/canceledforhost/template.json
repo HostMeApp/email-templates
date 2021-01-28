@@ -10,9 +10,6 @@
     "push": "{{I18N.CANCELEDFORHOST.TEXT}}"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.CANCELEDFORHOST.MAINMESSAGE}}",
-    "ButtonText": null,
-    "ButtonUrl": null
   },
   "Booking": {
     "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"

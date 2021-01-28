@@ -269,16 +269,18 @@
       "DESCRIPTION": "Email send to host when a reservation was changed",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed"
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
+      "HEADER": "Reservation Changed",
+      "MAINMESSAGE": "The following resrevation has been changed"
     },
     "CANCELEDFORHOST": {
       "DISPLAYNAME": "Canceled reservation notification",
       "DESCRIPTION": "Email send to host when a reservation was canceled.",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
-      "HEADER": "Reservation Changed"
+      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
+      "HEADER": "Reservation Changed",
+      "MAINMESSAGE": "The following resrevation has been changed"
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "Manual approval request",
@@ -287,14 +289,14 @@
       "PREHEADER": " {{Booking.ReservationDateTime}} / {{Guest.CustomerName}} / {{Booking.PartySize}} guests",
       "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
       "HEADER": "New Request",
-      "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"
+      "MAINMESSAGE": "Please, review and approve the following reservation"
     },
     "NEWRESERVATIONFORHOST": {
       "DISPLAYNAME": "New Reservation Notification",
       "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
       "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "TEXT": "New reservation",
       "HEADER": "New Reservation"
     },
     "REMINDERFORHOST": {
@@ -303,8 +305,8 @@
       "SUBJECT": "Upcoming reservation reminder",
       "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
       "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "BUTTONTEXT": "Manage the Reservation"
+      "HEADER": "Upcoming reservation:",
+      "MAINMESSAGE": "This is friendly reminder about upcoming reservation:"
     },
     "INVITATIONFORHOST": {
       "DISPLAYNAME": "Invitation for staff",
