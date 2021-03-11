@@ -277,11 +277,11 @@
     "CANCELEDFORHOST": {
       "DISPLAYNAME": "Canceled reservation notification",
       "DESCRIPTION": "Email send to host when a reservation was canceled.",
-      "SUBJECT": "The reservation has been changed",
+      "SUBJECT": "The reservation has been canceled",
       "PREHEADER": "Check the changes.",
       "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed",
-      "MAINMESSAGE": "The following resrevation has been changed"
+      "HEADER": "Reservation Canceled",
+      "MAINMESSAGE": "The following reservation has been canceled"
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "Manual approval request",

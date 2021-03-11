@@ -14,6 +14,7 @@
     "Content": "{{I18N.CHANGEDFORHOST.MAINMESSAGE}}"
   },
   "Booking": {
-    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}"
+    "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.RestaurantReservationViewUrl}}"
   }
 }

@@ -273,14 +273,14 @@
       "MAINMESSAGE": ""
     },
     "CANCELEDFORHOST": {
-      "DISPLAYNAME": "",
-      "DESCRIPTION": "",
-      "SUBJECT": "Bokningen har \u00e4ndrats",
-      "PREHEADER": "Kontrollera \u00e4ndringarna.",
-      "TEXT": "Bokningen f\u00f6r {{Guest.CustomerName}} den {{Booking.ReservationDateTime}} har \u00e4ndrats",
-      "HEADER": "Bokningen har \u00e4ndrats",
+      "DISPLAYNAME": "Avisering om avbokad bokning",
+      "DESCRIPTION": "E-post skickades till v\u00e4rden n\u00e4r bokningen avbokades",
+      "SUBJECT": "Bokningen har avbokats",
+      "PREHEADER": "Kontrollera avbruten.",
+      "TEXT": "Bokningen f\u00f6r {{Guest.CustomerName}} {{Booking.ReservationDateTime}} har avbokats",
+      "HEADER": "Bokningen avbokades",
       "BUTTONTEXT": "",
-      "MAINMESSAGE": ""
+      "MAINMESSAGE": "Följande bokning har avbokats"
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "",
