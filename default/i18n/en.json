@@ -272,7 +272,7 @@
       "PREHEADER": "Check the changes.",
       "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
       "HEADER": "Reservation Changed",
-      "MAINMESSAGE": "The following resrevation has been changed"
+      "MAINMESSAGE": "The following reservation has been changed"
     },
     "CANCELEDFORHOST": {
       "DISPLAYNAME": "Canceled reservation notification",
