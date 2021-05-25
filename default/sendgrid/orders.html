@@ -23,104 +23,84 @@
       </style>
     <![endif]-->
     <style type="text/css">
-        body, p, div {
-            font-family: arial,helvetica,sans-serif;
-            font-size: 16px;
-        }
-
-        body {
-            color: #666666;
-        }
-
-            body a {
-                color: {{Branding.Background}};
-                text-decoration: none;
-            }
-
-        p {
-            margin: 0;
-            padding: 0;
-        }
-
-        table.wrapper {
-            width: 100% !important;
-            table-layout: fixed;
-            -webkit-font-smoothing: antialiased;
-            -webkit-text-size-adjust: 100%;
-            -moz-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
-
-        img.max-width {
-            max-width: 100% !important;
-        }
-
-        .column.of-2 {
-            width: 50%;
-        }
-
-        .column.of-3 {
-            width: 33.333%;
-        }
-
-        .column.of-4 {
-            width: 25%;
-        }
-
-        @media screen and (max-width:480px) {
-            .preheader .rightColumnContent,
-            .footer .rightColumnContent {
-                text-align: left !important;
-            }
-
-                .preheader .rightColumnContent div,
-                .preheader .rightColumnContent span,
-                .footer .rightColumnContent div,
-                .footer .rightColumnContent span {
-                    text-align: left !important;
-                }
-
-            .preheader .rightColumnContent,
-            .preheader .leftColumnContent {
-                font-size: 80% !important;
-                padding: 5px 0;
-            }
-
-            table.wrapper-mobile {
-                width: 100% !important;
-                table-layout: fixed;
-            }
-
-            img.max-width {
-                height: auto !important;
-                max-width: 100% !important;
-            }
-
-            a.bulletproof-button {
-                display: block !important;
-                width: auto !important;
-                font-size: 80%;
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-            }
-
-            .columns {
-                width: 100% !important;
-            }
-
-            .column {
-                display: block !important;
-                width: 100% !important;
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-                margin-left: 0 !important;
-                margin-right: 0 !important;
-            }
-
-            .social-icon-column {
-                display: inline-block !important;
-            }
-        }
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 16px;
+    }
+    body {
+      color: #666666;
+    }
+    body a {
+      color: {{Branding.Background}};
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
     </style>
     <!--user entered Head Start-->
     <style>
@@ -242,7 +222,7 @@
             mso-table-rspace: 0pt !important;
         }
     </style>
-    <script>{{{Booking.JsonLd}}}</script><!--End Head user entered-->
+    <!--End Head user entered-->
 </head>
 <body>
     <center class="wrapper" data-link-color="{{Branding.Background}}" data-body-style="font-size:16px; font-family:arial,helvetica,sans-serif; color:#666666; background-color:#f8f8f8;">
@@ -531,124 +511,124 @@
                                                                                                                     {{#each Booking.Order.OrderLines}}
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666; padding-left: 0px !important">{{Amount}} x {{ProductName}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{TotalPrice}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                     {{/each}}
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.SUBTOTAL}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.SubTotal}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.DELIVERYFEE}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px;  font-size: 16px; color: #666666;">{{Booking.Order.DeliveryFee}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TAXES}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Taxes}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TIPS}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Tips}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                     <tr style="background-image: url( http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/b265fd80-2d99-4137-b845-b1e26165a4da/80x33.jpg); background-size: 7px 3px; background-repeat-y: no-repeat; background-position: 0% 66%; background-repeat: repeat-x;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
-                                                       <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
-                                                       </v:fill>
-                                                    </v:rect>
-                                                    <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
-                                                       <v:shape style="position: absolute;left: 0; height: 100;">
-                                                          <![endif]-->
+                                                                                                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:540px;height:40px;">
+                                                                                                                           <v:fill type="tile" color="#363636" src="http://cdn.mcauto-images-production.sendgrid.net/2740fa9cc4aef586/9e08ac8b-29fa-49f2-ab10-ef6d1b3e1752/10800x400.png" size="540pt,22pt" />
+                                                                                                                           </v:fill>
+                                                                                                                        </v:rect>
+                                                                                                                        <v:group id="NameHere" style="position:absolute;width:540px;height:40px;" coordsize="100,100" coordorigin="0,0">
+                                                                                                                           <v:shape style="position: absolute;left: 0; height: 100;">
+                                                                                                                              <![endif]-->
                                                                                                                         <td><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; font-size: 16px; color: #666666;">{{I18N.ORDER.TOTAL}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                    </v:shape>
-                                                    <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
-                                                       <![endif]-->
+                                                                                                                        </v:shape>
+                                                                                                                        <v:shape style="position: absolute;left: 90; top: 0, height: 100; font-size: 16pt">
+                                                                                                                           <![endif]-->
                                                                                                                         <td style="width:10%;text-align:right"><span style="font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato; display:inline-block; background:#FFF; position:relative; padding-left: 3px; font-size: 16px; color: #666666;">{{Booking.Order.Total}}</span></td>
                                                                                                                         <!--[if gte mso 9]>
-                                                       </v:shape>
-                                                    </v:group>
-                                                    <![endif]-->
+                                                                                                                           </v:shape>
+                                                                                                                        </v:group>
+                                                                                                                        <![endif]-->
                                                                                                                     </tr>
                                                                                                                 </table>
                                                                                                             </div>
@@ -673,16 +653,16 @@
                                                                                                                 <tr>
                                                                                                                     <td align="center" class="inner-td" style="border-radius:6px; font-size:18px; text-align:center; background-color:inherit; font-family: font-family: Montserrat, &quot;Open Sans&quot;,&quot;Segoe UI&quot;,SegoeUI,sans-serif,&quot;SF Pro Display&quot;,&quot;Helvetica Neue&quot;,Lato;;">
                                                                                                                         <!--[if gte mso 9]>
-                                                    <v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="{{Booking.ButtonUrl}}" style="height:40px;v-text-anchor:middle;width:520px;" arcsize="15%" strokecolor="{{Branding.Background}}" fillcolor="{{Branding.Background}}">
-                                                       <w:anchorlock/>
-                                                       <center style="color:#ffffff;font-family:Helvetica, Arial,sans-serif;font-size:18px;">{{Booking.ButtonText}}</center>
-                                                    </v:roundrect>
-                                                    <div style="width:0px; height:0px; overflow:hidden; display:none; visibility:hidden; mso-hide:all;">
-                                                       <![endif]-->
+                                                                                                                        <v:roundrect xmlns_v="urn:schemas-microsoft-com:vml" xmlns_w="urn:schemas-microsoft-com:office:word" href="{{Booking.ButtonUrl}}" style="height:40px;v-text-anchor:middle;width:520px;" arcsize="15%" strokecolor="{{Branding.Background}}" fillcolor="{{Branding.Background}}">
+                                                                                                                           <w:anchorlock/>
+                                                                                                                           <center style="color:#ffffff;font-family:Helvetica, Arial,sans-serif;font-size:18px;">{{Booking.ButtonText}}</center>
+                                                                                                                        </v:roundrect>
+                                                                                                                        <div style="width:0px; height:0px; overflow:hidden; display:none; visibility:hidden; mso-hide:all;">
+                                                                                                                           <![endif]-->
                                                                                                                         <a href="{{Booking.ButtonUrl}}" style="background-color:{{Branding.Background}}; max-width:100%; border:0px solid {{Branding.Background}}; border-color:{{Branding.Background}}; border-radius:6px; border-width:0px; color:#ffffff; display:inline-block; font-size:18px; font-weight:normal; letter-spacing:0px; line-height:40px; padding:10px 5px 10px 5px; text-align:center; text-decoration:none; border-style:solid; width:520px;" target="_blank">{{Booking.ButtonText}}</a>
                                                                                                                         <!--[if mso]>
-                                                    </div>
-                                                    <![endif]-->
+                                                                                                                        </div>
+                                                                                                                        <![endif]-->
                                                                                                                     </td>
                                                                                                                 </tr>
                                                                                                             </table>
