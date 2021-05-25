@@ -6,8 +6,8 @@
   "PREHEADER": "{{I18N.RESETPASSWORD.PREHEADER}}",
   "HEADER": "{{I18N.RESETPASSWORD.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N.RESETPASSWORD.TEXT}}",
-    "push": "{{I18N.RESETPASSWORD.TEXT}}"
+    "sms": null,
+    "push": null
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.RESETPASSWORD.MAINMESSAGE}}",

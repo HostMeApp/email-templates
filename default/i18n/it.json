@@ -374,7 +374,7 @@
       "PREHEADER": "Come iniziare",
       "BUTTONTEXT": "Per saperne di pi\u00f9",
       "HEADER": "Benvenuto nell'app {{Branding.Copirate}}!",
-      "MAINMESSAGE": "<p>Sei stato invitato a far parte di {{Branding.Copirate}} come <strong>{{Employee.Role}}</strong> per <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>La tua e-mail di iscrizione è:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>L'URL del tuo pannello ospite:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+      "MAINMESSAGE": "<p>Sei stato invitato a far parte di {{Branding.Copirate}} come <strong>{{Employee.Role}}</strong> per <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>La tua e-mail di iscrizione è:&nbsp;<a href='{{Empoyee.Email}}' >{{Empoyee.Email}}</a></strong></li>    <li><strong>L'URL del tuo pannello ospite:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
       "DISPLAYNAME": "Welcome restaurant user",

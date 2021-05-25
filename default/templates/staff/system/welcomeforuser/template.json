@@ -10,7 +10,6 @@
     "push": null
   },
   "MAINMESSAGE": {
-    "TITLE": "{{I18N.WELCOMEFORHOST.TITLE}}",
     "Content": "{{I18N.WELCOMEFORHOST.MAINMESSAGE}}",
     "ButtonText": "{{I18N.WELCOMEFORHOST.BUTTONTEXT}}",
     "ButtonUrl": "{{Restaurant.Links.PanelUrl}}"
