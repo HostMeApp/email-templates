@@ -373,7 +373,7 @@
       "PREHEADER": "How to start",
       "BUTTONTEXT": "Learn more",
       "HEADER": "Welcome to the {{Branding.Copirate}} app!",
-      "MAINMESSAGE": "<p>Вы были приглашены в {{Branding.Copirate}} в качестве <strong>{{Employee.Role}}</strong> в <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Ваш email для входа:&nbsp;<a href='{{Emoloyee.Email}}' >{{Emoloyee.Email}}</a></strong></li>    <li><strong>Ссылка на приложение для хостес:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+      "MAINMESSAGE": "<p>Вы были приглашены в {{Branding.Copirate}} в качестве <strong>{{Employee.Role}}</strong> в <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Ваш email для входа:&nbsp;<a href='{{Employee.Email}}' >{{Employee.Email}}</a></strong></li>    <li><strong>Ссылка на приложение для хостес:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
       "DISPLAYNAME": "",

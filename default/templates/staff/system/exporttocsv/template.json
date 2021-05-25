@@ -6,8 +6,8 @@
   "PREHEADER": "{{I18N.EXPORTTOCSV.PREHEADER}}",
   "HEADER": "{{I18N.EXPORTTOCSV.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N.EXPORTTOCSV.TEXT}}",
-    "push": "{{I18N.EXPORTTOCSV.TEXT}}"
+    "sms": null,
+    "push": null
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
