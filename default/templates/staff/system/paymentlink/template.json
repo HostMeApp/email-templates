@@ -6,12 +6,12 @@
   "PREHEADER": "{{I18N.PAYMENTLINK.PREHEADER}}",
   "HEADER": "{{I18N.PAYMENTLINK.HEADER}}",
   "ContentTemplate": {
-    "sms": "{{I18N.PAYMENTLINK.TEXT}}",
-    "push": "{{I18N.PAYMENTLINK.TEXT}}"
+    "sms": null,
+    "push": null
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.PAYMENTLINK.MAINMESSAGE}}",
     "ButtonText": "{{I18N.PAYMENTLINK.BUTTONTEXT}}",
-    "ButtonUrl": "{{Subscription.Links.PaymentUrl}}"
+    "ButtonUrl": "{{PaymentUrl}}"
   }
 }
