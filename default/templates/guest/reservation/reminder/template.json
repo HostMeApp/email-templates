@@ -9,11 +9,16 @@
     "sms": "{{I18N.REMINDER.TEXT}}",
     "push": "{{I18N.REMINDER.TEXT}}"
   },
-  "MAINMESSAGE": {
-    "Content": "{{I18N.REMINDER.MAINMESSAGE}}"
+  "ChannelStatus": {
+    "sms": {
+      "Enable": true
+    }
   },
-  "Booking": {
-    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
-    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    "MAINMESSAGE": {
+      "Content": "{{I18N.REMINDER.MAINMESSAGE}}"
+    },
+    "Booking": {
+      "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    }
   }
-}
