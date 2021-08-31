@@ -357,7 +357,7 @@
       "TEXT": "Ditt {{Branding.Copirate}} l\u00f6senord \u00e5terst\u00e4lldes",
       "HEADER": "Ditt {{Branding.Copirate}} l\u00f6senord \u00e5terst\u00e4lldes",
       "BUTTONTEXT": "Logga in",
-      "MAINMESSAGE": "Kopiera och klistra in ditt nya l\u00f6senord. Vi rekommenderar att du \u00e4ndrar l\u00f6senordet i inst\u00e4llningarna n\u00e4r du loggar in med det nya l\u00f6senordet."
+      "MAINMESSAGE": "Kopiera och klistra in ditt nya l\u00f6senord: {{NewPassword}}. Vi rekommenderar att du \u00e4ndrar l\u00f6senordet i inst\u00e4llningarna n\u00e4r du loggar in med det nya l\u00f6senordet."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",

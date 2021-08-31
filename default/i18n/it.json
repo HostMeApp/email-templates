@@ -357,7 +357,7 @@
       "TEXT": "La tua password {{Branding.Copirate}} \u00e8 stata reimpostata con successo",
       "HEADER": "La tua password {{Branding.Copirate}} \u00e8 stata reimpostata con successo",
       "BUTTONTEXT": "Accedi",
-      "MAINMESSAGE": "Copia e incolla la tua nuova password. Si consiglia di modificare la password nelle impostazioni dopo aver effettuato l'accesso con questa nuova password."
+      "MAINMESSAGE": "Copia e incolla la tua nuova password: {{NewPassword}}. Si consiglia di modificare la password nelle impostazioni dopo aver effettuato l'accesso con questa nuova password."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",

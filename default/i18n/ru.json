@@ -357,7 +357,7 @@
       "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
       "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
       "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
+      "MAINMESSAGE": "Please copy and paste your new password: {{NewPassword}}. We recommend to change the password in settings after you sign in with this new password."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",
