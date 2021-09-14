@@ -1,0 +1,13 @@
+{
+  "ContentTemplate": {
+    "sms": null,
+    "email": null,
+    "push": null,
+    "calendar": "001"
+  },
+  "CUSTOMUI": {
+    "SHOWTOPICNEWS": false,
+    "SHOWTOPICEVENTS": false,
+    "SHOWTOPICPROMO": false
+  }
+}
