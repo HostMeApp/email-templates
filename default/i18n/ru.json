@@ -384,6 +384,14 @@
       "BUTTONTEXT": "Learn more",
       "HEADER": "Welcome to the {{Branding.Copirate}} app!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
+    },
+    "CALENDARSUBSCRIBE": {
+      "DISPLAYNAME": "Подписка на календарь",
+      "DESCRIPTION": "Этот шаблон для настройки лендинг страницы календаря",
+      "SUBJECT": "Брони в ресторанах",
+      "BUTTONTEXT": "Подключить",
+      "HEADER": "Hostme: Умный сервис бронирования",
+      "MAINMESSAGE": "Умный сервис бронирования и управления столами в вашем ресторане"
     }
   }
 }
