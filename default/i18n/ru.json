@@ -62,12 +62,12 @@
     "CHANGED": {
       "DISPLAYNAME": "Reservation Changed Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm the change",
-      "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} has been changed.",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "Manage your Reservation",
-      "MAINMESSAGE": "The following reservation has been changed:"
+      "SUBJECT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
+      "PREHEADER": "Бронь в {{Restaurant.Name}} была изменена.",
+      "TEXT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
+      "HEADER": "Бронь изменена!",
+      "BUTTONTEXT": "Управление бронью",
+      "MAINMESSAGE": "Была изменена следующая бронь:"
     },
     "CONFIRMEDORDER": {
       "DISPLAYNAME": "Order Confirmed",
@@ -127,11 +127,11 @@
     "CANCELED": {
       "DISPLAYNAME": "Reservation Canceled Notification",
       "DESCRIPTION": "Email sent to restaurant's team when reservation has been canceled",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
-      "HEADER": "Reservation Canceled",
-      "MAINMESSAGE": "The following reservation has been canceled:"
+      "SUBJECT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
+      "HEADER": "Бронь отменена!",
+      "MAINMESSAGE": "Была отменена следующая бронь:"
     },
     "CHANGEDFORINVITEDGUEST": {
       "DISPLAYNAME": "Reservation Changed Confirmation",
@@ -146,11 +146,11 @@
     "CONFIRMED": {
       "DISPLAYNAME": "Reservation Confirmation Notification",
       "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "Review the reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}} подтверждена",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} подтверждена.",
+      "HEADER": "Ваша бронь подтверждена!",
+      "MAINMESSAGE": "Была подтверждена следующая бронь:"
     },
     "FEEDBACK": {
       "DISPLAYNAME": "Feedback request",
@@ -195,29 +195,29 @@
     "REJECTED": {
       "DISPLAYNAME": "Reservation Rejected",
       "DESCRIPTION": "Email sent to customer to reject reservation request",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
-      "PREHEADER": "Check the reason",
-      "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
-      "HEADER": "Reservation Rejected",
-      "MAINMESSAGE": "The following reservation request has been rejected:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} отклонена - {{Booking.Reason}}",
+      "PREHEADER": "Ваша бронь отклонена",
+      "TEXT": "Ваша бронь в {{Restaurant.Name}} отклонена",
+      "HEADER": "Бронь отклонена",
+      "MAINMESSAGE": "Бронь была отклонена по причине:"
     },
     "REMINDER": {
       "DISPLAYNAME": "Upcoming Reservation",
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
-      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
-      "PREHEADER": "Please, cancel if you're not able to come.",
-      "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
-      "HEADER": "Upcoming Reservation",
-      "MAINMESSAGE": ""
+      "SUBJECT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
+      "PREHEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
+      "TEXT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
+      "HEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
+      "MAINMESSAGE": " "
     },
     "RESERVATIONREQUEST": {
       "DISPLAYNAME": "Reservation Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
-      "HEADER": "Request Received",
-      "MAINMESSAGE": "The following reservation request has been received:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}} ожидает подтверждения.",
+      "TEXT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
+      "HEADER": "Ваша бронь ожидает подтверждения!",
+      "MAINMESSAGE": "Была получена следующая бронь:"
     },
     "APPROVED": {
       "DISPLAYNAME": "",
