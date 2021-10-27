@@ -8,8 +8,8 @@
     "calendar": "01"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.CONFIRMEDORDER.BUTTONTEXT}}",
+    "Content": "{{I18N.CALENDARSUBSCRIBE.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.CALENDARSUBSCRIBE.BUTTONTEXT}}",
     "ButtonUrl": null
   }
 }

@@ -10,8 +10,10 @@
     "push": "{{I18N.FEEDBACK.TEXT}}"
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}",
+    "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}"
+  },
+  "Booking": {
     "ButtonText": "{{I18N.FEEDBACK.BUTTONTEXT}}",
-    "ButtonUrl": null
+    "ButtonUrl": "{{Booking.Links.ReservationFeedbackUrl}}"
   }
 }

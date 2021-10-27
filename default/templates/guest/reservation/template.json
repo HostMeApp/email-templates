@@ -9,6 +9,10 @@
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,
     "SHOWCUSTOMPOLICY3": false,
+    "SHOWTWITTER": false,
+    "SHOWFACEBOOK": false,
+    "SHOWINSTAGRAM": false,
+    "SHOWRESTAURANTLOGO": false,
     "SHOWREASON": true,
     "SHOWMANAGEBUTTON": true,
     "SHOWRESERVATIONDETAILS": true,
@@ -20,6 +24,11 @@
     "SHOWAREAS": true,
     "SHOWNOTE": true,
     "SHOWORDER": true,
-    "SHOWPROMO": true
+    "SHOWRESTAURANTDETAILS": false,
+    "SHOWRESTAURANTADDRESS": false,
+    "SHOWRESTAURANTSERVICES": false,
+    "SHOWPROMO": true,
+    "SHOWHEADERPROMO": false,
+    "SHOWAUTHORLOGO": false
   }
 }
