@@ -7,8 +7,7 @@
   "HEADER": "{{I18N.CONFIRMEMAIL.HEADER}}",
   "ContentTemplate": {
     "sms": null,
-    "push": null,
-    "email": "d-d75f858ba285402b825c5d988fc15ab6"
+    "push": null
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMEMAIL.MAINMESSAGE}}",
