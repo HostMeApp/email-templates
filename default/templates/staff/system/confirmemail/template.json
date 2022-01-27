@@ -12,6 +12,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMEMAIL.MAINMESSAGE}}",
     "ButtonText": "{{I18N.CONFIRMEMAIL.BUTTONTEXT}}",
-    "ButtonUrl": "https://{{Employee.ApplicationId}}/notice/confirm/?token={{Employee.Id}}"
+    "ButtonUrl": "https://hostmeapp.com/notice/confirm/?token={{Employee.Id}}"
   }
 }
