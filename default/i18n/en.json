@@ -389,7 +389,7 @@
       "SUBJECT": "Complete your {{Branding.Copirate}} sign up",
       "PREHEADER": "Confirm email for {{Branding.Copirate}}",
       "BUTTONTEXT": "Verify email address",
-      "HEADER": "You're almost there!",
+      "HEADER": "You are almost there!",
       "MAINMESSAGE": "Thank you for signing up for {{Branding.Copirate}}! Click the button below to verify your email, and we'll help you get started."
     },
     "CALENDARSUBSCRIBE": {
