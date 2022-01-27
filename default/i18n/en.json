@@ -383,6 +383,15 @@
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve.",
       "PROMOTEXT": "<h2 style='text-align: left'>Online Omnipresence</h2><div style='font-family: inherit; text-align: inherit'>Be where your customers are. Make it easy for your guests and allow them to make reservations through your website, your social media profile and through all Google search and map sites. And as a bonus, keep all your information consistent with Yext!</div><h2 style='text-align: inherit'>Reservations as easy as 1.2.3</h2><div style='font-family: inherit; text-align: inherit'>Guests can make reservations in fewer clicks, increasing conversions into actual bookings. No more lost reservation, or double-bookings. Install the Hostme widget on your website without extra fees and see your business grow.</div><h2 style='text-align: inherit'>And so much more!</h2><div style='font-family: inherit; text-align: inherit'>Did you know that Hostme can also help you organize events, accept online orders, and manage your waitlist without the need for pagers? Be in touch with your guests and provide world class service without breaking the bank!</div>"
     },
+    "CONFIRMEMAIL": {
+      "DISPLAYNAME": "Email confirmation",
+      "DESCRIPTION": "Email sent to all new users to confirm email",
+      "SUBJECT": "Complete your {{Branding.Copirate}} sign up",
+      "PREHEADER": "Confirm email for {{Branding.Copirate}}",
+      "BUTTONTEXT": "Verify email address",
+      "HEADER": "You're almost there!",
+      "MAINMESSAGE": "Thank you for signing up for {{Branding.Copirate}}! Click the button below to verify your email, and we'll help you get started."
+    },
     "CALENDARSUBSCRIBE": {
       "DISPLAYNAME": "Subscribe to calendar",
       "DESCRIPTION": "This is for setting up landing page for the calendar",

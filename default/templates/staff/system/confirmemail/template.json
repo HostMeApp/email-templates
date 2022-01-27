@@ -1,0 +1,18 @@
+{
+  "Name": "CONFIRMEMAIL",
+  "DisplayName": "Email confirmation",
+  "Description": "Email sent to all new users to confirm email",
+  "SUBJECT": "{{I18N.CONFIRMEMAIL.SUBJECT}}",
+  "PREHEADER": "{{I18N.CONFIRMEMAIL.PREHEADER}}",
+  "HEADER": "{{I18N.CONFIRMEMAIL.HEADER}}",
+  "ContentTemplate": {
+    "sms": null,
+    "push": null,
+    "email": "d-d75f858ba285402b825c5d988fc15ab6"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CONFIRMEMAIL.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.CONFIRMEMAIL.BUTTONTEXT}}",
+    "ButtonUrl": "https://{{Employee.ApplicationId}}/notice/confirm/?token={{Employee.Id}}"
+  }
+}
