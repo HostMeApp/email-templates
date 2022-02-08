@@ -385,6 +385,15 @@
       "HEADER": "Welcome to the {{Branding.Copirate}} app!",
       "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
     },
+    "CONFIRMEMAIL": {
+      "DISPLAYNAME": "Подтверждение электронной почты",
+      "DESCRIPTION": "Email sent to all new users to confirm email",
+      "SUBJECT": "Закончите регистрацию на сайте {{Branding.Copirate}}",
+      "PREHEADER": "Закончите регистрацию для {{Branding.Copirate}}",
+      "BUTTONTEXT": "Подтвердить мой e-mail",
+      "HEADER": "Вы почти завершили регистрацию!",
+      "MAINMESSAGE": "Спасибо за регистрацию с {{Branding.Copirate}}! Нажмите на кнопку ниже что бы подтвердить ваш email, и мы поможем вы начать работу с нашей системой."
+    },
     "CALENDARSUBSCRIBE": {
       "DISPLAYNAME": "Подписка на календарь",
       "DESCRIPTION": "Этот шаблон для настройки лендинг страницы календаря",
