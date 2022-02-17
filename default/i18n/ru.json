@@ -387,7 +387,7 @@
     },
     "CONFIRMEMAIL": {
       "DISPLAYNAME": "Подтверждение электронной почты",
-      "DESCRIPTION": "Email sent to all new users to confirm email",
+      "DESCRIPTION": "Письмо отправлено всем новым пользователям для подтверждения электронной почты",
       "SUBJECT": "Закончите регистрацию на сайте {{Branding.Copirate}}",
       "PREHEADER": "Закончите регистрацию для {{Branding.Copirate}}",
       "BUTTONTEXT": "Подтвердить мой e-mail",
