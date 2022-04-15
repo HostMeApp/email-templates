@@ -202,7 +202,8 @@
       "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Please, cancel if you're not able to come.",
       "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
-      "HEADER": "Upcoming Reservation"
+      "HEADER": "Upcoming Reservation",
+      "MAINMESSAGE": "You have Upcoming reservation:"
     },
     "RESERVATIONREQUEST": {
       "DISPLAYNAME": "Reservation Confirmation",
@@ -298,7 +299,8 @@
       "SUBJECT": "New Reservation!",
       "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
       "TEXT": "New reservation",
-      "HEADER": "New Reservation"
+      "HEADER": "New Reservation",
+      "MAINMESSAGE": "New reservation:"
     },
     "REMINDERFORHOST": {
       "DISPLAYNAME": "Reservation reminder for host",
