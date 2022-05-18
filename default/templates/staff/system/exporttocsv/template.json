@@ -11,7 +11,7 @@
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.EXPORTTOCSV.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.EXPORTTOCSV.BUTTONTEXT}}",
+    "ButtonText": null,
     "ButtonUrl": null
   }
 }
