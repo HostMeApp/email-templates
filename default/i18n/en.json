@@ -46,7 +46,8 @@
       "NOTES": "Notes:",
       "STATUS": "Status:",
       "AREA": "Seating Area:",
-      "DURATION": "Duration"
+      "DURATION": "Duration",
+      "ADDITIONALS": "Additionals"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",

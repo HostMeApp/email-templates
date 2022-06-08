@@ -16,6 +16,7 @@
     "SHOWTABLENUMBER": true,
     "SHOWTABLENOTES": true,
     "SHOWALLERGIES": true,
+    "SHOWADDITIONALS": true,
     "SHOWAREAS": true,
     "SHOWNOTE": true,
     "SHOWORDER": true,
