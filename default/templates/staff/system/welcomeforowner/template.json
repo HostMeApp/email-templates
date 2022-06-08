@@ -13,6 +13,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.WELCOMEFOROWNER.MAINMESSAGE}}",
     "ButtonText": "{{I18N.WELCOMEFOROWNER.BUTTONTEXT}}",
-    "ButtonUrl": "https://{{Employee.ApplicationId}}"
+    "ButtonUrl": "https://panel.hostmeapp.com"
   }
 }

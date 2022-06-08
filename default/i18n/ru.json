@@ -2,19 +2,19 @@
   "I18N": {
     "GUESTPOLICES": {
       "TITLE": "Возникли вопросы?",
-      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
+      "CONTENT": "Мы всегда рады вашему ответу - дайте знать, если у Вас есть вопросы или предложения <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
     },
     "RESTAURANTPOLICES": {
       "TITLE": "Возникли вопросы?",
-      "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+      "CONTENT": "Мы всегда рады вашему ответу - дайте знать, если у Вас есть вопросы или предложения <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
     },
     "PROMO": {
       "TITLE": "Управляйте вашими бронированиями с помощью приложения!",
       "CONTENT": "С нашими приложениями вы можете в любой момент посмотреть ваши брони или сделать новую"
     },
     "RESTPROMO": {
-      "TITLE": "Manage your restaurant anytime and anywhere!",
-      "CONTENT": "With our apps, you can manage restaurant reservations, waitlist, tables and servers anytime, anywhere."
+      "TITLE": "Управляйте вашим рестораном с любого девайса!",
+      "CONTENT": "С нашим приложением вы можете управлять бронированием, рассадкой, листом ожидания, сотрудниками с любого девайса."
     },
     "LABELS": {
       "PARTY": "Группа из",
@@ -27,8 +27,8 @@
       "REVIEWRESERVATION": "Изменить",
       "MANAGERESERVATION": "Изменить",
       "MANAGEORDER": "Посмотреть",
-      "MANAGEWAITLIST": "Manage Your Wait",
-      "VIEWRESERVATION": "View Reservation",
+      "MANAGEWAITLIST": "Управление листом ожидания",
+      "VIEWRESERVATION": "Управление бронью",
       "DELIVERY": "Доставка",
       "PICKUP": "Навынос"
     },
@@ -60,14 +60,14 @@
       "MAINMESSAGE": "Ваш заказ был изменен:"
     },
     "CHANGED": {
-      "DISPLAYNAME": "Reservation Changed Confirmation",
-      "DESCRIPTION": "Email sent to customer to confirm the change",
-      "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} has been changed.",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "Manage your Reservation",
-      "MAINMESSAGE": "The following reservation has been changed:"
+      "DISPLAYNAME": "Подтверждение изменения резерва",
+      "DESCRIPTION": "Письмо клиенту для подтверждения изменения",
+      "SUBJECT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
+      "PREHEADER": "Бронь в {{Restaurant.Name}} была изменена.",
+      "TEXT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
+      "HEADER": "Бронь изменена!",
+      "BUTTONTEXT": "Управление бронью",
+      "MAINMESSAGE": "Была изменена следующая бронь:"
     },
     "CONFIRMEDORDER": {
       "DISPLAYNAME": "Order Confirmed",
@@ -116,7 +116,7 @@
       "MAINMESSAGE": "The following order has been rejected:"
     },
     "ACCEPTANCECONFIRMATION": {
-      "DISPLAYNAME": "Reservation Invite Accepted",
+      "DISPLAYNAME": "Приглашение к бронированию принято.",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "PREHEADER": "Check your reservation details.",
@@ -125,41 +125,41 @@
       "MAINMESSAGE": "You have accepted the following reservation invite:"
     },
     "CANCELED": {
-      "DISPLAYNAME": "Reservation Canceled Notification",
-      "DESCRIPTION": "Email sent to restaurant's team when reservation has been canceled",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been canceled.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been canceled.",
-      "HEADER": "Reservation Canceled",
-      "MAINMESSAGE": "The following reservation has been canceled:"
+      "DISPLAYNAME": "Уведомление об отмене резерва",
+      "DESCRIPTION": "Письмо сотруднику ресторана, когда резерв был отменен гостем",
+      "SUBJECT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
+      "HEADER": "Бронь отменена!",
+      "MAINMESSAGE": "Была отменена следующая бронь:"
     },
     "CHANGEDFORINVITEDGUEST": {
-      "DISPLAYNAME": "Reservation Changed Confirmation",
-      "DESCRIPTION": "Email sent to customer's friends to confirm the change",
-      "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "Review the changes",
-      "TEXT": "Reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} has been changed.",
-      "HEADER": "Reservation Changed",
-      "BUTTONTEXT": "Manage your Reservation",
-      "MAINMESSAGE": "The following reservation has been changed:"
+      "DISPLAYNAME": "Подтверждение изменения резерва",
+      "DESCRIPTION": "Письмо друзьям клиента для подтверждения изменения брони",
+      "SUBJECT": "Резерв был изменен",
+      "PREHEADER": "Посмотреть изменения",
+      "TEXT": "Резерв {{Booking.ReservationDateTime}} for {{Booking.PartySize}} {{Guest.CustomerName}} был изменен.",
+      "HEADER": "Ваша бронь изменена",
+      "BUTTONTEXT": "Управление вашим бронированием",
+      "MAINMESSAGE": "Следующая бронь была изменена:"
     },
     "CONFIRMED": {
-      "DISPLAYNAME": "Reservation Confirmation Notification",
-      "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "Review the reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
+      "DISPLAYNAME": "Уведомление о подтверждении брони",
+      "DESCRIPTION": "Письмо отправлено клиенту, когда резерв был подтвержден",
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}} подтверждена",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} подтверждена.",
+      "HEADER": "Ваша бронь подтверждена!",
+      "MAINMESSAGE": "Была подтверждена следующая бронь:"
     },
     "FEEDBACK": {
-      "DISPLAYNAME": "Feedback request",
-      "DESCRIPTION": "Email sent to customer to request a feedback after visit.",
-      "SUBJECT": "Leave your feedback for {{Restaurant.Name}}",
-      "PREHEADER": "Only {{Restaurant.Name}} will read",
-      "TEXT": "Leave your feedback for {{Restaurant.Name}}",
-      "HEADER": "Thanks for the visit!",
-      "BUTTONTEXT": "Leave a Feedback",
+      "DISPLAYNAME": "Запрос на отзыв",
+      "DESCRIPTION": "Письмо клиенту с просьбой оставить отзыв о посещении ресторана.",
+      "SUBJECT": "Оставьте ваш отзыв о {{Restaurant.Name}}",
+      "PREHEADER": "Только для управляющего {{Restaurant.Name}}",
+      "TEXT": "Оставьте ваш отзыв о посещении ресторана {{Restaurant.Name}}",
+      "HEADER": "Спасибо за визит!",
+      "BUTTONTEXT": "Оставьте ваш отзыв",
       "MAINMESSAGE": ""
     },
     "INVITATION": {
@@ -185,66 +185,66 @@
     "NEWRESERVATION": {
       "DISPLAYNAME": "Reservation Confirmation",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
-      "PREHEADER": "Review the reservation",
-      "CONTENT": "Your reservation",
-      "TEXT": "Your reservation on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
-      "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} была подтверждена!",
+      "PREHEADER": "Посмотреть бронь",
+      "CONTENT": "Управление бронью",
+      "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}}   {{Booking.PartySize}} в {{Restaurant.Name}} была подтверждена.",
+      "HEADER": "Резерв подтвержден",
+      "MAINMESSAGE": "Следующие резерв был подтвержден:"
     },
     "REJECTED": {
       "DISPLAYNAME": "Reservation Rejected",
       "DESCRIPTION": "Email sent to customer to reject reservation request",
-      "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
-      "PREHEADER": "Check the reason",
-      "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
-      "HEADER": "Reservation Rejected",
-      "MAINMESSAGE": "The following reservation request has been rejected:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} отклонена - {{Booking.Reason}}",
+      "PREHEADER": "Ваша бронь отклонена",
+      "TEXT": "Ваша бронь в {{Restaurant.Name}} отклонена",
+      "HEADER": "Бронь отклонена",
+      "MAINMESSAGE": "Бронь была отклонена по причине:"
     },
     "REMINDER": {
       "DISPLAYNAME": "Upcoming Reservation",
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
-      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
-      "PREHEADER": "Please, cancel if you're not able to come.",
-      "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
-      "HEADER": "Upcoming Reservation",
-      "MAINMESSAGE": ""
+      "SUBJECT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
+      "PREHEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
+      "TEXT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
+      "HEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
+      "MAINMESSAGE": " "
     },
     "RESERVATIONREQUEST": {
-      "DISPLAYNAME": "Reservation Confirmation",
+      "DISPLAYNAME": "Подтверждение резерва",
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
-      "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
-      "PREHEADER": "{{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
-      "TEXT": "Your reservation request on {{Booking.ReservationDateTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
-      "HEADER": "Request Received",
-      "MAINMESSAGE": "The following reservation request has been received:"
+      "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
+      "PREHEADER": "Ваша бронь в {{Restaurant.Name}} ожидает подтверждения.",
+      "TEXT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
+      "HEADER": "Ваша бронь ожидает подтверждения!",
+      "MAINMESSAGE": "Была получена следующая бронь:"
     },
     "APPROVED": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "HEADER": "You're on the waitlist!",
-      "CONTENT": "Please, check your status by following the link.",
-      "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
-      "PREHEADER": "Check your status",
-      "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
-      "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
+      "HEADER": "Вы добавлены в лист ожидания!",
+      "CONTENT": "Пожалуйста, проверьте свой статус, перейдя по ссылке.",
+      "SUBJECT": "Вы добавлены в лист ожидания {{Restaurant.Name}}",
+      "PREHEADER": "Проверьте статус вашего стола",
+      "TEXT": " Вы добавлены в лист ожидания. Пожалуйста, воспользуйтесь своим телефоном, чтобы связаться с нами о статусе вашего стола.",
+      "MAINMESSAGE": " Вы добавлены в лист ожидания. Пожалуйста, воспользуйтесь своим телефоном, чтобы связаться с нами о статусе вашего стола."
     },
     "CALLED": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "HEADER": "Table is Ready",
-      "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
-      "PREHEADER": "We're waiting for you.",
-      "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
-      "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
+      "HEADER": "Ваш стол готов!",
+      "SUBJECT": "Ваш стол в {{Restaurant.Name}} готов!",
+      "PREHEADER": "Мы ждем Вас в ресторане",
+      "TEXT": "Ваш стол готов! Пожалуйста подойдите к менеджеру, чтобы занять свой стол. Спасибо!",
+      "MAINMESSAGE": " Ваш стол готов! Пожалуйста подойдите к менеджеру, чтобы занять свой стол. Спасибо!"
     },
     "CANCELEDBYGUEST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
-      "PREHEADER": "Hope to see you back soon",
-      "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
-      "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
+      "SUBJECT": "Мы удалили Вас из листа ожидания в {{Restaurant.Name}}",
+      "PREHEADER": "Надеемся увидеть вас снова!",
+      "TEXT": "Мы удалили Вас из листа ожидания в {{Restaurant.Name}}. Надеемся увидеть вас снова!",
+      "MAINMESSAGE": "Мы удалили Вас из листа ожидания в {{Restaurant.Name}}. Надеемся увидеть вас снова!"
     },
     "CAMPAIGN": {
       "DISPLAYNAME": "",
@@ -257,69 +257,69 @@
     "CANCELEDBYHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+      "SUBJECT": "Мы удалили Вас из листа ожидания в {{Restaurant.Name}}",
       "PREHEADER": "",
-      "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
-      "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
+      "TEXT": "Мы не получили ответа от вас, поэтому удалили вас из списка ожидания. Пожалуйста, ответьте на это сообщение смс, если вы хотите остаться в очереди.",
+      "MAINMESSAGE": " Мы не получили ответа от вас, поэтому удалили вас из списка ожидания. Пожалуйста, ответьте на это сообщение смс, если вы хотите остаться в очереди."
     },
     "CHANGEDFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
-      "HEADER": "Reservation Changed",
+      "SUBJECT": "Резерв был изменен",
+      "PREHEADER": "Проверьте изменение.",
+      "TEXT": "Резерв {{Guest.CustomerName}} {{Booking.ReservationDateTime}} был изменен",
+      "HEADER": "Резерв изменен",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
     "CANCELEDFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "The reservation has been changed",
-      "PREHEADER": "Check the changes.",
-      "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
-      "HEADER": "Reservation Changed",
+      "SUBJECT": "Резерв был отменен",
+      "PREHEADER": "Проверьте изменение",
+      "TEXT": "Резерв {{Guest.CustomerName}} {{Booking.ReservationDateTime}} был изменен",
+      "HEADER": "Резерв изменен",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "New online reservation request. Action required!",
-      "PREHEADER": "Review Reservation",
-      "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
-      "HEADER": "New Request",
-      "BUTTONTEXT": "Review",
+      "SUBJECT": "Запрос на новый резерв. Требуется подтверждение!",
+      "PREHEADER": "Посмотрите новый резерв",
+      "TEXT": "Запрос на новый резерв: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Пожалуйста посмотрите.",
+      "HEADER": "Новый запрос",
+      "BUTTONTEXT": "Посмотреть",
       "MAINMESSAGE": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}"
     },
     "NEWRESERVATIONFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "New Reservation!",
+      "SUBJECT": "Новый резерв!",
       "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "TEXT": "New reservation: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "HEADER": "New Reservation",
+      "TEXT": "Новый резерв: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "HEADER": "Новый резерв",
       "BUTTONTEXT": "",
       "MAINMESSAGE": ""
     },
     "REMINDERFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Upcoming reservation reminder",
+      "SUBJECT": "Напоминание о резерве",
       "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
-      "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "HEADER": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "BUTTONTEXT": "Manage the Reservation",
+      "TEXT": "Напоминание о резерве: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "HEADER": "Напоминание о резерве: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "BUTTONTEXT": "Управление резервом",
       "MAINMESSAGE": ""
     },
     "INVITATIONFORHOST": {
-      "DISPLAYNAME": "Invitation for staff",
-      "DESCRIPTION": "Invitation to join restaurant as a user",
-      "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
-      "PREHEADER": "Follow the link to accept the invitation",
+      "DISPLAYNAME": "Приглашение в аккаунт Hostme",
+      "DESCRIPTION": "Приглашение в аккаунт ресторана в Hostme для работы в сервисе",
+      "SUBJECT": "Вы были приглашены {{Branding.Copirate}}!",
+      "PREHEADER": "Нажмите на кнопку Подтвердить, чтобы принять приглашение ",
       "HEADER": "",
-      "BUTTONTEXT": "Accept",
-      "MAINMESSAGE": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!"
+      "BUTTONTEXT": "Подтвердить",
+      "MAINMESSAGE": "Вы были приглашены в {{Branding.Copirate}} в качестве {{Employee.Role}}!"
     },
     "PAYMENTLINK": {
       "DISPLAYNAME": "",
@@ -352,38 +352,55 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Your {{Branding.Copirate}} password was successfully reset",
-      "PREHEADER": "Password inside",
-      "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
-      "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
-      "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password. We recommend to change the password in settings after you sign in with this new password."
+      "SUBJECT": "Пароль в {{Branding.Copirate}} успешно изменён",
+      "PREHEADER": "Новый пароль внутри",
+      "TEXT": "Пароль в {{Branding.Copirate}} успешно изменён",
+      "HEADER": "Пароль в {{Branding.Copirate}} успешно изменён",
+      "BUTTONTEXT": "Войти",
+      "MAINMESSAGE": "Пожалуйста скопируйте и вставьте ваш новый пароль: {{NewPassword}}. Мы рекомендуем изменить пароль в настройках вашего аккаунта в разделе Настройки Мой аккаунт."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
-      "HEADER": "Your CSV export is ready",
-      "PREHEADER": "Your CSV export is ready",
+      "SUBJECT": "Файл CSV готов {{CsvFileName}}!",
+      "HEADER": "Файл CSV готов",
+      "PREHEADER": "Файл CSV готов",
       "MAINMESSAGE": ""
     },
     "WELCOMEFORHOST": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
-      "PREHEADER": "How to start",
-      "BUTTONTEXT": "Learn more",
-      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
+      "SUBJECT": "Добро пожаловать {{Branding.Copirate}}!",
+      "PREHEADER": "Как начать",
+      "BUTTONTEXT": "Узнать больше",
+      "HEADER": "Добро пожаловать {{Branding.Copirate}}!",
       "MAINMESSAGE": "<p>Вы были приглашены в {{Branding.Copirate}} в качестве <strong>{{Employee.Role}}</strong> в <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Ваш email для входа:&nbsp;<a href='{{Employee.Email}}' >{{Employee.Email}}</a></strong></li>    <li><strong>Ссылка на приложение для хостес:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
     },
     "WELCOMEFOROWNER": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
-      "PREHEADER": "How to start",
-      "BUTTONTEXT": "Learn more",
-      "HEADER": "Welcome to the {{Branding.Copirate}} app!",
-      "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve."
+      "SUBJECT": "Добро пожаловать {{Branding.Copirate}}!",
+      "PREHEADER": "Как начать",
+      "BUTTONTEXT": "Узнать больше",
+      "HEADER": "Добро пожаловать {{Branding.Copirate}}!",
+      "MAINMESSAGE": "Hostme поможет вам управлять бронированием и рассадкой в ресторане, а также повысить ваше присутствие в Интернете. Hostme - надежный партнер, которого вы заслуживаете."
+    },
+    "CONFIRMEMAIL": {
+      "DISPLAYNAME": "Подтверждение электронной почты",
+      "DESCRIPTION": "Письмо отправлено всем новым пользователям для подтверждения электронной почты",
+      "SUBJECT": "Закончите регистрацию на сайте {{Branding.Copirate}}",
+      "PREHEADER": "Закончите регистрацию для {{Branding.Copirate}}",
+      "BUTTONTEXT": "Подтвердить мой e-mail",
+      "HEADER": "Вы почти завершили регистрацию!",
+      "MAINMESSAGE": "Спасибо за регистрацию с {{Branding.Copirate}}! Нажмите на кнопку ниже что бы подтвердить ваш email, и мы поможем вы начать работу с нашей системой."
+    },
+    "CALENDARSUBSCRIBE": {
+      "DISPLAYNAME": "Подписка на календарь",
+      "DESCRIPTION": "Этот шаблон для настройки лендинг страницы календаря",
+      "SUBJECT": "Брони в ресторанах",
+      "BUTTONTEXT": "Подключить",
+      "HEADER": "Hostme: Умный сервис бронирования",
+      "MAINMESSAGE": "Умный сервис бронирования и управления столами в вашем ресторане"
     }
   }
 }

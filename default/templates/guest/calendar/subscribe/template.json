@@ -1,0 +1,15 @@
+{
+  "Name": "CALENDARSUBSCRIBE",
+  "DisplayName": "{{I18N.CALENDARSUBSCRIBE.DISPLAYNAME}}",
+  "Description": "{{I18N.CALENDARSUBSCRIBE.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.CALENDARSUBSCRIBE.SUBJECT}}",
+  "HEADER": "{{I18N.CALENDARSUBSCRIBE.HEADER}}",
+  "ContentTemplate": {
+    "calendar": "01"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.CALENDARSUBSCRIBE.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.CALENDARSUBSCRIBE.BUTTONTEXT}}",
+    "ButtonUrl": null
+  }
+}
