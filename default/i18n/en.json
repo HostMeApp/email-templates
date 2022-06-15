@@ -57,6 +57,42 @@
       "TIPS": "Tips",
       "TOTAL": "Total:"
     },
+    "NEWORDERFORHOST": {
+      "DISPLAYNAME": "New Order Notification",
+      "DESCRIPTION": "The notification about new order. Note: Not an approval request!",
+      "SUBJECT": "New Order!",
+      "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "TEXT": "New order",
+      "HEADER": "New order",
+      "MAINMESSAGE": "New order:"
+    },
+    "CHANGEDORDERFORHOST": {
+      "DISPLAYNAME": "Changed order notification",
+      "DESCRIPTION": "Email send to host when a order was changed",
+      "SUBJECT": "The order has been changed",
+      "PREHEADER": "Check the changes.",
+      "TEXT": "The order for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
+      "HEADER": "Order Changed",
+      "MAINMESSAGE": "The following order has been changed"
+    },
+    "CANCELEDORDERFORHOST": {
+      "DISPLAYNAME": "Canceled order notification",
+      "DESCRIPTION": "Email send to host when a order was canceled.",
+      "SUBJECT": "The order has been canceled",
+      "PREHEADER": "Check the changes.",
+      "TEXT": "The order for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been canceled",
+      "HEADER": "Order Canceled",
+      "MAINMESSAGE": "The following order has been canceled"
+    },
+    "REMINDERORDERFORHOST": {
+      "DISPLAYNAME": "Order reminder for host",
+      "DESCRIPTION": "Upcoming order reminder for staff",
+      "SUBJECT": "Upcoming order reminder",
+      "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
+      "TEXT": "Upcoming order reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+      "HEADER": "Upcoming order:",
+      "MAINMESSAGE": "This is friendly reminder about upcoming order:"
+    },
     "CANCELEDORDER": {
       "DISPLAYNAME": "Customer Cancels order",
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
