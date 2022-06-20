@@ -336,7 +336,7 @@
       "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
       "SUBJECT": "New Reservation!",
       "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
-      "TEXT": "New reservation",
+      "TEXT": "A new reservation on {{Booking.ReservationDateTime}} has been made",
       "HEADER": "New Reservation",
       "MAINMESSAGE": "New reservation:"
     },
