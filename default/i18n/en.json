@@ -38,6 +38,7 @@
       "CANCELLATIONFEE": "Cancellation Fee:",
       "REVIEWRESERVATION": "View or Modify",
       "MANAGERESERVATION": "View or Modify",
+      "MANAGERESERVATIONPAY": "Pay deposit now",
       "MANAGEORDER": "View My Order",
       "MANAGEWAITLIST": "Manage Your Wait",
       "VIEWRESERVATION": "View Reservation",
@@ -48,7 +49,8 @@
       "AREA": "Seating Area:",
       "DURATION": "Duration",
       "ADDITIONALS": "Additionals",
-      "CUSTOMADDITIONALS": "Custom additionals"
+      "CUSTOMADDITIONALS": "Custom additionals",
+      "ISPAID": "Unpaid"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",
