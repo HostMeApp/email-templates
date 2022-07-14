@@ -26,13 +26,15 @@
       "REASON": "Причина:",
       "REVIEWRESERVATION": "Изменить",
       "MANAGERESERVATION": "Изменить",
+      "MANAGERESERVATIONPAY": "Внести депозит",
       "MANAGEORDER": "Посмотреть",
       "MANAGEWAITLIST": "Управление листом ожидания",
       "VIEWRESERVATION": "Управление бронью",
       "DELIVERY": "Доставка",
       "PICKUP": "Навынос",
       "ADDITIONALS": "Дополнительно",
-      "CUSTOMADDITIONALS": "Индивидуальные дополнения"
+      "CUSTOMADDITIONALS": "Индивидуальные дополнения",
+      "ISPAID": "Неоплаченный"
     },
     "ORDER": {
       "SUBTOTAL": "Предварительный расчет",
