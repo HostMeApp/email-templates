@@ -356,12 +356,12 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Пароль в {{Branding.Copirate}} успешно изменён",
+      "SUBJECT": "Сбросить пароль в {{Branding.Copirate}}",
       "PREHEADER": "Новый пароль внутри",
-      "TEXT": "Пароль в {{Branding.Copirate}} успешно изменён",
-      "HEADER": "Пароль в {{Branding.Copirate}} успешно изменён",
-      "BUTTONTEXT": "Войти",
-      "MAINMESSAGE": "Пожалуйста скопируйте и вставьте ваш новый пароль: {{NewPassword}}. Мы рекомендуем изменить пароль в настройках вашего аккаунта в разделе Настройки Мой аккаунт."
+      "TEXT": "Сбросить пароль в {{Branding.Copirate}}",
+      "HEADER": "Сбросить пароль в {{Branding.Copirate}}",
+      "BUTTONTEXT": "Сбросить пароль",
+      "MAINMESSAGE": "Для сброса пароля, пожалуйста, нажмите кнопку ниже"
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",

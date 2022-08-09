@@ -391,12 +391,12 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "Reset Password",
       "DESCRIPTION": "Reset Password email for hosts",
-      "SUBJECT": "Your {{Branding.Copirate}} password was successfully reset",
+      "SUBJECT": "Reset your  {{Branding.Copirate}} password",
       "PREHEADER": "Password inside",
-      "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
-      "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
-      "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password: {{NewPassword}} <b> We recommend to change the password in settings after you sign in with this new password."
+      "TEXT": "Reset your  {{Branding.Copirate}} password",
+      "HEADER": "Reset your  {{Branding.Copirate}} password",
+      "BUTTONTEXT": "Reset Password",
+      "MAINMESSAGE": "If you've forgotten your password or wish to reset it, click Reset Password button."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "Export guestbook email",
