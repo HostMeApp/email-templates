@@ -1,0 +1,15 @@
+{
+  "Name": "BILLINGRECEIPT",
+  "DisplayName": "{{I18N.BILLINGRECEIPT.DISPLAYNAME}}",
+  "Description": "{{I18N.BILLINGRECEIPT.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.BILLINGRECEIPT.SUBJECT}}",
+  "PREHEADER": "{{I18N.BILLINGRECEIPT.PREHEADER}}",
+  "HEADER": "{{I18N.BILLINGRECEIPT.HEADER}}",
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.BILLINGRECEIPT.MAINMESSAGE}}"
+  }
+}

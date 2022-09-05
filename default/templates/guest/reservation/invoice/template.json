@@ -1,0 +1,25 @@
+{
+  "Name": "GUESTINVOICE",
+  "DisplayName": "{{I18N.GUESTINVOICE.DISPLAYNAME}}",
+  "Description": "{{I18N.GUESTINVOICE.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.GUESTINVOICE.SUBJECT}}",
+  "PREHEADER": "{{I18N.GUESTINVOICE.PREHEADER}}",
+  "HEADER": "{{I18N.GUESTINVOICE.HEADER}}",
+  "ContentTemplate": {
+    "sms": "{{I18N.GUESTINVOICE.TEXT}}",
+    "push": "{{I18N.GUESTINVOICE.TEXT}}"
+  },
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email":  {"Enable": false}
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.GUESTINVOICE.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
+    "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+  }
+}

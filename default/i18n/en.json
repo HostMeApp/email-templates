@@ -441,6 +441,39 @@
       "BUTTONTEXT": "Subscribe",
       "HEADER": "Hostme: Modern Restaurant Reservation & Table Management Solution",
       "MAINMESSAGE": "Waitlist, Table, and Reservation management, Server Rotation and CRM for restaurants."
+    },
+    "GUESTINVOICE": {
+      "DISPLAYNAME": "Reservation Deposit Notification",
+      "DESCRIPTION": "Email sent to customer with deposit invoice",
+      "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
+      "PREHEADER": "Deposit payment link",
+      "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Deposit payment info",
+      "MAINMESSAGE": "Please, pay deposit for the following reservation:"
+    },
+    "BILLINGINVOICE": {
+      "DISPLAYNAME": "Billing invoice",
+      "DESCRIPTION": "Email sent to customer with subscription invoice",
+      "SUBJECT": "{{Branding.Copirate}}: Your invoice is available for {{Restaurant.Name}}",
+      "PREHEADER": "{{Branding.Copirate}}: Your invoice is available for {{Restaurant.Name}}",
+      "HEADER": "Invoice for {{Restaurant.Name}}",
+      "MAINMESSAGE": "You can pay this invoice by following this link:"
+    },
+    "BILLINGRECEIPT": {
+      "DISPLAYNAME": "Billing receipt",
+      "DESCRIPTION": "Email sent to customer with receipt",
+      "SUBJECT": "{{Branding.Copirate}}: Your receipt is available for {{Restaurant.Name}}",
+      "PREHEADER": "{{Branding.Copirate}}: Your receipt is available for {{Restaurant.Name}}",
+      "HEADER": "Receipt for {{Restaurant.Name}}"
+    },
+    "APPFEEDBACK": {
+      "DISPLAYNAME": "Marketplace App Review",
+      "DESCRIPTION": "Email sent to customer to review marketplace app",
+      "SUBJECT": "Please, review {{App.Name}}",
+      "PREHEADER": "Please, review {{App.Name}}",
+      "HEADER": "{{App.Name}} review:",
+      "MAINMESSAGE": "Please review the app by following this link:",
+      "BUTTONTEXT": "Review"
     }
   }
 }
