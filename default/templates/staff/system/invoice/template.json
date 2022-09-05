@@ -11,7 +11,7 @@
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.BILLINGINVOICE.MAINMESSAGE}}",
-    "ButtonText": "{{I18N.PAYMENTLINK.BUTTONTEXT}}",
-    "ButtonUrl": "{{PaymentUrl}}"
+    "ButtonText": "{{I18N.BILLINGINVOICE.BUTTONTEXT}}",
+    "ButtonUrl": "{{Invoice.PaymentUrl}}"
   }
 }

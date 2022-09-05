@@ -457,14 +457,16 @@
       "SUBJECT": "{{Branding.Copirate}}: Your invoice is available for {{Restaurant.Name}}",
       "PREHEADER": "{{Branding.Copirate}}: Your invoice is available for {{Restaurant.Name}}",
       "HEADER": "Invoice for {{Restaurant.Name}}",
-      "MAINMESSAGE": "You can pay this invoice by following this link:"
+      "MAINMESSAGE": "You can pay this invoice by following this link:",
+      "BUTTONTEXT": "Pay online"
     },
     "BILLINGRECEIPT": {
       "DISPLAYNAME": "Billing receipt",
       "DESCRIPTION": "Email sent to customer with receipt",
       "SUBJECT": "{{Branding.Copirate}}: Your receipt is available for {{Restaurant.Name}}",
       "PREHEADER": "{{Branding.Copirate}}: Your receipt is available for {{Restaurant.Name}}",
-      "HEADER": "Receipt for {{Restaurant.Name}}"
+      "HEADER": "Receipt for {{Restaurant.Name}}",
+      "BUTTONTEXT": "View receipt"
     },
     "APPFEEDBACK": {
       "DISPLAYNAME": "Marketplace App Review",
