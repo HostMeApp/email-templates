@@ -9,6 +9,9 @@
     "sms": { "Enable": false },
     "email": { "Enable": true }
   },
+  "ContentTemplate": {
+    "email": "d-5aa9bd0217f340dc914b6ec142f8a6fd"
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.BILLINGINVOICE.MAINMESSAGE}}",
     "ButtonText": "{{I18N.BILLINGINVOICE.BUTTONTEXT}}",
