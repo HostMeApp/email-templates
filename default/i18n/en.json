@@ -59,6 +59,18 @@
       "TIPS": "Tips",
       "TOTAL": "Total:"
     },
+    "INVOICE": {
+      "TAXES": "VAT:",
+      "AMOUNTPAID": "Amount Paid:",
+      "AMOUNTDUE": "Amount Due:",
+      "TOTAL": "Total:",
+      "NUMBER": "Invoice number",
+      "ISSUEDATE": "Date of issue",
+      "DUEDATE": "Date due",
+      "BILLTO": "Bill to",
+      "BILLBY": "Bill By",
+      "BILLAGENT": "Reseller"
+    },
     "NEWORDERFORHOST": {
       "DISPLAYNAME": "New Order Notification",
       "DESCRIPTION": "The notification about new order. Note: Not an approval request!",
@@ -454,8 +466,8 @@
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
       "DESCRIPTION": "Email sent to customer with subscription invoice",
-      "SUBJECT": "{{Branding.Copirate}}: Your invoice #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
-      "PREHEADER": "{{Branding.Copirate}}: Your invoice is available for {{Invoice.Customer.LegalName}}",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your invoice #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your invoice is available for {{Invoice.Customer.LegalName}}",
       "HEADER": "Invoice #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
       "MAINMESSAGE": "You can pay this invoice by following this link:",
       "BUTTONTEXT": "Pay online"
@@ -463,8 +475,8 @@
     "BILLINGRECEIPT": {
       "DISPLAYNAME": "Billing receipt",
       "DESCRIPTION": "Email sent to customer with receipt",
-      "SUBJECT": "{{Branding.Copirate}}: Your receipt #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
-      "PREHEADER": "{{Branding.Copirate}}: Your receipt is available for {{Invoice.Customer.LegalName}}",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your receipt #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your receipt is available for {{Invoice.Customer.LegalName}}",
       "HEADER": "Receipt #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
       "BUTTONTEXT": "View receipt"
     },

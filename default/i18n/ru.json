@@ -43,6 +43,18 @@
       "TIPS": "Чаевые",
       "TOTAL": "Итого:"
     },
+    "INVOICE": {
+      "TAXES": "НДС:",
+      "AMOUNTPAID": "Оплачено:",
+      "AMOUNTDUE": "К оплате:",
+      "TOTAL": "Итого:",
+      "NUMBER": "Номер счёта",
+      "ISSUEDATE": "От",
+      "DUEDATE": "Оплатить до",
+      "BILLTO": "Исполнитель",
+      "BILLBY": "Заказчик",
+      "BILLAGENT": "Агент"
+    },
     "CANCELEDORDER": {
       "DISPLAYNAME": "Customer Cancels order",
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
@@ -405,6 +417,23 @@
       "BUTTONTEXT": "Подключить",
       "HEADER": "Hostme: Умный сервис бронирования",
       "MAINMESSAGE": "Умный сервис бронирования и управления столами в вашем ресторане"
+    },
+    "BILLINGINVOICE": {
+      "DISPLAYNAME": "Billing invoice",
+      "DESCRIPTION": "Email sent to customer with subscription invoice",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Счёт-фактура #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Счёт-фактура #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
+      "HEADER": "Счёт-фактура #{{Invoice.Number}} от {{Invoice.Created}}",
+      "MAINMESSAGE": "Вы можете оплатить этот счёт онлайн или банковским переводом на указанные реквезиты:",
+      "BUTTONTEXT": "Оплатить"
+    },
+    "BILLINGRECEIPT": {
+      "DISPLAYNAME": "Billing receipt",
+      "DESCRIPTION": "Email sent to customer with receipt",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
+      "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.Created}}",
+      "BUTTONTEXT": "Открыть чек"
     }
   }
 }
