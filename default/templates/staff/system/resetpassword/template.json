@@ -12,6 +12,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.RESETPASSWORD.MAINMESSAGE}}",
     "ButtonText": "{{I18N.RESETPASSWORD.BUTTONTEXT}}",
-    "ButtonUrl": null
+    "ButtonUrl": "{{NewPassword}}"
   }
 }

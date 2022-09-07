@@ -1,0 +1,20 @@
+{
+  "Name": "BILLINGINVOICE",
+  "DisplayName": "{{I18N.BILLINGINVOICE.DISPLAYNAME}}",
+  "Description": "{{I18N.BILLINGINVOICE.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.BILLINGINVOICE.SUBJECT}}",
+  "PREHEADER": "{{I18N.BILLINGINVOICE.PREHEADER}}",
+  "HEADER": "{{I18N.BILLINGINVOICE.HEADER}}",
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true }
+  },
+  "ContentTemplate": {
+    "email": "d-5aa9bd0217f340dc914b6ec142f8a6fd"
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.BILLINGINVOICE.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.BILLINGINVOICE.BUTTONTEXT}}",
+    "ButtonUrl": "{{Invoice.PaymentUrl}}"
+  }
+}

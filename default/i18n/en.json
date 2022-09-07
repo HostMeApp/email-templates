@@ -59,6 +59,18 @@
       "TIPS": "Tips",
       "TOTAL": "Total:"
     },
+    "INVOICE": {
+      "TAXES": "VAT:",
+      "AMOUNTPAID": "Amount Paid:",
+      "AMOUNTDUE": "Amount Due:",
+      "TOTAL": "Total:",
+      "NUMBER": "Invoice number",
+      "ISSUEDATE": "Date of issue",
+      "DUEDATE": "Date due",
+      "BILLTO": "Bill to",
+      "BILLBY": "Bill By",
+      "BILLAGENT": "Reseller"
+    },
     "NEWORDERFORHOST": {
       "DISPLAYNAME": "New Order Notification",
       "DESCRIPTION": "The notification about new order. Note: Not an approval request!",
@@ -391,12 +403,12 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "Reset Password",
       "DESCRIPTION": "Reset Password email for hosts",
-      "SUBJECT": "Your {{Branding.Copirate}} password was successfully reset",
+      "SUBJECT": "Reset your  {{Branding.Copirate}} password",
       "PREHEADER": "Password inside",
-      "TEXT": "Your {{Branding.Copirate}} password was successfully reset",
-      "HEADER": "Your {{Branding.Copirate}} password was successfully reset",
-      "BUTTONTEXT": "Sign In",
-      "MAINMESSAGE": "Please copy and paste your new password: {{NewPassword}} <b> We recommend to change the password in settings after you sign in with this new password."
+      "TEXT": "Reset your  {{Branding.Copirate}} password",
+      "HEADER": "Reset your  {{Branding.Copirate}} password",
+      "BUTTONTEXT": "Reset Password",
+      "MAINMESSAGE": "If you've forgotten your password or wish to reset it, click Reset Password button."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "Export guestbook email",
@@ -441,6 +453,41 @@
       "BUTTONTEXT": "Subscribe",
       "HEADER": "Hostme: Modern Restaurant Reservation & Table Management Solution",
       "MAINMESSAGE": "Waitlist, Table, and Reservation management, Server Rotation and CRM for restaurants."
+    },
+    "GUESTINVOICE": {
+      "DISPLAYNAME": "Reservation Deposit Notification",
+      "DESCRIPTION": "Email sent to customer with deposit invoice",
+      "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
+      "PREHEADER": "Deposit payment link",
+      "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Deposit payment info",
+      "MAINMESSAGE": "Please, pay deposit for the following reservation:"
+    },
+    "BILLINGINVOICE": {
+      "DISPLAYNAME": "Billing invoice",
+      "DESCRIPTION": "Email sent to customer with subscription invoice",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your invoice #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your invoice is available for {{Invoice.Customer.LegalName}}",
+      "HEADER": "Invoice #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
+      "MAINMESSAGE": "You can pay this invoice by following this link:",
+      "BUTTONTEXT": "Pay online"
+    },
+    "BILLINGRECEIPT": {
+      "DISPLAYNAME": "Billing receipt",
+      "DESCRIPTION": "Email sent to customer with receipt",
+      "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your receipt #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+      "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your receipt is available for {{Invoice.Customer.LegalName}}",
+      "HEADER": "Receipt #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
+      "BUTTONTEXT": "View receipt"
+    },
+    "APPFEEDBACK": {
+      "DISPLAYNAME": "Marketplace App Review",
+      "DESCRIPTION": "Email sent to customer to review marketplace app",
+      "SUBJECT": "Please, review {{App.Name}}",
+      "PREHEADER": "Please, review {{App.Name}}",
+      "HEADER": "{{App.Name}} review:",
+      "MAINMESSAGE": "Please review the app by following this link:",
+      "BUTTONTEXT": "Review"
     }
   }
 }

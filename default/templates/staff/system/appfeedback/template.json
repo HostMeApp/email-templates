@@ -1,0 +1,17 @@
+{
+  "Name": "APPFEEDBACK",
+  "DisplayName": "{{I18N.APPFEEDBACK.DISPLAYNAME}}",
+  "Description": "{{I18N.APPFEEDBACK.DESCRIPTION}}",
+  "SUBJECT": "{{I18N.APPFEEDBACK.SUBJECT}}",
+  "PREHEADER": "{{I18N.APPFEEDBACK.PREHEADER}}",
+  "HEADER": "{{I18N.APPFEEDBACK.HEADER}}",
+  "ChannelStatus": {
+    "sms": { "Enable": false },
+    "email": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.APPFEEDBACK.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.APPFEEDBACK.BUTTONTEXT}}",
+    "ButtonUrl": "{{App.FeedbackUrl}}"
+  }
+}
