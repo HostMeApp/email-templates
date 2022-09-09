@@ -368,12 +368,12 @@
     "RESETPASSWORD": {
       "DISPLAYNAME": "",
       "DESCRIPTION": "",
-      "SUBJECT": "Сбросить пароль в {{Branding.Copirate}}",
+      "SUBJECT": "Пароль в {{Branding.Copirate}} успешно изменён",
       "PREHEADER": "Новый пароль внутри",
-      "TEXT": "Сбросить пароль в {{Branding.Copirate}}",
-      "HEADER": "Сбросить пароль в {{Branding.Copirate}}",
+      "TEXT": "Пароль в {{Branding.Copirate}} успешно изменён",
+      "HEADER": "Пароль в {{Branding.Copirate}} успешно изменён",
       "BUTTONTEXT": "Сбросить пароль",
-      "MAINMESSAGE": "Для сброса пароля, пожалуйста, нажмите кнопку ниже"
+      "MAINMESSAGE": "Пожалуйста скопируйте и вставьте ваш новый пароль: {{NewPassword}}. Мы рекомендуем изменить пароль в настройках вашего аккаунта в разделе Настройки Мой аккаунт."
     },
     "EXPORTTOCSV": {
       "DISPLAYNAME": "",
