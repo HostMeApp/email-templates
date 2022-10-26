@@ -30,10 +30,14 @@
       "MANAGEORDER": "Посмотреть",
       "MANAGEWAITLIST": "Управление листом ожидания",
       "VIEWRESERVATION": "Управление бронью",
-      "DELIVERY": "Доставка",
-      "PICKUP": "Навынос",
-      "ADDITIONALS": "Дополнительно",
-      "CUSTOMADDITIONALS": "Индивидуальные дополнения",
+      "DELIVERY": "Доставка:",
+      "PICKUP": "Навынос:",
+    	"NOTES": "Заметка:",
+      "STATUS": "Статус:",
+      "AREA": "Зона размещения:",
+      "DURATION": "Продолжительность визита:",
+      "ADDITIONALS": "Дополнительно:",
+      "CUSTOMADDITIONALS": "Индивидуальные дополнения:",
       "ISPAID": "Неоплаченный"
     },
     "ORDER": {
