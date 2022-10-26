@@ -13,6 +13,8 @@
     "Content": "{{I18N.CHANGED.MAINMESSAGE}}"
   },
   "Booking": {
+    "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
+    "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
     "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
