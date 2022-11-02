@@ -460,8 +460,8 @@
       "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
       "PREHEADER": "Deposit payment link",
       "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
-      "HEADER": "Deposit payment info",
-      "MAINMESSAGE": "Please, pay deposit for the following reservation:"
+      "HEADER": "Your reservation hasn't been completed",
+      "MAINMESSAGE": "To complete the following reservation successfully, please pay the deposit within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
     },
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
