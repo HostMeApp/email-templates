@@ -173,6 +173,17 @@
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
+    
+    "GUESTINVOICEORDER": {
+      "DISPLAYNAME": "Order Payment Notification",
+      "DESCRIPTION": "Email sent to customer with payment invoice",
+      "SUBJECT": "Payment link for your order at {{Restaurant.Name}}!",
+      "PREHEADER": "Payment link",
+      "TEXT": "Pay order at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Your order hasn't been completed",
+      "MAINMESSAGE": "To complete the following order successfully, please pay the order within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+    },
+    
     "ACCEPTANCECONFIRMATION": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
