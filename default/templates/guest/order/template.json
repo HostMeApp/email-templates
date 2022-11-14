@@ -19,6 +19,7 @@
     "SHOWNOTE": true,
     "SHOWORDER": true,
     "SHOWPROMO": true,
-    "SHOWRESERVATIONDETAILS": true
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWMANAGEBUTTON": true
   }
 }
