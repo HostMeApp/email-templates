@@ -136,6 +136,7 @@
       "PREHEADER": "Order receipt",
       "TEXT": "Your order at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Order Confirmed",
+      "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been confirmed:"
     },
     "ORDERREADY": {
