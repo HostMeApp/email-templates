@@ -18,6 +18,7 @@
     "SHOWAREAS": true,
     "SHOWNOTE": true,
     "SHOWORDER": true,
-    "SHOWPROMO": true
+    "SHOWPROMO": true,
+    "SHOWRESERVATIONDETAILS": true
   }
 }
