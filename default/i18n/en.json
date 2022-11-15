@@ -476,7 +476,7 @@
       "PREHEADER": "Deposit payment link",
       "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Deposit payment info",
-      "MAINMESSAGE": "Please, pay deposit for the following reservation:"
+      "MAINMESSAGE": "To complete the following reservation successfully, please pay the deposit"
     },
      "PAYMENTREMINDER": {
       "DISPLAYNAME": "Reservation Deposit Notification",
