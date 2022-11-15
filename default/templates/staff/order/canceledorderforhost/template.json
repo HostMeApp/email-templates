@@ -1,0 +1,19 @@
+{
+    "Name": "CANCELEDORDERFORHOST",
+    "DisplayName": "Order Canceled notification sent to host",
+    "Description": "This email sent to a restaurant whenever the cancellation was made by host or a guest.",
+    "SUBJECT": "{{I18N.CANCELEDORDERFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.CANCELEDORDERFORHOST.PREHEADER}}",
+    "HEADER": "{{I18N.CANCELEDORDERFORHOST.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.CANCELEDORDERFORHOST.TEXT}}",
+      "push": "{{I18N.CANCELEDORDERFORHOST.TEXT}}"
+    },
+    "MAINMESSAGE": {
+    },
+    "Booking": {
+      "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.RestaurantReservationViewUrl}}"
+    }
+  }
+  
