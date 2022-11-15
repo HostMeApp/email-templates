@@ -1,0 +1,21 @@
+{
+    "Name": "CHANGEDORDERFORHOST",
+    "DisplayName": "Order Notification",
+    "Description": "Email sent to restaurant's team when order has been changed",
+    "SUBJECT": "{{I18N.CHANGEDORDERFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.CHANGEDORDERFORHOST.PREHEADER}}",
+    "HEADER": "{{I18N.CHANGEDORDERFORHOST.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.CHANGEDORDERFORHOST.TEXT}}",
+      "email": null,
+      "push": "{{I18N.CHANGEDORDERFORHOST.TEXT}}"
+    },
+    "MAINMESSAGE": {
+      "Content": "{{I18N.CHANGEDORDERFORHOST.MAINMESSAGE}}"
+    },
+    "Booking": {
+      "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.RestaurantReservationViewUrl}}"
+    }
+  }
+  
