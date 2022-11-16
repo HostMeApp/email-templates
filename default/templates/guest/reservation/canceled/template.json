@@ -16,7 +16,6 @@
     "Content": "{{I18N.CANCELED.MAINMESSAGE}}"
   },
   "Booking": {
-    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
-    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+
   }
 }

@@ -1,0 +1,21 @@
+{
+    "Name": "NEWORDERFORHOST",
+    "DisplayName": "New Online Order Notification",
+    "Description": "Email sent to restaurant's team when new online order has been added",
+    "SUBJECT": "{{I18N.NEWRORDERFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.NEWRORDERFORHOST.PREHEADER}}",
+    "HEADER": "{{I18N.NEWRORDERFORHOST.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.NEWRORDERFORHOST.TEXT}}",
+      "email": null,
+      "push": "{{I18N.NEWRORDERFORHOST.TEXT}}"
+    },
+    "MAINMESSAGE": {
+      
+    },
+    "Booking": {
+      "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.RestaurantReservationViewUrl}}"
+    }
+  }
+  

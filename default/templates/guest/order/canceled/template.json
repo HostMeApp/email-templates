@@ -18,7 +18,5 @@
     "ButtonUrl": null
   },
   "Booking": {
-    "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
-    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
 }

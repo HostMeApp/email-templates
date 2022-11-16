@@ -36,9 +36,12 @@
       "DEPOSIT": "Deposit:",
       "REASON": "Reason:",
       "CANCELLATIONFEE": "Cancellation Fee:",
+      "ORDERTITLE": "Order:",
       "REVIEWRESERVATION": "Review the reservation",
-      "MANAGERESERVATION": "View or Modify",
-      "MANAGERESERVATIONPAY": "Pay deposit now",
+      "REVIEWORDER": "Review the order",
+      "MANAGERESERVATION": "Manage your reservation",
+      "MANAGERESERVATIONPAY": "Pay now",
+      "MANAGERESERVATIONADDCARD": "Attach credit card",
       "MANAGEORDER": "View My Order",
       "MANAGEWAITLIST": "Manage Your Wait",
       "VIEWRESERVATION": "View Reservation",
@@ -134,6 +137,7 @@
       "PREHEADER": "Order receipt",
       "TEXT": "Your order at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Order Confirmed",
+      "BUTTONTEXT": "View Order Details",
       "MAINMESSAGE": "The following order has been confirmed:"
     },
     "ORDERREADY": {
@@ -173,6 +177,17 @@
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
+    
+    "GUESTINVOICEORDER": {
+      "DISPLAYNAME": "Order Payment Notification",
+      "DESCRIPTION": "Email sent to customer with payment invoice",
+      "SUBJECT": "Payment link for your order at {{Restaurant.Name}}!",
+      "PREHEADER": "Payment link",
+      "TEXT": "Pay order at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Your order hasn't been completed",
+      "MAINMESSAGE": "To complete the following order successfully, please pay the order within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+    },
+    
     "ACCEPTANCECONFIRMATION": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
@@ -461,8 +476,18 @@
       "PREHEADER": "Deposit payment link",
       "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Deposit payment info",
-      "MAINMESSAGE": "Please, pay deposit for the following reservation:"
+      "MAINMESSAGE": "To complete the following reservation successfully, please pay the deposit"
     },
+     "PAYMENTREMINDER": {
+      "DISPLAYNAME": "Reservation Deposit Notification",
+      "DESCRIPTION": "Email sent to customer with deposit invoice",
+      "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
+      "PREHEADER": "Deposit payment link",
+      "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Your reservation hasn't been completed",
+      "MAINMESSAGE": "To complete the following reservation successfully, please pay the deposit within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
+    },
+
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
       "DESCRIPTION": "Email sent to customer with subscription invoice",

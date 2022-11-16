@@ -1,0 +1,20 @@
+{
+    "Name": "REMINDERORDERFORHOST",
+    "DisplayName": "Upcoming order REMINDER for restaurant",
+    "Description": "Email to remind restaurant about a order based on a rule",
+    "SUBJECT": "{{I18N.REMINDERORDERFORHOST.SUBJECT}}",
+    "PREHEADER": "{{I18N.REMINDERORDERFORHOST.PREHEADER}}",
+    "HEADER": "{{I18N.REMINDERORDERFORHOST.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.REMINDERORDERFORHOST.TEXT}}",
+      "push": "{{I18N.REMINDERORDERFORHOST.TEXT}}"
+    },
+    "MAINMESSAGE": {
+      "Content": "{{I18N.REMINDERORDERFORHOST.MAINMESSAGE}}"
+    },
+    "Booking": {
+      "ButtonText": "{{I18N.LABELS.REVIEWRESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.RestaurantReservationViewUrl}}"
+    }
+  }
+  

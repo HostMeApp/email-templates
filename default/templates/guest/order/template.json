@@ -1,7 +1,7 @@
 {
   "ContentTemplate": {
     "sms": null,
-    "email": "d-1122c81a54d84f259f2a44a34524a136",
+    "email": "d-1e6a460c5a424a19b7770b4650b95a62",
     "push": null
   },
   "ChannelStatus": {
@@ -18,6 +18,8 @@
     "SHOWAREAS": true,
     "SHOWNOTE": true,
     "SHOWORDER": true,
-    "SHOWPROMO": true
+    "SHOWPROMO": true,
+    "SHOWRESERVATIONDETAILS": true,
+    "SHOWMANAGEBUTTON": true
   }
 }

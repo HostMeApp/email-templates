@@ -13,11 +13,11 @@
     "sms": { "Enable": true }
   },
   "MAINMESSAGE": {
-    "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}",
-    "ButtonText": null,
-    "ButtonUrl": null
+    "Content": "{{I18N.CONFIRMEDORDER.MAINMESSAGE}}"
   },
   "Booking": {
+    "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
+    "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
     "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
     "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
