@@ -9,7 +9,7 @@
     "Background": "#f8f8f8",
     "TextColor": "#666666",
     "LinkColor": "#e16640",
-    "Logo": "https://marketing-image-production.s3.amazonaws.com/uploads/adf128e97556fa4795fb9c43ef715abbce26efe11389273ccfb0282ccb949b81e4235ed55d68a30b2bd2e2d52efdeb774492861a4708d4679273dafad3f41509.png",
+    "Logo": "https://hostmeprod.blob.core.windows.net/restaurant-photo/LogoHostme.png",
     "SendGridApiKey": null,
     "SendSendFromEmail": "no-reply@notify.hostmeapp.com",
     "SendSendFromName": "Hostme team",
