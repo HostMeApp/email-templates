@@ -470,22 +470,22 @@
       "MAINMESSAGE": "Waitlist, Table, and Reservation management, Server Rotation and CRM for restaurants."
     },
     "GUESTINVOICE": {
-      "DISPLAYNAME": "Reservation Deposit Notification",
-      "DESCRIPTION": "Email sent to customer with deposit invoice",
-      "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
-      "PREHEADER": "Deposit payment link",
-      "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "DISPLAYNAME": "Complete reservation payment",
+      "DESCRIPTION": "Email reminder to complete reservation payment",
+      "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
+      "PREHEADER": "Complete your reservation",
+      "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Complete your reservation",
       "MAINMESSAGE": "To complete the following reservation, please proceed to the credit card payment:"
     },
      "PAYMENTREMINDER": {
-      "DISPLAYNAME": "Reservation Deposit Notification",
-      "DESCRIPTION": "Email sent to customer with deposit invoice",
-      "SUBJECT": "Deposit payment link for your reservation at {{Restaurant.Name}}!",
+      "DISPLAYNAME": "Complete reservation payment",
+      "DESCRIPTION": "Email reminder to complete reservation payment",
+      "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
       "PREHEADER": "Deposit payment link",
-      "TEXT": "Pay reservation deposit at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Your reservation hasn't been completed",
-      "MAINMESSAGE": "To complete the following reservation successfully, please pay the deposit within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
+      "MAINMESSAGE": "To complete the following reservation successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
     },
 
     "BILLINGINVOICE": {
