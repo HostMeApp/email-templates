@@ -482,7 +482,7 @@
       "DISPLAYNAME": "Complete reservation payment",
       "DESCRIPTION": "Email reminder to complete reservation payment",
       "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
-      "PREHEADER": "Deposit payment link",
+      "PREHEADER": "Complete your reservation",
       "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Your reservation hasn't been completed",
       "MAINMESSAGE": "To complete the following reservation successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
