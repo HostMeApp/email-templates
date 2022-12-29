@@ -10,7 +10,7 @@
       "push": "{{I18N.PAYMENTREMINDER.TEXT}}"
     },
     "ChannelStatus": {
-      "sms": { "Enable": false },
+      "sms": { "Enable": true },
       "email":  {"Enable": true}
     },
     "MAINMESSAGE": {
