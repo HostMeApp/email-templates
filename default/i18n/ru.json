@@ -429,8 +429,8 @@
       "DESCRIPTION": "Email sent to customer with subscription invoice",
       "SUBJECT": "{{Invoice.PayTo.LegalName}}: Счёт-фактура #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
       "PREHEADER": "{{Invoice.PayTo.LegalName}}: Счёт-фактура #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
-      "HEADER": "Счёт-фактура #{{Invoice.Number}} от {{Invoice.Created}}",
-      "MAINMESSAGE": "Вы можете оплатить этот счёт онлайн или банковским переводом на указанные реквезиты:",
+      "HEADER": "Счёт-фактура #{{Invoice.Number}} от {{Invoice.PeriodEnd}}",
+      "MAINMESSAGE": "Вы можете оплатить этот счёт онлайн или банковским переводом на указанные реквезиты до {{Invoice.DueDate}}:",
       "BUTTONTEXT": "Оплатить"
     },
     "BILLINGRECEIPT": {
@@ -438,7 +438,7 @@
       "DESCRIPTION": "Email sent to customer with receipt",
       "SUBJECT": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}}",
       "PREHEADER": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
-      "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.Created}}",
+      "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.PeriodEnd}}",
       "BUTTONTEXT": "Открыть чек"
     }
   }
