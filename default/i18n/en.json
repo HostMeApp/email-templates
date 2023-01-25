@@ -72,6 +72,8 @@
       "DUEDATE": "Date due",
       "BILLTO": "Bill to",
       "BILLBY": "Bill By",
+      "INN": "INN",
+      "KPP": "KPP",
       "BILLAGENT": "Reseller"
     },
     "NEWORDERFORHOST": {
