@@ -505,6 +505,7 @@
       "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your receipt #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
       "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your receipt is available for {{Invoice.Customer.LegalName}}",
       "HEADER": "Receipt #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
+      "MAINMESSAGE": "{{Invoice.PeriodStart}} - {{Invoice.PeriodEnd}} :",
       "BUTTONTEXT": "View receipt"
     },
     "APPFEEDBACK": {
