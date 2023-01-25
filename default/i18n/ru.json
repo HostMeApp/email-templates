@@ -55,8 +55,10 @@
       "NUMBER": "Номер счёта",
       "ISSUEDATE": "От",
       "DUEDATE": "Оплатить до",
-      "BILLTO": "Исполнитель",
-      "BILLBY": "Заказчик",
+      "BILLTO": "Заказчик",
+      "BILLBY": "Исполнитель",
+      "INN": "ИНН",
+      "KPP": "КПП",
       "BILLAGENT": "Агент"
     },
     "CANCELEDORDER": {
