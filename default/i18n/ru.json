@@ -439,6 +439,7 @@
       "SUBJECT": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}}",
       "PREHEADER": "{{Invoice.PayTo.LegalName}}: Акт сдачи-приемки выполненных работ #{{Invoice.Number}} для {{Invoice.Customer.LegalName}}",
       "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.PeriodEnd}}",
+      "MAINMESSAGE": "{{Invoice.PeriodStart}} - {{Invoice.PeriodEnd}} :",
       "BUTTONTEXT": "Открыть чек"
     }
   }
