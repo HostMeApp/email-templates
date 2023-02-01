@@ -12,6 +12,7 @@
   "ContentTemplate": {
     "email": "d-5aa9bd0217f340dc914b6ec142f8a6fd"
   },
+  "AttachmentTemplates":["receipt"],
   "MAINMESSAGE": {
     "Content": "{{I18N.BILLINGRECEIPT.MAINMESSAGE}}"
   }
