@@ -59,7 +59,10 @@
       "BILLBY": "Исполнитель",
       "INN": "ИНН",
       "KPP": "КПП",
-      "BILLAGENT": "Агент"
+      "BILLAGENT": "Агент",
+      "PRODUCT":"Наименование пр.",
+      "UNITPRICE":"Цена за ед. пр.",
+      "UNITQUANTITY":"Колич. пр."
     },
     "CANCELEDORDER": {
       "DISPLAYNAME": "Customer Cancels order",
