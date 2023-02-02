@@ -74,7 +74,10 @@
       "BILLBY": "Bill By",
       "INN": "INN",
       "KPP": "KPP",
-      "BILLAGENT": "Reseller"
+      "BILLAGENT": "Reseller",
+      "PRODUCT":"Product",
+      "UNITPRICE":"Unit Price",
+      "UNITQUANTITY":"Unit Quantity"
     },
     "NEWORDERFORHOST": {
       "DISPLAYNAME": "New Order Notification",
