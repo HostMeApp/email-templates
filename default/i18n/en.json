@@ -492,7 +492,15 @@
       "HEADER": "Your reservation hasn't been completed",
       "MAINMESSAGE": "To complete the following reservation successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
     },
-
+    "PAYMENTREMINDERORDER": {
+      "DISPLAYNAME": "Complete order payment",
+      "DESCRIPTION": "Email reminder to complete order payment",
+      "SUBJECT": "Add credit card for your order at {{Restaurant.Name}}!",
+      "PREHEADER": "Complete your order",
+      "TEXT": "Complete your order by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Your order hasn't been completed",
+      "MAINMESSAGE": "To complete the following order successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+    },
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
       "DESCRIPTION": "Email sent to customer with subscription invoice",
