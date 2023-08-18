@@ -2,7 +2,7 @@
   "I18N": {
     "CUSTOMPOLICY1": {
       "TITLE": "Our rules:",
-      "CONTENT": "<ul><li>Social Distancing will be enforced throughout your visit, with all people outside your reservation group.</li><li>Masks are required unless you are seated.</li><li>Each reservation group will have a specified timeslot to enjoy. This will allow us to affectively sanitize each dining area between groups.</li> <li>Cancellation Policy: Cancellations must be made a minimum of 96-hours in advance. Cancel your reservation directly through Hostme. If you do not show up for your reservation or you cancel after the 96-hour mark, the cancellation fee will be charged.</li><li> We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><ul>"
+      "CONTENT": "<ul><li>We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><li>If available, edit or cancel your reservation through the <b>Manage your reservation</b> button above. If the button is not available, please reach out to us directly. Thank you for your understanding.</li><ul><p>We're looking forward to welcoming you!</p>"
     },
     "CUSTOMPOLICY2": {
       "TITLE": "Custom Policy 2",
