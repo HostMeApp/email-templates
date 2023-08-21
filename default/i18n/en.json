@@ -2,7 +2,7 @@
   "I18N": {
     "CUSTOMPOLICY1": {
       "TITLE": "Our rules:",
-      "CONTENT": "<ul><li>Social Distancing will be enforced throughout your visit, with all people outside your reservation group.</li><li>Masks are required unless you are seated.</li><li>Each reservation group will have a specified timeslot to enjoy. This will allow us to affectively sanitize each dining area between groups.</li> <li>Cancellation Policy: Cancellations must be made a minimum of 96-hours in advance. Cancel your reservation directly through Hostme. If you do not show up for your reservation or you cancel after the 96-hour mark, the cancellation fee will be charged.</li><li> We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><ul>"
+      "CONTENT": "<ul><li>We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><li>If available, edit or cancel your reservation through the <b>Manage your reservation</b> button above. If the button is not available, please reach out to us directly. Thank you for your understanding.</li><ul><p>We're looking forward to welcoming you!</p>"
     },
     "CUSTOMPOLICY2": {
       "TITLE": "Custom Policy 2",
@@ -492,7 +492,15 @@
       "HEADER": "Your reservation hasn't been completed",
       "MAINMESSAGE": "To complete the following reservation successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
     },
-
+    "PAYMENTREMINDERORDER": {
+      "DISPLAYNAME": "Complete order payment",
+      "DESCRIPTION": "Email reminder to complete order payment",
+      "SUBJECT": "Add credit card for your order at {{Restaurant.Name}}!",
+      "PREHEADER": "Complete your order",
+      "TEXT": "Complete your order by following this link {{Booking.Links.GuestReservationViewUrl}}",
+      "HEADER": "Your order hasn't been completed",
+      "MAINMESSAGE": "To complete the following order successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+    },
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
       "DESCRIPTION": "Email sent to customer with subscription invoice",
