@@ -2,7 +2,7 @@
   "I18N": {
     "CUSTOMPOLICY1": {
       "TITLE": "Our rules:",
-      "CONTENT": "<ul><li>We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><li>If available, edit or cancel your reservation through the <b>Manage your reservation</b> button above. If the button is not available, please reach out to us directly. Thank you for your understanding.</li><ul><p>We're looking forward to welcoming you!</p>"
+      "CONTENT": "<ul><li>We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><li>If available, edit or cancel your reservation through the <b>Manage your reservation</b> button above. If the button is not available, please reach out to us directly. Thank you for your understanding.</li><ul><p style=\"margin-left: -40;\">We're looking forward to welcoming you!</p>"
     },
     "CUSTOMPOLICY2": {
       "TITLE": "Custom Policy 2",
