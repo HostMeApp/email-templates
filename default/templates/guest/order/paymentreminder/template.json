@@ -1,0 +1,25 @@
+{
+    "Name": "PAYMENTREMINDERORDER",
+    "DisplayName": "{{I18N.PAYMENTREMINDERORDER.DISPLAYNAME}}",
+    "Description": "{{I18N.PAYMENTREMINDERORDER.DESCRIPTION}}",
+    "SUBJECT": "{{I18N.PAYMENTREMINDERORDER.SUBJECT}}",
+    "PREHEADER": "{{I18N.PAYMENTREMINDERORDER.PREHEADER}}",
+    "HEADER": "{{I18N.PAYMENTREMINDERORDER.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.PAYMENTREMINDERORDER.TEXT}}",
+      "push": "{{I18N.PAYMENTREMINDERORDER.TEXT}}"
+    },
+    "ChannelStatus": {
+      "sms": { "Enable": true },
+      "email":  {"Enable": true}
+    },
+    "MAINMESSAGE": {
+      "Content": "{{I18N.PAYMENTREMINDERORDER.MAINMESSAGE}}"
+    },
+    "Booking": {
+      "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
+      "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
+      "ButtonText": "{{I18N.LABELS.MANAGEORDER}}",
+      "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    }
+  }
