@@ -12,6 +12,10 @@
       "TITLE": "Custom Policy 3",
       "CONTENT": "Placeholder for custom policy 3"
     },
+	 "CUSTOMPOLICYORDER1": {
+      "TITLE": "Custom Policy Order 1",
+      "CONTENT": "Placeholder for custom policy order 1"
+    },
     "GUESTPOLICES": {
       "TITLE": "Any questions?",
       "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
