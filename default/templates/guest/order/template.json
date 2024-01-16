@@ -14,6 +14,7 @@
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,
     "SHOWCUSTOMPOLICY3": false,
+    "SHOWCUSTOMPOLICYORDER1": true,
     "SHOWALLERGIES": true,
     "SHOWAREAS": true,
     "SHOWNOTE": true,
