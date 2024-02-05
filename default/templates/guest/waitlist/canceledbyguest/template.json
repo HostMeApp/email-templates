@@ -9,6 +9,10 @@
     "sms": "{{I18N.CANCELEDBYGUEST.TEXT}}",
     "push": "{{I18N.CANCELEDBYGUEST.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true },
+    "email": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.CANCELEDBYGUEST.MAINMESSAGE}}",
     "ButtonText": null,

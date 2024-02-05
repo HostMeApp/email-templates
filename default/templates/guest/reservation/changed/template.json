@@ -9,6 +9,10 @@
     "sms": "{{I18N.CHANGED.TEXT}}",
     "push": "{{I18N.CHANGED.TEXT}}"
   },
+  "ChannelStatus": {
+    "sms": { "Enable": true },
+    "email": { "Enable": true }
+  },
   "MAINMESSAGE": {
     "Content": "{{I18N.CHANGED.MAINMESSAGE}}"
   },
