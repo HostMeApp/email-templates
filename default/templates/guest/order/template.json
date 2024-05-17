@@ -7,9 +7,8 @@
   "ChannelStatus": {
     "sms": { "Enable": false },
     "email": { "Enable": true },
-    "push": { "Enable": false },
-    "calendar": { "Enable": true }
-  },
+    "push": { "Enable": false }
+    },
   "CUSTOMUI": {
     "SHOWCUSTOMPOLICY1": true,
     "SHOWCUSTOMPOLICY2": false,

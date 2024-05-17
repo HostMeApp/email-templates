@@ -419,14 +419,6 @@
       "HEADER": "Вы почти завершили регистрацию!",
       "MAINMESSAGE": "Спасибо за регистрацию с {{Branding.Copirate}}! Нажмите на кнопку ниже что бы подтвердить ваш email, и мы поможем вы начать работу с нашей системой."
     },
-    "CALENDARSUBSCRIBE": {
-      "DISPLAYNAME": "Подписка на календарь",
-      "DESCRIPTION": "Этот шаблон для настройки лендинг страницы календаря",
-      "SUBJECT": "Брони в ресторанах",
-      "BUTTONTEXT": "Подключить",
-      "HEADER": "Hostme: Умный сервис бронирования",
-      "MAINMESSAGE": "Умный сервис бронирования и управления столами в вашем ресторане"
-    },
     "BILLINGINVOICE": {
       "DISPLAYNAME": "Billing invoice",
       "DESCRIPTION": "Email sent to customer with subscription invoice",

@@ -280,7 +280,7 @@
       "TEXT": "Bokningen f\u00f6r {{Guest.CustomerName}} {{Booking.ReservationDateTime}} har avbokats",
       "HEADER": "Bokningen avbokades",
       "BUTTONTEXT": "",
-      "MAINMESSAGE": "Följande bokning har avbokats"
+      "MAINMESSAGE": "Fï¿½ljande bokning har avbokats"
     },
     "APPROVALFORHOST": {
       "DISPLAYNAME": "",

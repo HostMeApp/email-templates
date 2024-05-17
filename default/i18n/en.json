@@ -470,14 +470,6 @@
       "HEADER": "You are almost there!",
       "MAINMESSAGE": "Thank you for signing up for {{Branding.Copirate}}! Click the button below to verify your email, and we'll help you get started."
     },
-    "CALENDARSUBSCRIBE": {
-      "DISPLAYNAME": "Subscribe to calendar",
-      "DESCRIPTION": "This is for setting up landing page for the calendar",
-      "SUBJECT": "Restaurant bookings",
-      "BUTTONTEXT": "Subscribe",
-      "HEADER": "Hostme: Modern Restaurant Reservation & Table Management Solution",
-      "MAINMESSAGE": "Waitlist, Table, and Reservation management, Server Rotation and CRM for restaurants."
-    },
     "GUESTINVOICE": {
       "DISPLAYNAME": "Complete reservation payment",
       "DESCRIPTION": "Email reminder to complete reservation payment",
