@@ -10,7 +10,8 @@
     "push": "{{I18N.CANCELED.TEXT}}"
   },
   "ChannelStatus": {
-    "sms": { "Enable": true }
+    "sms": { "Enable": true },
+    "email": { "Enable": true }
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.CANCELED.MAINMESSAGE}}"

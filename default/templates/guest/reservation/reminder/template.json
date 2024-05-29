@@ -10,9 +10,8 @@
     "push": "{{I18N.REMINDER.TEXT}}"
   },
   "ChannelStatus": {
-    "sms": {
-      "Enable": true
-    }
+    "sms": {      "Enable": true     },
+    "email": { "Enable": true }
   },
     "MAINMESSAGE": {
       "Content": "{{I18N.REMINDER.MAINMESSAGE}}"

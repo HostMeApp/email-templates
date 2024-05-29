@@ -10,7 +10,8 @@
     "push": "{{I18N.SEATED.TEXT}}"
   },
   "ChannelStatus": {
-    "sms": { "Enable": false }
+    "sms": { "Enable": false },
+    "email": { "Enable": false }
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.SEATED.MAINMESSAGE}}",
