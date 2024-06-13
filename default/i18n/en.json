@@ -331,6 +331,7 @@
       "DESCRIPTION": "Host removed a guest from the waitlist",
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Removed from the waitlist.",
+      "HEADER": "Canceled by host",
       "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
       "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
     },
