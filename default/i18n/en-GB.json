@@ -1,0 +1,530 @@
+{
+    "I18N": {
+      "CUSTOMPOLICY1": {
+        "TITLE": "Our rules:",
+        "CONTENT": "<ul><li>We will hold your reservation for 15 minutes after your designated arrival time. We recommend arriving 10 minutes prior to your reservation time to check-in.</li><li>If available, edit or cancel your reservation through the <b>Manage your reservation</b> button above. If the button is not available, please reach out to us directly. Thank you for your understanding.</li></ul>"
+      },
+      "CUSTOMPOLICY2": {
+        "TITLE": "Custom Policy 2",
+        "TITLE": "Custom Policy 2",
+        "CONTENT": "Placeholder for custom policy 2"
+      },
+      "CUSTOMPOLICY3": {
+        "TITLE": "Custom Policy 3",
+        "CONTENT": "Placeholder for custom policy 3"
+      },
+       "CUSTOMPOLICYORDER1": {
+        "TITLE": "Custom Policy Order 1",
+        "CONTENT": "Information related to your order is listed above. <br> If you have any questions, please reach out to us directly. Thank you for your understanding."
+      },
+      "GUESTPOLICES": {
+        "TITLE": "Any questions?",
+        "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:{{Restaurant.BookingEmail}}'>{{Restaurant.BookingEmail}}</a>."
+      },
+      "RESTAURANTPOLICES": {
+        "TITLE": "Any questions?",
+        "CONTENT": "We are always happy to hear from you - let us know if you have any questions or suggestions at <a href='mailto:support@hostmeapp.com'>support@hostmeapp.com</a>."
+      },
+      "PROMO": {
+        "TITLE": "Manage your reservations and orders anytime and anywhere!",
+        "CONTENT": "With our apps, you can discover, reserve, and manage restaurant reservations anytime, anywhere."
+      },
+      "RESTPROMO": {
+        "TITLE": "Manage your restaurant anytime and anywhere!",
+        "CONTENT": "<div>The Hostme app is available for <a href='https://hostmeapp.page.link/app'>iOS</a>, <a href='https://hostmeapp.page.link/app'>Android </a>and <a href='https://www.microsoft.com/store/apps/9nblggh1k8v9?utm_source=website-promo&amp;utm_medium=website&amp;utm_campaign=website'>Windows </a>tablets and smartphones or from any <a href='https://{{Employee.ApplicationId}}'>browser</a>.</div>"
+      },
+      "LABELS": {
+        "PARTY": "Party of",
+        "FOR": "for",
+        "TABLE": "Table #",
+        "ALLERGIES": "Allergies:",
+        "DEPOSIT": "Deposit:",
+        "REASON": "Reason:",
+        "CANCELLATIONFEE": "Cancellation Fee:",
+        "ORDERTITLE": "Order:",
+        "REVIEWRESERVATION": "Review the reservation",
+        "REVIEWORDER": "Review the order",
+        "MANAGERESERVATION": "Manage your reservation",
+        "MANAGERESERVATIONPAY": "Pay now",
+        "MANAGERESERVATIONADDCARD": "Add a credit card",
+        "MANAGEORDER": "View My Order",
+        "MANAGEWAITLIST": "Manage Your Wait",
+        "VIEWRESERVATION": "View Reservation",
+        "DELIVERY": "Delivery",
+        "PICKUP": "Pickup",
+        "NOTES": "Notes:",
+        "STATUS": "Status:",
+        "AREA": "Seating Area:",
+        "DURATION": "Duration",
+        "ADDITIONALS": "Additionals",
+        "CUSTOMADDITIONALS": "Custom additionals",
+        "ISPAID": "Unpaid"
+      },
+      "ORDER": {
+        "SUBTOTAL": "Subtotal",
+        "DELIVERYFEE": "Delivery Fee",
+        "TAXES": "Taxes",
+        "TIPS": "Tips",
+        "TOTAL": "Total:"
+      },
+      "INVOICE": {
+        "TAXES": "VAT:",
+        "AMOUNTPAID": "Amount Paid:",
+        "AMOUNTDUE": "Amount Due:",
+        "TOTAL": "Total:",
+        "NUMBER": "Invoice number",
+        "ISSUEDATE": "Date of issue",
+        "DUEDATE": "Date due",
+        "BILLTO": "Bill to",
+        "BILLBY": "Bill By",
+        "INN": "INN",
+        "KPP": "KPP",
+        "BILLAGENT": "Reseller",
+        "PRODUCT":"Product",
+        "UNITPRICE":"Unit Price",
+        "UNITQUANTITY":"Unit Quantity"
+      },
+      "NEWORDERFORHOST": {
+        "DISPLAYNAME": "New Order Notification",
+        "DESCRIPTION": "The notification about new order. Note: Not an approval request!",
+        "SUBJECT": "New Order!",
+        "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+        "TEXT": "New order",
+        "HEADER": "New order",
+        "MAINMESSAGE": "New order:"
+      },
+      "CHANGEDORDERFORHOST": {
+        "DISPLAYNAME": "Changed order notification",
+        "DESCRIPTION": "Email send to host when a order was changed",
+        "SUBJECT": "The order has been changed",
+        "PREHEADER": "Check the changes.",
+        "TEXT": "The order for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
+        "HEADER": "Order Changed",
+        "MAINMESSAGE": "The following order has been changed"
+      },
+      "CANCELEDORDERFORHOST": {
+        "DISPLAYNAME": "Cancelled order notification",
+        "DESCRIPTION": "Email send to host when a order was cancelled.",
+        "SUBJECT": "The order has been cancelled",
+        "PREHEADER": "Check the changes.",
+        "TEXT": "The order for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been cancelled",
+        "HEADER": "Order Cancelled",
+        "MAINMESSAGE": "The following order has been cancelled"
+      },
+      "REMINDERORDERFORHOST": {
+        "DISPLAYNAME": "Order reminder for host",
+        "DESCRIPTION": "Upcoming order reminder for staff",
+        "SUBJECT": "Upcoming order reminder",
+        "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
+        "TEXT": "Upcoming order reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+        "HEADER": "Upcoming order:",
+        "MAINMESSAGE": "This is friendly reminder about upcoming order:"
+      },
+      "CANCELEDORDER": {
+        "DISPLAYNAME": "Customer Cancels order",
+        "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
+        "SUBJECT": "The order has been cancelled",
+        "PREHEADER": "Order Cancelled",
+        "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been cancelled.",
+        "HEADER": "Order Cancelled",
+        "BUTTONTEXT": "View Order Details",
+        "MAINMESSAGE": "The following order has been cancelled:"
+      },
+      "CHANGEDORDER": {
+        "DISPLAYNAME": "Order Changed Confirmation",
+        "DESCRIPTION": "Email sent to customer to confirm the change",
+        "SUBJECT": "The order has been changed",
+        "PREHEADER": "Review the changes",
+        "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been changed.",
+        "HEADER": "Order Changed",
+        "BUTTONTEXT": "View Order Details",
+        "MAINMESSAGE": "The following order has been changed:"
+      },
+      "CONFIRMEDORDER": {
+        "DISPLAYNAME": "Order Confirmed",
+        "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
+        "SUBJECT": "Your order at {{Restaurant.Name}} has been confirmed!",
+        "PREHEADER": "Order receipt",
+        "TEXT": "Your order at {{Restaurant.Name}} has been confirmed.",
+        "HEADER": "Order Confirmed",
+        "BUTTONTEXT": "View Order Details",
+        "MAINMESSAGE": "The following order has been confirmed:"
+      },
+      "ORDERREADY": {
+        "DISPLAYNAME": "Order is Ready",
+        "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
+        "SUBJECT": "Your order at {{Restaurant.Name}} is ready!",
+        "PREHEADER": "Order is ready",
+        "TEXT": "Your order at {{Restaurant.Name}} is ready for pickup.",
+        "HEADER": "Order Is Ready",
+        "MAINMESSAGE": "The following order is ready for pickup:"
+      },
+      "ORDERREQUEST": {
+        "DISPLAYNAME": "Your Order has been Received",
+        "DESCRIPTION": "Email sent to guests to confirm their order request was received",
+        "SUBJECT": "Your order request at {{Restaurant.Name}} has been received!",
+        "PREHEADER": "Order request",
+        "TEXT": "Your order request at {{Restaurant.Name}} has been received.",
+        "HEADER": "Order Request Received",
+        "MAINMESSAGE": "The following order request has been received:"
+      },
+      "ORDERFEEDBACK": {
+        "DISPLAYNAME": "Order Feedback request",
+        "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
+        "SUBJECT": "Thanks for your order! Leave your feedback.",
+        "PREHEADER": "Help us improve.",
+        "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for  {{Guest.CustomerName}} has been changed.",
+        "HEADER": "Leave a Feedback",
+        "BUTTONTEXT": "Leave a Feedback",
+        "MAINMESSAGE": "Please, help us improve and leave your feedback:"
+      },
+      "REJECTEDORDER": {
+        "DISPLAYNAME": "Order Rejected",
+        "DESCRIPTION": "Email sent to customer to reject order request",
+        "SUBJECT": "Order request was rejected",
+        "PREHEADER": "Review the reason",
+        "TEXT": "Your order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been rejected.",
+        "HEADER": "Order Rejected",
+        "MAINMESSAGE": "The following order has been rejected:"
+      },
+      
+      "GUESTINVOICEORDER": {
+        "DISPLAYNAME": "Order Payment Notification",
+        "DESCRIPTION": "Email sent to customer with payment invoice",
+        "SUBJECT": "Payment link for your order at {{Restaurant.Name}}!",
+        "PREHEADER": "Payment link",
+        "TEXT": "Pay order at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
+        "HEADER": "Your order hasn't been completed",
+        "MAINMESSAGE": "To complete the following order successfully, please pay the order within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+      },
+      
+      "ACCEPTANCECONFIRMATION": {
+        "DISPLAYNAME": "Reservation Invite Accepted",
+        "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
+        "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "PREHEADER": "Check your reservation details.",
+        "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "HEADER": "Reservation Accepted",
+        "MAINMESSAGE": "You have accepted the following reservation invite:"
+      },
+      "CANCELED": {
+        "DISPLAYNAME": "Reservation Cancelled Notification",
+        "DESCRIPTION": "Email sent to restaurant's team when reservation has been cancelled",
+        "SUBJECT": "Your reservation at {{Restaurant.Name}} has been cancelled.",
+        "PREHEADER": "Reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+        "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been cancelled.",
+        "HEADER": "Reservation Cancelled",
+        "MAINMESSAGE": "The following reservation has been cancelled:"
+      },
+      "CHANGED": {
+        "DISPLAYNAME": "Reservation Changed Confirmation",
+        "DESCRIPTION": "Email sent to customers to confirm the change",
+        "SUBJECT": "The reservation has been changed",
+        "PREHEADER": "Review the changes",
+        "TEXT": "Reservation for {{Booking.PartySize}} has been changed.",
+        "HEADER": "Reservation Changed",
+        "BUTTONTEXT": "Manage your Reservation",
+        "MAINMESSAGE": "The following reservation has been changed:"
+      },
+      "CONFIRMED": {
+        "DISPLAYNAME": "Reservation Confirmation Notification",
+        "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
+        "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
+        "PREHEADER": "Review the reservation",
+        "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+        "HEADER": "Reservation Confirmed",
+        "MAINMESSAGE": "The following reservation has been confirmed:"
+      },
+      "FEEDBACK": {
+        "DISPLAYNAME": "Feedback request",
+        "DESCRIPTION": "Email sent to customer to request a feedback after visit.",
+        "SUBJECT": "Leave your feedback for {{Restaurant.Name}}",
+        "PREHEADER": "Only {{Restaurant.Name}} will read",
+        "TEXT": "Leave your feedback for {{Restaurant.Name}}",
+        "HEADER": "Thanks for the visit!",
+        "BUTTONTEXT": "Leave a Feedback",
+        "MAINMESSAGE": "We always strive to improve the service. Please, "
+      },
+      "INVITATION": {
+        "DISPLAYNAME": "Reservation Invitation",
+        "DESCRIPTION": "Email sent to guests to invite them to the reservation",
+        "SUBJECT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "PREHEADER": "Accept the invite",
+        "TEXT": "Invitation from {{Guest.CustomerName}} to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "HEADER": "You have been invited!",
+        "BUTTONTEXT": "Accept",
+        "MAINMESSAGE": "You have been invited to the following reservation:"
+      },
+      "INVITATIONACCEPTED": {
+        "DISPLAYNAME": "Reservation Invite Accepted",
+        "DESCRIPTION": "Email sent to customer to confirm accepted invitation by guests.",
+        "SUBJECT": "Your reservation invite at {{Restaurant.Name}} has been accepted by {{Guest.CustomerName}}.",
+        "PREHEADER": "{{Guest.CustomerName}} has accepted your invitation",
+        "TEXT": "{{Guest.CustomerName}} has accepted your invitation to {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "HEADER": "Invitation Accepted",
+        "MAINMESSAGE": "The following reservation invite has been accepted:"
+      },
+      "REJECTED": {
+        "DISPLAYNAME": "Reservation Rejected",
+        "DESCRIPTION": "Email sent to customer to reject reservation request",
+        "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
+        "PREHEADER": "Check the reason",
+        "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
+        "HEADER": "Reservation Rejected",
+        "MAINMESSAGE": "The following reservation request has been rejected:"
+      },
+      "REMINDER": {
+        "DISPLAYNAME": "Upcoming Reservation",
+        "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
+        "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "PREHEADER": "Please, cancel if you're not able to come.",
+        "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+        "HEADER": "Upcoming Reservation",
+        "MAINMESSAGE": "You have Upcoming reservation:"
+      },
+      "RESERVATIONREQUEST": {
+        "DISPLAYNAME": "Reservation Confirmation",
+        "DESCRIPTION": "Email sent to customer to confirm new reservation",
+        "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
+        "PREHEADER": "Reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+        "TEXT": "Your reservation request on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
+        "HEADER": "Waiting for approval",
+        "MAINMESSAGE": "Thanks for making your reservation at {{Restaurant.Name}} using Hostme! This reservation request will be reviewed by the {{Restaurant.Name}} team."
+      },
+      "APPROVED": {
+        "DISPLAYNAME": "Waitlist group added",
+        "DESCRIPTION": "A group added on the waitlist",
+        "HEADER": "You're on the waitlist!",
+        "CONTENT": "Please, check your status by following the link.",
+        "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
+        "PREHEADER": "Check your status",
+        "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
+        "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
+      },
+      "CALLED": {
+        "DISPLAYNAME": "Waitlist group called",
+        "DESCRIPTION": "Message or email sent when a waitlist group status changed to called",
+        "HEADER": "Table is Ready",
+        "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
+        "PREHEADER": "We're waiting for you.",
+        "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
+        "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
+      },
+      "SEATED": {
+        "DISPLAYNAME": "Customer is seated",
+        "DESCRIPTION": "Notification sent to the guest when he was seated",
+        "HEADER": "Thanks for dining with us",
+        "SUBJECT": "Thanks for dining with us",
+        "PREHEADER": "Thanks for dining with us",
+        "TEXT": "Thanks for dining with us!",
+        "MAINMESSAGE": "Thanks for dining with us"
+      },
+      "CANCELEDBYGUEST": {
+        "DISPLAYNAME": "Guest left the waitlist",
+        "DESCRIPTION": "Message sent when a guest cancels the waitlist themselves",
+        "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+        "PREHEADER": "Hope to see you back soon",
+        "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
+        "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
+      },
+      "CANCELEDBYHOST": {
+        "DISPLAYNAME": "Cancelled by host",
+        "DESCRIPTION": "Host removed a guest from the waitlist",
+        "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
+        "PREHEADER": "Removed from the waitlist.",
+        "HEADER": "Cancelled by host",
+        "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
+        "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
+      },
+      "CAMPAIGN": {
+        "DISPLAYNAME": "Your marketing email campaign",
+        "DESCRIPTION": "Send your marketing email to your customers",
+        "SUBJECT": "Some nice subtitle!",
+        "PREHEADER": "Why they should open the email?",
+        "TEXT": "Let's send the text",
+        "MAINMESSAGE": "Promote promote promote!"
+      },
+      "CHANGEDFORHOST": {
+        "DISPLAYNAME": "Changed reservation notification",
+        "DESCRIPTION": "Email send to host when a reservation was changed",
+        "SUBJECT": "The reservation has been changed",
+        "PREHEADER": "Check the changes.",
+        "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been changed",
+        "HEADER": "Reservation Changed",
+        "MAINMESSAGE": "The following reservation has been changed"
+      },
+      "CANCELEDFORHOST": {
+        "DISPLAYNAME": "Cancelled reservation notification",
+        "DESCRIPTION": "Email send to host when a reservation was cancelled.",
+        "SUBJECT": "The reservation has been cancelled",
+        "PREHEADER": "Check the changes.",
+        "TEXT": "The reservation for {{Guest.CustomerName}} {{Booking.ReservationDateTime}} has been cancelled",
+        "HEADER": "Reservation Cancelled",
+        "MAINMESSAGE": "The following reservation has been cancelled"
+      },
+      "APPROVALFORHOST": {
+        "DISPLAYNAME": "Manual approval request",
+        "DESCRIPTION": "Email send to host with the new request, waiting for manual approval",
+        "SUBJECT": "New online reservation request. Action required!",
+        "PREHEADER": " {{Booking.ReservationDateTime}} / {{Guest.CustomerName}} / {{Booking.PartySize}} guests",
+        "TEXT": "New reservation request: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}. Please review.",
+        "HEADER": "New Request",
+        "MAINMESSAGE": "Please, review and approve the following reservation"
+      },
+      "NEWRESERVATIONFORHOST": {
+        "DISPLAYNAME": "New Reservation Notification",
+        "DESCRIPTION": "The notification about new reservation. Note: Not an approval request!",
+        "SUBJECT": "New Reservation!",
+        "PREHEADER": "{{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+        "TEXT": "A new reservation on {{Booking.ReservationDateTime}} has been made",
+        "HEADER": "New Reservation",
+        "MAINMESSAGE": "New reservation:"
+      },
+      "REMINDERFORHOST": {
+        "DISPLAYNAME": "Reservation reminder for host",
+        "DESCRIPTION": "Upcoming reservation reminder for staff",
+        "SUBJECT": "Upcoming reservation reminder",
+        "PREHEADER": "{{Guest.CustomerName}} / {{Booking.ReservationDateTime}}",
+        "TEXT": "Upcoming reservation reminder: {{Booking.ReservationDateTime}} / {{Guest.CustomerName}}",
+        "HEADER": "Upcoming reservation:",
+        "MAINMESSAGE": "This is friendly reminder about upcoming reservation:"
+      },
+      "INVITATIONFORHOST": {
+        "DISPLAYNAME": "Invitation for staff",
+        "DESCRIPTION": "Invitation to join restaurant as a user",
+        "SUBJECT": "You have been invited to join the {{Branding.Copirate}} app!",
+        "PREHEADER": "Follow the link to accept the invitation",
+        "HEADER": "",
+        "BUTTONTEXT": "Accept",
+        "MAINMESSAGE": "You have been invited to join the {{Branding.Copirate}} app as {{Employee.Role}}!"
+      },
+      "PAYMENTLINK": {
+        "DISPLAYNAME": "Payment link",
+        "DESCRIPTION": "Easy way to send the link to pay for {{Branding.Copirate}} subscribtion",
+        "SUBJECT": "Pay for the {{Branding.Copirate}} {{PlanName}} plan",
+        "PREHEADER": "Follow the payment link to complete {{Branding.Copirate}} {{PlanName}}",
+        "HEADER": "Subscribe",
+        "BUTTONTEXT": "Subscribe",
+        "MAINMESSAGE": "Please follow this link to complete {{Branding.Copirate}} {{PlanName}} subscription purchase for {{Restaurant.Name}} restaurant:"
+      },
+      "REMINDERTOPAY": {
+        "DISPLAYNAME": "Reminder to pay for the subscribtion",
+        "DESCRIPTION": "Reminder to pay for the {{Branding.Copirate}} subscribtion",
+        "SUBJECT": "Your staff reminds you to upgrade your {{Branding.Copirate}}  plan",
+        "PREHEADER": "Reminder",
+        "HEADER": "Billing",
+        "BUTTONTEXT": "Billing",
+        "MAINMESSAGE": "Your staff reminds you to solve billing issues to remain {{Branding.Copirate}} account active. Restaurant account will be blocked after {{Subscription.DaysBeforeTrialEnds}} days if no payment received."
+      },
+      "BLOCKED": {
+        "DISPLAYNAME": "Restaurant account is blocked",
+        "DESCRIPTION": "Notification to restaurant owners and managers when a restaurant was blocked due to billing issues.",
+        "SUBJECT": "Restaurant is blocked",
+        "PREHEADER": "Please, check your payment settings",
+        "TEXT": "Your restaurant account was blocked. Please, check your payment settings or upgrade.",
+        "HEADER": "Your restaurant is blocked",
+        "BUTTONTEXT": "Billing",
+        "MAINMESSAGE": "Your restaurant account was blocked. Please, check your payment settings or upgrade."
+      },
+      "RESETPASSWORD": {
+        "DISPLAYNAME": "Reset Password",
+        "DESCRIPTION": "Reset Password email for hosts",
+        "SUBJECT": "Reset your  {{Branding.Copirate}} password",
+        "PREHEADER": "Password inside",
+        "TEXT": "Reset your  {{Branding.Copirate}} password",
+        "HEADER": "Reset your  {{Branding.Copirate}} password",
+        "BUTTONTEXT": "Reset Password",
+        "MAINMESSAGE": "If you've forgotten your password or wish to reset it, click Reset Password button."
+      },
+      "EXPORTTOCSV": {
+        "DISPLAYNAME": "Export guestbook email",
+        "DESCRIPTION": "The email with attached CSV file",
+        "SUBJECT": "Your CSV export is ready {{CsvFileName}}",
+        "PREHEADER": "Your CSV export is ready {{CsvFileName}}",
+        "HEADER": "Hello {{Guest.CustomerName}},",
+        "MAINMESSAGE": "Your, CSV export is attached."
+      },
+      "WELCOMEFORHOST": {
+        "DISPLAYNAME": "Welcome restaurant user",
+        "DESCRIPTION": "Welcome email for new restaurant user signups",
+        "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
+        "PREHEADER": "How to start",
+        "BUTTONTEXT": "Learn more",
+        "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+        "MAINMESSAGE": "<p>You have been invited to join the {{Branding.Copirate}} app as <strong>{{Employee.Role}}</strong> for <strong>{{Restaurant.Name}}</strong>!</p><ul><li><strong>Your sign-in email is:&nbsp;<a href='{{Employee.Email}}' >{{Employee.Email}}</a></strong></li>    <li><strong>Your host panel URL:&nbsp;<a href='{{Restaurant.Links.PanelUrl}}'>{{Restaurant.Links.PanelUrl}}</a></strong></li></ul>"
+      },
+      "WELCOMEFOROWNER": {
+        "DISPLAYNAME": "Welcome restaurant user",
+        "DESCRIPTION": "Welcome email for new restaurant user signups",
+        "SUBJECT": "Welcome to the {{Branding.Copirate}} app!",
+        "PREHEADER": "How to start",
+        "BUTTONTEXT": "Learn more",
+        "HEADER": "{{Employee.EmployeeName}}, welcome to {{Branding.Copirate}}!",
+        "MAINMESSAGE": "Hostme will help you optimize your restaurant operations, and boost your online presence. Hostme is the trusted partner you deserve.",
+        "PROMOTEXT": "<h2 style='text-align: left'>Online Omnipresence</h2><div style='font-family: inherit; text-align: inherit'>Be where your customers are. Make it easy for your guests and allow them to make reservations through your website, your social media profile and through all Google search and map sites. And as a bonus, keep all your information consistent with Yext!</div><h2 style='text-align: inherit'>Reservations as easy as 1.2.3</h2><div style='font-family: inherit; text-align: inherit'>Guests can make reservations in fewer clicks, increasing conversions into actual bookings. No more lost reservation, or double-bookings. Install the Hostme widget on your website without extra fees and see your business grow.</div><h2 style='text-align: inherit'>And so much more!</h2><div style='font-family: inherit; text-align: inherit'>Did you know that Hostme can also help you organize events, accept online orders, and manage your waitlist without the need for pagers? Be in touch with your guests and provide world class service without breaking the bank!</div>"
+      },
+      "CONFIRMEMAIL": {
+        "DISPLAYNAME": "Email confirmation",
+        "DESCRIPTION": "Email sent to all new users to confirm email",
+        "SUBJECT": "Complete your {{Branding.Copirate}} sign up",
+        "PREHEADER": "Confirm email for {{Branding.Copirate}}",
+        "BUTTONTEXT": "Verify email address",
+        "HEADER": "You are almost there!",
+        "MAINMESSAGE": "Thank you for signing up for {{Branding.Copirate}}! Click the button below to verify your email, and we'll help you get started."
+      },
+      "GUESTINVOICE": {
+        "DISPLAYNAME": "Complete reservation payment",
+        "DESCRIPTION": "Email reminder to complete reservation payment",
+        "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
+        "PREHEADER": "Complete your reservation",
+        "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
+        "HEADER": "Complete your reservation",
+        "MAINMESSAGE": "To complete the following reservation, please proceed to the credit card payment:"
+      },
+       "PAYMENTREMINDER": {
+        "DISPLAYNAME": "Complete reservation payment",
+        "DESCRIPTION": "Email reminder to complete reservation payment",
+        "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
+        "PREHEADER": "Complete your reservation",
+        "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
+        "HEADER": "Your reservation hasn't been completed",
+        "MAINMESSAGE": "To complete the following reservation successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the reservation will be automatically cancelled."
+      },
+      "PAYMENTREMINDERORDER": {
+        "DISPLAYNAME": "Complete order payment",
+        "DESCRIPTION": "Email reminder to complete order payment",
+        "SUBJECT": "Add credit card for your order at {{Restaurant.Name}}!",
+        "PREHEADER": "Complete your order",
+        "TEXT": "Complete your order by following this link {{Booking.Links.GuestReservationViewUrl}}",
+        "HEADER": "Your order hasn't been completed",
+        "MAINMESSAGE": "To complete the following order successfully, please proceed to the credit card payment within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
+      },
+      "BILLINGINVOICE": {
+        "DISPLAYNAME": "Billing invoice",
+        "DESCRIPTION": "Email sent to customer with subscription invoice",
+        "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your invoice #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+        "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your invoice is available for {{Invoice.Customer.LegalName}}",
+        "HEADER": "Invoice #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
+        "MAINMESSAGE": "You can pay this invoice by following this link:",
+        "BUTTONTEXT": "Pay online"
+      },
+      "BILLINGRECEIPT": {
+        "DISPLAYNAME": "Billing receipt",
+        "DESCRIPTION": "Email sent to customer with receipt",
+        "SUBJECT": "{{Invoice.PayTo.LegalName}}: Your receipt #{{Invoice.Number}} is available for {{Invoice.Customer.LegalName}}",
+        "PREHEADER": "{{Invoice.PayTo.LegalName}}: Your receipt is available for {{Invoice.Customer.LegalName}}",
+        "HEADER": "Receipt #{{Invoice.Number}} for {{Invoice.Customer.LegalName}}",
+        "MAINMESSAGE": "{{Invoice.PeriodStart}} - {{Invoice.PeriodEnd}} :",
+        "BUTTONTEXT": "View receipt"
+      },
+      "APPFEEDBACK": {
+        "DISPLAYNAME": "Marketplace App Review",
+        "DESCRIPTION": "Email sent to customer to review marketplace app",
+        "SUBJECT": "Please, review {{App.Name}}",
+        "PREHEADER": "Please, review {{App.Name}}",
+        "HEADER": "{{App.Name}} review:",
+        "MAINMESSAGE": "Please review the app by following this link:",
+        "BUTTONTEXT": "Review"
+      }
+    }
+  }
