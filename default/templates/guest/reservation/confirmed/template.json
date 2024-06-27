@@ -16,7 +16,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMED.MAINMESSAGE}}"
   },
-  "AttachmentTemplates":["eventticket"],
   "Booking": {
     "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
     "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
