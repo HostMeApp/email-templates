@@ -124,6 +124,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "The order has been canceled",
       "PREHEADER": "Order Canceled",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been canceled.",
       "HEADER": "Order Canceled",
       "BUTTONTEXT": "View Order Details",
@@ -134,6 +135,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "The order has been changed",
       "PREHEADER": "Review the changes",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been changed.",
       "HEADER": "Order Changed",
       "BUTTONTEXT": "View Order Details",
@@ -144,6 +146,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
       "SUBJECT": "Your order at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Order receipt",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Order Confirmed",
       "BUTTONTEXT": "View Order Details",
@@ -154,6 +157,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
       "SUBJECT": "Your order at {{Restaurant.Name}} is ready!",
       "PREHEADER": "Order is ready",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order at {{Restaurant.Name}} is ready for pickup.",
       "HEADER": "Order Is Ready",
       "MAINMESSAGE": "The following order is ready for pickup:"
@@ -163,6 +167,7 @@
       "DESCRIPTION": "Email sent to guests to confirm their order request was received",
       "SUBJECT": "Your order request at {{Restaurant.Name}} has been received!",
       "PREHEADER": "Order request",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order request at {{Restaurant.Name}} has been received.",
       "HEADER": "Order Request Received",
       "MAINMESSAGE": "The following order request has been received:"
@@ -172,6 +177,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for  {{Guest.CustomerName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
@@ -182,26 +188,29 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Guest.CustomerName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
     },
-    
+
     "GUESTINVOICEORDER": {
       "DISPLAYNAME": "Order Payment Notification",
       "DESCRIPTION": "Email sent to customer with payment invoice",
       "SUBJECT": "Payment link for your order at {{Restaurant.Name}}!",
       "PREHEADER": "Payment link",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Pay order at {{Restaurant.Name}} by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Your order hasn't been completed",
       "MAINMESSAGE": "To complete the following order successfully, please pay the order within 10 minutes of receiving this email. Otherwise the order will be automatically cancelled."
     },
-    
+
     "ACCEPTANCECONFIRMATION": {
       "DISPLAYNAME": "Reservation Invite Accepted",
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Check your reservation details.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "HEADER": "Reservation Accepted",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
@@ -220,6 +229,7 @@
       "DESCRIPTION": "Email sent to customers to confirm the change",
       "SUBJECT": "The reservation has been changed",
       "PREHEADER": "Review the changes",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Reservation for {{Booking.PartySize}} has been changed.",
       "HEADER": "Reservation Changed",
       "BUTTONTEXT": "Manage your Reservation",
@@ -230,6 +240,7 @@
       "DESCRIPTION": "Email sent to customer when reservation has been confirmed",
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Review the reservation",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
@@ -239,6 +250,7 @@
       "DESCRIPTION": "Email sent to customer to request a feedback after visit.",
       "SUBJECT": "Leave your feedback for {{Restaurant.Name}}",
       "PREHEADER": "Only {{Restaurant.Name}} will read",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Leave your feedback for {{Restaurant.Name}}",
       "HEADER": "Thanks for the visit!",
       "BUTTONTEXT": "Leave a Feedback",
@@ -268,6 +280,7 @@
       "DESCRIPTION": "Email sent to customer to reject reservation request",
       "SUBJECT": "Your reservation at {{Restaurant.Name}} has been rejected",
       "PREHEADER": "Check the reason",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your reservation request at {{Restaurant.Name}} was rejected - {{Booking.Reason}}",
       "HEADER": "Reservation Rejected",
       "MAINMESSAGE": "The following reservation request has been rejected:"
@@ -277,6 +290,7 @@
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
       "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Please, cancel if you're not able to come.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "HEADER": "Upcoming Reservation",
       "MAINMESSAGE": "You have Upcoming reservation:"
@@ -286,6 +300,7 @@
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
       "SUBJECT": "Your reservation request at {{Restaurant.Name}} has been received.",
       "PREHEADER": "Reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}}",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your reservation request on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} is waiting confirmation.",
       "HEADER": "Waiting for approval",
       "MAINMESSAGE": "Thanks for making your reservation at {{Restaurant.Name}} using Hostme! This reservation request will be reviewed by the {{Restaurant.Name}} team."
@@ -297,6 +312,7 @@
       "CONTENT": "Please, check your status by following the link.",
       "SUBJECT": "You're now on the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Check your status",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status.",
       "MAINMESSAGE": "You're now on the waitlist and will receive updates on the status of your table. Please use your phone to communicate with us about your status."
     },
@@ -306,6 +322,7 @@
       "HEADER": "Table is Ready",
       "SUBJECT": "You table at {{Restaurant.Name}} is ready!",
       "PREHEADER": "We're waiting for you.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!",
       "MAINMESSAGE": "Your table is ready! Please go to the host to be seated. Thank you for using Hostme!"
     },
@@ -323,6 +340,7 @@
       "DESCRIPTION": "Message sent when a guest cancels the waitlist themselves",
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Hope to see you back soon",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You have been removed from the waitlist. We hope to see you next time!",
       "MAINMESSAGE": "You have been removed from the waitlist. We hope to see you next time!"
     },
@@ -331,6 +349,7 @@
       "DESCRIPTION": "Host removed a guest from the waitlist",
       "SUBJECT": "You have been removed from the waitlist at {{Restaurant.Name}}",
       "PREHEADER": "Removed from the waitlist.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "HEADER": "Canceled by host",
       "TEXT": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line.",
       "MAINMESSAGE": "We didn't hear back from you, so we removed you from the waitlist. Please respond to this message with a text if you would like to stay in line."
@@ -476,6 +495,7 @@
       "DESCRIPTION": "Email reminder to complete reservation payment",
       "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
       "PREHEADER": "Complete your reservation",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Complete your reservation by following this link {{Booking.Links.GuestReservationViewUrl}}",
       "HEADER": "Complete your reservation",
       "MAINMESSAGE": "To complete the following reservation, please proceed to the credit card payment:"
