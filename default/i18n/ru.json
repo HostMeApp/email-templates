@@ -32,7 +32,7 @@
       "VIEWRESERVATION": "Управление бронью",
       "DELIVERY": "Доставка:",
       "PICKUP": "Навынос:",
-    	"NOTES": "Заметка:",
+      "NOTES": "Заметка:",
       "STATUS": "Статус:",
       "AREA": "Зона размещения:",
       "DURATION": "Продолжительность визита:",
@@ -60,9 +60,9 @@
       "INN": "ИНН",
       "KPP": "КПП",
       "BILLAGENT": "Агент",
-      "PRODUCT":"Наименование пр.",
-      "UNITPRICE":"Цена за ед. пр.",
-      "UNITQUANTITY":"Колич. пр."
+      "PRODUCT": "Наименование пр.",
+      "UNITPRICE": "Цена за ед. пр.",
+      "UNITQUANTITY": "Колич. пр."
     },
     "CANCELEDORDER": {
       "DISPLAYNAME": "Customer Cancels order",
@@ -464,6 +464,14 @@
       "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.PeriodEnd}}",
       "MAINMESSAGE": "{{Invoice.PeriodStart}} - {{Invoice.PeriodEnd}} :",
       "BUTTONTEXT": "Открыть чек"
+    },
+    "SPECIALDAYS": {
+      "DISPLAYNAME": "Guests with upcoming important dates",
+      "DESCRIPTION": "Email with list of guests with upcoming aniversary or birthday",
+      "SUBJECT": "List of guests with upcoming dates",
+      "PREHEADER": "List of guests with upcoming dates",
+      "HEADER": "Hello {{Guest.CustomerName}},",
+      "MAINMESSAGE": "Please, find list of guests with upcoming important dates such as aniversary or birthday"
     }
   }
 }

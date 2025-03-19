@@ -12,7 +12,7 @@
       "TITLE": "Custom Policy 3",
       "CONTENT": "Placeholder for custom policy 3"
     },
-	 "CUSTOMPOLICYORDER1": {
+    "CUSTOMPOLICYORDER1": {
       "TITLE": "Custom Policy Order 1",
       "CONTENT": "Information related to your order is listed above. <br> If you have any questions, please reach out to us directly. Thank you for your understanding."
     },
@@ -79,9 +79,9 @@
       "INN": "INN",
       "KPP": "KPP",
       "BILLAGENT": "Reseller",
-      "PRODUCT":"Product",
-      "UNITPRICE":"Unit Price",
-      "UNITQUANTITY":"Unit Quantity"
+      "PRODUCT": "Product",
+      "UNITPRICE": "Unit Price",
+      "UNITQUANTITY": "Unit Quantity"
     },
     "NEWORDERFORHOST": {
       "DISPLAYNAME": "New Order Notification",
@@ -500,7 +500,7 @@
       "HEADER": "Complete your reservation",
       "MAINMESSAGE": "To complete the following reservation, please proceed to the credit card payment:"
     },
-     "PAYMENTREMINDER": {
+    "PAYMENTREMINDER": {
       "DISPLAYNAME": "Complete reservation payment",
       "DESCRIPTION": "Email reminder to complete reservation payment",
       "SUBJECT": "Add credit card for your reservation at {{Restaurant.Name}}!",
@@ -544,6 +544,14 @@
       "HEADER": "{{App.Name}} review:",
       "MAINMESSAGE": "Please review the app by following this link:",
       "BUTTONTEXT": "Review"
+    },
+    "SPECIALDAYS": {
+      "DISPLAYNAME": "Guests with upcoming important dates",
+      "DESCRIPTION": "Email with list of guests with upcoming aniversary or birthday",
+      "SUBJECT": "List of guests with upcoming dates",
+      "PREHEADER": "List of guests with upcoming dates",
+      "HEADER": "Hello {{Guest.CustomerName}},",
+      "MAINMESSAGE": "Please, find list of guests with upcoming important dates such as aniversary or birthday"
     }
   }
 }
