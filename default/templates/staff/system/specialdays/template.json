@@ -5,9 +5,6 @@
   "SUBJECT": "{{I18N.SPECIALDAYS.SUBJECT}}",
   "PREHEADER": "{{I18N.SPECIALDAYS.PREHEADER}}",
   "HEADER": "{{I18N.SPECIALDAYS.HEADER}}",
-  "ContentTemplate": {
-    "email": "d-5aa9bd0217f340dc914b6ec142f8a6fd"
-  },
   "AttachmentTemplates": [ "guestlist.pdf", "guestlist.csv"],
   "MAINMESSAGE": {
     "Content": "{{I18N.SPECIALDAYS.MAINMESSAGE}}",

@@ -548,10 +548,10 @@
     "SPECIALDAYS": {
       "DISPLAYNAME": "Guests with upcoming important dates",
       "DESCRIPTION": "Email with list of guests with upcoming aniversary or birthday",
-      "SUBJECT": "List of guests with upcoming dates",
+      "SUBJECT": "List of guests with upcoming dates  between {{Date.From}} and {{Date.To}}",
       "PREHEADER": "List of guests with upcoming dates",
       "HEADER": "Hello {{Guest.CustomerName}},",
-      "MAINMESSAGE": "Please, find list of guests with upcoming important dates such as aniversary or birthday"
+      "MAINMESSAGE": "Please, find list of guests with upcoming birthday between {{Date.From}} and {{Date.To}}. We found {{GuestCount}} guests"
     }
   }
 }
