@@ -1,4 +1,5 @@
 {
+  "PUSHTITLE": "{{Restaurant.Name}}",
   "ContentTemplate": {
     "sms": null,
     "email": "d-67955651fbb84215adc7679645a387eb",

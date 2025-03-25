@@ -32,7 +32,7 @@
       "VIEWRESERVATION": "Управление бронью",
       "DELIVERY": "Доставка:",
       "PICKUP": "Навынос:",
-    	"NOTES": "Заметка:",
+      "NOTES": "Заметка:",
       "STATUS": "Статус:",
       "AREA": "Зона размещения:",
       "DURATION": "Продолжительность визита:",
@@ -60,15 +60,16 @@
       "INN": "ИНН",
       "KPP": "КПП",
       "BILLAGENT": "Агент",
-      "PRODUCT":"Наименование пр.",
-      "UNITPRICE":"Цена за ед. пр.",
-      "UNITQUANTITY":"Колич. пр."
+      "PRODUCT": "Наименование пр.",
+      "UNITPRICE": "Цена за ед. пр.",
+      "UNITQUANTITY": "Колич. пр."
     },
     "CANCELEDORDER": {
       "DISPLAYNAME": "Customer Cancels order",
       "DESCRIPTION": "Notification sent to the guest to inform that they receive request to cancel order",
       "SUBJECT": "Заказ отменен",
       "PREHEADER": "Посмотреть изменения",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been canceled.",
       "HEADER": "Заказ отменен",
       "BUTTONTEXT": "Детали Заказа",
@@ -79,6 +80,7 @@
       "DESCRIPTION": "Email sent to customer to confirm the change",
       "SUBJECT": "Заказ был изменен",
       "PREHEADER": "Посмотреть изменения",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been changed.",
       "HEADER": "Заказ Изменен",
       "BUTTONTEXT": "Детали Заказа",
@@ -89,6 +91,7 @@
       "DESCRIPTION": "Письмо клиенту для подтверждения изменения",
       "SUBJECT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
       "PREHEADER": "Бронь в {{Restaurant.Name}} была изменена.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Бронь на {{Booking.ReservationDateTime}} на {{Booking.PartySize}} была изменена.",
       "HEADER": "Бронь изменена!",
       "BUTTONTEXT": "Управление бронью",
@@ -99,6 +102,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
       "SUBJECT": "Your order at {{Restaurant.Name}} has been confirmed!",
       "PREHEADER": "Order receipt",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Order Confirmed",
       "MAINMESSAGE": "The following order has been confirmed:"
@@ -108,6 +112,7 @@
       "DESCRIPTION": "Notification sent to the guest to inform that his order was confirmed.",
       "SUBJECT": "Your order at {{Restaurant.Name}} is ready!",
       "PREHEADER": "Order is ready",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order at {{Restaurant.Name}} is ready for pickup.",
       "HEADER": "Order Is Ready",
       "MAINMESSAGE": "The following order is ready for pickup:"
@@ -117,6 +122,7 @@
       "DESCRIPTION": "Email sent to guests to confirm their order request was received",
       "SUBJECT": "Your order request at {{Restaurant.Name}} has been received!",
       "PREHEADER": "Order request",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order request at {{Restaurant.Name}} has been received.",
       "HEADER": "Order Request Received",
       "MAINMESSAGE": "The following order request has been received:"
@@ -126,6 +132,7 @@
       "DESCRIPTION": "Email sent to a customer after completed order to request private feedback.",
       "SUBJECT": "Thanks for your order! Leave your feedback.",
       "PREHEADER": "Help us improve.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Order on {{Booking.ReservationDateTime}} for  {{Guest.CustomerName}} has been changed.",
       "HEADER": "Leave a Feedback",
       "BUTTONTEXT": "Leave a Feedback",
@@ -136,6 +143,7 @@
       "DESCRIPTION": "Email sent to customer to reject order request",
       "SUBJECT": "Order request was rejected",
       "PREHEADER": "Review the reason",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your order on {{Booking.ReservationDateTime}} for {{Guest.CustomerName}} has been rejected.",
       "HEADER": "Order Rejected",
       "MAINMESSAGE": "The following order has been rejected:"
@@ -145,6 +153,7 @@
       "DESCRIPTION": "Email sent to guests to confirm they accepted the reservation invite",
       "SUBJECT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "PREHEADER": "Check your reservation details.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You have accepted reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationDateTime}}",
       "HEADER": "Reservation Accepted",
       "MAINMESSAGE": "You have accepted the following reservation invite:"
@@ -154,6 +163,7 @@
       "DESCRIPTION": "Письмо сотруднику ресторана, когда резерв был отменен гостем",
       "SUBJECT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
       "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} отменена.",
       "HEADER": "Бронь отменена!",
       "MAINMESSAGE": "Была отменена следующая бронь:"
@@ -173,6 +183,7 @@
       "DESCRIPTION": "Письмо отправлено клиенту, когда резерв был подтвержден",
       "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}} подтверждена",
       "PREHEADER": "Ваша бронь в {{Restaurant.Name}}",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}} в {{Restaurant.Name}} подтверждена.",
       "HEADER": "Ваша бронь подтверждена!",
       "MAINMESSAGE": "Была подтверждена следующая бронь:"
@@ -182,6 +193,7 @@
       "DESCRIPTION": "Письмо клиенту с просьбой оставить отзыв о посещении ресторана.",
       "SUBJECT": "Оставьте ваш отзыв о {{Restaurant.Name}}",
       "PREHEADER": "Только для управляющего {{Restaurant.Name}}",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Оставьте ваш отзыв о посещении ресторана {{Restaurant.Name}}",
       "HEADER": "Спасибо за визит!",
       "BUTTONTEXT": "Оставьте ваш отзыв",
@@ -212,6 +224,7 @@
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
       "SUBJECT": "Ваша бронь в {{Restaurant.Name}} была подтверждена!",
       "PREHEADER": "Посмотреть бронь",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "CONTENT": "Управление бронью",
       "TEXT": "Ваша бронь на {{Booking.ReservationDateTime}}   {{Booking.PartySize}} в {{Restaurant.Name}} была подтверждена.",
       "HEADER": "Резерв подтвержден",
@@ -222,6 +235,7 @@
       "DESCRIPTION": "Email sent to customer to reject reservation request",
       "SUBJECT": "Ваша бронь в {{Restaurant.Name}} отклонена - {{Booking.Reason}}",
       "PREHEADER": "Ваша бронь отклонена",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Ваша бронь в {{Restaurant.Name}} отклонена",
       "HEADER": "Бронь отклонена",
       "MAINMESSAGE": "Бронь была отклонена по причине:"
@@ -231,6 +245,7 @@
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
       "SUBJECT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
       "PREHEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Напоминаем о брони в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}",
       "HEADER": "Напоминаем, что вы забронировали столик в ресторане {{Restaurant.Name}}",
       "MAINMESSAGE": " "
@@ -240,6 +255,7 @@
       "DESCRIPTION": "Email sent to customer to confirm new reservation",
       "SUBJECT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
       "PREHEADER": "Ваша бронь в {{Restaurant.Name}} ожидает подтверждения.",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Ваша бронь в {{Restaurant.Name}} на {{Booking.ReservationDateTime}}\n ожидает подтверждения.",
       "HEADER": "Ваша бронь ожидает подтверждения!",
       "MAINMESSAGE": "Была получена следующая бронь:"
@@ -251,6 +267,7 @@
       "CONTENT": "Пожалуйста, проверьте свой статус, перейдя по ссылке.",
       "SUBJECT": "Вы добавлены в лист ожидания {{Restaurant.Name}}",
       "PREHEADER": "Проверьте статус вашего стола",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": " Вы добавлены в лист ожидания. Пожалуйста, воспользуйтесь своим телефоном, чтобы связаться с нами о статусе вашего стола.",
       "MAINMESSAGE": " Вы добавлены в лист ожидания. Пожалуйста, воспользуйтесь своим телефоном, чтобы связаться с нами о статусе вашего стола."
     },
@@ -260,6 +277,7 @@
       "HEADER": "Ваш стол готов!",
       "SUBJECT": "Ваш стол в {{Restaurant.Name}} готов!",
       "PREHEADER": "Мы ждем Вас в ресторане",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Ваш стол готов! Пожалуйста подойдите к менеджеру, чтобы занять свой стол. Спасибо!",
       "MAINMESSAGE": " Ваш стол готов! Пожалуйста подойдите к менеджеру, чтобы занять свой стол. Спасибо!"
     },
@@ -293,6 +311,7 @@
       "DESCRIPTION": "",
       "SUBJECT": "Мы удалили Вас из листа ожидания в {{Restaurant.Name}}",
       "PREHEADER": "",
+      "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Мы не получили ответа от вас, поэтому удалили вас из списка ожидания. Пожалуйста, ответьте на это сообщение смс, если вы хотите остаться в очереди.",
       "MAINMESSAGE": " Мы не получили ответа от вас, поэтому удалили вас из списка ожидания. Пожалуйста, ответьте на это сообщение смс, если вы хотите остаться в очереди."
     },
@@ -463,6 +482,14 @@
       "HEADER": "Акт сдачи-приемки выполненных работ (оказанных услуг) #{{Invoice.Number}} от {{Invoice.PeriodEnd}}",
       "MAINMESSAGE": "{{Invoice.PeriodStart}} - {{Invoice.PeriodEnd}} :",
       "BUTTONTEXT": "Открыть чек"
+    },
+    "SPECIALDAYS": {
+      "DISPLAYNAME": "Guests with upcoming important dates",
+      "DESCRIPTION": "Email with list of guests with upcoming aniversary or birthday",
+      "SUBJECT": "List of guests with upcoming dates  between {{Date.From}} and {{Date.To}}",
+      "PREHEADER": "List of guests with upcoming dates",
+      "HEADER": "Hello {{Guest.CustomerName}},",
+      "MAINMESSAGE": "Please, find list of guests with upcoming birthday between {{Date.From}} and {{Date.To}}. We found {{GuestCount}} guests"
     }
   }
 }
