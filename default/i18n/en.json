@@ -288,12 +288,12 @@
     "REMINDER": {
       "DISPLAYNAME": "Upcoming Reservation",
       "DESCRIPTION": "Email sent to customer to remind about upcoming reservation request",
-      "SUBJECT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
+      "SUBJECT": "You have an upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "PREHEADER": "Please, cancel if you're not able to come.",
       "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "You have Upcoming reservation in {{Restaurant.Name}} on {{Booking.ReservationDate}} at {{Booking.ReservationTime}}",
       "HEADER": "Upcoming Reservation",
-      "MAINMESSAGE": "You have Upcoming reservation:"
+      "MAINMESSAGE": "You have an upcoming reservation:"
     },
     "RESERVATIONREQUEST": {
       "DISPLAYNAME": "Reservation Confirmation",
