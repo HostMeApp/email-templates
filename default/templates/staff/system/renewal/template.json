@@ -1,0 +1,13 @@
+{
+  "Name": "RENEWAL",
+  "DisplayName": "REMINDER for owner to pay or upgrade",
+  "Description": "An email sent to owner when staff reminds to solve billing issues.",
+  "SUBJECT": "{{I18N.RENEWAL.SUBJECT}}",
+  "PREHEADER": "{{I18N.RENEWAL.PREHEADER}}",
+  "HEADER": "{{I18N.RENEWAL.HEADER}}",
+  "MAINMESSAGE": {
+    "Content": "{{I18N.RENEWAL.MAINMESSAGE}}",
+    "ButtonText": "{{I18N.RENEWAL.BUTTONTEXT}}",
+    "ButtonUrl": "{{PaymentUrl}}"
+  }
+}
