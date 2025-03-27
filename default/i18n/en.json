@@ -552,6 +552,15 @@
       "PREHEADER": "List of guests with upcoming dates",
       "HEADER": "Hello {{Guest.CustomerName}},",
       "MAINMESSAGE": "Please, find list of guests with upcoming birthday between {{Date.From}} and {{Date.To}}. We found {{GuestCount}} guests"
+    },
+    "RENEWAL": {
+      "DISPLAYNAME": "Reminder about annual subscription renewal",
+      "DESCRIPTION": "Reminder about annual subscription renewal",
+      "SUBJECT": "Your annual subscription will automatically renew on {{Subscription.RenewalDate}}",
+      "PREHEADER": "Annual subscription renewal",
+      "HEADER": "Billing",
+      "BUTTONTEXT": "Manage My Billing",
+      "MAINMESSAGE": "Hi {{Employee.EmployeeName}},<p>We hope you’re enjoying your Hostme subscription! This is a friendly reminder that your annual subscription will automatically renew on {{Subscription.RenewalDate}}. Here’s a quick summary of your plan:</p>    •    Plan: {{Subscription.CurrentPlan}}<br>&nbsp; &nbsp;&nbsp;•&nbsp; &nbsp;&nbsp;Renewal Date: {{Subscription.RenewalDate}}<br>&nbsp; &nbsp;&nbsp;•&nbsp; &nbsp;&nbsp;Renewal Amount: {{Subscription.RenewalAmount}}<br>&nbsp;<p><br></p>If you’d like to make any changes to your subscription, please check the Billing section of your {{Branding.Copirate}} account or contact us via the in-app chat or the website's live chat. We’re grateful to have you with us and look forward to another fantastic year!&nbsp;<p>Warm regards,</p><p>{{Branding.Copirate}} team</p>"
     }
   }
 }
