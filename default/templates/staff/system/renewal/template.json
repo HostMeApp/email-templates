@@ -8,6 +8,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.RENEWAL.MAINMESSAGE}}",
     "ButtonText": "{{I18N.RENEWAL.BUTTONTEXT}}",
-    "ButtonUrl": "{{PaymentUrl}}"
+    "ButtonUrl": "{{Subscription.Links.PaymentUrl}}"
   }
 }
