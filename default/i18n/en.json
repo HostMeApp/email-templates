@@ -242,6 +242,7 @@
       "PREHEADER": "Review the reservation",
       "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "WATEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
       "MAINMESSAGE": "The following reservation has been confirmed:"
     },
