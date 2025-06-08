@@ -7,11 +7,13 @@
   "HEADER": "{{I18N.FEEDBACK.HEADER}}",
   "ContentTemplate": {
     "sms": "{{I18N.FEEDBACK.TEXT}}",
-    "push": "{{I18N.FEEDBACK.TEXT}}"
+    "push": "{{I18N.FEEDBACK.TEXT}}",
+    "wa": "wa.json"
   },
   "ChannelStatus": {
     "sms": { "Enable": false },
-    "email": { "Enable": true }
+    "email": { "Enable": true },
+    "wa": { "Enable": true }
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.FEEDBACK.MAINMESSAGE}}"

@@ -1,0 +1,22 @@
+{
+  "twilio/card": {
+    "title": "{{I18N.CONFIRMED.MAINMESSAGE}}",
+    "subtitle": "{{I18N.CONFIRMED.HEADER}}",
+    "media": [ "https://hostmerestaurantsqa.blob.core.windows.net/restaurants/{{Restaurant.Promo}}" ],
+    "actions": [
+      {
+        "url": "{{Branding.GuestAppUrl}}/{{Booking.Links.GuestReservationViewQuery}}",
+        "title": "{{I18N.LABELS.MANAGERESERVATION}}",
+        "type": "URL"
+      },
+      {
+        "phone": "{{Restaurant.Phone}}",
+        "title": "Call Us",
+        "type": "PHONE_NUMBER"
+      }
+    ]
+  },
+  "twilio/text": {
+    "body": "{{I18N.CONFIRMED.MAINMESSAGE}}"
+  }
+}

@@ -8,7 +8,7 @@
   "ContentTemplate": {
     "sms": "{{I18N.CONFIRMED.TEXT}}",
     "push": "{{I18N.CONFIRMED.TEXT}}",
-    "wa": "{{I18N.CONFIRMED.WATEXT}}"
+    "wa": "wa.json"
   },
   "ChannelStatus": {
     "sms": { "Enable": true },
