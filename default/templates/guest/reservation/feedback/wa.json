@@ -32,7 +32,7 @@
             "type": "LONG_TEXT"
           },
           {
-            "text": "booking:{{Booking.Id}}",
+            "text": "booking: {{Booking.Id}} .",
             "type": "TEXT_CAPTION"
           }
         ]

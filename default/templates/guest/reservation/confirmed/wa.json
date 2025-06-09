@@ -1,12 +1,12 @@
 {
   "twilio/card": {
-    "title": "{{I18N.CONFIRMED.MAINMESSAGE}}",
-    "subtitle": "{{I18N.CONFIRMED.HEADER}}",
+    "title": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+    "subtitle": "Reply to talk to us",
     "media": [ "https://hostmerestaurantsqa.blob.core.windows.net/restaurants/{{Restaurant.Promo}}" ],
     "actions": [
       {
-        "url": "{{Branding.GuestAppUrl}}/{{Booking.Links.GuestReservationViewQuery}}",
-        "title": "{{I18N.LABELS.MANAGERESERVATION}}",
+        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
+        "title": "Manage reservation",
         "type": "URL"
       },
       {
@@ -17,6 +17,6 @@
     ]
   },
   "twilio/text": {
-    "body": "{{I18N.CONFIRMED.MAINMESSAGE}}"
+    "body": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed."
   }
 }
