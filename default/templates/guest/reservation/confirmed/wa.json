@@ -10,7 +10,7 @@
         "type": "URL"
       },
       {
-        "phone": "+17033037416",
+        "phone": "{{Restaurant.Phone}}",
         "title": "Call Us",
         "type": "PHONE_NUMBER"
       }
