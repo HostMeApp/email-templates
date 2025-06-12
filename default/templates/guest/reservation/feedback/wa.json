@@ -9,7 +9,7 @@
       {
         "id": "food_quality_screen",
         "next_page_id": "service_quality_screen",
-        "subtitle": "How would you rate the quality of the food you enjoyed today?",
+        "subtitle": "How would you rate the quality of the food ?",
         "title": "Food Quality",
         "layout": [
           {
