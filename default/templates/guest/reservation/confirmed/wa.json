@@ -2,7 +2,7 @@
   "twilio/card": {
     "title": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
     "subtitle": "Reply to talk to us",
-    "media": [ "https://hostmerestaurantsqa.blob.core.windows.net/photos/md/{{Restaurant.Promo.Id}}" ],
+    "media": [ "{{Restaurant.Promo}}" ],
     "actions": [
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",

@@ -4,7 +4,7 @@
     "type": "SURVEY",
     "body": "Thank you for dining with us at {{Restaurant.Name}} !",
     "button_text": "Share Feedback",
-    "media_url": null,
+    "media_url": "{{Restaurant.Promo}}",
     "pages": [
       {
         "id": "food_quality_screen",
