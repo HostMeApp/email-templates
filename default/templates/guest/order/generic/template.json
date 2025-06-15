@@ -3,7 +3,7 @@
   "DisplayName": "{{I18N.GENERICORDER.DISPLAYNAME}}",
   "Description": "{{I18N.GENERICORDER.DESCRIPTION}}",
   "ContentTemplate": {
-    "wa": "wa.json"
+    "wa": "{{I18N.GENERICORDER.TEXT}}"
   },
   "ChannelStatus": {
     "wa": { "Enable": true }

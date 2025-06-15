@@ -3,7 +3,7 @@
   "DisplayName": "{{I18N.GENERIC.DISPLAYNAME}}",
   "Description": "{{I18N.GENERIC.DESCRIPTION}}",
   "ContentTemplate": {
-    "wa": "wa.json"
+    "wa": "{{I18N.GENERIC.TEXT}}"
   },
   "ChannelStatus": {
     "wa": { "Enable": true }
