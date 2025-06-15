@@ -5,6 +5,7 @@
   "SUBJECT": "{{I18N.CALLED.SUBJECT}}",
   "PREHEADER": "{{I18N.CALLED.PREHEADER}}",
   "HEADER": "{{I18N.CALLED.HEADER}}",
+  "Image": "called",
   "ContentTemplate": {
     "sms": "{{I18N.CALLED.TEXT}}",
     "push": "{{I18N.CALLED.TEXT}}"

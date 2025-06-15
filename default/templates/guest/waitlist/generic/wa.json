@@ -1,0 +1,22 @@
+{
+  "twilio/card": {
+    "title": "{{I18N.GENERICWAITLIST.WATEXT}}",
+    "subtitle": "Reply to talk to us",
+    "media": [ "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/waitlist/{{Image}}.jpeg" ],
+    "actions": [
+      {
+        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestWaitlistManageQuery}}",
+        "title": "Wait details",
+        "type": "URL"
+      },
+      {
+        "phone": "{{Restaurant.Phone}}",
+        "title": "Call Us",
+        "type": "PHONE_NUMBER"
+      }
+    ]
+  },
+  "twilio/text": {
+    "body": "{{I18N.GENERICWAITLIST.WATEXT}}}"
+  }
+}

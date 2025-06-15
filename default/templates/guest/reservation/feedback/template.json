@@ -5,6 +5,7 @@
   "SUBJECT": "{{I18N.FEEDBACK.SUBJECT}}",
   "PREHEADER": "{{I18N.FEEDBACK.PREHEADER}}",
   "HEADER": "{{I18N.FEEDBACK.HEADER}}",
+  "Image": "feedback",
   "ContentTemplate": {
     "sms": "{{I18N.FEEDBACK.TEXT}}",
     "push": "{{I18N.FEEDBACK.TEXT}}",

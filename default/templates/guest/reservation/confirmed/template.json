@@ -5,6 +5,7 @@
   "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
   "HEADER": "{{I18N.CONFIRMED.HEADER}}",
+  "Image": "confirmed",
   "ContentTemplate": {
     "sms": "{{I18N.CONFIRMED.TEXT}}",
     "push": "{{I18N.CONFIRMED.TEXT}}",

@@ -1,0 +1,22 @@
+{
+  "twilio/card": {
+    "title": "{{I18N.GENERICORDER.WATEXT}}",
+    "subtitle": "Reply to talk to us",
+    "media": [ "{{Restaurant.Promo}}" ],
+    "actions": [
+      {
+        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
+        "title": "{{I18N.LABELS.MANAGEORDER}}",
+        "type": "URL"
+      },
+      {
+        "phone": "{{Restaurant.Phone}}",
+        "title": "Call Us",
+        "type": "PHONE_NUMBER"
+      }
+    ]
+  },
+  "twilio/text": {
+    "body": "{{I18N.GENERICORDER.WATEXT}}"
+  }
+}

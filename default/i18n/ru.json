@@ -456,7 +456,7 @@
       "HEADER": "Завершите ваше бронирование",
       "MAINMESSAGE": "Чтобы завершить бронирование, пожалуйста, перейдите к оплате банковской картой:"
     },
-     "PAYMENTREMINDER": {
+    "PAYMENTREMINDER": {
       "DISPLAYNAME": "Завершите оплату бронирования",
       "DESCRIPTION": "Напоминание оплаты бронирования",
       "SUBJECT": "Добавьте банковскую карту для резервации в {{Restaurant.Name}}!",
@@ -490,6 +490,21 @@
       "PREHEADER": "List of guests with upcoming dates",
       "HEADER": "Hello {{Guest.CustomerName}},",
       "MAINMESSAGE": "Please, find list of guests with upcoming birthday between {{Date.From}} and {{Date.To}}. We found {{GuestCount}} guests"
+    },
+    "GENERIC": {
+      "DISPLAYNAME": "Универсальный шаблон для брони",
+      "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{TEXT}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!"
+    },
+    "GENERICORDER": {
+      "DISPLAYNAME": "Универсальный шаблон для заказа",
+      "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{TEXT}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!"
+    },
+    "GENERICWAITLIST": {
+      "DISPLAYNAME": "Универсальный шаблон для очереди",
+      "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{TEXT}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!"
     }
   }
 }

@@ -562,6 +562,21 @@
       "HEADER": "Billing",
       "BUTTONTEXT": "Manage My Billing",
       "MAINMESSAGE": "Hello, <p>We hope you’re enjoying your {{Branding.Copirate}} subscription! This is a friendly reminder that your annual subscription will automatically renew on {{Subscription.RenewalDate}}. Here’s a quick summary of your plan:</p><ul><li><b>Account ID:</b> {{Restaurant.Id}}</li><li><b>Account Name:</b> {{Restaurant.Name}}</li><li><b>Plan:</b> {{Subscription.CurrentPlan}}</li><li><b>Renewal Date:</b>{{Subscription.RenewalDate}}</li><li><b>Renewal Amount:</b>{{Subscription.RenewalAmount}} {{Subscription.Currency}}</li></ul>If you’d like to make any changes to your subscription, please check the Billing section of your {{Branding.Copirate}} account or contact us via the in-app chat or the website's live chat. We’re grateful to have you with us and look forward to another fantastic year!<br><p>Warm regards,</p><p>{{Branding.Copirate}} team</p>"
+    },
+    "GENERIC": {
+      "DISPLAYNAME": "Generic reservation template",
+      "DESCRIPTION": "this is generic reservation template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{TEXT}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
+    },
+    "GENERICORDER": {
+      "DISPLAYNAME": "Generic order template",
+      "DESCRIPTION": "this is generic order template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{TEXT}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
+    },
+    "GENERICWAITLIST": {
+      "DISPLAYNAME": "Generic waitlist template",
+      "DESCRIPTION": "this is generic waitlist template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{TEXT}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
     }
   }
 }
