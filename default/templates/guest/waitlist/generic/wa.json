@@ -9,8 +9,18 @@
     "actions": [
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestWaitlistManageQuery}}",
-        "title": "Wait details",
+        "title": "Details",
         "type": "URL"
+      },
+      {
+        "Id": "waitlist_cancel",
+        "title": "Leave the line",
+        "type": "QUICK_REPLY"
+      },
+      {
+        "Id": "waitlist_skip",
+        "title": "Skip one",
+        "type": "QUICK_REPLY"
       },
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
