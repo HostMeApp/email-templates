@@ -4,7 +4,7 @@
     "subtitle": "Reply to talk to us",
     "media": [
       "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/reservation/{{Image}}.jpeg",
-      "{{Restaurant.Promo}}"
+      "https://hostmeqa.blob.core.windows.net/{{Restaurant.PromoPath}}"
     ],
     "actions": [
       {
@@ -13,9 +13,9 @@
         "type": "URL"
       },
       {
-        "phone": "{{Restaurant.Phone}}",
-        "title": "Call Us",
-        "type": "PHONE_NUMBER"
+        "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
+        "title": "Restaurant Website",
+        "type": "URL"
       }
     ]
   },

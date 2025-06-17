@@ -4,7 +4,7 @@
     "type": "SURVEY",
     "body": "Thank you for dining with us at {{Restaurant.Name}} !",
     "button_text": "Share Feedback",
-    "media_url": "{{Restaurant.Promo}}",
+    "media_url": "https://hostmeqa.blob.core.windows.net/{{Restaurant.PromoPath}}",
     "pages": [
       {
         "id": "food_quality_screen",

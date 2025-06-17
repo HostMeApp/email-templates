@@ -2,7 +2,7 @@
   "twilio/card": {
     "title": "{{I18N.GENERICORDER.WATEXT}}",
     "subtitle": "Reply to talk to us",
-    "media": [ "{{Restaurant.Promo}}" ],
+    "media": [ "https://hostmeqa.blob.core.windows.net/{{Restaurant.PromoPath}}" ],
     "actions": [
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
@@ -10,9 +10,9 @@
         "type": "URL"
       },
       {
-        "phone": "{{Restaurant.Phone}}",
-        "title": "Call Us",
-        "type": "PHONE_NUMBER"
+        "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
+        "title": "Restaurant Website",
+        "type": "URL"
       }
     ]
   },
