@@ -3,8 +3,7 @@
     "title": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
     "subtitle": "Reply to talk to us",
     "media": [
-      "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/reservation/{{Image}}.jpeg",
-      "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}"
+      "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/reservation/{{Image}}.jpeg"
     ],
     "actions": [
       {
