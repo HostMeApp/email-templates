@@ -4,7 +4,7 @@
     "subtitle": "Reply to talk to us",
     "media": [
       "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/waitlist/{{Image}}.jpeg",
-      "https://hostmeqa.blob.core.windows.net/{{Restaurant.PromoPath}}"
+      "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}"
     ],
     "actions": [
       {

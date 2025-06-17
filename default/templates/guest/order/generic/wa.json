@@ -2,7 +2,7 @@
   "twilio/card": {
     "title": "{{I18N.GENERICORDER.WATEXT}}",
     "subtitle": "Reply to talk to us",
-    "media": [ "https://hostmeqa.blob.core.windows.net/{{Restaurant.PromoPath}}" ],
+    "media": [ "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}" ],
     "actions": [
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
