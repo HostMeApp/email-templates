@@ -7,14 +7,14 @@
     ],
     "actions": [
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
-        "title": "Manage reservation",
-        "type": "URL"
-      },
-      {
         "Id": "reservation_cancel",
         "title": "Cancel Booking",
         "type": "QUICK_REPLY"
+      },
+      {
+        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
+        "title": "Manage reservation",
+        "type": "URL"
       },
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
