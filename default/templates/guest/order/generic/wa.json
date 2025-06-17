@@ -1,7 +1,7 @@
 {
   "twilio/card": {
     "title": "{{I18N.GENERICORDER.WATEXT}}",
-    "subtitle": "Reply to talk to us",
+    "subtitle": "{{I18N.GENERICORDER.SUBTITLE}}",
     "media": [ "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}" ],
     "actions": [
       {
@@ -11,7 +11,7 @@
       },
       {
         "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
-        "title": "Restaurant Website",
+        "title": "{{I18N.LABELS.RESTAURANTWEBSITE}}",
         "type": "URL"
       }
     ]

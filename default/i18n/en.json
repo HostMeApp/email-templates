@@ -57,7 +57,11 @@
       "DURATION": "Duration",
       "ADDITIONALS": "Additionals",
       "CUSTOMADDITIONALS": "Custom additionals",
-      "ISPAID": "Unpaid"
+      "ISPAID": "Unpaid",
+      "RESTAURANTWEBSITE": "Restaurant website",
+      "CANCELRESERVATION": "Cancel my reservation",
+      "LEAVTHELINE": "Leave the line",
+      "SKIPTHELINE": "Skip one"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",
@@ -244,7 +248,8 @@
       "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "WATEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
+      "MAINMESSAGE": "The following reservation has been confirmed:",
+      "SUBTITLE":  "Reply to talk to us"
     },
     "FEEDBACK": {
       "DISPLAYNAME": "Feedback request",
@@ -566,17 +571,20 @@
     "GENERIC": {
       "DISPLAYNAME": "Generic reservation template",
       "DESCRIPTION": "this is generic reservation template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
     },
     "GENERICORDER": {
       "DISPLAYNAME": "Generic order template",
       "DESCRIPTION": "this is generic order template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
     },
     "GENERICWAITLIST": {
       "DISPLAYNAME": "Generic waitlist template",
       "DESCRIPTION": "this is generic waitlist template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!"
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
     }
   }
 }

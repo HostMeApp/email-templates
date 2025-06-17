@@ -1,0 +1,85 @@
+﻿{
+  "twilio/flows": {
+    "subtitle": "Мы будем рады узнать о вашем опыте, чтобы стать лучше.",
+    "type": "SURVEY",
+    "body": "Спасибо, что посетили {{Restaurant.Name}}!",
+    "button_text": "Оставить отзыв",
+    "media_url": "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}",
+    "pages": [
+      {
+        "id": "food_quality_screen",
+        "next_page_id": "service_quality_screen",
+        "subtitle": "Как бы вы оценили качество еды?",
+        "title": "Качество еды",
+        "layout": [
+          {
+            "label": "Выберите один вариант",
+            "name": null,
+            "options": "[{\"id\":\"excellent_food\",\"title\":\"★★★★★ • Отлично\"},{\"id\":\"good_food\",\"title\":\"★★★★☆ • Хорошо\"},{\"id\":\"average_food\",\"title\":\"★★★☆☆ • Средне\"},{\"id\":\"poor_food\",\"title\":\"★★☆☆☆ • Нужно улучшить\"},{\"id\":\"bad_food\",\"title\":\"★☆☆☆☆ • Плохо\"}]",
+            "required": true,
+            "type": "SINGLE_SELECT"
+          },
+          {
+            "text": "Как мы можем стать лучше?",
+            "type": "TEXT_SUBHEADING"
+          },
+          {
+            "input_type": null,
+            "label": "Оставьте комментарий",
+            "name": null,
+            "required": null,
+            "text": "Ваши предложения...",
+            "type": "LONG_TEXT"
+          },
+          {
+            "text": "бронирование: {{Booking.Id}}.",
+            "type": "TEXT_CAPTION"
+          }
+        ]
+      },
+      {
+        "id": "service_quality_screen",
+        "next_page_id": "thank_you_screen",
+        "subtitle": "Как бы вы оценили обслуживание сегодня?",
+        "title": "Качество обслуживания",
+        "layout": [
+          {
+            "label": "Выберите один вариант",
+            "name": null,
+            "options": "[{\"id\":\"excellent_service\",\"title\":\"★★★★★ • Отлично\"},{\"id\":\"good_service\",\"title\":\"★★★★☆ • Хорошо\"},{\"id\":\"average_service\",\"title\":\"★★★☆☆ • Средне\"},{\"id\":\"poor_service\",\"title\":\"★★☆☆☆ • Нужно улучшить\"},{\"id\":\"bad_service\",\"title\":\"★☆☆☆☆ • Плохо\"}]",
+            "required": true,
+            "type": "SINGLE_SELECT"
+          },
+          {
+            "text": "Спасибо за честность. Что мы можем улучшить в нашем обслуживании?",
+            "type": "TEXT_SUBHEADING"
+          },
+          {
+            "input_type": null,
+            "label": "Оставьте комментарий",
+            "name": null,
+            "required": null,
+            "text": "Ваши предложения...",
+            "type": "LONG_TEXT"
+          }
+        ]
+      },
+      {
+        "id": "thank_you_screen",
+        "next_page_id": null,
+        "subtitle": null,
+        "title": "Спасибо!",
+        "layout": [
+          {
+            "text": "Спасибо за ваш ценный отзыв!",
+            "type": "TEXT_HEADING"
+          },
+          {
+            "text": "Мы очень ценим, что вы нашли время поделиться своим опытом.",
+            "type": "TEXT_BODY"
+          }
+        ]
+      }
+    ]
+  }
+}
