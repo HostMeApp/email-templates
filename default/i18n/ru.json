@@ -28,7 +28,7 @@
       "MANAGERESERVATION": "Изменить",
       "MANAGERESERVATIONPAY": "Внести депозит",
       "MANAGEORDER": "Посмотреть",
-      "MANAGEWAITLIST": "Управление листом ожидания",
+      "MANAGEWAITLIST": "Лист ожидания",
       "VIEWRESERVATION": "Управление бронью",
       "DELIVERY": "Доставка:",
       "PICKUP": "Навынос:",
@@ -40,7 +40,7 @@
       "CUSTOMADDITIONALS": "Индивидуальные дополнения:",
       "ISPAID": "Неоплаченный",
       "LEAVTHELINE": "Покинуть очередь",
-      "SKIPTHELINE": "Пропустить одну группу"
+      "SKIPTHELINE": "Пропустить группу"
     },
     "ORDER": {
       "SUBTOTAL": "Предварительный расчет",
