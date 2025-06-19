@@ -497,20 +497,20 @@
     "GENERIC": {
       "DISPLAYNAME": "Универсальный шаблон для брони",
       "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
-      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.Sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
       "SUBTITLE": "Для связи с нами пишите в чат"
     },
     "GENERICORDER": {
       "DISPLAYNAME": "Универсальный шаблон для заказа",
       "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
-      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.Sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
       "SUBTITLE": "Для связи с нами пишите в чат"
 
     },
     "GENERICWAITLIST": {
       "DISPLAYNAME": "Универсальный шаблон для очереди",
       "DESCRIPTION": "Этот шаблон будет использоваться для whatsapp",
-      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.Sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
+      "WATEXT": "Здравствуйте {{Guest.CustomerName}},  \n\nЭто сообщение от хоста '{{Restaurant.Name}}' ресторана:  \n\n*{{ContentTemplate.sms}}*  \n\nЕсли у вас остались вопросы вы можете написать нам прямо здесь. \nСпасибо!",
       "SUBTITLE": "Для связи с нами пишите в чат"
     }
   }

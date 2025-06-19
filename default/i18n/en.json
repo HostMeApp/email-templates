@@ -571,19 +571,19 @@
     "GENERIC": {
       "DISPLAYNAME": "Generic reservation template",
       "DESCRIPTION": "this is generic reservation template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
       "SUBTITLE": "Reply to talk to us"
     },
     "GENERICORDER": {
       "DISPLAYNAME": "Generic order template",
       "DESCRIPTION": "this is generic order template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
       "SUBTITLE": "Reply to talk to us"
     },
     "GENERICWAITLIST": {
       "DISPLAYNAME": "Generic waitlist template",
       "DESCRIPTION": "this is generic waitlist template for whatsapp",
-      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.Sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
       "SUBTITLE": "Reply to talk to us"
     }
   }
