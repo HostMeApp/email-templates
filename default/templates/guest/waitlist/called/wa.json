@@ -1,6 +1,6 @@
 {
   "twilio/card": {
-    "title": "{{I18N.GENERICWAITLIST.WATEXT}}",
+    "title": "{{I18N.CALLED.TEXT}}",
     "subtitle": "{{I18N.GENERICWAITLIST.SUBTITLE}}",
     "media": [
       "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/waitlist/{{Image}}.jpeg"
@@ -9,6 +9,11 @@
       {
         "Id": "waitlist_cancel",
         "title": "{{I18N.LABELS.LEAVTHELINE}}",
+        "type": "QUICK_REPLY"
+      },
+      {
+        "Id": "waitlist_skip",
+        "title": "{{I18N.LABELS.SKIPTHELINE}}",
         "type": "QUICK_REPLY"
       },
       {
@@ -24,6 +29,6 @@
     ]
   },
   "twilio/text": {
-    "body": "{{I18N.GENERICWAITLIST.WATEXT}}}"
+    "body": "{{I18N.CALLED.TEXT}}"
   }
 }
