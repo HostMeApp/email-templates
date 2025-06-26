@@ -585,6 +585,22 @@
       "DESCRIPTION": "this is generic waitlist template for whatsapp",
       "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
       "SUBTITLE": "Reply to talk to us"
+    },
+    "ARCHIVENOTIFICATION":{
+      "DISPLAYNAME": "Archivation Notification after 30 days",
+      "DESCRIPTION": "Email sent to the client after 30 days from the cancellation of the subscription",
+      "SUBJECT": "Your Hostme Account Will Be Archived in 30 Days",
+      "PREHEADER": "Archivation notification restaurant {{Restaurant.Name}} after 30 days",
+      "HEADER": "Archivation notification",
+      "MAINMESSAGE": "Hi {{Employee.EmployeeName}}, <br/> We noticed that you canceled your Hostme subscription a month ago. While we’re sorry to see you go, we want to remind you that your account will be archived in 30 days. After this period, your account will no longer be accessible online. <br/> We’d love to have you back and continue supporting your restaurant’s success! If you’re reconsidering your decision, reactivating your account is easy—just log in and resume your subscription with a few clicks. <br/> Have any questions or need assistance? We’re here to help! Feel free to reach out so we can explore how Hostme can continue to serve your needs. <br/> We appreciate your time with us and hope to welcome you back soon!"
+    },
+    "ACCOUNTARCHIVED":{
+      "DISPLAYNAME": "Account was archived after 60 days, sent notification",
+      "DESCRIPTION": "Email sent to customer 60 days after subscription cancellation, account was archived ",
+      "SUBJECT": "Your Hostme Account Has Been Archived",
+      "PREHEADER": "Account restaurant {{Restaurant.Name}} has been archived after 60 days",
+      "HEADER": "Account has been archived",
+      "MAINMESSAGE": "Hi {{Employee.EmployeeName}}, <br/> We wanted to let you know that your Hostme account has now been archived. While your data is securely stored, it is no longer accessible through your account. <br/> If you decide to return, we’d be happy to restore your archived data! Simply reach out to our support team at support@hostmeapp.com, and we’ll assist you in reactivating your account. <br/> We appreciate the time you spent with Hostme and would love to welcome you back whenever you’re ready. If you have any questions or need assistance, don’t hesitate to reach out."
     }
   }
 }

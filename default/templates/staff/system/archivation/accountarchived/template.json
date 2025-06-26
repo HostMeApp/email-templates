@@ -1,0 +1,28 @@
+{
+    "Name": "ACCOUNTARCHIVED",
+    "DisplayName": "{{I18N.ACCOUNTARCHIVED.DISPLAYNAME}}",
+    "Description": "{{I18N.ACCOUNTARCHIVED.DESCRIPTION}}",
+    "SUBJECT": "{{I18N.ACCOUNTARCHIVED.SUBJECT}}",
+    "PREHEADER": "{{I18N.ACCOUNTARCHIVED.PREHEADER}}",
+    "HEADER": "{{I18N.ACCOUNTARCHIVED.HEADER}}",
+    "ContentTemplate": {
+      "sms": "{{I18N.ACCOUNTARCHIVED.TEXT}}",
+      "push": "{{I18N.ACCOUNTARCHIVED.TEXT}}",
+      "wa": "{{I18N.ACCOUNTARCHIVED.WATEXT}}"
+    },
+    "ChannelStatus": {
+      "sms": { "Enable": false },
+      "email": { "Enable": true },
+      "wa": { "Enable": false }
+    },
+    "MAINMESSAGE": {
+      "Content": "{{I18N.ACCOUNTARCHIVED.MAINMESSAGE}}"
+    },
+    "Booking": {
+      "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
+      "ButtonUrlPay": "{{Booking.Links.GuestReservationDirectPayUrl}}",
+      "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+      "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
+    }
+  }
+  
