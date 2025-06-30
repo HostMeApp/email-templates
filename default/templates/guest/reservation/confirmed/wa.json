@@ -3,7 +3,7 @@
     "title": "{{I18N.CONFIRMED.TEXT}}",
     "subtitle": "{{I18N.CONFIRMED.SUBTITLE}}",
     "media": [
-      "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/reservation/{{Image}}.jpeg"
+      "https://hostmeprod.blob.core.windows.net/emailtemplates/default/img/eng/classic/reservation/{{Image}}.jpeg"
     ],
     "actions": [
       {
@@ -12,12 +12,12 @@
         "type": "QUICK_REPLY"
       },
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
+        "url": "https://tables.hostmeapp.com/{{Booking.Links.GuestReservationViewQuery}}",
         "title": "{{I18N.LABELS.MANAGERESERVATION}}",
         "type": "URL"
       },
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
+        "url": "https://tables.hostmeapp.com/restaurants/{{Restaurant.Id}}",
         "title": "{{I18N.LABELS.RESTAURANTWEBSITE}}",
         "type": "URL"
       }

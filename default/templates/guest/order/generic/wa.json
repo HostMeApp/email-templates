@@ -2,15 +2,15 @@
   "twilio/card": {
     "title": "{{I18N.GENERICORDER.WATEXT}}",
     "subtitle": "{{I18N.GENERICORDER.SUBTITLE}}",
-    "media": [ "https://hostmeqa.blob.core.windows.net/{{Branding.Promo.Path}}" ],
+    "media": [ "https://hostmeprod.blob.core.windows.net/{{Branding.Promo.Path}}" ],
     "actions": [
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestReservationViewQuery}}",
+        "url": "https://tables.hostmeapp.com/{{Booking.Links.GuestReservationViewQuery}}",
         "title": "{{I18N.LABELS.MANAGEORDER}}",
         "type": "URL"
       },
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
+        "url": "https://tables.hostmeapp.com/restaurants/{{Restaurant.Id}}",
         "title": "{{I18N.LABELS.RESTAURANTWEBSITE}}",
         "type": "URL"
       }

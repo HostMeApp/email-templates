@@ -3,7 +3,7 @@
     "title": "{{I18N.CALLED.TEXT}}",
     "subtitle": "{{I18N.GENERICWAITLIST.SUBTITLE}}",
     "media": [
-      "https://hostmeqa.blob.core.windows.net/emailtemplates/default/img/eng/classic/waitlist/{{Image}}.jpeg"
+      "https://hostmeprod.blob.core.windows.net/emailtemplates/default/img/eng/classic/waitlist/{{Image}}.jpeg"
     ],
     "actions": [
       {
@@ -17,12 +17,12 @@
         "type": "QUICK_REPLY"
       },
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/{{Booking.Links.GuestWaitlistManageQuery}}",
+        "url": "https://tables.hostmeapp.com/{{Booking.Links.GuestWaitlistManageQuery}}",
         "title": "{{I18N.LABELS.MANAGEWAITLIST}}",
         "type": "URL"
       },
       {
-        "url": "https://hostme-webguest-qa.azurewebsites.net/restaurants/{{Restaurant.Id}}",
+        "url": "https://tables.hostmeapp.com/restaurants/{{Restaurant.Id}}",
         "title": "{{I18N.LABELS.RESTAURANTWEBSITE}}",
         "type": "URL"
       }
