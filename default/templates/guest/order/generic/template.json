@@ -1,0 +1,14 @@
+{
+  "Name": "GENERICORDER",
+  "DisplayName": "{{I18N.GENERICORDER.DISPLAYNAME}}",
+  "Description": "{{I18N.GENERICORDER.DESCRIPTION}}",
+  "ContentTemplate": {
+    "wa": "{{I18N.GENERICORDER.TEXT}}"
+  },
+  "ChannelStatus": {
+    "wa": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.GENERICORDER.MAINMESSAGE}}"
+  }
+}

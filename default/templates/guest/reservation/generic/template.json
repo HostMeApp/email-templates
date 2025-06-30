@@ -1,0 +1,14 @@
+{
+  "Name": "GENERIC",
+  "DisplayName": "{{I18N.GENERIC.DISPLAYNAME}}",
+  "Description": "{{I18N.GENERIC.DESCRIPTION}}",
+  "ContentTemplate": {
+    "wa": "{{I18N.GENERIC.TEXT}}"
+  },
+  "ChannelStatus": {
+    "wa": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.GENERIC.MAINMESSAGE}}"
+  }
+}

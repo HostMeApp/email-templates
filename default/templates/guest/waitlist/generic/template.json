@@ -1,0 +1,14 @@
+{
+  "Name": "GENERICWAITLIST",
+  "DisplayName": "{{I18N.GENERICWAITLIST.DISPLAYNAME}}",
+  "Description": "{{I18N.GENERICWAITLIST.DESCRIPTION}}",
+  "ContentTemplate": {
+    "wa": "{{I18N.GENERICWAITLIST.TEXT}}"
+  },
+  "ChannelStatus": {
+    "wa": { "Enable": true }
+  },
+  "MAINMESSAGE": {
+    "Content": "{{I18N.GENERICWAITLIST.MAINMESSAGE}}"
+  }
+}

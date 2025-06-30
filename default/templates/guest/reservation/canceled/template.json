@@ -5,6 +5,7 @@
   "SUBJECT": "{{I18N.CANCELED.SUBJECT}}",
   "PREHEADER": "{{I18N.CANCELED.PREHEADER}}",
   "HEADER": "{{I18N.CANCELED.HEADER}}",
+  "Image": "canceled",
   "ContentTemplate": {
     "sms": "{{I18N.CANCELED.TEXT}}",
     "push": "{{I18N.CANCELED.TEXT}}"

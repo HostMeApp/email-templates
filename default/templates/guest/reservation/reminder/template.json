@@ -5,19 +5,20 @@
   "SUBJECT": "{{I18N.REMINDER.SUBJECT}}",
   "PREHEADER": "{{I18N.REMINDER.PREHEADER}}",
   "HEADER": "{{I18N.REMINDER.HEADER}}",
+  "Image": "reminder",
   "ContentTemplate": {
     "sms": "{{I18N.REMINDER.TEXT}}",
     "push": "{{I18N.REMINDER.TEXT}}"
   },
   "ChannelStatus": {
-    "sms": {      "Enable": true     },
+    "sms": { "Enable": true },
     "email": { "Enable": true }
   },
-    "MAINMESSAGE": {
-      "Content": "{{I18N.REMINDER.MAINMESSAGE}}"
-    },
-    "Booking": {
-      "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
-      "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
-    }
+  "MAINMESSAGE": {
+    "Content": "{{I18N.REMINDER.MAINMESSAGE}}"
+  },
+  "Booking": {
+    "ButtonText": "{{I18N.LABELS.MANAGERESERVATION}}",
+    "ButtonUrl": "{{Booking.Links.GuestReservationViewUrl}}"
   }
+}

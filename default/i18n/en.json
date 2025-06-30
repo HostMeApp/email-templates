@@ -57,7 +57,11 @@
       "DURATION": "Duration",
       "ADDITIONALS": "Additionals",
       "CUSTOMADDITIONALS": "Custom additionals",
-      "ISPAID": "Unpaid"
+      "ISPAID": "Unpaid",
+      "RESTAURANTWEBSITE": "Restaurant website",
+      "CANCELRESERVATION": "Cancel my reservation",
+      "LEAVTHELINE": "Leave the line",
+      "SKIPTHELINE": "Skip one"
     },
     "ORDER": {
       "SUBTOTAL": "Subtotal",
@@ -242,8 +246,10 @@
       "PREHEADER": "Review the reservation",
       "PUSHTITLE": "{{Restaurant.Name}}",
       "TEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
+      "WATEXT": "Your reservation on {{Booking.ReservationDate}} at {{Booking.ReservationTime}} for {{Booking.PartySize}} at {{Restaurant.Name}} has been confirmed.",
       "HEADER": "Reservation Confirmed",
-      "MAINMESSAGE": "The following reservation has been confirmed:"
+      "MAINMESSAGE": "The following reservation has been confirmed:",
+      "SUBTITLE":  "Reply to talk to us"
     },
     "FEEDBACK": {
       "DISPLAYNAME": "Feedback request",
@@ -561,6 +567,40 @@
       "HEADER": "Billing",
       "BUTTONTEXT": "Manage My Billing",
       "MAINMESSAGE": "Hello, <p>We hope you’re enjoying your {{Branding.Copirate}} subscription! This is a friendly reminder that your annual subscription will automatically renew on {{Subscription.RenewalDate}}. Here’s a quick summary of your plan:</p><ul><li><b>Account ID:</b> {{Restaurant.Id}}</li><li><b>Account Name:</b> {{Restaurant.Name}}</li><li><b>Plan:</b> {{Subscription.CurrentPlan}}</li><li><b>Renewal Date:</b>{{Subscription.RenewalDate}}</li><li><b>Renewal Amount:</b>{{Subscription.RenewalAmount}} {{Subscription.Currency}}</li></ul>If you’d like to make any changes to your subscription, please check the Billing section of your {{Branding.Copirate}} account or contact us via the in-app chat or the website's live chat. We’re grateful to have you with us and look forward to another fantastic year!<br><p>Warm regards,</p><p>{{Branding.Copirate}} team</p>"
+    },
+    "GENERIC": {
+      "DISPLAYNAME": "Generic reservation template",
+      "DESCRIPTION": "this is generic reservation template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your reservation from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
+    },
+    "GENERICORDER": {
+      "DISPLAYNAME": "Generic order template",
+      "DESCRIPTION": "this is generic order template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your order from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
+    },
+    "GENERICWAITLIST": {
+      "DISPLAYNAME": "Generic waitlist template",
+      "DESCRIPTION": "this is generic waitlist template for whatsapp",
+      "WATEXT": "Hello {{Guest.CustomerName}},  \n\nThis is a message regarding your wait from {{Restaurant.Name}} host:  \n\n*{{ContentTemplate.sms}}*  \n\nIf you have any questions, please reply directly to this message.  \nThank you!",
+      "SUBTITLE": "Reply to talk to us"
+    },
+    "ARCHIVENOTIFICATION":{
+      "DISPLAYNAME": "Archivation Notification after 30 days",
+      "DESCRIPTION": "Email sent to the client after 30 days from the cancellation of the subscription",
+      "SUBJECT": "Your Hostme Account Will Be Archived in 30 Days",
+      "PREHEADER": "Archivation notification restaurant {{Restaurant.Name}} after 30 days",
+      "HEADER": "Archivation notification",
+      "MAINMESSAGE": "Hi {{Employee.EmployeeName}}, <br/> We noticed that you canceled your Hostme subscription a month ago. While we’re sorry to see you go, we want to remind you that your account will be archived in 30 days. After this period, your account will no longer be accessible online. <br/> We’d love to have you back and continue supporting your restaurant’s success! If you’re reconsidering your decision, reactivating your account is easy—just log in and resume your subscription with a few clicks. <br/> Have any questions or need assistance? We’re here to help! Feel free to reach out so we can explore how Hostme can continue to serve your needs. <br/> We appreciate your time with us and hope to welcome you back soon!"
+    },
+    "ACCOUNTARCHIVED":{
+      "DISPLAYNAME": "Account was archived after 60 days, sent notification",
+      "DESCRIPTION": "Email sent to customer 60 days after subscription cancellation, account was archived ",
+      "SUBJECT": "Your Hostme Account Has Been Archived",
+      "PREHEADER": "Account restaurant {{Restaurant.Name}} has been archived after 60 days",
+      "HEADER": "Account has been archived",
+      "MAINMESSAGE": "Hi {{Employee.EmployeeName}}, <br/> We wanted to let you know that your Hostme account has now been archived. While your data is securely stored, it is no longer accessible through your account. <br/> If you decide to return, we’d be happy to restore your archived data! Simply reach out to our support team at support@hostmeapp.com, and we’ll assist you in reactivating your account. <br/> We appreciate the time you spent with Hostme and would love to welcome you back whenever you’re ready. If you have any questions or need assistance, don’t hesitate to reach out."
     }
   }
 }

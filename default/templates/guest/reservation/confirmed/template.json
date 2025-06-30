@@ -5,13 +5,16 @@
   "SUBJECT": "{{I18N.CONFIRMED.SUBJECT}}",
   "PREHEADER": "{{I18N.CONFIRMED.PREHEADER}}",
   "HEADER": "{{I18N.CONFIRMED.HEADER}}",
+  "Image": "confirmed",
   "ContentTemplate": {
     "sms": "{{I18N.CONFIRMED.TEXT}}",
-    "push": "{{I18N.CONFIRMED.TEXT}}"
+    "push": "{{I18N.CONFIRMED.TEXT}}",
+    "wa": "{{I18N.CONFIRMED.TEXT}}"
   },
   "ChannelStatus": {
     "sms": { "Enable": true },
-    "email": { "Enable": true }
+    "email": { "Enable": true },
+    "wa": { "Enable": true }
   },
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMED.MAINMESSAGE}}"
