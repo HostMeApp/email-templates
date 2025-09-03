@@ -12,6 +12,6 @@
   "MAINMESSAGE": {
     "Content": "{{I18N.CONFIRMEMAIL.MAINMESSAGE}}",
     "ButtonText": "{{I18N.CONFIRMEMAIL.BUTTONTEXT}}",
-    "ButtonUrl": "{{Links.PanelUrl}}/signup%3Ftoken%3D{{Employee.Id}}"
+    "ButtonUrl": "{{Links.PanelUrl}}/signup?token={{Employee.Id}}"
   }
 }
