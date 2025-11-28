@@ -1,0 +1,35 @@
+{
+    "Id": "282fab081210420b91f0829935601248",
+    "Name": "Marketing events",
+    "DisplayName": "Marketing events",
+    "Subject": "",
+    "Preheader": "",
+    "PushTitle": "",
+    "Header": "",
+    "Content": "",
+    "ContentTemplate": {
+        "sms": "",
+        "push": "",
+        "wa": "",
+        "email": "template.html"
+    },
+    "ChannelStatus": {
+        "email": {
+            "Enable": true
+        },
+        "sms": {
+            "Enable": false
+        },
+        "push": {
+            "Enable": false
+        },
+        "wa": {
+            "Enable": false
+        }
+    },
+    "MainMessage": {
+        "Content": "string"
+    },
+    "IsTestEmail": false,
+    "TemplateFiles": []
+}

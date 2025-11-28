@@ -1,0 +1,43 @@
+{% if Email.Hero %}
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" style="background-image: url('{{ Email.Hero.BackgroundImage }}'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 338px;">
+        <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" class="mobile-padding" style="padding: 69px 40px;">
+              <table role="presentation" width="520" border="0" cellspacing="0" cellpadding="0" class="mobile-full-width">
+                {% if Email.Hero.Title %}
+                  <tr>
+                    <td align="center" style="padding-bottom: 20px;">
+                      <h1 style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 32px; font-weight: bold; line-height: 1.3; color: {{ Email.Hero.TextColor }}; text-align: center;">{{ Email.Hero.Title }}</h1>
+                    </td>
+                  </tr>
+                {% endif %}
+                {% if Email.Hero.Description %}
+                  <tr>
+                    <td align="center" style="padding-bottom: 20px;">
+                      <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 1.5; color: {{ Email.Hero.TextColor }}; text-align: center;">{{ Email.Hero.Description }}</p>
+                    </td>
+                  </tr>
+                {% endif %}
+                {% if Email.Hero.CtaText and Email.Hero.CtaLink %}
+                  <tr>
+                    <td align="center">
+                      <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" style="background-color: {{ Email.Hero.CtaBackgroundColor }}; padding: 15px 20px;">
+                            <a href="{{ Email.Hero.CtaLink }}" style="font-family: {{ Email.Styles.FontFamily }}; font-size: 14px; font-weight: bold; line-height: 1.3; color: {{ Email.Hero.CtaTextColor }}; text-decoration: none; text-transform: uppercase; letter-spacing: 0.42px; display: inline-block;">{{ Email.Hero.CtaText }}</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                {% endif %}
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+{% endif %}
