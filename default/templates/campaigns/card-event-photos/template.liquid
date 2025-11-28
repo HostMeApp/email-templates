@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ Email.TemplateName }}</title>
+    <!--[if mso]>
+    <style type="text/css">
+        body, table, td, a { font-family: {{ Email.Styles.FontFamily }} !important; }
+    </style>
+    <![endif]-->
+    {% include 'styles' %}
+</head>
+<body style="margin: 0; padding: 0; background-color: #ffffff; font-family: {{ Email.Styles.FontFamily }};">
+    <!-- Main wrapper table -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #ffffff;">
+        <tr>
+            <td align="center" style="padding: 0;">
+                <!-- Content wrapper - 600px max width for desktop -->
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="wrapper" style="max-width: 600px; width: 100%; background-color: #ffffff;">
+                    
+                    {% include 'header' %}
+                    
+                    <!-- Hero Image 1 -->
+                    {% if Email.Hero and Email.Hero.BackgroundImage %}
+                    <tr>
+                        <td style="padding: 0;">
+                            <img src="{{ Email.Hero.BackgroundImage }}" alt="{{ Email.Hero.Title }}" width="600" class="hero-image" style="width: 100%; height: auto; display: block; max-width: 600px;">
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    <!-- Main Content Section -->
+                    {% if Email.ContentSections.size > 0 %}
+                    <tr>
+                        <td class="desktop-padding" style="padding: 40px 40px 0 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                {% assign main_section = Email.ContentSections[0] %}
+                                {% if main_section.Type == "text_only" %}
+                                    <!-- Main Heading -->
+                                    {% if main_section.Title %}
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                            <h1 class="main-heading" style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 32px; font-weight: bold; line-height: 42px; color: {{ Email.Styles.TextColor }};">
+                                                {{ main_section.Title }}
+                                            </h1>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    <!-- Main Description -->
+                                    {% if main_section.Content %}
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                            <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 24px; color: {{ Email.Styles.TextColor }};">
+                                                {{ main_section.Content }}
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    <!-- CTA Buttons -->
+                                    {% if main_section.CtaText and main_section.CtaLink %}
+                                    <tr>
+                                        <td style="padding: 0 0 10px 0;">
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td align="center" style="background-color: {{ main_section.CtaBackgroundColor }};">
+                                                        <a href="{{ main_section.CtaLink }}" style="display: block; padding: 15px 20px; font-family: {{ Email.Styles.FontFamily }}; font-size: 14px; font-weight: bold; color: {{ main_section.CtaTextColor }}; text-decoration: none; text-transform: uppercase; letter-spacing: 0.56px;">
+                                                            {{ main_section.CtaText }}
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    {% if main_section.SecondaryCtaText and main_section.SecondaryCtaLink %}
+                                    <tr>
+                                        <td style="padding: 0;">
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tr>
+                                                    <td align="center" style="background-color: {{ main_section.SecondaryCtaBackgroundColor }};">
+                                                        <a href="{{ main_section.SecondaryCtaLink }}" style="display: block; padding: 15px 20px; font-family: {{ Email.Styles.FontFamily }}; font-size: 14px; font-weight: bold; color: {{ main_section.SecondaryCtaTextColor }}; text-decoration: none; text-transform: uppercase; letter-spacing: 0.56px;">
+                                                            {{ main_section.SecondaryCtaText }}
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                {% endif %}
+                            </table>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    <!-- Hero Image 2 -->
+                    {% if Email.ContentSections.size > 1 and Email.ContentSections[1].Image %}
+                    <tr>
+                        <td class="gallery-wrapper" style="padding: 40px 0 0 0;">
+                            <img src="{{ Email.ContentSections[1].Image }}" alt="{{ Email.ContentSections[1].Title }}" width="600" class="hero-image" style="width: 100%; height: auto; display: block; max-width: 600px;">
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    <!-- Gallery - 3 Images -->
+                    {% if Email.ContentSections.size > 2 %}
+                    <tr>
+                        <td class="gallery-container" style="padding: 40px 0 0 0;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr class="gallery-row">
+                                    {% for i in (2..4) %}
+                                        {% if Email.ContentSections[i] and Email.ContentSections[i].Image %}
+                                            <td class="gallery-cell" width="190" style="width: 190px; padding: 0;">
+                                                <img src="{{ Email.ContentSections[i].Image }}" alt="{{ Email.ContentSections[i].Title }}" width="190" height="190" class="gallery-img" style="display: block; width: 190px; height: 190px;">
+                                            </td>
+                                            {% unless forloop.last %}
+                                                <td class="gallery-spacer" width="15" style="width: 15px;"></td>
+                                            {% endunless %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    <!-- Secondary Content Section -->
+                    {% if Email.ContentSections.size > 5 %}
+                    <tr>
+                        <td class="desktop-padding" style="padding: 40px 40px 0 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                {% assign secondary_section = Email.ContentSections[5] %}
+                                {% if secondary_section.Type == "text_only" %}
+                                    <!-- Secondary Heading -->
+                                    {% if secondary_section.Title %}
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                            <h2 class="secondary-heading" style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 24px; font-weight: bold; line-height: 31px; color: {{ Email.Styles.TextColor }};">
+                                                {{ secondary_section.Title }}
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    <!-- Secondary Description -->
+                                    {% if secondary_section.Content %}
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                            <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 24px; color: {{ Email.Styles.TextColor }};">
+                                                {{ secondary_section.Content }}
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    <!-- See All Events Link -->
+                                    {% if secondary_section.CtaText and secondary_section.CtaLink %}
+                                    <tr>
+                                        <td style="padding: 0;">
+                                            <a href="{{ secondary_section.CtaLink }}" style="display: inline-block; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; font-weight: bold; color: {{ secondary_section.CtaTextColor }}; text-decoration: underline; line-height: 24px; letter-spacing: 0.48px;">
+                                                {{ secondary_section.CtaText }}
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                {% endif %}
+                            </table>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    {% include 'footer' %}
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

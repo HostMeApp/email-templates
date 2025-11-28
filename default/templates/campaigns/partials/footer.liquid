@@ -1,0 +1,56 @@
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td style="height: 40px; line-height: 40px; font-size: 40px;">&nbsp;</td></tr>
+  <tr>
+    <td class="mobile-padding" style="padding: 0 40px;">
+      <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr><td style="border-top: 1px solid #e0e0e0; line-height: 1px; font-size: 1px;">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr><td style="height: 40px; line-height: 40px; font-size: 40px;">&nbsp;</td></tr>
+  <tr>
+    <td class="mobile-padding" style="padding: 0 40px 40px 40px;">
+      <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+        {% if Email.Footer.LogoUrl %}
+          <tr><td align="center" style="padding-bottom: 6px;"><img src="{{ Email.Footer.LogoUrl }}" alt="{{ Email.Footer.LogoAlt }}" width="50" height="20" style="display: block; width: 50px; height: 20px;" /></td></tr>
+        {% endif %}
+        {% if Email.Footer.Address or Email.Footer.Email %}
+          <tr><td align="center" style="padding-bottom: 6px;">
+            <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 12px; line-height: 1.5; color: {{ Email.Styles.TextColor }}; text-align: center;">
+              {% if Email.Footer.Address %}{{ Email.Footer.Address }}{% endif %}
+              {% if Email.Footer.Address and Email.Footer.Email %}<br />{% endif %}
+              {% if Email.Footer.Email %}{{ Email.Footer.Email }}{% endif %}
+            </p>
+          </td></tr>
+        {% endif %}
+        {% if Email.Footer.UnsubscribeLink %}
+          <tr><td align="center" style="padding-bottom: 6px;">
+            <a href="{{ Email.Footer.UnsubscribeLink }}" style="font-family: {{ Email.Styles.FontFamily }}; font-size: 12px; line-height: 1.5; color: {{ Email.Styles.TextColor }}; text-decoration: underline; text-align: center;">Unsubscribe</a>
+          </td></tr>
+        {% endif %}
+        {% if Email.Footer.SocialLinks %}
+          <tr>
+            <td align="center" style="padding: 5px 0;">
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  {% for social in Email.Footer.SocialLinks %}
+                    <td style="padding: 0 3.75px;">
+                      <a href="{{ social.Url }}" style="display: block;">
+                        <img src="{{ social.IconUrl }}" alt="{{ social.Name }}" width="24" height="24" style="display: block; width: 24px; height: 24px;" />
+                      </a>
+                    </td>
+                  {% endfor %}
+                </tr>
+              </table>
+            </td>
+          </tr>
+        {% endif %}
+        {% if Email.Footer.WebsiteLink %}
+          <tr><td align="center">
+            <a href="{{ Email.Footer.WebsiteLink }}" style="font-family: {{ Email.Styles.FontFamily }}; font-size: 12px; font-weight: bold; line-height: 1.5; color: #687076; text-decoration: underline; letter-spacing: 0.36px; text-align: center;">{{ Email.Footer.WebsiteText }}</a>
+          </td></tr>
+        {% endif %}
+      </table>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ Email.TemplateName }}</title>
+    <!--[if mso]>
+    <style type="text/css">
+        body, table, td, a { font-family: {{ Email.Styles.FontFamily }} !important; }
+    </style>
+    <![endif]-->
+    {% include 'styles' %}
+</head>
+<body style="margin: 0; padding: 0; background-color: #ffffff; font-family: {{ Email.Styles.FontFamily }};">
+    <!-- Main wrapper table -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #ffffff;">
+        <tr>
+            <td align="center" style="padding: 0;">
+                <!-- Content wrapper - 600px max width for desktop -->
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="wrapper" style="max-width: 600px; width: 100%; background-color: #ffffff;">
+                    
+                    {% include 'header' %}
+                    
+                    <!-- Divider -->
+                    <tr>
+                        <td style="padding: 0;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="border-bottom: 1px solid #e0e0e0; line-height: 0; font-size: 0;">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Main Content -->
+                    {% if Email.ContentSections.size > 0 %}
+                    <tr>
+                        <td class="desktop-padding" style="padding: 40px 40px 0 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                {% assign main_section = Email.ContentSections[0] %}
+                                {% if main_section.Type == "text_only" %}
+                                    <!-- Heading -->
+                                    {% if main_section.Title %}
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                            <h1 class="main-heading" style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 32px; font-weight: bold; line-height: 42px; color: {{ Email.Styles.TextColor }};">
+                                                {{ main_section.Title }}
+                                            </h1>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    
+                                    <!-- Text Content -->
+                                    {% if main_section.Content %}
+                                    <tr>
+                                        <td style="padding: 0;">
+                                            {% assign paragraphs = main_section.Content | split: "\n" %}
+                                            {% for paragraph in paragraphs %}
+                                                <p style="margin: 0 0 10px 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 24px; color: {{ Email.Styles.TextColor }};">
+                                                    {{ paragraph }}
+                                                </p>
+                                            {% endfor %}
+                                            {% if main_section.CtaText and main_section.CtaLink %}
+                                                <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 24px; color: {{ Email.Styles.TextColor }};">
+                                                    <span style="font-weight: bold; display: block; margin-bottom: 10px;">{{ main_section.Signature }}</span>
+                                                    <a href="{{ main_section.CtaLink }}" style="display: inline-block; font-weight: bold; color: {{ main_section.CtaTextColor }}; text-decoration: underline; letter-spacing: 0.48px;">
+                                                        {{ main_section.CtaText }}
+                                                    </a>
+                                                </p>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                {% endif %}
+                            </table>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    
+                    <!-- Divider -->
+                    <tr>
+                        <td style="padding: 40px 0 0 0;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="border-bottom: 1px solid #e0e0e0; line-height: 0; font-size: 0;">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    {% include 'footer' %}
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
