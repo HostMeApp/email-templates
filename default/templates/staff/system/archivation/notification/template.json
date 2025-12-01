@@ -1,14 +1,14 @@
 {
-    "Name": "ACCOUNTARCHIVED",
-    "DisplayName": "{{I18N.ACCOUNTARCHIVED.DISPLAYNAME}}",
-    "Description": "{{I18N.ACCOUNTARCHIVED.DESCRIPTION}}",
-    "SUBJECT": "{{I18N.ACCOUNTARCHIVED.SUBJECT}}",
-    "PREHEADER": "{{I18N.ACCOUNTARCHIVED.PREHEADER}}",
-    "HEADER": "{{I18N.ACCOUNTARCHIVED.HEADER}}",
+    "Name": "ARCHIVENOTIFICATION",
+    "DisplayName": "{{I18N.ARCHIVENOTIFICATION.DISPLAYNAME}}",
+    "Description": "{{I18N.ARCHIVENOTIFICATION.DESCRIPTION}}",
+    "SUBJECT": "{{I18N.ARCHIVENOTIFICATION.SUBJECT}}",
+    "PREHEADER": "{{I18N.ARCHIVENOTIFICATION.PREHEADER}}",
+    "HEADER": "{{I18N.ARCHIVENOTIFICATION.HEADER}}",
     "ContentTemplate": {
-      "sms": "{{I18N.ACCOUNTARCHIVED.TEXT}}",
-      "push": "{{I18N.ACCOUNTARCHIVED.TEXT}}",
-      "wa": "{{I18N.ACCOUNTARCHIVED.WATEXT}}"
+      "sms": "{{I18N.ARCHIVENOTIFICATION.TEXT}}",
+      "push": "{{I18N.ARCHIVENOTIFICATION.TEXT}}",
+      "wa": "{{I18N.ARCHIVENOTIFICATION.WATEXT}}"
     },
     "ChannelStatus": {
       "sms": { "Enable": false },
@@ -16,7 +16,7 @@
       "wa": { "Enable": false }
     },
     "MAINMESSAGE": {
-      "Content": "{{I18N.ACCOUNTARCHIVED.MAINMESSAGE}}"
+      "Content": "{{I18N.ARCHIVENOTIFICATION.MAINMESSAGE}}"
     },
     "Booking": {
       "ButtonTextPay": "{{I18N.LABELS.MANAGERESERVATIONPAY}}",
