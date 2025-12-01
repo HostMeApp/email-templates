@@ -1,0 +1,52 @@
+{% assign section = Model %}
+{% if section %}
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td style="height: 40px; line-height: 40px; font-size: 40px;">&nbsp;</td></tr>
+    <tr>
+      <td class="mobile-padding" style="padding: 0 40px;">
+        {% if section.Type == "text_only" %}
+          <!-- Text Only Section -->
+          {% if section.Title %}
+            <h2 style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 24px; font-weight: bold; line-height: 1.3; color: {{ Email.Styles.TextColor }};">{{ section.Title }}</h2>
+          {% endif %}
+          {% if section.Content %}
+            <p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 1.5; color: {{ Email.Styles.TextColor }};">{{ section.Content }}</p>
+          {% endif %}
+        {% elsif section.Type == "text_with_image" %}
+          <!-- Text with Image Section -->
+          <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="mobile-stack mobile-pb-20" style="width: 50%; vertical-align: top; padding-right: 10px;">
+                <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                  {% if section.Image %}
+                    <tr><td style="padding-bottom: 10px;"><img class="mobile-img-full" src="{{ section.Image }}" alt="{{ section.Title }}" width="250" style="width: 100%; height: auto; display: block;" /></td></tr>
+                  {% endif %}
+                  {% if section.Title %}
+                    <tr><td style="padding-bottom: 10px;"><h2 style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 24px; font-weight: bold; line-height: 1.3; color: {{ Email.Styles.TextColor }};">{{ section.Title }}</h2></td></tr>
+                  {% endif %}
+                  {% if section.Content %}
+                    <tr><td style="padding-bottom: 10px;"><p style="margin: 0; font-family: {{ Email.Styles.FontFamily }}; font-size: 16px; line-height: 1.5; color: {{ Email.Styles.TextColor }};">{{ section.Content }}</p></td></tr>
+                  {% endif %}
+                  {% if section.CtaText and section.CtaLink %}
+                    <tr><td align="left">
+                      <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" style="background-color: {{ section.CtaBackgroundColor }}; padding: 15px 20px;">
+                            <a href="{{ section.CtaLink }}" style="font-family: {{ Email.Styles.FontFamily }}; font-size: 14px; font-weight: bold; line-height: 1.3; color: {{ section.CtaTextColor }}; text-decoration: none; text-transform: uppercase; letter-spacing: 0.56px; display: block;">{{ section.CtaText }}</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td></tr>
+                  {% endif %}
+                </table>
+              </td>
+              <td class="mobile-stack" style="width: 50%; vertical-align: top; padding-left: 10px;">
+                <!-- Right column content if needed -->
+              </td>
+            </tr>
+          </table>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+{% endif %}

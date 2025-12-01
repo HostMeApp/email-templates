@@ -1,0 +1,25 @@
+{% if Email.Events.size > 0 %}
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td style="height: 40px; line-height: 40px; font-size: 40px;">&nbsp;</td></tr>
+    <tr>
+      <td class="mobile-padding" style="padding: 0 40px;">
+        <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            {% for event in Email.Events %}
+              {% if forloop.index0 == 0 or forloop.index0 == 2 %}
+                <td class="mobile-stack mobile-pb-20" style="width: 50%; vertical-align: top; padding-right: 10px;">
+              {% else %}
+                <td class="mobile-stack" style="width: 50%; vertical-align: top; padding-left: 10px;">
+              {% endif %}
+                {% include 'event-card' with event %}
+              </td>
+              {% if forloop.index == 2 %}
+                </tr><tr>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+{% endif %}

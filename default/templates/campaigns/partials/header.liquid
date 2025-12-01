@@ -1,0 +1,17 @@
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff;">
+  <tr>
+    <td align="center" style="padding: 0;">
+      <table role="presentation" class="wrapper" width="600" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; width: 100%;">
+        <tr>
+          <td align="center" style="padding: 16px 0; height: 60px;">
+            {% if Email.Header.LogoUrl %}
+              <img src="{{ Email.Header.LogoUrl }}" alt="{{ Email.Header.LogoAlt }}" width="76" height="29" style="display: block; width: 76px; height: 29px;" />
+            {% else %}
+              <img src="{{ Email.Styles.DefaultLogoUrl }}" alt="Logo" width="76" height="29" style="display: block; width: 76px; height: 29px;" />
+            {% endif %}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

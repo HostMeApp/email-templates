@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/social-net/facebook" clip-path="url(#clip0_2090_722)">
+<path id="Vector" d="M24 12.0598C24 18.1551 19.5008 23.192 13.6557 24V15.5747H16.4408L16.9696 12.1035H13.656V9.85182C13.656 8.90246 14.1197 7.97675 15.6043 7.97675H17.1106V5.02168C17.1106 5.02168 15.7431 4.78643 14.4361 4.78643C11.7053 4.78643 9.92164 6.45014 9.92164 9.45966V12.1033H6.88753V15.5745H9.92164V23.9346C4.28459 22.9458 0 18.007 0 12.0598C0 5.39832 5.3725 0 12 0C18.6275 0 24 5.39856 24 12.0598Z" fill="var(--fill-0, #666666)"/>
+</g>
+<defs>
+<clipPath id="clip0_2090_722">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
